@@ -1,14 +1,508 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="{{ site:short_locale }}">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{{ title ?? site:name }}</title>
         {{ vite src="resources/js/site.js|resources/css/site.css" }}
     </head>
-    <body class="bg-slate-100 dark:bg-gray-800 font-sans leading-normal text-slate-800 dark:text-gray-400">
-        <div class="mx-auto px-2 lg:min-h-screen flex flex-col items-center justify-center">
+    <body class="">
+        <aside
+            id="ad-offcanvas"
+            class="ad-offcanvas"
+            :class="[mobileMenuOpen ? 'active' : '']"
+        >
+            <div class="offcanvas-overlay"></div>
+
+            <div class="offcanvas-container">
+                <section class="offcanvas-header">
+                    <div class="offcanvas-logo">
+                        <nav class="simple-nav">
+                            <ul>
+                                <li>
+                                    <a href="/" class="pl-0">Gift Shop</a>
+                                </li>
+                                <li><a href="/">Give</a></li>
+                                <li>
+                                    <a href="/">Join</a>
+                                </li>
+                                <li>
+                                    <a href="/">Purchase Art</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </section>
+                <div class="offcanvas-menu">
+                    <div class="offcanvas-nav">
+                        <ul id="menu-main" class="menu">
+                            <li
+                                id="menu-item-270"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-270 active-item"
+                            >
+                                <a href="/">Visit</a>
+                                <ul class="sub-menu">
+                                    <li
+                                        id="menu-item-418"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-418"
+                                    >
+                                        <a href="/">Exhibitions</a>
+                                    </li>
+                                    <li
+                                        id="menu-item-567"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-567"
+                                    >
+                                        <a href="/">Group Tours</a>
+                                    </li>
+                                    <li
+                                        id="menu-item-271"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"
+                                    >
+                                        <a href="/">Need to Know</a>
+                                    </li>
+                                    <li
+                                        id="menu-item-272"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-272"
+                                    >
+                                        <a href="/">Accessibility</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li
+                                id="menu-item-274"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-274"
+                            >
+                                <a href="/">Education</a>
+                                <ul class="sub-menu">
+                                    <li
+                                        id="menu-item-785"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-785"
+                                    >
+                                        <a href="/">Art School</a>
+                                    </li>
+                                    <li
+                                        id="menu-item-275"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"
+                                    >
+                                        <a href="/">Summer Art Camp</a>
+                                    </li>
+                                    <li
+                                        id="menu-item-276"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-276"
+                                    >
+                                        <a href="/">Community Engagement</a>
+                                    </li>
+                                    <li
+                                        id="menu-item-1928"
+                                        class="footer-safety-data-sheets menu-item menu-item-type-post_type menu-item-object-page menu-item-1928"
+                                    >
+                                        <a href="/">Instructor Proposals</a>
+                                    </li>
+                                    <li
+                                        id="menu-item-1928"
+                                        class="footer-safety-data-sheets menu-item menu-item-type-post_type menu-item-object-page menu-item-1928"
+                                    >
+                                        <a href="/">Scholarships</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li
+                                id="menu-item-278"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-278"
+                            >
+                                <a href="/">Events</a>
+                                <ul class="sub-menu">
+                                    <li
+                                        id="menu-item-2093"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2093"
+                                    >
+                                        <a href="/">Annual Showcase</a>
+                                    </li>
+                                    <li
+                                        id="menu-item-279"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-279"
+                                    >
+                                        <a href="/">Color Gala</a>
+                                    </li>
+                                    <li
+                                        id="menu-item-281"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-281"
+                                    >
+                                        <a href="/">First Friday</a>
+                                    </li>
+                                    <li
+                                        id="menu-item-282"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-282"
+                                    >
+                                        <a href="/">ARTalk</a>
+                                    </li>
+                                    <li
+                                        id="menu-item-283"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-283"
+                                    >
+                                        <a href="/">Calendar</a>
+                                    </li>
+                                    <li
+                                        id="menu-item-283"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-283"
+                                    >
+                                        <a href="/">Host Your Event</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li
+                                id="menu-item-284"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-284"
+                            >
+                                <a href="/">Artists</a>
+                                <ul class="sub-menu">
+                                    <li
+                                        id="menu-item-2094"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2094"
+                                    >
+                                        <a href="/">Studio Artists</a>
+                                    </li>
+                                    <li
+                                        id="menu-item-1245"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1245"
+                                    >
+                                        <a href="/">Brandon Fellowship</a>
+                                    </li>
+                                    <li
+                                        id="menu-item-1272"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1272"
+                                    >
+                                        <a href="/">Exhibition Proposals</a>
+                                    </li>
+                                    <li
+                                        id="menu-item-393"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393"
+                                    >
+                                        <a href="/">Gift Shop Proposals</a>
+                                    </li>
+                                    <li
+                                        id="menu-item-394"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-394"
+                                    >
+                                        <a href="/">Resources for Artists</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li
+                                id="menu-item-292"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-292"
+                            >
+                                <a target="_blank" href="/">Support</a>
+                                <ul class="sub-menu">
+                                    <li
+                                        id="menu-item-2096"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2096"
+                                    >
+                                        <a target="_blank" href="/"
+                                            >Ways to Give</a
+                                        >
+                                    </li>
+                                    <li
+                                        id="menu-item-1882"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1882"
+                                    >
+                                        <a target="_blank" href="/"
+                                            >Membership</a
+                                        >
+                                    </li>
+                                    <li
+                                        id="menu-item-1883"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1883"
+                                    >
+                                        <a target="_blank" href="/"
+                                            >Sponsorship</a
+                                        >
+                                    </li>
+                                    <li
+                                        id="menu-item-1884"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1884"
+                                    >
+                                        <a target="_blank" href="/"
+                                            >Planned Giving</a
+                                        >
+                                    </li>
+                                    <li
+                                        id="menu-item-1885"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1885"
+                                    >
+                                        <a target="_blank" href="/"
+                                            >Volunteer</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li
+                                id="menu-item-293"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-293"
+                            >
+                                <a href="/">About</a>
+                                <ul class="sub-menu">
+                                    <li
+                                        id="menu-item-2095"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2095"
+                                    >
+                                        <a href="/">Our Purpose</a>
+                                    </li>
+                                    <li
+                                        id="menu-item-534"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-534"
+                                    >
+                                        <a target="_blank" href="/"
+                                            >Our People</a
+                                        >
+                                    </li>
+                                    <li
+                                        id="menu-item-396"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-396"
+                                    >
+                                        <a href="/">News</a>
+                                    </li>
+                                    <li
+                                        id="menu-item-397"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397"
+                                    >
+                                        <a href="/">Blog</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="sub-menu-container" style="display: block">
+                        <a href="#" class="back-link"
+                            ><svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="w-6 h-6"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3"
+                                ></path>
+                            </svg>
+                            Back</a
+                        >
+                        <ul class="sub-menu">
+                            <li
+                                id="menu-item-418"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-418"
+                            >
+                                <a href="/about/">Who We Are</a>
+                            </li>
+                            <li
+                                id="menu-item-567"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-567"
+                            >
+                                <a href="/about/history/">History</a>
+                            </li>
+                            <li
+                                id="menu-item-271"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"
+                            >
+                                <a href="/about/locations/">Locations</a>
+                            </li>
+                            <li
+                                id="menu-item-272"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-272"
+                            >
+                                <a href="/about/board-of-directors/"
+                                    >Board of Directors</a
+                                >
+                            </li>
+                            <li
+                                id="menu-item-1901"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1901"
+                            >
+                                <a href="/about/executive-officers/"
+                                    >Executive Officers</a
+                                >
+                            </li>
+                            <li
+                                id="menu-item-736"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-736"
+                            >
+                                <a href="/about/purpose-vision-values/"
+                                    >Purpose, Vision, Values</a
+                                >
+                            </li>
+                            <li
+                                id="menu-item-273"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-273"
+                            >
+                                <a href="/about/ehs-compliance-safety-programs/"
+                                    >Safety: Protecting What Matters</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="offcanvas-footer">
+                    <div class="offcanvas-socials">
+                        <a
+                            href="#"
+                            target="_blank"
+                            rel="noopener"
+                            class="text-gray-400 hover:text-gray-300"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="size-6"
+                                viewBox="0 0 512 512"
+                            >
+                                <path
+                                    fill="currentColor"
+                                    d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+                                ></path>
+                            </svg>
+                        </a>
+
+                        <a
+                            href="#"
+                            target="_blank"
+                            rel="noopener"
+                            class="text-gray-400 hover:text-gray-300"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="size-6"
+                                viewBox="0 0 448 512"
+                            >
+                                <path
+                                    fill="currentColor"
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                                ></path>
+                            </svg>
+                        </a>
+
+                        <a
+                            href="#"
+                            target="_blank"
+                            rel="noopener"
+                            class="text-gray-400 hover:text-gray-300"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="size-6"
+                                viewBox="0 0 448 512"
+                            >
+                                <path
+                                    fill="currentColor"
+                                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                                ></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-gray-300">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="size-6"
+                                viewBox="0 0 576 512"
+                            >
+                                <path
+                                    fill="currentColor"
+                                    d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="offcanvas-contact">
+                        <a class="ad-button-button rounded" href="/contact"
+                            >Contact</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <header
+            class="flex items-center justify-between h-[100px] pl-[5vw] sticky top-0 z-50 border-b transition-all duration-200 ease-out"
+            :class="[
+      mobileMenuOpen
+        ? 'offcanvas-open bg-dark-blue border-transparent'
+        : 'bg-white border-gray-100',
+    ]"
+        >
+            <div class="">
+                <nuxt-link to="/">
+                    <AnimatedLogo
+                        class="h-auto w-[182px] relative"
+                        :class="mobileMenuOpen ? 'md:h-[150px] md:top-[60px]' : ''"
+                        :logotextcolor="mobileMenuOpen ? 'text-white' : 'text-dark-blue'"
+                        :logocolor="mobileMenuOpen ? 'text-white' : 'text-gcca-red'"
+                    />
+                </nuxt-link>
+                <!-- <TheLogo
+        class="h-[88px] relative"
+        :class="mobileMenuOpen ? 'md:h-[150px] md:top-[60px]' : ''"
+        :logotextcolor="mobileMenuOpen ? 'text-white' : 'text-dark-blue'"
+        :logocolor="mobileMenuOpen ? 'text-white' : 'text-gcca-red'"
+      /> -->
+            </div>
+            <nav
+                class="flex items-center justify-end gap-x-4 h-[80%] pr-1 py-1"
+            >
+                <a
+                    v-for="item in navigation"
+                    :key="item.name"
+                    :href="item.href"
+                    class="hidden md:inline-flex items-center h-full rounded-lg px-5 py-2 text-base/7 hover:text-gray-blue transition-all duration-200 ease-in-out hover:bg-gray-50"
+                    :class="mobileMenuOpen ? 'text-white' : 'text-dark-blue'"
+                    >{{ item.name }}</a
+                >
+                <button
+                    type="button"
+                    class="hidden -m-2.5 items-center justify-center rounded-md p-2.5 text-gray-700"
+                    @click="mobileMenuOpen = !mobileMenuOpen"
+                >
+                    <span class="sr-only">Open main menu</span>
+                    <Bars3Icon class="size-6" aria-hidden="true" />
+                </button>
+                <button
+                    @click="mobileMenuOpen = !mobileMenuOpen"
+                    class="cta ml-4 px-7 rounded flex items-center justify-center text-center bg-gcca-red text-white"
+                >
+                    <span
+                        class="inline-flex items-center gap-2 cursor-pointer font-sans font-semibold uppercase tracking-wider leading-[0.96] relative whitespace-nowrap"
+                        >Menu</span
+                    >
+                </button>
+            </nav>
+        </header>
+        <div
+            class="pointer-events-none fixed inset-x-0 bottom-0 sm:px-6 sm:pb-5 md:px-[5vw] z-50"
+            :class="[mobileMenuOpen ? 'hidden' : '']"
+        >
+            <div
+                class="pointer-events-auto flex items-center justify-between gap-x-6 bg-dark-blue px-6 py-2.5 sm:rounded-full sm:py-3 sm:px-8"
+            >
+                <p class="text-sm/6 text-white font-light">
+                    <a href="#">
+                        <strong class="font-semibold"
+                            >We're open right now!</strong
+                        >
+                        It's Monday, March 3rd - we're open until 6pm.
+                    </a>
+                </p>
+                <button
+                    type="button"
+                    class="-m-3 flex-none p-3 focus-visible:outline-offset-[-4px]"
+                >
+                    <span class="sr-only">Dismiss</span>
+                    <XMarkIcon class="size-5 text-white" aria-hidden="true" />
+                </button>
+            </div>
+        </div>
+        <div
+            class="mx-auto px-2 lg:min-h-screen flex flex-col items-center justify-center"
+        >
             {{ template_content }}
         </div>
     </body>
