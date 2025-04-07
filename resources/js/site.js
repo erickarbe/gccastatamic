@@ -2,6 +2,11 @@
 
 import Lenis from "lenis";
 import enquire from "enquire.js";
+import { gsap } from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+
+// Register ScrollTrigger
+gsap.registerPlugin(ScrollTrigger);
 
 // Initialize smooth scrolling
 const lenis = new Lenis({
@@ -36,11 +41,63 @@ function checkScroll() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
+    // Initialize opener section animation
+    const openerSection = document.querySelector('.opener');
+    if (openerSection) {
+        gsap.to(openerSection, {
+            opacity: 0,
+            scale: 0.8306,
+            yPercent: 76.241,
+            ease: "none",
+            scrollTrigger: {
+                trigger: openerSection,
+                start: "top+=1 top",
+                end: "bottom top",
+                scrub: true,
+                pin: false,
+            },
+        });
+    }
     // Check scroll position on page load
     checkScroll();
 
     // Check scroll position on scroll
     window.addEventListener('scroll', checkScroll);
+
+    // Menu toggle functionality
+    const menuToggle = document.getElementById('ad-menu-toggle');
+    const menuClose = document.getElementById('ad-menu-close');
+    const offcanvas = document.getElementById('ad-offcanvas');
+    const body = document.body;
+    const html = document.documentElement;
+
+    function toggleMenu(e) {
+        e.preventDefault();
+        menuToggle.classList.toggle('open');
+        offcanvas.classList.toggle('active');
+        body.classList.toggle('offcanvas-open');
+        html.classList.toggle('overflow-hidden');
+    }
+
+    // Add click event listeners to toggle buttons
+    menuToggle?.addEventListener('click', toggleMenu);
+    menuClose?.addEventListener('click', toggleMenu);
+
+    // Listen for escape key to close menu
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && body.classList.contains('offcanvas-open')) {
+            menuToggle?.classList.remove('active');
+            menuClose?.classList.remove('active');
+            offcanvas?.classList.remove('active');
+            body.classList.remove('offcanvas-open');
+            html.classList.remove('overflow-hidden');
+        }
+    });
+
+    // Add loaded class when page is fully loaded
+    window.addEventListener('load', () => {
+        body.classList.add('loaded');
+    });
     // Intersection observer logic
     const observerCallback = function (entries) {
         entries.forEach((entry) => {

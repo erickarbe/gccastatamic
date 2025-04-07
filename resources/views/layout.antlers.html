@@ -8,11 +8,7 @@
         {{ vite src="resources/js/site.js|resources/css/site.css" }}
     </head>
     <body class="">
-        <aside
-            id="ad-offcanvas"
-            class="ad-offcanvas"
-            :class="[mobileMenuOpen ? 'active' : '']"
-        >
+        <aside id="ad-offcanvas" class="ad-offcanvas">
             <div class="offcanvas-overlay"></div>
 
             <div class="offcanvas-container">
@@ -423,28 +419,18 @@
         </aside>
 
         <header
-            class="flex items-center justify-between h-[100px] pl-[5vw] sticky top-0 z-50 border-b transition-all duration-200 ease-out"
-            :class="[
-      mobileMenuOpen
-        ? 'offcanvas-open bg-dark-blue border-transparent'
-        : 'bg-white border-gray-100',
-    ]"
+            id="masthead"
+            class="site-header flex items-center justify-between h-[100px] pl-[5vw] sticky top-0 border-b transition-all duration-200 ease-out"
         >
             <div class="">
-                <nuxt-link to="/">
+                <a to="/">
                     <AnimatedLogo
                         class="h-auto w-[182px] relative"
                         :class="mobileMenuOpen ? 'md:h-[150px] md:top-[60px]' : ''"
                         :logotextcolor="mobileMenuOpen ? 'text-white' : 'text-dark-blue'"
                         :logocolor="mobileMenuOpen ? 'text-white' : 'text-gcca-red'"
                     />
-                </nuxt-link>
-                <!-- <TheLogo
-        class="h-[88px] relative"
-        :class="mobileMenuOpen ? 'md:h-[150px] md:top-[60px]' : ''"
-        :logotextcolor="mobileMenuOpen ? 'text-white' : 'text-dark-blue'"
-        :logocolor="mobileMenuOpen ? 'text-white' : 'text-gcca-red'"
-      /> -->
+                </a>
             </div>
             <nav
                 class="flex items-center justify-end gap-x-4 h-[80%] pr-1 py-1"
@@ -466,7 +452,7 @@
                     <Bars3Icon class="size-6" aria-hidden="true" />
                 </button>
                 <button
-                    @click="mobileMenuOpen = !mobileMenuOpen"
+                    id="ad-menu-toggle"
                     class="cta ml-4 px-7 rounded flex items-center justify-center text-center bg-gcca-red text-white"
                 >
                     <span

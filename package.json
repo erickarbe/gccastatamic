@@ -16,6 +16,7 @@
     },
     "dependencies": {
         "enquire.js": "^2.1.6",
+        "gsap": "^3.12.7",
         "lenis": "^1.2.3"
     }
 }
