@@ -1,6 +1,6 @@
-title: Events
+title: Articles
 taxonomies:
-  - event_category
+  - article_category
 revisions: false
 date_behavior:
   past: public
