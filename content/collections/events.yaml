@@ -1,7 +1,0 @@
-title: Events
-taxonomies:
-  - event_category
-revisions: false
-date_behavior:
-  past: public
-  future: private
