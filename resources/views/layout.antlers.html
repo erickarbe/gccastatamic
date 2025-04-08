@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="https://use.typekit.net/ebn4qfz.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ebn4qfz.css" />
         <title>{{ title ?? site:name }}</title>
         {{ vite src="resources/js/site.js|resources/css/site.css" }}
     </head>
@@ -437,27 +437,29 @@
                 class="flex items-center justify-end gap-x-4 h-[80%] pr-1 py-1"
             >
                 <a
-                    v-for="item in navigation"
-                    :key="item.name"
-                    :href="item.href"
-                    class="hidden md:inline-flex items-center h-full rounded-lg px-5 py-2 text-base/7 hover:text-gray-blue transition-all duration-200 ease-in-out hover:bg-gray-50"
-                    :class="mobileMenuOpen ? 'text-white' : 'text-dark-blue'"
-                    >{{ item.name }}</a
+                    href="#"
+                    class="hidden md:inline-flex items-center h-full rounded-lg px-5 py-2 text-base/7 hover:text-gray-blue transition-all duration-200 ease-in-out hover:bg-gray-50 text-dark-blue"
+                    >Visit</a
+                ><a
+                    href="#"
+                    class="hidden md:inline-flex items-center h-full rounded-lg px-5 py-2 text-base/7 hover:text-gray-blue transition-all duration-200 ease-in-out hover:bg-gray-50 text-dark-blue"
+                    >Education</a
+                ><a
+                    href="#"
+                    class="hidden md:inline-flex items-center h-full rounded-lg px-5 py-2 text-base/7 hover:text-gray-blue transition-all duration-200 ease-in-out hover:bg-gray-50 text-dark-blue"
+                    >Events</a
+                ><a
+                    href="#"
+                    class="hidden md:inline-flex items-center h-full rounded-lg px-5 py-2 text-base/7 hover:text-gray-blue transition-all duration-200 ease-in-out hover:bg-gray-50 text-dark-blue"
+                    >Support</a
                 >
-                <button
-                    type="button"
-                    class="hidden -m-2.5 items-center justify-center rounded-md p-2.5 text-gray-700"
-                    @click="mobileMenuOpen = !mobileMenuOpen"
-                >
-                    <span class="sr-only">Open main menu</span>
-                    <Bars3Icon class="size-6" aria-hidden="true" />
-                </button>
+
                 <button
                     id="ad-menu-toggle"
-                    class="cta ml-4 px-7 rounded flex items-center justify-center text-center bg-gcca-red text-white"
+                    class="cta cursor-pointer h-full ml-4 px-7 rounded flex items-center justify-center text-center bg-gcca-red text-white"
                 >
                     <span
-                        class="inline-flex items-center gap-2 cursor-pointer font-sans font-semibold uppercase tracking-wider leading-[0.96] relative whitespace-nowrap"
+                        class="inline-flex items-center gap-2 font-sans font-semibold uppercase tracking-wider leading-[0.96] relative whitespace-nowrap"
                         >Menu</span
                     >
                 </button>

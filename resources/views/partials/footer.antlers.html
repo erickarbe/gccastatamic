@@ -182,31 +182,30 @@
                     <div class="">
                         <h3 class="text-xl text-white">Join Our Team</h3>
                         <ul role="list" class="mt-4 space-y-4">
-                            {{ navigation:footer:joinus }}
+                            {{ nav:footer_join_our_team }}
                             <li>
                                 <a
-                                    :href="item.href"
+                                    href="{{ url }}"
                                     class="text-gray-400 hover:text-white"
-                                    >{{ item.name }}</a
+                                    >{{ title }}</a
                                 >
                             </li>
-                            {{ /navigation:footer:joinus }}
+                            {{ /nav:footer_join_our_team }}
                         </ul>
                     </div>
 
                     <div class="pt-12">
                         <h3 class="text-xl text-white">Contacts + More</h3>
                         <ul role="list" class="mt-6 space-y-4">
-                            <li
-                                v-for="item in navigation.contact"
-                                :key="item.name"
-                            >
+                            {{ nav:footer_contacts_more}}
+                            <li>
                                 <a
-                                    :href="item.href"
+                                    href="{{ url }}"
                                     class="text-gray-400 hover:text-white"
-                                    >{{ item.name }}</a
+                                    >{{ title }}</a
                                 >
                             </li>
+                            {{ /nav:footer_contacts_more}}
                         </ul>
                     </div>
                 </div>
@@ -248,94 +247,90 @@
                     <div class="mt-10 md:mt-0">
                         <h3 class="text-xl text-white">About</h3>
                         <ul role="list" class="mt-6 space-y-4">
-                            <li
-                                v-for="item in navigation.about"
-                                :key="item.name"
-                            >
+                            {{ nav:footer_about }}
+                            <li>
                                 <a
-                                    :href="item.href"
+                                    href="{{ url }}"
                                     class="text-gray-400 hover:text-white"
-                                    >{{ item.name }}</a
+                                    >{{ title }}</a
                                 >
                             </li>
+                            {{ /nav:footer_about }}
                         </ul>
                     </div>
 
                     <div>
                         <h3 class="text-xl text-white">Visit</h3>
                         <ul role="list" class="mt-6 space-y-4">
-                            <li
-                                v-for="item in navigation.visit"
-                                :key="item.name"
-                            >
+                            {{ nav:footer_visit }}
+                            <li>
                                 <a
-                                    :href="item.href"
+                                    href="{{ url }}"
                                     class="text-gray-400 hover:text-white"
-                                    >{{ item.name }}</a
+                                    >{{ title }}</a
                                 >
                             </li>
+                            {{ /nav:footer_visit }}
                         </ul>
                     </div>
 
                     <div class="mt-10 md:mt-0">
                         <h3 class="text-xl text-white">Education</h3>
                         <ul role="list" class="mt-6 space-y-4">
-                            {{ navigation:footer:education }}
+                            {{ nav:footer_education }}
                             <li>
                                 <a
-                                    href="{{ href }}"
+                                    href="{{ url }}"
                                     class="text-sm leading-6 text-gray-300 hover:text-white"
-                                    >{{ name }}</a
+                                    >{{ title }}</a
                                 >
                             </li>
+                            {{ /nav:footer_education }}
                         </ul>
                     </div>
 
                     <div>
                         <h3 class="text-xl text-white">Events</h3>
                         <ul role="list" class="mt-6 space-y-4">
-                            <li
-                                v-for="item in navigation.events"
-                                :key="item.name"
-                            >
+                            {{ nav:footer_events }}
+                            <li>
                                 <a
-                                    :href="item.href"
-                                    class="text-gray-400 hover:text-white"
-                                    >{{ item.name }}</a
+                                    href="{{ url }}"
+                                    class="text-sm leading-6 text-gray-300 hover:text-white"
+                                    >{{ title }}</a
                                 >
                             </li>
+                            {{ /nav:footer_events }}
                         </ul>
                     </div>
 
                     <div class="mt-10 md:mt-0">
                         <h3 class="text-xl text-white">Artists</h3>
                         <ul role="list" class="mt-6 space-y-4">
-                            <li
-                                v-for="item in navigation.artists"
-                                :key="item.name"
-                            >
+                            {{ nav:footer_artists }}
+                            <li>
                                 <a
-                                    :href="item.href"
-                                    class="text-gray-400 hover:text-white"
-                                    >{{ item.name }}</a
+                                    href="{{ url }}"
+                                    class="text-sm leading-6 text-gray-300 hover:text-white"
+                                    >{{ title }}</a
                                 >
                             </li>
+                            {{ /nav:footer_artists }}
                         </ul>
                     </div>
 
                     <div>
                         <h3 class="text-xl text-white">Support</h3>
                         <ul role="list" class="mt-6 space-y-4">
-                            <li
-                                v-for="item in navigation.support"
-                                :key="item.name"
-                            >
+                            {{ nav:footer_support }}
+                            <li>
                                 <a
-                                    :href="item.href"
-                                    class="text-gray-400 hover:text-white"
-                                    >{{ item.name }}</a
+                                    href="{{ url }}"
+                                    class="text-sm leading-6 text-gray-300 hover:text-white"
+                                    >{{ title }}</a
                                 >
                             </li>
+                            {{ /nav:footer_support }}
                         </ul>
                     </div>
                 </div>
