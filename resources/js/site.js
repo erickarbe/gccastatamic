@@ -32,17 +32,17 @@ requestAnimationFrame(raf);
 
 // Function to check scroll position and toggle 'sticky' class
 function checkScroll() {
-    const masthead = document.getElementById('masthead');
+    const masthead = document.getElementById("masthead");
     if (window.scrollY >= 150) {
-        masthead.classList.add('sticky');
+        masthead.classList.add("sticky");
     } else {
-        masthead.classList.remove('sticky');
+        masthead.classList.remove("sticky");
     }
 }
 
 document.addEventListener("DOMContentLoaded", function () {
     // Initialize opener section animation
-    const openerSection = document.querySelector('.opener');
+    const openerSection = document.querySelector(".opener");
     if (openerSection) {
         gsap.to(openerSection, {
             opacity: 0,
@@ -59,44 +59,44 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
     // Check scroll position on page load
-    checkScroll();
+    //checkScroll();
 
     // Check scroll position on scroll
-    window.addEventListener('scroll', checkScroll);
+    //window.addEventListener('scroll', checkScroll);
 
     // Menu toggle functionality
-    const menuToggle = document.getElementById('ad-menu-toggle');
-    const menuClose = document.getElementById('ad-menu-close');
-    const offcanvas = document.getElementById('ad-offcanvas');
+    const menuToggle = document.getElementById("ad-menu-toggle");
+    const menuClose = document.getElementById("ad-menu-close");
+    const offcanvas = document.getElementById("ad-offcanvas");
     const body = document.body;
     const html = document.documentElement;
 
     function toggleMenu(e) {
         e.preventDefault();
-        menuToggle.classList.toggle('open');
-        offcanvas.classList.toggle('active');
-        body.classList.toggle('offcanvas-open');
-        html.classList.toggle('overflow-hidden');
+        menuToggle.classList.toggle("open");
+        offcanvas.classList.toggle("active");
+        body.classList.toggle("offcanvas-open");
+        // html.classList.toggle("overflow-hidden");
     }
 
     // Add click event listeners to toggle buttons
-    menuToggle?.addEventListener('click', toggleMenu);
-    menuClose?.addEventListener('click', toggleMenu);
+    menuToggle?.addEventListener("click", toggleMenu);
+    menuClose?.addEventListener("click", toggleMenu);
 
     // Listen for escape key to close menu
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && body.classList.contains('offcanvas-open')) {
-            menuToggle?.classList.remove('active');
-            menuClose?.classList.remove('active');
-            offcanvas?.classList.remove('active');
-            body.classList.remove('offcanvas-open');
-            html.classList.remove('overflow-hidden');
+    document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && body.classList.contains("offcanvas-open")) {
+            menuToggle?.classList.remove("active");
+            menuClose?.classList.remove("active");
+            offcanvas?.classList.remove("active");
+            body.classList.remove("offcanvas-open");
+            // html.classList.remove("overflow-hidden");
         }
     });
 
     // Add loaded class when page is fully loaded
-    window.addEventListener('load', () => {
-        body.classList.add('loaded');
+    window.addEventListener("load", () => {
+        body.classList.add("loaded");
     });
     // Intersection observer logic
     const observerCallback = function (entries) {

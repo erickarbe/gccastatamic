@@ -12,7 +12,57 @@
     --font-serif: "ivypresto-display", serif;
 }
 
-/* ad-menu-overlay Menu styles */
+/* Site Header */
+.site-header {
+    z-index: 999;
+    @apply bg-white border-gray-100;
+}
+.offcanvas-open .site-header {
+    @apply bg-dark-blue border-transparent;
+}
+.offcanvas-open .header-simple-nav a {
+    @apply text-white;
+}
+
+/* Header Logo */
+.offcanvas-open .logo-words {
+    @apply text-white;
+}
+
+@keyframes fadeInUpRotate {
+    0% {
+        opacity: 0;
+        transform: translateY(20px) rotate(-45deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) rotate(0deg);
+    }
+}
+
+.fade-in-up {
+    animation: fadeInUpRotate 1.5s ease-out forwards;
+    transform-origin: center;
+}
+
+@keyframes appearFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.appear-from-left {
+    animation: appearFromLeft 1s ease-out forwards;
+}
+
+/* Global Notice */
+.offcanvas-open #global-notice {
+    display: none;
+}
+
+/* Full Page Menu */
 .ad-offcanvas {
     position: fixed;
     top: 0px;
@@ -535,13 +585,4 @@
     to {
         transform: scale(1);
     }
-}
-
-/* Site Header */
-.site-header {
-    z-index: 999;
-    @apply bg-white border-gray-100;
-}
-.offcanvas-open .site-header {
-    @apply bg-dark-blue border-transparent;
 }
