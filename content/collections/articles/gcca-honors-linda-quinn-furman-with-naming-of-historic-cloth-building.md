@@ -1,0 +1,141 @@
+---
+id: 88cd1b07-7d3f-4a05-8c55-567f1b782cc5
+blueprint: article
+title: 'GCCA Honors Linda Quinn Furman with Naming of Historic Cloth Building'
+article_category:
+  - news
+author: e00f3479-ec76-4b94-9035-181deda30ff3
+article_date: '2020-08-27'
+content:
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Greenville, SC - GCCA has completed a $1M fundraising campaign to sustain operations and expand its impact—all in the name of a beloved member of the Greenville arts community. GCCA’s historic Cloth Building at 101 Abney Street will now be named the '
+      -
+        type: text
+        text: 'Linda Quinn Furman Building'
+        marks:
+          -
+            type: bold
+      -
+        type: text
+        text: "\_in honor of one of its founders."
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "This outpouring of support honors Linda—a dynamic artist, philanthropist, and wife of real estate developer and GCCA board member Earle Furman—in a way that is close to her heart.\_"
+      -
+        type: text
+        text: 'Her family and friends surprised her with the announcement yesterday when they stopped by GCCA to view the newly installed signage.'
+        marks:
+          -
+            type: bold
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "“In fundraising campaigns, the most significant efforts are those aimed at naming opportunities for an institution's major facilities. Naming the 30,000-square-foot Cloth Building to honor Linda is most appropriate, and the funds raised will add significantly to the continued financial health and mission of GCCA,” said H. F. “Gally” Gallivan, III, a retired financial advisor and member of GCCA’s Development Committee. He, along with his wife, Fielding, and family joined dozens of others in support of this effort. “Through her early vision for and continuing leadership in GCCA, the organization is poised to thrive, and it thrills us to have participated. "
+      -
+        type: text
+        text: 'This is a gift not only to a life-long friend but to our community.'
+        marks:
+          -
+            type: bold
+      -
+        type: text
+        text: "\_Just think what an art scene Greenville will be with continued access to professional training and a venue to showcase art at any level.”"
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "The decision to launch the campaign came in light of the COVID-19 pandemic, which led the organization to re-evaluate priorities and craft a plan to expand into recently vacated space in the Linda Quinn Furman Building.\_"
+      -
+        type: text
+        text: 'The goal is to create a new “front door” for the art center, along with additional studios, classrooms, and multi-use space.'
+        marks:
+          -
+            type: bold
+      -
+        type: text
+        text: "\_Funding from the campaign will be used toward this expansion project, as well as to support operating costs and strengthen reserves."
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'To mark this occasion and view the new building signage,'
+      -
+        type: text
+        text: "\_a “drive-through” motorcade celebration at GCCA is planned for Linda and campaign supporters"
+        marks:
+          -
+            type: bold
+      -
+        type: text
+        text: "\_in September."
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "“We are amazed and overwhelmed by the generosity of these donors, who have not only supported our survival during the most challenging of times, but also laid a solid foundation to expand our efforts in meaningful ways,” explained Kim Fabian, GCCA’s Executive Director.\_"
+      -
+        type: text
+        text: '“This accomplishment is a fitting tribute to the inspiration Linda has provided to us all.'
+        marks:
+          -
+            type: bold
+      -
+        type: text
+        text: "\_At its core, GCCA is about creating opportunities—opportunities to help children and adults express and expand their creativity; opportunities to fuel the arts economy by providing affordable studio space and a venue for local artists to showcase their work; and opportunities to provide inclusive access to the arts that might otherwise be unavailable. Following Linda’s example of strength and perseverance, we are inspired to take these opportunities to the next level.”"
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "To further support the art center and honor Linda Quinn Furman, the organization has established\_"
+      -
+        type: text
+        text: 'The Lindy Fund for the Future of GCCA'
+        marks:
+          -
+            type: bold
+      -
+        type: text
+        text: ". Contributions can be made at\_"
+      -
+        type: text
+        text: www.artcentergreenville.org/donate
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://artcentergreenville.us10.list-manage.com/track/click?u=7edbff943525a665390005ed9&id=2dca8dc554&e=2879ac424d'
+              target: _blank
+              rel: noopener
+          -
+            type: bold
+      -
+        type: text
+        text: "\_or by calling 864-735-3948."
+---

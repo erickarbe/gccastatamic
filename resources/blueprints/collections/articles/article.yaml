@@ -18,6 +18,15 @@ tabs:
               remove_empty_nodes: false
               type: bard
               display: Content
+              buttons:
+                - alignleft
+                - bold
+                - anchor
+                - italic
+                - h4
+                - unorderedlist
+                - aligncenter
+                - image
   sidebar:
     display: Sidebar
     sections:

@@ -1,0 +1,70 @@
+---
+id: e3ee2466-8989-4318-8eb8-9d43d2ff65b9
+blueprint: article
+title: '“Invisible Planet” to open at GCCA’s Main Gallery Exhibition opening on First Friday, June 2nd, 2023'
+article_category:
+  - news
+author: 4bbfb4a7-c929-44bc-9b6c-75777742f264
+article_date: '2023-05-01'
+content:
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Greenville, SC – Greenville Center for Creative Arts (GCCA) announced the opening of their latest Main Gallery exhibition, Invisible Planet. The exhibition features the artwork of local Greenville artists Virginia Russo & Joseph Smolin. This exhibition opens on Friday, June 2nd, 2023 from 6-9pm. Admission is free and open to the public. Invisible Planet will be on display in the Main Gallery until Wednesday, July 26th, 2023.'
+      -
+        type: hardBreak
+      -
+        type: text
+        text: 'On Tuesday, July 11th, join Russo and Smolin in GCCA’s Main Gallery at 6 PM for an artist talk event in the Main Gallery.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Invisible Planet is an imaginary world that represents untouched beauty and the raw wonder of creation. Russo created “The Planet” which aims to be a refuge for neuro-divergent people who suffer from sensory issues and overstimulation. This world in her work is a mysterious and ethereal land filled with mountains, cliffs, mushrooms, and an ever-present orange sun. Smolin’s experience growing up half-Jewish in the Deep South—Birmingham, AL—is reflected in his symbology and exploration of identity issues. His flamboyant and androgynous characters, as visitors on “The Planet“, challenge gender norms and societal expectations. Smolin’s work delivers condensed psycho-symbolic imagery that deals with themes of identity, religion, oppression, and conformity.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Virginia Russo'
+      -
+        type: hardBreak
+      -
+        type: text
+        text: 'Kara Virginia Russo is a visual, performance, and multimedia artist based in Greenville, SC. Upon her adulthood diagnosis of autism spectrum disorder, she embraced her inner imaginative world and the elements and symbolism that compose it. Endlessly combining circles, torn paper, and warm colors to create fantastical planet-scapes, she works similarly to a jazz musician, repeating, deconstructing, rearranging, and piecing back together a theme. She has collaborated on musical projects, contributing visual art as well as live performance art, and her work has been shown in galleries in Charleston, Columbia, and Greenville.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Joseph Smolin'
+      -
+        type: hardBreak
+      -
+        type: text
+        text: 'Joseph Smolin, born and raised in Birmingham, AL, is a Jewish painter and multimedia artist. In 2020, he co-founded Rattlesnake Art Magazine, a journal highlighting underground art in the Carolinas. His contributions, both 2-D and 3-D, were an integral part of the immersive group exhibition Candy Machine. He has also shown work at Modal, Inchoate, Eighth State, and Carolina Bauernhaus. Smolin marries playfully grotesque characterization with bright, candy-colored aesthetics and a dry sense of humor. Joseph has lived in Greenville, SC since 2018.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'About GCCA'
+      -
+        type: hardBreak
+      -
+        type: text
+        text: 'Greenville Center for Creative Arts is a non-profit organization that aims to enrich the cultural fabric of the community through visual arts promotion, education, and inspiration. GCCA’s galleries are open Tuesdays-Fridays from 9am - 5pm & Saturdays from 11am-3pm. For more information, visit www.artcentergreenville.org, call 864-735-3948, or check out GCCA on Facebook (Greenville Center for Creative Arts) & Instagram (@artcentergvl).'
+---
