@@ -1,0 +1,118 @@
+title: Page
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: content
+            field:
+              type: markdown
+              display: Content
+              localizable: true
+      -
+        display: 'Inside Hero'
+        fields:
+          -
+            handle: turn_off_hero
+            field:
+              type: toggle
+              display: 'Turn Off Hero'
+          -
+            handle: inside_hero_eyebrow
+            field:
+              type: text
+              display: 'Inside Hero Eyebrow'
+              unless:
+                turn_off_hero: 'equals true'
+              always_save: true
+          -
+            handle: inside_hero_header
+            field:
+              type: text
+              display: 'Inside Hero Header'
+              unless:
+                turn_off_hero: 'equals true'
+              always_save: true
+          -
+            handle: inside_hero_content
+            field:
+              remove_empty_nodes: false
+              type: bard
+              display: 'Inside Hero Content'
+              unless:
+                turn_off_hero: 'equals true'
+              always_save: true
+          -
+            handle: inside_hero_button
+            field:
+              type: text
+              display: 'Inside Hero Button'
+              always_save: true
+              unless:
+                turn_off_hero: 'equals true'
+          -
+            handle: inside_hero_button_link
+            field:
+              type: text
+              display: 'Inside Hero Button Link'
+              always_save: true
+              unless:
+                turn_off_hero: 'equals true'
+          -
+            handle: inside_hero_image
+            field:
+              max_files: 1
+              container: assets
+              type: assets
+              display: 'Inside Hero Image'
+              unless:
+                turn_off_hero: 'equals true'
+              always_save: true
+      -
+        display: 'Page Builder'
+        fields:
+          -
+            import: page_builder
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true
+          -
+            handle: template
+            field:
+              type: template
+              display: Template
+              localizable: true
+          -
+            handle: author
+            field:
+              type: users
+              display: Author
+              default: current
+              localizable: true
+              max_items: 1

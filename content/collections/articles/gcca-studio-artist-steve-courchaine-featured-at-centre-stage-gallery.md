@@ -1,0 +1,26 @@
+---
+id: 2f2b8d62-edcc-4e1a-a704-dbdbc5c79488
+blueprint: article
+title: 'GCCA studio artist, Steve Courchaine, featured at Centre Stage Gallery'
+article_category:
+  - news
+author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
+article_date: '2024-03-05'
+content:
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Centre Stage and the Metropolitan Arts Council present "Western Light: Earth, Sky, Water" featuring American landscapes by GCCA''s studio artist, Steve Courchaine. The opening reception will be held at Centre Stage Gallery (501 River Street, Greenville, SC 29601) on Friday, March 8, from 6-8 PM. The show will be available to view until April 26, 2024 during Centre Stage Gallery''s business hours, Tuesday-Friday, 2-5 PM.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'For over 25 years, artist Steve Courchaine has traveled throughout the American West, collecting reference material with photography and practicing plein air painting. Inspired by the vast western landscape, he observed the clarity of sunlight in the west increases the color saturation found in nature there versus what you might see in the east. This exhibit represents those experiences.'
+---

@@ -1,0 +1,129 @@
+---
+id: 36623b9c-0079-4d4c-8448-57079b1ac015
+blueprint: article
+title: '“Messages From the Past” to open at GCCA’s Community Gallery Exhibition begins First Friday, May 5th, 2023'
+article_category:
+  - news
+author: e00f3479-ec76-4b94-9035-181deda30ff3
+article_date: '2023-04-21'
+content:
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Greenville, SC '
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: '– Greenville Center for Creative Arts (GCCA) opens their newest Community Gallery exhibition, '
+      -
+        type: text
+        text: 'Messages from the Past'
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: ', featuring Caroline Hughes & Deborah Puretz Grove. The exhibition opens on Friday, May 5th, 2023 from 6 - 9 pm. '
+      -
+        type: text
+        text: 'Messages from the Past '
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: 'will continue on display through Wednesday, June 28th, 2023.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'In '
+      -
+        type: text
+        text: 'Messages from the Past'
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: ', Caroline E. Hughes and Deborah Puretz Grove test the processes that connect us to each other and our past. Through textures and patterning, we see how textiles, prints, and technologies can be a connecting force to bring understanding and advance towards the future. Caroline E. Hughes investigates personal experiences with place and community through large scale textile works. Aspects of rural living are present in her work. Hughes places an emphasis on her history in those settings as a catalyst for connections and shared experience. Deborah Puretz Grove uses semiconductor plates as metaphors for extending personal memories and connecting people all the time everywhere. In her many series of work, deeds, titles, letters, and family photos, from 1890 - 1950 are juxtaposed by references of semiconductor prototypes of the 1990s to further elaborate on the idea of memory extension.'
+  -
+    type: heading
+    attrs:
+      level: 4
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Caroline E. Hughes'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Caroline E. Hughes is a Textile Artist, Educator, and Historian living and working in Upstate South Carolina. She bases her themes of work, tacit knowledge, and craftsmanship in the fading histories of her hometown in rural South Greenville County. That fading, and the changes that affect it, are the basis of the ideas explored by Caroline in her textile work. Her work seeks to bring attention to the importance of a way of life and thought, largely passed over in our modern day-to-day existence. The study of the past is to inform the future. With this belief as a mainspring, her works are created using traditional craft methods and tell an inherent multi-faceted story of craft, community, and belonging.'
+  -
+    type: heading
+    attrs:
+      level: 4
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Deborah Puretz Grove'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "Deborah Puretz Grove received an MBA from the American Graduate School of International Management in Glendale, Arizona and a BA from UCLA and Lund University, Sweden. Deborah completed an MA in TESOL at California State University, and hundreds of hours in post graduate art history courses. Grove has traveled to over 40 countries and speaks four languages. Since 1977, Deborah has work within the IT industry in Hong Kong and Redwood City, CA. She has exhibited at the San Jose Museum of Art, San Jose, CA; Stanford University; Krannert Art Museum at University of Illinois; Napa Valley Museum & the Berkeley Art Museum in California among many other.\_"
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "\_"
+  -
+    type: heading
+    attrs:
+      level: 4
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'About GCCA'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Greenville Center for Creative Arts is a non-profit organization that aims to enrich the cultural fabric of the community through visual arts promotion, education, and inspiration. For more information, visit '
+      -
+        type: text
+        text: www.artcentergreenville.org
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'http://www.artcentergreenville.org'
+      -
+        type: text
+        text: ', call 864-735-3948, or check out GCCA on Facebook (Greenville Center for Creative Arts) & Instagram (@artcentergvl).'
+---

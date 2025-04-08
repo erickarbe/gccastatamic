@@ -1,0 +1,26 @@
+title: 'Page Builder'
+fields:
+  -
+    handle: blocks
+    field:
+      type: replicator
+      display: Blocks
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            iframe_container:
+              display: 'Iframe Container'
+              fields:
+                -
+                  import: iframe_container
+            full_width_media:
+              display: 'Full Width Media'
+              fields:
+                -
+                  import: full_width_media
+            image_and_text:
+              display: 'Image and Text'
+              fields:
+                -
+                  import: image_and_text

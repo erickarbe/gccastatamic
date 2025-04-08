@@ -1,0 +1,363 @@
+---
+id: 7dc37fe2-327c-47c1-b5fd-1bd88553a577
+blueprint: article
+title: '“Mementos of Life Beyond Death” to open at GCCA’s Main Gallery Exhibition begins First Friday, December 3rd, 2021'
+article_category:
+  - news
+author: e00f3479-ec76-4b94-9035-181deda30ff3
+article_date: '2021-11-01'
+content:
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'November 1, 2021: Greenville, SC '
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: '– Greenville Center for Creative Arts (GCCA) is excited to announce the opening of their December exhibition, '
+      -
+        type: text
+        text: 'Mementos of Life Beyond Death'
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: '. The exhibition features the work of acclaimed artists Jessica Burke, Jody Servon, and author Lorene Delany-Ullman. The exhibition opens with a First Friday reception from 6:00 - 9:00 pm on Friday, December 3rd, and continues until January 26th, 2022. The exhibition will also be open during the First Friday on January 7th, 2022. As part of GCCA’s exhibition programming, there will be an ARTalk panel discussion with the exhibiting artists virtually on ZOOM on Tuesday, January 11th from 6:00 - 7:00 PM. This exhibition is sponsored by Piedmont Arthritis Clinic and Dr. Richard and Amy Kim.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "In Mementos of Life Beyond Death, artist Jody Servon (Boone, NC) with author Lorene Delany-Ullman (Newport Beach, CA) and artist Jessica Burke (Charlotte, NC) navigate the complex interconnections between identity and death, and explore the relationships we make along life's journey. Jody Servon and Lorene Delany-Ullman’s "
+      -
+        type: text
+        text: 'Saved: Objects of the Dead '
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: "series captures the depth of the human experience through photographic documentation and prose poetry based on memories imbued into common objects once belonging to the departed. These remnants shed light into each individual’s life. Jessica Burke's "
+      -
+        type: text
+        text: 'Dressed Up in Bones'
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: ' & '
+      -
+        type: text
+        text: 'Sugar City'
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: ' drawings serve as investigative tools to unearth the fictions of identity and the fragility of life. In posed still-life compositions in which the figures are replaced with skeletal features, Burke creates striking metaphors for lived experience that provide insights into human nature that are intimate, provocative or sometimes humorous.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'GCCA will hold two free workshops in coordination with the '
+      -
+        type: text
+        text: 'Mementos of Life Beyond Death '
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: 'exhibition. '
+      -
+        type: text
+        text: 'The Prose Poem: Objects in Memoriam'
+        marks:
+          -
+            type: bold
+      -
+        type: text
+        text: ', a writing and photography virtual workshop with Jody Servon and Lorene Delaney-Ullman will be offered on Thursday, January 6th from 7:00 - 8:00 PM & '
+      -
+        type: text
+        text: "Talking to Grief:\_ Finding healing through poetry"
+        marks:
+          -
+            type: bold
+      -
+        type: text
+        text: ' community poetry reading with Kimberly J Simms and Shay Black of'
+      -
+        type: text
+        text: ' Wits End Poetry'
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.witsendpoetry.com/'
+      -
+        type: text
+        text: ' will be held on Thursday, January 20th from 7:00 - 8:00 pm. Register online at '
+      -
+        type: text
+        text: 'https://www.artcentergreenville.org/exhibitionschedule'
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.artcentergreenville.org/exhibitionschedule'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'About the Artists'
+        marks:
+          -
+            type: bold
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Jessica Burke'
+        marks:
+          -
+            type: bold
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "Born in Wichita, Kansas, Jessica Burke (J.B.) is a figurative artist and educator. She is an Associate Professor of Art and Foundations Coordinator at the University of North Carolina at Charlotte. Working in both traditional and digital drawing media, she focuses on concerns at the intersection of identity, popular culture and mass media. Her drawings have been published in Manifest's International Drawing Annual (INDA) 13 and in North Light Book's Strokes of Genius 9: The Best of Drawing. She will also have work published in the 2nd Edition of the textbook, Art for Everyone by University Press in January 2022."
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Her creative work is in private, public and corporate collections that include the City of North Charleston, South Carolina; the City of Savannah, Georgia; Seminole State College, Florida and the National Living Treasure Museum in Yugawara, Japan. Her work has been included in over fifty competitive group and solo exhibitions nationally and internationally including the Florida State University Museum of Fine Arts; the Toshima Gallery in Tokyo, Japan; the LuXun Academy of Fine Arts in Shenyang, Liaoning Province, China and the Kepco Plaza Gallery Museum in Seoul, South Korea. has been included in over fifty competitive group and solo exhibitions nationally and internationally including the Florida State University Museum of Fine Arts; the Toshima Gallery in Tokyo, Japan; the LuXun Academy of Fine Arts in Shenyang, Liaoning Province, China and the Kepco Plaza Gallery Museum in Seoul, South Korea.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "Jody Servon\_"
+        marks:
+          -
+            type: bold
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "Jody Servon creates collaborative and socially engaged projects that encourage public interaction and personal exploration. Her projects have been included in exhibitions, screenings, and public spaces in the U.S., Canada, and China. Servon’s writing and/or art has been featured in New American Paintings, Emergency Index, Kakalak, and Artful Dodge. Her collaborative work with Lorene Delany-Ullman has been published in AGNI, Tupelo Quarterly, Palaver, Lunch Ticket and Tarpaulin Sky. Reviews and articles on her projects have been in The New York Times, The Miami Herald, Arizona Daily Star, Los Angeles Times and Time magazine’s Money.com. She has participated in numerous artist residencies including Vermont Studio Center, Atlantic Center for the Arts, Artspace, and Virginia Center for Creative Arts. Servon received a MFA in New Genre from The University of Arizona and a BFA in Visual Art from Mason Gross School of the Arts at Rutgers University. She has served on numerous boards including: Elsewhere Museum, North Carolina Museums Council and the Center for Craft, Creativity and Design. Currently she is professor and coordinator of the art management program at Appalachian State University in North Carolina.\_"
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Lorene Delany-Ullman'
+        marks:
+          -
+            type: bold
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Lorene Delany-Ullman’s book of prose poems, '
+      -
+        type: text
+        text: 'Camouflage for the Neighborhood'
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: ', was the winner of the 2011 Sentence Award, and published by Firewheel Editions (December 2012). She recently published her poetry in '
+      -
+        type: text
+        text: 'Zócalo Public Square, TAB: A Journal of Poetry & Poetics., and Kosmos Quarterly. '
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: 'Her poems have been included in the following anthologies: '
+      -
+        type: text
+        text: 'Orange County, A Literary Field Guide'
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: ' (Heyday Books, 2017), '
+      -
+        type: text
+        text: 'Bared: Contemporary Poetry and Art on Bras and Breasts'
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: ', '
+      -
+        type: text
+        text: (
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: 'Les Femmes Folles Books, 2017)'
+      -
+        type: text
+        text: ', '
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: 'and '
+      -
+        type: text
+        text: 'Beyond Forgetting: Poetry and Prose about Alzheimer’s Disease '
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: '(Kent State University Press, 2009'
+      -
+        type: text
+        text: )
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: '. She works in collaboration with the artist, Jody Servon, on '
+      -
+        type: text
+        text: 'Saved: Objects of the Dead,'
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: ' a photographic and poetic exploration of life, death, and memory. Together, their project has been published in '
+      -
+        type: text
+        text: 'Tarpaulin Sky'
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: ', '
+      -
+        type: text
+        text: 'Tupelo Quarterly, Lunch Ticket'
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: ', and '
+      -
+        type: text
+        text: 'AGNI. '
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: 'In 2019, '
+      -
+        type: text
+        text: 'Saved: Objects of the Dead'
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: ' was shortlisted for the '
+      -
+        type: text
+        text: 'Tarpaulin Sky Press'
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: ' publication award. Delany-Ullman and Servon received an Illuminations Grant, UC Irvine for '
+      -
+        type: text
+        text: 'Saved: Objects of the Dead'
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: ' exhibition at UC Irvine, winter 2020. Delany-Ullman currently teaches composition at the University of California, Irvine.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'About GCCA'
+        marks:
+          -
+            type: bold
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Greenville Center for Creative Arts is a non-profit organization that aims to enrich the cultural fabric of the community through visual arts promotion, education, and inspiration. For more information, visit '
+      -
+        type: text
+        text: www.artcentergreenville.org
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'http://www.artcentergreenville.org'
+      -
+        type: text
+        text: ', call 864-735-3948, or check out GCCA on Facebook (Greenville Center for Creative Arts) & Instagram (@artcentergvl).'
+---
