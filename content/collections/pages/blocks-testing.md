@@ -6,7 +6,7 @@ turn_off_hero: true
 template: templates/page
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744227739
+updated_at: 1744230618
 blocks:
   -
     id: m9a6mdaq
@@ -55,5 +55,23 @@ blocks:
     quote: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Elit quisque faucibus ex sapien vitae pellentesque sem. Sem placerat in id cursus mi pretium tellus. Tellus duis convallis tempus leo eu aenean sed. Sed diam urna tempor pulvinar vivamus fringilla lacus. Lacus nec metus bibendum egestas iaculis massa nisl. Nisl malesuada lacinia integer nunc posuere ut hendrerit.'
     title: 'Enrique Shockwave, CEO + Owner'
     type: big_quote
+    enabled: true
+  -
+    id: m9adjftd
+    image_left_or_right: left
+    content_group:
+      eyebrow: 'Image & Text'
+      heading: 'Two Column Image and Text Layout'
+      content:
+        -
+          type: paragraph
+          content:
+            -
+              type: text
+              text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Faucibus ex sapien vitae pellentesque sem placerat in. Cursus mi pretium tellus duis convallis tempus leo. Aenean sed diam urna tempor pulvinar vivamus fringilla. Nec metus bibendum egestas iaculis massa nisl malesuada. Integer nunc posuere ut hendrerit semper vel class. Taciti sociosqu ad litora torquent per conubia nostra. Himenaeos orci varius natoque penatibus et magnis dis. Montes nascetur ridiculus mus donec rhoncus eros lobortis.'
+      button_text: Button
+      button_link: /
+    image: blog-linda-quinn-furman-building.jpg
+    type: image_and_text
     enabled: true
 ---
