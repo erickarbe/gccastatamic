@@ -1,19 +1,5 @@
-title: 'CTA Section'
+title: 'Inside Page Hero'
 fields:
-  -
-    handle: width
-    field:
-      options:
-        -
-          key: contained
-          value: Contained
-        -
-          key: full_width
-          value: 'Full Width'
-      default: Contained
-      type: radio
-      display: Width
-      inline: true
   -
     handle: eyebrow
     field:
@@ -27,7 +13,8 @@ fields:
   -
     handle: content
     field:
-      type: textarea
+      remove_empty_nodes: false
+      type: bard
       display: Content
   -
     handle: button_text
@@ -40,14 +27,10 @@ fields:
       type: link
       display: 'Button Link'
   -
-    handle: background_media
+    handle: image
     field:
       max_files: 1
+      min_files: 1
       container: assets
       type: assets
-      display: 'Background Media'
-  -
-    handle: background_color
-    field:
-      type: color
-      display: 'Background Color'
+      display: Image

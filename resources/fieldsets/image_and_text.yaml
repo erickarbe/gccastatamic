@@ -5,11 +5,11 @@ fields:
     field:
       options:
         -
-          key: Left
-          value: left
+          key: left
+          value: Left
         -
-          key: Right
-          value: right
+          key: right
+          value: Right
       inline: true
       default: left
       type: radio

@@ -1,0 +1,59 @@
+---
+id: 7a5d9ef8-52f1-4a20-8119-5e2bf984f2ca
+blueprint: page
+title: 'Blocks Testing'
+turn_off_hero: true
+template: templates/page
+author: 916c3785-d212-40bc-89ff-572097ac9582
+updated_by: 916c3785-d212-40bc-89ff-572097ac9582
+updated_at: 1744227739
+blocks:
+  -
+    id: m9a6mdaq
+    eyebrow: 'Testing This Block'
+    heading: 'How Does This Centered Content Section Look'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.'
+    button_text: 'Testing Btn'
+    button_link: /
+    type: basic_centered_content
+    enabled: true
+  -
+    id: m9a7j5ki
+    width: contained
+    eyebrow: 'CTA Eyebrow'
+    heading: 'This Is A Nice CTA Section'
+    content: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.'
+    button_text: 'CTA Button'
+    button_link: /
+    background_media: 852faedf-7480-4543-bd57-dc1dac085ebd_1_105_c.jpeg
+    type: cta_section
+    enabled: true
+  -
+    id: m9aaeysb
+    eyebrow: 'Inside Hero'
+    heading: 'This Is An Inside Page Hero'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.'
+    button_text: 'Hero Button'
+    button_link: /
+    image: slide2.jpg
+    type: inside_page_hero
+    enabled: true
+  -
+    id: m9ac4pe4
+    quote: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Elit quisque faucibus ex sapien vitae pellentesque sem. Sem placerat in id cursus mi pretium tellus. Tellus duis convallis tempus leo eu aenean sed. Sed diam urna tempor pulvinar vivamus fringilla lacus. Lacus nec metus bibendum egestas iaculis massa nisl. Nisl malesuada lacinia integer nunc posuere ut hendrerit.'
+    title: 'Enrique Shockwave, CEO + Owner'
+    type: big_quote
+    enabled: true
+---
