@@ -24,3 +24,23 @@ fields:
               fields:
                 -
                   import: image_and_text
+            faq_accordion:
+              display: 'FAQ Accordion'
+              fields:
+                -
+                  import: faq_accordion
+            basic_centered_content:
+              display: 'Basic Centered Content'
+              fields:
+                -
+                  import: basic_centered_content
+            big_quote:
+              display: 'Big Quote'
+              fields:
+                -
+                  import: big_quote
+            cta_section:
+              display: 'CTA Section'
+              fields:
+                -
+                  import: cta_section

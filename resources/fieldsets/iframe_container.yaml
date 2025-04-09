@@ -1,19 +1,19 @@
 title: 'Iframe Container'
 fields:
   -
-    handle: container_size
+    handle: width
     field:
       options:
         -
-          key: Container
-          value: container
+          key: Contained
+          value: contained
         -
           key: 'Full Width'
           value: full_width
       inline: true
-      default: container
+      default: contained
       type: radio
-      display: 'Container Size'
+      display: Width
   -
     handle: iframe_embed
     field:
