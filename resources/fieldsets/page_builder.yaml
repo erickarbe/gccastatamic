@@ -49,3 +49,18 @@ fields:
               fields:
                 -
                   import: inside_page_hero
+            full_width_carousel:
+              display: 'Full Width Carousel'
+              fields:
+                -
+                  import: full_width_carousel
+            image_gallery:
+              display: 'Image Gallery'
+              fields:
+                -
+                  import: image_gallery
+            content_grid:
+              display: 'Content Grid'
+              fields:
+                -
+                  import: content_grid

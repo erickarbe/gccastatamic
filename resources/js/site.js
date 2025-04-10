@@ -280,3 +280,20 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   });
+
+
+
+// full width carousel
+document.addEventListener("DOMContentLoaded", () => {
+    const track = document.querySelector(".carousel-track");
+    if (!track) return;
+
+    const totalWidth = track.scrollWidth / 2; // since we duplicated images
+
+    gsap.to(track, {
+      x: -totalWidth,
+      ease: "none",
+      duration: 40, // adjust for speed
+      repeat: -1
+    });
+  });

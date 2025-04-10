@@ -1,0 +1,42 @@
+<section class="py-20 px-4 max-w-7xl mx-auto">
+    {{ if content_grid_title || content_grid_text }}
+      <div class="mb-12 max-w-2xl">
+        {{ if content_grid_title }}
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">
+            {{ content_grid_title }}
+          </h2>
+        {{ /if }}
+        {{ if content_grid_text }}
+          <p class="text-base text-gray-700 leading-relaxed">
+            {{ content_grid_text }}
+          </p>
+        {{ /if }}
+      </div>
+    {{ /if }}
+  
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-gray-200">
+      {{ content_grid_item }}
+        <div class="bg-white p-6 flex flex-col h-full">
+          {{ if eyebrow }}
+            <p class="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-2">
+              {{ eyebrow }}
+            </p>
+          {{ /if }}
+  
+          {{ if heading }}
+            <h3 class="text-lg font-semibold mb-3 text-gray-900">
+              {{ heading }}
+            </h3>
+          {{ /if }}
+  
+          {{ if content }}
+            <div class="text-sm text-gray-700 leading-relaxed">
+              {{ content }}
+            </div>
+          {{ /if }}
+        </div>
+      {{ /content_grid_item }}
+    </div>
+</section>
+  
+  

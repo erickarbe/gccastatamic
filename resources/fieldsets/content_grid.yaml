@@ -1,0 +1,39 @@
+title: 'Content Grid'
+fields:
+  -
+    handle: content_grid_title
+    field:
+      type: text
+      display: 'Content Grid Title'
+  -
+    handle: content_grid_text
+    field:
+      type: textarea
+      display: 'Content Grid Text'
+  -
+    handle: content_grid_item
+    field:
+      type: replicator
+      display: 'Content Grid Item'
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            new_item:
+              display: 'New Item'
+              fields:
+                -
+                  handle: eyebrow
+                  field:
+                    type: text
+                    display: eyebrow
+                -
+                  handle: heading
+                  field:
+                    type: text
+                    display: Heading
+                -
+                  handle: content
+                  field:
+                    type: textarea
+                    display: Content

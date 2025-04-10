@@ -1,0 +1,113 @@
+<section class="image-gallery py-20 px-4 mx-auto">
+    <div id="staggered-gallery" class="flex gap-4">
+      <!-- JS will populate 4 columns here -->
+    </div>
+  
+    <template id="gallery-image-template">
+      {{ images }}
+        <img src="{{ url }}" alt="{{ alt }}" class="w-full h-full object-cover rounded-sm" />
+      {{ /images }}
+    </template>
+</section>
+  
+  
+<script>
+   
+   document.addEventListener("DOMContentLoaded", () => {
+  const container = document.getElementById("staggered-gallery");
+  const template = document.getElementById("gallery-image-template");
+  const originalImages = Array.from(template.content.querySelectorAll("img"));
+
+  function getNumColumns() {
+    const width = window.innerWidth;
+    if (width >= 1024) return 4; // lg
+    if (width >= 768) return 3;  // md
+    if (width >= 640) return 2;  // sm
+    return 1;
+  }
+
+  function buildGallery() {
+    container.innerHTML = ""; // Clear old columns
+    const numColumns = getNumColumns();
+
+    // Create column containers
+    const columns = [];
+    for (let i = 0; i < numColumns; i++) {
+      const col = document.createElement("div");
+      col.className = `w-full space-y-4`;
+      col.style.flex = "1";
+      col.style.transform = `translateY(${i * 20}px)`;
+      col.style.display = "flex";
+      col.style.flexDirection = "column";
+      container.appendChild(col);
+      columns.push(col);
+    }
+
+    // Distribute images evenly across columns
+    originalImages.forEach((img, i) => {
+      const clonedImg = img.cloneNode(true);
+      columns[i % numColumns].appendChild(clonedImg);
+    });
+
+    // Wait for images to load then set min-height
+    const allImgs = container.querySelectorAll("img");
+    let loaded = 0;
+    allImgs.forEach((img) => {
+      if (img.complete) {
+        loaded++;
+        if (loaded === allImgs.length) setContainerHeight(columns);
+      } else {
+        img.onload = () => {
+          loaded++;
+          if (loaded === allImgs.length) setContainerHeight(columns);
+        };
+      }
+    });
+  }
+
+  function setContainerHeight(columns) {
+    let maxHeight = 0;
+    columns.forEach((col) => {
+      maxHeight = Math.max(maxHeight, col.scrollHeight);
+    });
+    container.style.minHeight = maxHeight + "px";
+  }
+
+  // Initial build
+  buildGallery();
+
+  // Rebuild on resize (with debounce)
+  let resizeTimeout;
+  window.addEventListener("resize", () => {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(() => {
+      buildGallery();
+    }, 250);
+  });
+});
+
+
+</script>
+  
+
+
+<style>
+.image-gallery {
+    max-width: 1560px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* margin-bottom: 120px; */
+    /* min-height: 1000px; */
+    /* height: 100vh; */
+}
+
+#staggered-gallery {
+    column-gap: 40px;
+}
+
+#staggered-gallery img {
+    height: 350px;
+    width: 350px;
+}
+
+</style>
