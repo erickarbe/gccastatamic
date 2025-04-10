@@ -56,9 +56,12 @@ return [
             'url' => env('AWS_URL'),
             'endpoint' => env('AWS_ENDPOINT'),
             'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
+            'visibility' => null,
+    'options' => [
+        'ACL' => null, // Prevent trying to set ACLs
+    ],
             'throw' => false,
             'report' => false,
-            // 'visibility' => 'public', // https://statamic.dev/assets#visibility
         ],
 
         'assets' => [
