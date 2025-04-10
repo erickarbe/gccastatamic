@@ -6,7 +6,7 @@ turn_off_hero: true
 template: templates/page
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744251939
+updated_at: 1744296062
 blocks:
   -
     id: m9a6mdaq
@@ -119,5 +119,29 @@ blocks:
         type: new_set
         enabled: true
     type: faq_accordion
+    enabled: true
+  -
+    id: m9bfcpbb
+    images:
+      - 852faedf-7480-4543-bd57-dc1dac085ebd_1_105_c.jpeg
+      - blog-linda-quinn-furman-building.jpg
+      - gcca_building.jpg
+      - hero2.jpg
+      - slide1.jpg
+      - slide2.jpg
+    type: full_width_carousel
+    enabled: true
+  -
+    id: m9bgtiq9
+    images:
+      - 852faedf-7480-4543-bd57-dc1dac085ebd_1_105_c.jpeg
+      - blog-linda-quinn-furman-building.jpg
+      - gcca_building.jpg
+      - hero2.jpg
+      - slide1.jpg
+      - slide2.jpg
+      - slide3.jpg
+      - articles/blog-anthropocene.jpg
+    type: image_gallery
     enabled: true
 ---

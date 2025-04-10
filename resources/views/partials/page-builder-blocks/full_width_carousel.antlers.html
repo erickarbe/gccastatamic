@@ -1,0 +1,16 @@
+<section class="overflow-hidden py-12">
+    <div class="carousel-wrapper w-full relative">
+      <div class="carousel-track flex gap-6 will-change-transform">
+        {{ images }}
+          <div class="carousel-item flex-shrink-0 h-[320px]">
+            <img src="{{ url }}" alt="{{ alt }}" class="w-auto h-full object-cover rounded-xs" />
+          </div>
+        {{ /images }}
+        {{ images }}
+          <div class="carousel-item flex-shrink-0 h-[320px]">
+            <img src="{{ url }}" alt="{{ alt }}" class="w-auto h-full object-cover rounded-xs" />
+          </div>
+        {{ /images }}
+      </div>
+    </div>
+</section>

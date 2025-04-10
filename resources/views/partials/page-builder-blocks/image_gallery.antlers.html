@@ -1,0 +1,56 @@
+<section class="image-gallery py-20 px-4 mx-auto">
+    <div id="staggered-gallery" class="flex gap-4">
+      <!-- JS will populate 4 columns here -->
+    </div>
+  
+    <template id="gallery-image-template">
+      {{ images }}
+        <img src="{{ url }}" alt="{{ alt }}" class="w-full h-full object-cover rounded-sm" />
+      {{ /images }}
+    </template>
+</section>
+  
+  
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const container = document.getElementById("staggered-gallery");
+      const template = document.getElementById("gallery-image-template");
+      const images = template.content.querySelectorAll("img");
+      const numColumns = 4;
+  
+      // Create 4 columns
+      for (let i = 0; i < numColumns; i++) {
+        const col = document.createElement("div");
+        col.className = `w-1/${numColumns} space-y-8 h-[400px]`;
+        col.style.transform = `translateY(${i * 40}px)`; // <-- step each column
+        container.appendChild(col);
+      }
+  
+      // Distribute images evenly into the columns
+      images.forEach((img, i) => {
+        const column = container.children[i % numColumns];
+        column.appendChild(img.cloneNode(true));
+      });
+    });
+</script>
+  
+
+
+<style>
+.image-gallery {
+    max-width: 1560px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 120px;
+}
+
+#staggered-gallery {
+    column-gap: 40px;
+}
+
+#staggered-gallery img {
+    height: 350px;
+    width: 350px;
+}
+
+</style>
