@@ -64,3 +64,8 @@ fields:
               fields:
                 -
                   import: content_grid
+            two_column_animated:
+              display: 'Two Column Animated'
+              fields:
+                -
+                  import: two_column_animated

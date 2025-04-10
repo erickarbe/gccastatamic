@@ -6,8 +6,24 @@ turn_off_hero: true
 template: templates/page
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744305337
+updated_at: 1744310243
 blocks:
+  -
+    id: m9aaeysb
+    eyebrow: 'Inside Hero'
+    heading: 'This Is An Inside Page Hero'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.'
+    button_text: 'Hero Button'
+    button_link: /
+    image: slide2.jpg
+    type: inside_page_hero
+    enabled: true
   -
     id: m9a6mdaq
     eyebrow: 'Testing This Block'
@@ -34,22 +50,9 @@ blocks:
     background_media: 852faedf-7480-4543-bd57-dc1dac085ebd_1_105_c.jpeg
     type: cta_section
     enabled: true
-  -
-    id: m9aaeysb
-    eyebrow: 'Inside Hero'
-    heading: 'This Is An Inside Page Hero'
-    content:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.'
-    button_text: 'Hero Button'
-    button_link: /
-    image: slide2.jpg
-    type: inside_page_hero
-    enabled: true
+    image_layout: beside_text
+    image: 852faedf-7480-4543-bd57-dc1dac085ebd_1_105_c.jpeg
+    background_color: '#263340'
   -
     id: m9ac4pe4
     quote: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Elit quisque faucibus ex sapien vitae pellentesque sem. Sem placerat in id cursus mi pretium tellus. Tellus duis convallis tempus leo eu aenean sed. Sed diam urna tempor pulvinar vivamus fringilla lacus. Lacus nec metus bibendum egestas iaculis massa nisl. Nisl malesuada lacinia integer nunc posuere ut hendrerit.'
@@ -193,4 +196,55 @@ blocks:
     enabled: true
     content_grid_title: 'Content Grid'
     content_grid_text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.'
+  -
+    id: m9bp9539
+    eyebrow: Eyebrow
+    heading: 'Testing this block'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.'
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Quisque faucibus ex sapien vitae pellentesque sem placerat.'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Vitae pellentesque sem placerat in id cursus mi'
+    images:
+      - gcca_building.jpg
+      - blog-linda-quinn-furman-building.jpg
+      - 852faedf-7480-4543-bd57-dc1dac085ebd_1_105_c.jpeg
+      - hero2.jpg
+      - slide1.jpg
+      - slide3.jpg
+      - slide2.jpg
+    type: two_column_animated
+    enabled: true
 ---

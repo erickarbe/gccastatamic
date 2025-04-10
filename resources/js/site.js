@@ -297,3 +297,30 @@ document.addEventListener("DOMContentLoaded", () => {
       repeat: -1
     });
   });
+
+
+// two column animated
+document.addEventListener("DOMContentLoaded", () => {
+    const columns = [
+      { el: "#scroll-column-1", direction: -1 },
+      { el: "#scroll-column-2", direction: 1 }
+    ];
+
+    columns.forEach(({ el, direction }) => {
+      const wrapper = document.querySelector(el);
+      const inner = wrapper.querySelector(".inner");
+
+      // Wait until layout is ready
+      const distance = inner.scrollHeight / 2;
+
+      gsap.to(inner, {
+        y: direction * -distance,
+        ease: "none",
+        duration: 20,
+        repeat: -1,
+        modifiers: {
+          y: gsap.utils.unitize(y => parseFloat(y) % distance)
+        }
+      });
+    });
+  });
