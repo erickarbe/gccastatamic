@@ -1,6 +1,16 @@
 title: 'Content Grid'
 fields:
   -
+    handle: content_grid_title
+    field:
+      type: text
+      display: 'Content Grid Title'
+  -
+    handle: content_grid_text
+    field:
+      type: textarea
+      display: 'Content Grid Text'
+  -
     handle: content_grid_item
     field:
       type: replicator

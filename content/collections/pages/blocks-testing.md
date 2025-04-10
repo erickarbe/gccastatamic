@@ -6,7 +6,7 @@ turn_off_hero: true
 template: templates/page
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744296062
+updated_at: 1744305337
 blocks:
   -
     id: m9a6mdaq
@@ -144,4 +144,53 @@ blocks:
       - articles/blog-anthropocene.jpg
     type: image_gallery
     enabled: true
+  -
+    id: m9bliuom
+    content_grid_item:
+      -
+        id: m9blivxy
+        eyebrow: testing
+        heading: 'Content Grid'
+        content: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.'
+        type: new_item
+        enabled: true
+      -
+        id: m9bljglz
+        eyebrow: Hello
+        heading: 'Testing Testing'
+        content: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.'
+        type: new_item
+        enabled: true
+      -
+        id: m9bljibl
+        eyebrow: 'New Square'
+        heading: 'How does this grid look?'
+        content: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.'
+        type: new_item
+        enabled: true
+      -
+        id: m9blk9qi
+        eyebrow: 'New Grid'
+        heading: 'Another Testing Square'
+        content: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.'
+        type: new_item
+        enabled: true
+      -
+        id: m9blkqd5
+        eyebrow: 'Hello Hello'
+        heading: 'Testing Hello'
+        content: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.'
+        type: new_item
+        enabled: true
+      -
+        id: m9bll7x5
+        eyebrow: 'Sam Test'
+        heading: 'Grid, Testing The Grid'
+        content: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.'
+        type: new_item
+        enabled: true
+    type: content_grid
+    enabled: true
+    content_grid_title: 'Content Grid'
+    content_grid_text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.'
 ---
