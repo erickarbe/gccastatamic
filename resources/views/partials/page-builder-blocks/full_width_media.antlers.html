@@ -1,0 +1,28 @@
+<section class="relative w-full min-h-[900px] overflow-hidden js-zoom-section">
+    <div class="zoom-wrapper relative w-full h-full min-h-[900px]">
+      {{ if assets_field }}
+        {{ assets_field }}
+          {{ if is_image }}
+            <img src="{{ url }}" alt="{{ alt }}" class="absolute inset-0 w-full h-full object-cover" />
+          {{ elseif is_video }}
+            <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover">
+              <source src="{{ url }}" type="video/mp4" />
+            </video>
+          {{ /if }}
+        {{ /assets_field }}
+      {{ /if }}
+    </div>
+  </section>
+
+
+
+
+<style>
+
+.zoom-wrapper {
+  will-change: transform;
+}
+
+</style>
+
+  

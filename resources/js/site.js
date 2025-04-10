@@ -224,3 +224,59 @@ document.addEventListener("DOMContentLoaded", function () {
 
     setupMouseEnter();
 });
+
+
+
+// full width media scroll
+  gsap.registerPlugin(ScrollTrigger);
+
+  const zoomSections = document.querySelectorAll(".js-zoom-section");
+
+  zoomSections.forEach((section) => {
+    const wrapper = section.querySelector(".zoom-wrapper");
+
+    if (!wrapper) return;
+
+    gsap.fromTo(wrapper, 
+      {
+        scale: 1,
+        width: "100vw",
+        marginLeft: "0vw"
+      },
+      {
+        scale: 0.85,
+        // width: "93.3187vw",
+        // marginLeft: "3.3407vw",
+        ease: "none",
+        scrollTrigger: {
+          trigger: section,
+          start: "top top",
+          end: "+=600",
+          scrub: true
+        }
+      }
+    );
+  });
+
+
+
+// Accordion block functionality
+document.addEventListener("DOMContentLoaded", function () {
+    const toggles = document.querySelectorAll(".faq-toggle");
+
+    toggles.forEach((toggle) => {
+      toggle.addEventListener("click", () => {
+        const item = toggle.closest(".faq-item");
+        const content = item.querySelector(".faq-content");
+        const icon = toggle.querySelector(".faq-icon");
+
+        const isOpen = !content.classList.contains("hidden");
+
+        // Toggle visibility
+        content.classList.toggle("hidden");
+
+        // Animate icon
+        icon.textContent = isOpen ? "+" : "–";
+      });
+    });
+  });

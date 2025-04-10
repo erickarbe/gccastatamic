@@ -1,0 +1,53 @@
+title: 'CTA Section'
+fields:
+  -
+    handle: width
+    field:
+      options:
+        -
+          key: contained
+          value: Contained
+        -
+          key: full_width
+          value: 'Full Width'
+      default: Contained
+      type: radio
+      display: Width
+      inline: true
+  -
+    handle: eyebrow
+    field:
+      type: text
+      display: Eyebrow
+  -
+    handle: heading
+    field:
+      type: text
+      display: Heading
+  -
+    handle: content
+    field:
+      type: textarea
+      display: Content
+  -
+    handle: button_text
+    field:
+      type: text
+      display: 'Button Text'
+  -
+    handle: button_link
+    field:
+      type: link
+      display: 'Button Link'
+  -
+    handle: background_media
+    field:
+      max_files: 1
+      container: assets
+      type: assets
+      display: 'Background Media'
+  -
+    handle: background_color
+    field:
+      type: color
+      display: 'Background Color'

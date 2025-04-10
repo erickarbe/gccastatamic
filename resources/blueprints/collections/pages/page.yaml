@@ -77,6 +77,11 @@ tabs:
               unless:
                 turn_off_hero: 'equals true'
               always_save: true
+      -
+        display: 'Page Builder'
+        fields:
+          -
+            import: page_builder
   sidebar:
     display: Sidebar
     sections:
