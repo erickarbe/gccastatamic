@@ -27,13 +27,14 @@ tabs:
               type: toggle
               display: 'Turn Off Hero'
           -
-            handle: inside_hero_eyebrow
+            handle: eyebrow
             field:
               type: text
-              display: 'Inside Hero Eyebrow'
+              display: Eyebrow
               unless:
                 turn_off_hero: 'equals true'
               always_save: true
+              width: 50
           -
             handle: inside_hero_header
             field:
@@ -42,6 +43,7 @@ tabs:
               unless:
                 turn_off_hero: 'equals true'
               always_save: true
+              width: 50
           -
             handle: inside_hero_content
             field:
@@ -52,13 +54,14 @@ tabs:
                 turn_off_hero: 'equals true'
               always_save: true
           -
-            handle: inside_hero_button
+            handle: inside_hero_button_text
             field:
               type: text
-              display: 'Inside Hero Button'
+              display: 'Inside Hero Button Text'
               always_save: true
               unless:
                 turn_off_hero: 'equals true'
+              width: 50
           -
             handle: inside_hero_button_link
             field:
@@ -67,6 +70,7 @@ tabs:
               always_save: true
               unless:
                 turn_off_hero: 'equals true'
+              width: 50
           -
             handle: inside_hero_image
             field:

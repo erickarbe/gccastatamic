@@ -1,0 +1,48 @@
+<section class="py-20 px-4 max-w-7xl mx-auto overflow-hidden">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      
+      <!-- Left: Static Text -->
+      <div>
+        {{ if eyebrow }}
+          <p class="text-sm uppercase tracking-widest text-orange-600 mb-2">{{ eyebrow }}</p>
+        {{ /if }}
+        {{ if heading }}
+          <h2 class="text-4xl font-bold mb-4 text-gray-900">{{ heading }}</h2>
+        {{ /if }}
+        {{ if content }}
+          <p class="text-lg text-gray-600 mb-6">{{ content }}</p>
+        {{ /if }}
+      </div>
+  
+      <!-- Right: Infinite Scrolling Ovals -->
+      <div class="relative w-full h-[500px] flex justify-center gap-10 overflow-hidden">
+        
+        <!-- Column 1 -->
+        <div class="scroll-column" id="scroll-column-1">
+          <div class="inner flex flex-col gap-6">
+            {{ images }}
+              <img src="{{ url }}" alt="{{ alt }}" class="w-32 h-48 object-cover rounded-full" />
+            {{ /images }}
+            {{ images }}
+              <img src="{{ url }}" alt="{{ alt }}" class="w-32 h-48 object-cover rounded-full" />
+            {{ /images }}
+          </div>
+        </div>
+  
+        <!-- Column 2 (opposite direction) -->
+        <div class="scroll-column" id="scroll-column-2">
+          <div class="inner flex flex-col gap-6">
+            {{ images }}
+              <img src="{{ url }}" alt="{{ alt }}" class="w-32 h-48 object-cover rounded-full" />
+            {{ /images }}
+            {{ images }}
+              <img src="{{ url }}" alt="{{ alt }}" class="w-32 h-48 object-cover rounded-full" />
+            {{ /images }}
+          </div>
+        </div>
+  
+      </div>
+    </div>
+</section>
+  
+  

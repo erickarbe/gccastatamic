@@ -1,0 +1,24 @@
+title: 'Two Column Animated'
+fields:
+  -
+    handle: eyebrow
+    field:
+      type: text
+      display: Eyebrow
+  -
+    handle: heading
+    field:
+      type: text
+      display: Heading
+  -
+    handle: content
+    field:
+      remove_empty_nodes: false
+      type: bard
+      display: Content
+  -
+    handle: images
+    field:
+      container: assets
+      type: assets
+      display: Images
