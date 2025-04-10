@@ -6,7 +6,7 @@ turn_off_hero: true
 template: templates/page
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744310243
+updated_at: 1744313328
 blocks:
   -
     id: m9aaeysb
