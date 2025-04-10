@@ -6,7 +6,7 @@ turn_off_hero: true
 template: templates/page
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744230618
+updated_at: 1744251939
 blocks:
   -
     id: m9a6mdaq
@@ -73,5 +73,51 @@ blocks:
       button_link: /
     image: blog-linda-quinn-furman-building.jpg
     type: image_and_text
+    enabled: true
+  -
+    id: m9aoervh
+    assets_field: slide2.jpg
+    type: full_width_media
+    enabled: true
+  -
+    id: m9aqjgva
+    accordion_item:
+      -
+        id: m9aqji0g
+        accordion_header: 'testing item'
+        accordion_content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.'
+        type: new_set
+        enabled: true
+      -
+        id: m9aqjxhv
+        accordion_header: 'Does this work?'
+        accordion_content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.'
+        type: new_set
+        enabled: true
+      -
+        id: m9aqk464
+        accordion_header: 'Faq number three'
+        accordion_content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.'
+        type: new_set
+        enabled: true
+    type: faq_accordion
     enabled: true
 ---
