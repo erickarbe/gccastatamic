@@ -75,7 +75,7 @@ tabs:
             handle: inside_hero_image
             field:
               max_files: 1
-              container: assets
+              container: s3_assets
               type: assets
               display: 'Inside Hero Image'
               unless:

@@ -225,63 +225,58 @@ document.addEventListener("DOMContentLoaded", function () {
     setupMouseEnter();
 });
 
-
-
 // full width media scroll
-  gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
 
-  const zoomSections = document.querySelectorAll(".js-zoom-section");
+const zoomSections = document.querySelectorAll(".js-zoom-section");
 
-  zoomSections.forEach((section) => {
+zoomSections.forEach((section) => {
     const wrapper = section.querySelector(".zoom-wrapper");
 
     if (!wrapper) return;
 
-    gsap.fromTo(wrapper, 
-      {
-        scale: 1,
-        width: "100vw",
-        marginLeft: "0vw"
-      },
-      {
-        scale: 0.85,
-        // width: "93.3187vw",
-        // marginLeft: "3.3407vw",
-        ease: "none",
-        scrollTrigger: {
-          trigger: section,
-          start: "top top",
-          end: "+=600",
-          scrub: true
+    gsap.fromTo(
+        wrapper,
+        {
+            scale: 1,
+            width: "100vw",
+            marginLeft: "0vw",
+        },
+        {
+            scale: 0.85,
+            // width: "93.3187vw",
+            // marginLeft: "3.3407vw",
+            ease: "none",
+            scrollTrigger: {
+                trigger: section,
+                start: "top top",
+                end: "+=600",
+                scrub: true,
+            },
         }
-      }
     );
-  });
-
-
+});
 
 // Accordion block functionality
 document.addEventListener("DOMContentLoaded", function () {
     const toggles = document.querySelectorAll(".faq-toggle");
 
     toggles.forEach((toggle) => {
-      toggle.addEventListener("click", () => {
-        const item = toggle.closest(".faq-item");
-        const content = item.querySelector(".faq-content");
-        const icon = toggle.querySelector(".faq-icon");
+        toggle.addEventListener("click", () => {
+            const item = toggle.closest(".faq-item");
+            const content = item.querySelector(".faq-content");
+            const icon = toggle.querySelector(".faq-icon");
 
-        const isOpen = !content.classList.contains("hidden");
+            const isOpen = !content.classList.contains("hidden");
 
-        // Toggle visibility
-        content.classList.toggle("hidden");
+            // Toggle visibility
+            content.classList.toggle("hidden");
 
-        // Animate icon
-        icon.textContent = isOpen ? "+" : "–";
-      });
+            // Animate icon
+            icon.textContent = isOpen ? "+" : "–";
+        });
     });
-  });
-
-
+});
 
 // full width carousel
 document.addEventListener("DOMContentLoaded", () => {
@@ -291,36 +286,43 @@ document.addEventListener("DOMContentLoaded", () => {
     const totalWidth = track.scrollWidth / 2; // since we duplicated images
 
     gsap.to(track, {
-      x: -totalWidth,
-      ease: "none",
-      duration: 40, // adjust for speed
-      repeat: -1
+        x: -totalWidth,
+        ease: "none",
+        duration: 40, // adjust for speed
+        repeat: -1,
     });
-  });
-
+});
 
 // two column animated
 document.addEventListener("DOMContentLoaded", () => {
+    // If #scroll-column-1 and #scroll-column-2 exist
+    if (
+        !document.getElementById("scroll-column-1") ||
+        !document.getElementById("scroll-column-2")
+    ) {
+        return;
+    }
+
     const columns = [
-      { el: "#scroll-column-1", direction: -1 },
-      { el: "#scroll-column-2", direction: 1 }
+        { el: "#scroll-column-1", direction: -1 },
+        { el: "#scroll-column-2", direction: 1 },
     ];
 
     columns.forEach(({ el, direction }) => {
-      const wrapper = document.querySelector(el);
-      const inner = wrapper.querySelector(".inner");
+        const wrapper = document.querySelector(el);
+        const inner = wrapper.querySelector(".inner");
 
-      // Wait until layout is ready
-      const distance = inner.scrollHeight / 2;
+        // Wait until layout is ready
+        const distance = inner.scrollHeight / 2;
 
-      gsap.to(inner, {
-        y: direction * -distance,
-        ease: "none",
-        duration: 20,
-        repeat: -1,
-        modifiers: {
-          y: gsap.utils.unitize(y => parseFloat(y) % distance)
-        }
-      });
+        gsap.to(inner, {
+            y: direction * -distance,
+            ease: "none",
+            duration: 20,
+            repeat: -1,
+            modifiers: {
+                y: gsap.utils.unitize((y) => parseFloat(y) % distance),
+            },
+        });
     });
-  });
+});

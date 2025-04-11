@@ -16,9 +16,10 @@ fields:
       remove_empty_nodes: false
       type: bard
       display: Content
+      container: s3_assets
   -
     handle: images
     field:
-      container: assets
+      container: s3_assets
       type: assets
       display: Images

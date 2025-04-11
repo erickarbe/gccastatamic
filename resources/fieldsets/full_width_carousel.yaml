@@ -6,6 +6,6 @@ fields:
       max_files: 12
       min_files: 6
       mode: grid
-      container: assets
+      container: s3_assets
       type: assets
       display: Images

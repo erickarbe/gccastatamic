@@ -5,11 +5,11 @@ fields:
     field:
       options:
         -
-          key: Contained
-          value: contained
+          key: contained
+          value: Contained
         -
-          key: 'Full Width'
-          value: full_width
+          key: full_width
+          value: 'Full Width'
       inline: true
       default: contained
       type: radio
@@ -17,8 +17,5 @@ fields:
   -
     handle: iframe_embed
     field:
-      buttons:
-        - code
-        - codeblock
       type: markdown
       display: 'Iframe Embed'

@@ -16,6 +16,7 @@ fields:
       remove_empty_nodes: false
       type: bard
       display: Content
+      container: s3_assets
   -
     handle: button_text
     field:

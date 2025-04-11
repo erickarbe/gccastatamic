@@ -49,6 +49,6 @@ fields:
                 -
                   handle: headshot
                   field:
-                    container: assets
+                    container: s3_assets
                     type: assets
                     display: Headshot
