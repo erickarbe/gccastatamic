@@ -28,14 +28,26 @@ tabs:
                       display: 'Fade Out Hero'
                       fields:
                         -
-                          handle: title_text
+                          handle: headline
+                          field:
+                            type: textarea
+                            display: Headline
+                        -
+                          handle: opener_content
                           field:
                             buttons:
                               - bold
                               - italic
+                              - unorderedlist
+                              - orderedlist
                               - link
                             type: markdown
-                            display: 'Title Text'
+                            display: 'Opener Content'
+                    full_width_image_or_video:
+                      display: 'Full Width Image or Video'
+                      fields:
+                        -
+                          import: full_width_media
   sidebar:
     display: Sidebar
     sections:

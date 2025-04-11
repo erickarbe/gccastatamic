@@ -57,10 +57,22 @@
     animation: appearFromLeft 1s ease-out forwards;
 }
 
+/* Homepage */
+.opener h1 span {
+    display: block;
+    font-weight: normal;
+    @apply text-gcca-red;
+}
+.opener p {
+    @apply text-gray-blue text-xl max-w-3xl font-light;
+}
+
 /* Global Notice */
 .offcanvas-open #global-notice {
     display: none;
 }
+
+/* Random */
 
 /* Full Page Menu */
 .ad-offcanvas {
