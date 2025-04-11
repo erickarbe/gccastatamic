@@ -48,6 +48,16 @@ tabs:
                       fields:
                         -
                           import: full_width_media
+                    two_columns:
+                      display: 'Two Columns'
+                      fields:
+                        -
+                          import: two_column_callout
+                    homepage_sticky_panels:
+                      display: 'Homepage Sticky Panels'
+                      fields:
+                        -
+                          import: sticky_panels
   sidebar:
     display: Sidebar
     sections:
