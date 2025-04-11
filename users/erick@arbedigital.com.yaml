@@ -4,3 +4,6 @@ id: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 password_hash: $2y$12$lJXZTc8UAETOsAH0VCK8Ye/tgY7Wsi7kOWetYvyNy.n9bAkLUa69q
 preferences:
   theme: light
+  collections:
+    pages:
+      after_save: continue_editing
