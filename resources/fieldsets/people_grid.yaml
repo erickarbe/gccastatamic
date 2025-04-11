@@ -13,6 +13,22 @@ fields:
               display: 'New Person'
               fields:
                 -
+                  handle: team_type
+                  field:
+                    options:
+                      -
+                        key: leadership
+                        value: Leadership
+                      -
+                        key: visitor_experience_team
+                        value: 'Visitor Experience Team'
+                      -
+                        key: internship_program_team
+                        value: 'Internship Program Team'
+                    inline: true
+                    type: radio
+                    display: 'Team Type'
+                -
                   handle: name
                   field:
                     type: text

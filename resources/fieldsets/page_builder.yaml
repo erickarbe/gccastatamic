@@ -64,3 +64,8 @@ fields:
               fields:
                 -
                   import: two_column_animated
+            people_grid:
+              display: 'People Grid'
+              fields:
+                -
+                  import: people_grid
