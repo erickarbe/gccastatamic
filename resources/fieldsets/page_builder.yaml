@@ -44,11 +44,6 @@ fields:
               fields:
                 -
                   import: cta_section
-            inside_page_hero:
-              display: 'Inside Page Hero'
-              fields:
-                -
-                  import: inside_page_hero
             full_width_carousel:
               display: 'Full Width Carousel'
               fields:
