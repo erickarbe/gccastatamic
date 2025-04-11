@@ -6,7 +6,7 @@ turn_off_hero: true
 template: templates/page
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744310243
+updated_at: 1744314940
 blocks:
   -
     id: m9aaeysb
@@ -51,7 +51,6 @@ blocks:
     type: cta_section
     enabled: true
     image_layout: beside_text
-    image: 852faedf-7480-4543-bd57-dc1dac085ebd_1_105_c.jpeg
     background_color: '#263340'
   -
     id: m9ac4pe4
