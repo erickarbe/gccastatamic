@@ -1,16 +1,16 @@
 ---
-title: Home
 id: home
+blueprint: home_page
+title: Home
 template: home
-blueprint: pages
+home_page_blocks:
+  -
+    id: m9cwiz4r
+    title_text: |-
+      Access Art from
+      **All Angles**
+    type: fade_out_hero
+    enabled: true
+updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
+updated_at: 1744382928
 ---
-## Welcome to your brand new Statamic site!
-
-Not sure what to do next? Here are a few ideas, but feel free to explore in your own way, in your own time.
-
-- [Jump into the Control Panel](/cp) and edit this page or begin setting up your own collections and blueprints.
-- [Head to the docs](https://statamic.dev) and learn how Statamic works.
-- [Watch some Statamic videos](https://youtube.com/statamic) on YouTube.
-- [Join our Discord chat](https://statamic.com/discord) and meet thousands of other Statamic developers.
-- [Start a discussion](https://github.com/statamic/cms/discussions) and get answers to your questions.
-- [Star Statamic on Github](https://github.com/statamic/cms) if you enjoy using it!
