@@ -1,0 +1,46 @@
+title: 'Two Column Callout'
+fields:
+  -
+    handle: column_1_header
+    field:
+      type: text
+      display: 'Column 1 Header'
+  -
+    handle: column_1_content
+    field:
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+      remove_empty_nodes: false
+      type: bard
+      display: 'Column 1 Content'
+  -
+    handle: column_2_header
+    field:
+      type: text
+      display: 'Column 2 Header'
+  -
+    handle: column_2_content
+    field:
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+      remove_empty_nodes: false
+      type: bard
+      display: 'Column 2 Content'
