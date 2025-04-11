@@ -1,47 +1,116 @@
 <section class="w-full py-20">
     <div class="w-full" style="margin-left: 5vw; margin-right: 5vw;">
   
-     
+      <!-- Leadership Section -->
+      <h2 class="text-6xl font-bold mb-8 font-serif text-dark-blue">Leadership</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        {{ people_grid }}
+          {{ if group == "leadership" }}
+            <div class="bg-white p-6 border border-gray-200 rounded-lg shadow-sm">
+              {{ if headshot }}
+                <img src="{{ image:url }}" alt="{{ image:alt }}" class="w-full h-auto rounded-md mb-6 object-cover" />
+              {{ /if }}
   
-      {{ sections }}
-        <h2 class="text-3xl font-bold mb-8 mt-16">{{ label }}</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-          {{ people_grid }}
-            {{ if group == key }}
-              <div class="bg-white p-6 border border-gray-200 rounded-lg shadow-sm">
+              {{ if name }}
+                <h3 class="text-xl font-semibold mb-1">{{ name }}</h3>
+              {{ /if }}
   
-                {{ if image }}
-                  <img src="{{ image:url }}" alt="{{ image:alt }}" class="w-full h-auto rounded-md mb-6 object-cover" />
-                {{ /if }}
+              {{ if title }}
+                <p class="text-sm font-semibold uppercase text-gray-500 mb-4">{{ title }}</p>
+              {{ /if }}
   
-                {{ if name }}
-                  <h3 class="text-xl font-semibold mb-1">{{ name }}</h3>
-                {{ /if }}
+              {{ if bio_excerpt }}
+                <p class="text-sm text-gray-700 leading-relaxed">{{ bio_excerpt }}</p>
+              {{ /if }}
   
-                {{ if title }}
-                  <p class="text-sm font-semibold uppercase text-gray-500 mb-4">{{ title }}</p>
-                {{ /if }}
+              {{ if email or phone_number }}
+                <div class="mt-4 text-sm text-gray-600">
+                  {{ if email }}
+                    <p>Email: <a href="mailto:{{ email }}" class="text-blue-600 underline">{{ email }}</a></p>
+                  {{ /if }}
+                  {{ if phone_number }}
+                    <p>Phone: {{ phone_number }}</p>
+                  {{ /if }}
+                </div>
+              {{ /if }}
+            </div>
+          {{ /if }}
+        {{ /people_grid }}
+      </div>
   
-                {{ if bio_excerpt }}
-                  <p class="text-sm text-gray-700 leading-relaxed">{{ bio_excerpt }}</p>
-                {{ /if }}
+      <!-- Visitor Experience Section -->
+      <h2 class="text-6xl font-bold mb-8 font-serif text-dark-blue">Visitor Experience Team</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        {{ people_grid }}
+          {{ if group == "visitor_experience" }}
+            <div class="bg-white p-6 border border-gray-200 rounded-lg shadow-sm">
+              {{ if image }}
+                <img src="{{ image:url }}" alt="{{ image:alt }}" class="w-full h-auto rounded-md mb-6 object-cover" />
+              {{ /if }}
   
-                {{ if email or phone_number }}
-                  <div class="mt-4 text-sm text-gray-600">
-                    {{ if email }}
-                      <p>Email: <a href="mailto:{{ email }}" class="text-blue-600 underline">{{ email }}</a></p>
-                    {{ /if }}
-                    {{ if phone_number }}
-                      <p>Phone: {{ phone_number }}</p>
-                    {{ /if }}
-                  </div>
-                {{ /if }}
+              {{ if name }}
+                <h3 class="text-xl font-semibold mb-1">{{ name }}</h3>
+              {{ /if }}
   
-              </div>
-            {{ /if }}
-          {{ /people_grid }}
-        </div>
-      {{ /sections }}
+              {{ if title }}
+                <p class="text-sm font-semibold uppercase text-gray-500 mb-4">{{ title }}</p>
+              {{ /if }}
+  
+              {{ if bio_excerpt }}
+                <p class="text-sm text-gray-700 leading-relaxed">{{ bio_excerpt }}</p>
+              {{ /if }}
+  
+              {{ if email or phone_number }}
+                <div class="mt-4 text-sm text-gray-600">
+                  {{ if email }}
+                    <p>Email: <a href="mailto:{{ email }}" class="text-blue-600 underline">{{ email }}</a></p>
+                  {{ /if }}
+                  {{ if phone_number }}
+                    <p>Phone: {{ phone_number }}</p>
+                  {{ /if }}
+                </div>
+              {{ /if }}
+            </div>
+          {{ /if }}
+        {{ /people_grid }}
+      </div>
+  
+      <!-- Internship Program Team Section -->
+      <h2 class="text-6xl font-bold mb-8 font-serif text-dark-blue">Internship Program Team</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        {{ people_grid }}
+          {{ if group == "internship" }}
+            <div class="bg-white p-6 border border-gray-200 rounded-lg shadow-sm">
+              {{ if image }}
+                <img src="{{ image:url }}" alt="{{ image:alt }}" class="w-full h-auto rounded-md mb-6 object-cover" />
+              {{ /if }}
+  
+              {{ if name }}
+                <h3 class="text-xl font-semibold mb-1">{{ name }}</h3>
+              {{ /if }}
+  
+              {{ if title }}
+                <p class="text-sm font-semibold uppercase text-gray-500 mb-4">{{ title }}</p>
+              {{ /if }}
+  
+              {{ if bio_excerpt }}
+                <p class="text-sm text-gray-700 leading-relaxed">{{ bio_excerpt }}</p>
+              {{ /if }}
+  
+              {{ if email or phone_number }}
+                <div class="mt-4 text-sm text-gray-600">
+                  {{ if email }}
+                    <p>Email: <a href="mailto:{{ email }}" class="text-blue-600 underline">{{ email }}</a></p>
+                  {{ /if }}
+                  {{ if phone_number }}
+                    <p>Phone: {{ phone_number }}</p>
+                  {{ /if }}
+                </div>
+              {{ /if }}
+            </div>
+          {{ /if }}
+        {{ /people_grid }}
+      </div>
   
     </div>
   </section>

@@ -4,7 +4,7 @@ blueprint: page
 title: 'Our People'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744382084
+updated_at: 1744382496
 turn_off_hero: false
 eyebrow: Team
 blocks:
