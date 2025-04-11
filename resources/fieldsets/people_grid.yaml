@@ -13,22 +13,6 @@ fields:
               display: 'New Person'
               fields:
                 -
-                  handle: team_type
-                  field:
-                    options:
-                      -
-                        key: leadership
-                        value: Leadership
-                      -
-                        key: visitor_experience_team
-                        value: 'Visitor Experience Team'
-                      -
-                        key: internship_program_team
-                        value: 'Internship Program Team'
-                    inline: true
-                    type: radio
-                    display: 'Team Type'
-                -
                   handle: name
                   field:
                     type: text
@@ -41,30 +25,10 @@ fields:
                     display: Title
                     width: 50
                 -
-                  handle: email
-                  field:
-                    type: text
-                    display: Email
-                    width: 50
-                -
-                  handle: phone_number
-                  field:
-                    type: text
-                    display: 'Phone Number'
-                    width: 50
-                -
-                  handle: bio
-                  field:
-                    type: textarea
-                    display: Bio
-                -
-                  handle: bio_excerpt
-                  field:
-                    type: textarea
-                    display: 'Bio Excerpt'
-                -
                   handle: headshot
                   field:
                     container: s3_assets
                     type: assets
                     display: Headshot
+                    max_files: 1
+                    min_files: 1

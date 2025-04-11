@@ -4,10 +4,16 @@ blueprint: page
 title: 'Our People'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744382496
+updated_at: 1744386104
 turn_off_hero: false
 eyebrow: Team
 blocks:
+  -
+    id: m9cyftmi
+    text_alignment: left
+    title: Leadership
+    type: basic_title
+    enabled: true
   -
     id: m9cvuytq
     people:
@@ -29,9 +35,22 @@ blocks:
         bio_excerpt: "Jess Abbott's journey in the world of nonprofit arts administration spans over 15 years of dedicated service, culminating in her appointment as Chief Executive Officer of the esteemed Greenville Center for Creative Arts (GCCA) in 2022. With a robust background in steering organizations from their nascent stages to thriving phases of growth, Jess brings a wealth of expertise to her leadership role."
         type: new_person
         enabled: true
-        headshot:
-          - jess_abbott.jpg
+        headshot: jess_abbott.jpg
+      -
+        id: m9cy3tq2
+        name: 'Javy Pagan'
+        title: 'Education and Community Engagement Director'
+        headshot: javy_pagan.jpg
+        type: new_person
+        enabled: true
+      -
+        id: m9cy6k4m
+        name: 'Sara Grambach'
+        title: 'Development Director'
+        headshot: sara_grambach.jpg
+        type: new_person
+        enabled: true
     type: people_grid
     enabled: true
-template: templates/page
+template: default
 ---

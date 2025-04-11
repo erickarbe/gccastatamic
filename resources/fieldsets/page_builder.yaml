@@ -69,3 +69,8 @@ fields:
               fields:
                 -
                   import: people_grid
+            basic_title:
+              display: 'Basic Title'
+              fields:
+                -
+                  import: basic_title
