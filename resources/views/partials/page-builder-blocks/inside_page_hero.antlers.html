@@ -1,8 +1,6 @@
-<section class="py-20">
-    <div
-        class="w-[1380px] mx-auto px-4 flex flex-col md:flex-row items-center gap-10"
-    >
-        <div class="md:w-1/2">
+<section class="py-20 mx-[5vw]">
+    <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
+        <div class="inside-hero-text">
             {{ if eyebrow }}
             <p class="text-sm uppercase tracking-wider text-gray-500 mb-8">
                 {{ eyebrow }}
@@ -29,10 +27,14 @@
             {{ /if }}
         </div>
 
-        {{ if image }}
-        <div class="md:w-1/2">
-            <img src="{{ image:url }}" alt="{{ image:alt }}" class="rounded-lg shadow-lg object-cover w-full h-auto" />
-
-        {{ /if }}
+        <div class="inside-hero-image">
+            {{ if image }}
+            <img
+                src="{{ image:url }}"
+                alt="{{ image:alt }}"
+                class="rounded-lg shadow-lg object-cover w-full h-auto"
+            />
+            {{ /if }}
+        </div>
     </div>
 </section>
