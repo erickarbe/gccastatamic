@@ -66,7 +66,17 @@
 .opener p {
     @apply text-gray-blue text-xl max-w-3xl font-light;
 }
-
+.sticky-links h2 span,
+.sticky-links h2 em {
+    font-style: normal;
+    @apply text-gcca-red;
+}
+.sticky-link {
+    @apply text-dark-blue relative inline-flex flex-col p-8 md:pr-[5vw] md:py-12 md:pl-16 space-y-4 hover:bg-gray-100 transition-all duration-300 ease-out;
+}
+.sticky-link:hover .up-arrow {
+    @apply text-gcca-red;
+}
 /* Global Notice */
 .offcanvas-open #global-notice {
     display: none;

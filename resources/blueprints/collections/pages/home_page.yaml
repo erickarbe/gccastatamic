@@ -58,6 +58,11 @@ tabs:
                       fields:
                         -
                           import: sticky_panels
+                    big_panel_links:
+                      display: 'Big Panel Links'
+                      fields:
+                        -
+                          import: sticky_links
   sidebar:
     display: Sidebar
     sections:
