@@ -1,0 +1,222 @@
+---
+id: a4e5c4ae-18c5-4893-9e40-744416596efd
+blueprint: article
+title: 'Greenville Center for Creative Arts Welcomes Sara Grambach as  New Development Director'
+article_category:
+  - news
+author: 08936819-eaee-496d-9bf7-46b244371168
+article_date: '2024-12-02'
+content:
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'FOR IMMEDIATE RELEASE'
+        marks:
+          -
+            type: bold
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Contact:'
+        marks:
+          -
+            type: bold
+      -
+        type: hardBreak
+        marks:
+          -
+            type: bold
+      -
+        type: text
+        text: 'Jess Abbott, CEO'
+        marks:
+          -
+            type: bold
+      -
+        type: hardBreak
+        marks:
+          -
+            type: bold
+      -
+        type: text
+        text: 'Greenville Center for Creative Arts'
+        marks:
+          -
+            type: bold
+      -
+        type: hardBreak
+        marks:
+          -
+            type: bold
+      -
+        type: text
+        text: 'Phone: 864-274-0351'
+        marks:
+          -
+            type: bold
+      -
+        type: hardBreak
+        marks:
+          -
+            type: bold
+      -
+        type: text
+        text: 'Email: jess@artcentergreenville.org'
+        marks:
+          -
+            type: bold
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Greenville Center for Creative Arts Welcomes Sara Grambach as '
+        marks:
+          -
+            type: bold
+      -
+        type: hardBreak
+        marks:
+          -
+            type: bold
+      -
+        type: text
+        text: 'New Development Director'
+        marks:
+          -
+            type: bold
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Greenville, SC – December 2, 2024'
+        marks:
+          -
+            type: bold
+      -
+        type: text
+        text: ' – Greenville Center for Creative Arts (GCCA), a vibrant hub for the visual arts and a cornerstone of Greenville’s cultural community, is proud to announce Sara Grambach as its new Development Director.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Sara joins GCCA with over 20 years of experience in sales, marketing, business development, and fundraising, including leadership roles at several nonprofits. Most recently, she served as Chief Development & Community Engagement Officer at a community health center on Cape Cod, Massachusetts, where she exceeded financial goals and elevated the organization’s brand visibility across the region. Her extensive background includes advocacy work as an elected official, board membership in her local young professionals organization, and active involvement with her community’s Chamber of Commerce and Rotary Club.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'A Greenville native, Sara attended Wade Hampton High School and The Fine Arts Center before earning a degree in advertising from the University of Georgia and an MS in health communications from Tufts University School of Medicine in Boston. Her lifelong passion for nonprofit arts organizations makes this role especially meaningful.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: '“Sara’s arrival at GCCA marks an exciting milestone as we approach our 10th anniversary in 2025,” said Jess Abbott, CEO of GCCA. “Over the past decade, GCCA has become a cornerstone of Greenville’s arts community, fostering creativity, education, and connection for people of all ages and backgrounds. With her extensive experience in development and her passion for community engagement, Sara will play a crucial role in strengthening our foundation and amplifying our reach. Her leadership will help ensure that GCCA continues its legacy of enriching lives through the arts and broadens our capacity to serve as a vital resource for the Upstate. We’re thrilled to have her join us at such an important moment in our history and future.”'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Sara is eager to partner with GCCA’s talented staff, dedicated board members, community collaborators, and generous donors to ensure the organization’s growth and sustainability in the years ahead.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Greenville Center for Creative Arts is committed to inspiring creativity and connection through exhibitions, educational programs, and artist residencies. Learn more about GCCA and its mission at'
+      -
+        type: text
+        text: ' '
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'http://www.artcentergreenville.org/'
+      -
+        type: text
+        text: www.artcentergreenville.org
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'http://www.artcentergreenville.org/'
+      -
+        type: text
+        text: .
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'About Greenville Center for Creative Arts'
+        marks:
+          -
+            type: bold
+      -
+        type: hardBreak
+      -
+        type: text
+        text: ' Greenville Center for Creative Arts (GCCA) is a nonprofit organization founded in 2015 to nurture artists and art enthusiasts of all backgrounds. Housed in the historic Brandon Mill, GCCA offers diverse programming, including classes, exhibitions, and community events, to foster a thriving arts community in Greenville and beyond.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'For more information, please visit'
+      -
+        type: text
+        text: ' '
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'http://www.artcentergreenville.org/'
+      -
+        type: text
+        text: www.artcentergreenville.org
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'http://www.artcentergreenville.org/'
+      -
+        type: text
+        text: .
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "\_"
+---

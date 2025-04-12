@@ -1,0 +1,89 @@
+---
+id: c961694d-582d-438f-bfa7-9479b12fc1c1
+blueprint: article
+title: 'Applications Open on June 3 for Emerging Artist Fellowship at Greenville Center for Creative Arts'
+article_category:
+  - news
+author: e00f3479-ec76-4b94-9035-181deda30ff3
+article_date: '2022-06-03'
+content:
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Greenville, SC - '
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: "Greenville Center for Creative Arts (GCCA) will begin accepting applications for its annual emerging young artist program, the Brandon Fellowship, on Friday, June 3, 2022. This 12-month program aims to develop three emerging artists between the ages of 21 to 30 who represent the diversity of the Greenville community. Those selected receive free studio space, a stipend for supplies, a supportive environment, mentorship, and complimentary art education for one full year. Through this unique opportunity for young creative arts professionals, Fellowship alumni have established themselves as full-time working artists, designers, graduate students, artists-in-residence, instructors, published artists, grant recipients, and award winners.\_"
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'This will be the eighth year for the program, which was created in 2015 when the Art Center was founded. The application will be available until July 3rd on GCCA’s website. In addition, paper copies can be picked up in person at 101 Abney Street Tuesday through Friday, 9:00 a.m. to 5:00 p.m., or Saturday 11:00 a.m. to 3:00 p.m. Applicants must be legal citizens of the United States and residents of Greenville County. They must also be between the ages of 21 and 30. Prior professional art training or post-secondary education is not required for consideration. Completed applications must be received by 11:59 p.m. on Wednesday, July 3, 2022, to be considered.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'To learn more about the Brandon Fellowship or to support the program with a donation, visit '
+      -
+        type: text
+        text: www.artcentergreenville.org
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'http://www.artcentergreenville.org/brandonfellowship'
+      -
+        type: text
+        text: /brandonfellowship
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'http://www.artcentergreenville.org/brandonfellowship'
+      -
+        type: text
+        text: .
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'About Greenville Center for Creative Arts'
+        marks:
+          -
+            type: bold
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "Founded by a dedicated group of local artists and philanthropists, Greenville Center for Creative Arts (GCCA) opened in May 2015 as a community hub for the visual arts. A 501(c)(3) non-profit organization, its mission is to enrich the cultural fabric of the communities it serves through visual arts promotion, education, and inspiration. GCCA provides arts education to more than 900 people each year, as well as showcases local artists, and nurtures appreciation and enjoyment in the arts. It houses artists' studios, an emerging artists’ fellowship, exhibitions, free community programs, and classes for all ages. For more information, visit "
+      -
+        type: text
+        text: www.artcentergreenville.org
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'http://www.artcentergreenville.org'
+      -
+        type: text
+        text: ', call 864-735-3948, or check out GCCA on Facebook, Instagram, and YouTube.'
+---

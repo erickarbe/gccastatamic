@@ -1,0 +1,83 @@
+---
+id: 3168ff5d-725a-412f-8f75-e7633f653c70
+blueprint: article
+title: 'Greenville Center for Creative Arts Promotes Ben Tarcson to Gallery Director'
+article_category:
+  - news
+author: e00f3479-ec76-4b94-9035-181deda30ff3
+article_date: '2022-10-31'
+content:
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Greenville, SC - '
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: "Greenville Center for Creative Arts (GCCA) has promoted Ben Tarcson to the position of Gallery Director. As one of the longest-serving staff members at GCCA, Tarcson has played an important role in the strategic development of GCCA’s exhibition program, facilitating the committee review process and serving as a liaison to exhibiting artists.\_\_\_"
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "In his new role as\_Gallery Director, Tarcson will become the lead advisor to the Brandon Fellowship program, as well as continuing his exhibition management duties. Tarcson has coordinated and installed over 50 art exhibitions across the Main, Community, and Studio Artist Loft galleries during his five years with GCCA. Some notable exhibitions\_include The South Carolina State Art Collection’s "
+      -
+        type: text
+        text: 'Contemporary Conversations'
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: ' and '
+      -
+        type: text
+        text: 'Narratives Ending in Separation'
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: " by Linda McCune, amongst many others.\_"
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Tarcson is a graduate of Allegheny College with a bachelor’s degree in studio art, a concentration in painting, and a minor in history. While at Allegheny College, he worked as a Gallery Assistant for the college’s Bowman-Penelac-Megahan art gallery, where he assisted exhibiting artists and the Director & Curator with exhibition installation and other art-related events.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: "CEO Jess Burgess comments, “Ben's promotion is a direct result of his exemplary work and dedication throughout his time at GCCA, and we're thrilled to support his continued growth as a leader for the organization.\""
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        text: 'Join GCCA for its next exhibition opening on Friday, November 4, from 6-9 p.m., to see the newly installed '
+      -
+        type: text
+        text: 'Square Roots'
+        marks:
+          -
+            type: italic
+      -
+        type: text
+        text: ' by Sarkis Chorbadjian in the GCCA Community Gallery.'
+---

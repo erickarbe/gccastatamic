@@ -1,0 +1,10 @@
+title: 'Image Gallery'
+fields:
+  -
+    handle: images
+    field:
+      max_files: 8
+      mode: grid
+      container: s3_assets
+      type: assets
+      display: Images

@@ -1,0 +1,8 @@
+locale: en
+favorites: {  }
+nav:
+  content:
+    'content::assets':
+      action: '@modify'
+      reorder:
+        - 'content::assets::s3_assets'
