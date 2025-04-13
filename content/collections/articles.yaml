@@ -1,7 +1,12 @@
 title: Articles
+template: default
+layout: layout
 taxonomies:
   - article_category
 revisions: false
+route: "/articles/{slug}"
+date: true
+sort_dir: desc
 date_behavior:
   past: public
   future: private

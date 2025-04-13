@@ -11,8 +11,8 @@ preferences:
       columns:
         - title
         - article_category
-        - author
-        - status
+        - date
+        - article_date
       after_save: continue_editing
     events:
       columns:

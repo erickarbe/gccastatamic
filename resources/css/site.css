@@ -105,7 +105,38 @@
     margin-bottom: 0;
 }
 
-/* Random */
+/* Fancy Button */
+.fancy-button:before {
+    @apply bg-gray-blue;
+    border-radius: 2px;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: width 0.25s ease-out;
+    width: 48px;
+    z-index: 0;
+}
+.fancy-button.white:before {
+    @apply bg-white;
+}
+.fancy-button:hover:before {
+    width: 100%;
+}
+.fancy-button:hover .btn-icon-arrow {
+    transform: translate(10px);
+}
+.fancy-button:hover .text {
+    transform: translate(-10px);
+}
+.fancy-button:hover .text {
+    color: white;
+}
+.fancy-button.white:hover .text {
+    @apply text-dark-blue;
+}
 
 /* Full Page Menu */
 .ad-offcanvas {
