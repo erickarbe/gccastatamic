@@ -74,3 +74,8 @@ fields:
               fields:
                 -
                   import: basic_title
+            sticky_panels:
+              display: 'Sticky Panels'
+              fields:
+                -
+                  import: sticky_panels
