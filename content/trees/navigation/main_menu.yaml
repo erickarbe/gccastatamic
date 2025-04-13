@@ -56,6 +56,10 @@ tree:
         id: 8b6410ab-0b60-429e-a61d-87e4ced4d070
         entry: 0e321df4-9e0c-46ab-a2f7-04b33fcc4325
       -
+        id: 7ac26813-d4bc-402f-b129-6af8ee5b18e7
+        title: Calendar
+        url: /events/
+      -
         id: ef700d07-8b1c-466f-a4a5-fc6fefdd8e26
         entry: ec33ca3e-4bfd-4b06-aab3-3370bba1b9b3
   -
