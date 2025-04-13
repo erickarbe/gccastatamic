@@ -1,0 +1,33 @@
+<article class="relative bg-white md:px-[5vw] py-24">
+  <a href="/events" class="text-sm text-gray-500 hover:underline">&larr; Back to Events</a>
+
+  <h1 class="text-4xl font-bold mt-4 text-dark-blue">{{ title }}</h1>
+
+  <div class="mt-2 text-gray-600 text-sm space-y-1">
+    {{ if start_date_time }}
+      <p><strong>Date:</strong> {{ start_date_time format="F j, Y" }}</p>
+      <p><strong>Time:</strong> {{ start_date_time format="g:i A" }}
+        {{ if end_date_time }} – {{ end_date_time format="g:i A" }}{{ /if }}
+      </p>
+    {{ /if }}
+
+    {{ if location }}
+      <p><strong>Location:</strong> {{ location }}</p>
+    {{ /if }}
+
+    {{ if event_category }}
+      <p>
+        <strong>Category:</strong>
+        <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-0.5 rounded">
+          {{ event_category }}
+        </span>
+      </p>
+    {{ /if }}
+  </div>
+
+  {{ if content }}
+    <div class="prose prose-lg mt-8 max-w-none">
+      {{ content }}
+    </div>
+  {{ /if }}
+</article>
