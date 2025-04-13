@@ -6,6 +6,9 @@ article_category:
   - news
 author: 4bbfb4a7-c929-44bc-9b6c-75777742f264
 article_date: '2025-03-24'
+updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
+updated_at: 1744560814
+featured_image: beyond-the-edge-email-banner-anna-scaled.jpg
 content:
   -
     type: paragraph
@@ -14,19 +17,19 @@ content:
     content:
       -
         type: text
-        text: 'Greenville, SC '
         marks:
           -
             type: italic
+        text: 'Greenville, SC '
       -
         type: text
         text: '– The Greenville Center for Creative Arts (GCCA) is pleased to present '
       -
         type: text
-        text: 'Beyond the Edge'
         marks:
           -
             type: italic
+        text: 'Beyond the Edge'
       -
         type: text
         text: ', an art exhibition featuring the work of Ana Vizcarra Rankin and Lindsay Godin, two nationally recognized artists whose work challenges the way we see and interpret space—both terrestrial and cosmic. The exhibition opens with a public reception on Friday, April 4, 2025, from 6-9 PM, and remains on view through Wednesday, May 28, 2025. Beyond the Edge is generously supported by media sponsor TOWN.'
@@ -37,23 +40,10 @@ content:
     content:
       -
         type: text
-        text: '[caption id="attachment_243528" align="alignleft" width="300"]'
-      -
-        type: image
-        attrs:
-          src: 'https://artcentergreenville.org/wp-content/uploads/2025/03/Copy-of-Red-Flag-particulates-back-world-map-300x184.jpg'
-      -
-        type: text
-        text: ' Ana Vizcarra Rankin "Red Flags [atmospheric particulates]", 2022, mixed media on cotton canvas, 96"x48"[/caption]'
-      -
-        type: text
-        text: 'Beyond the Edge '
         marks:
           -
-            type: italic
-      -
-        type: text
-        text: "explores human propensity to observe, discover, and then control space, both terrestrial and cosmic. Ana Vizcarra Rankin’s paintings challenge the supposed objectivity of maps, revealing how they reflect power structures and shape our understanding of place. By reimagining erased histories and offering alternative\_perspectives—such as unconventional map orientations and cosmic reinterpretations—she invites viewers to question dominant narratives and consider new ways of seeing. Lindsay Godin’s “Futurisms” photography series examines humanity’s enduring fascination with uncharted territories, from early celestial observations to modern space exploration. Her work highlights how technological advancements—such as telescopes and rockets—extend our reach beyond Earth, transforming observation into an act of possession. By exploring the tension between curiosity and control, “Futurisms” reflects on the relentless human impulse to claim the unknown."
+            type: bold
+        text: 'Ana Vizcarra Rankin “Red Flags [atmospheric particulates]”, 2022, mixed media on cotton canvas, 96″x48″'
   -
     type: paragraph
     attrs:
@@ -61,14 +51,32 @@ content:
     content:
       -
         type: text
-        text: '[caption id="attachment_243519" align="alignright" width="296"]'
-      -
-        type: image
-        attrs:
-          src: 'https://artcentergreenville.org/wp-content/uploads/2025/03/Space-Station-300x240.jpg'
+        marks:
+          -
+            type: bold
+          -
+            type: italic
+        text: 'Beyond the Edge '
       -
         type: text
-        text: ' Lindsay Godin, "Space Station", Archival Inkjet Print on Epson Ultra-Premium Presentation Paper Matte, 24" x 30"[/caption]'
+        text: "explores human propensity to observe, discover, and then control space, both terrestrial and cosmic. Ana Vizcarra Rankin’s paintings challenge the supposed objectivity of maps, revealing how they reflect power structures and shape our understanding of place. By reimagining erased histories and offering alternative\_perspectives—such as unconventional map orientations and cosmic reinterpretations—she invites viewers to question domi"
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'nant narratives and consider new ways of seeing. Lindsay Godin’s “Futurisms” photography series examines humanity’s enduring fascination with uncharted territories, from early celestial observations to modern space exploration. Her work highlights how technological advancements—such as telescopes and rockets—extend our reach beyond Earth, transforming observation into an act of possession. By exploring the tension between curiosity and control, “Futurisms” reflects on the relentless human impulse to claim the unknown.'
+  -
+    type: paragraph
+    attrs:
+      textAlign: left
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Lindsay Godin, “Space Station”, Archival Inkjet Print on Epson Ultra-Premium Presentation Paper Matte, 24″ x 30″'
   -
     type: paragraph
     attrs:
@@ -79,10 +87,10 @@ content:
         text: 'Together, their works expose a deeper ambition—not just to observe, but to claim both physical and conceptual spaces. '
       -
         type: text
-        text: 'Beyond the Edge'
         marks:
           -
             type: italic
+        text: 'Beyond the Edge'
       -
         type: text
         text: ' ultimately asks us to reflect on the ongoing tension between the nature of preservation and technological progress. Through these perspectives, the exhibition encourages both wonder and responsibility, reminding us of our power to shape the future of our planet and beyond.'
@@ -93,34 +101,10 @@ content:
     content:
       -
         type: text
-        text: "\_"
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
-    content:
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
-    content:
-      -
-        type: text
-        text: "\_"
-  -
-    type: paragraph
-    attrs:
-      textAlign: left
-    content:
-      -
-        type: text
-        text: 'About the Artists'
         marks:
           -
             type: bold
+        text: 'About the Artists'
   -
     type: paragraph
     attrs:
@@ -128,12 +112,12 @@ content:
     content:
       -
         type: text
-        text: 'Ana Vizcarra Rankin'
         marks:
           -
             type: bold
           -
             type: italic
+        text: 'Ana Vizcarra Rankin'
       -
         type: text
         text: ' is a research-driven artist whose work explores themes of mapping, data visualization, and our connection to the universe. Born in Uruguay and raised in both South and North America, Rankin creates perceptual art that investigates the intersections of science, history, and culture. Her work, which ranges from monumental canvases to delicate, diminutive objects, considers events that occur in subatomic space time all the way to global and cosmic perspectives.'
@@ -160,12 +144,12 @@ content:
     content:
       -
         type: text
-        text: 'Lindsay Godin'
         marks:
           -
             type: bold
           -
             type: italic
+        text: 'Lindsay Godin'
       -
         type: text
         text: ' (b.1992) was born in central New Jersey and got her MA & MFA in Studio Arts (emphasis in Photography) at the University of Iowa in 2018. She researches photography curricula and is a fine arts documentary photographer. Her photography sheds awareness of contemporary cultural norms and political values and how these effect society on the macroscale. Lindsay was the recipient of PDN’s 2017 Photo Annual Award for her student work. Her work is also on permanent collection at the Albright-Knox Gallery in New York and with other work having been exhibited nationally and internationally. As of August 2020, Lindsay is the Photography Coordinator and an Assistant Professor of Photography and Design at Valdosta State University in Georgia.'
@@ -179,10 +163,13 @@ content:
         text: 'Exhibition Weblink: '
       -
         type: text
-        text: 'https://artcentergreenville.org/exhibitions/beyond-the-edge/'
         marks:
           -
             type: link
             attrs:
               href: 'https://artcentergreenville.org/exhibitions/beyond-the-edge/'
+              rel: null
+              target: null
+              title: null
+        text: 'https://artcentergreenville.org/exhibitions/beyond-the-edge/'
 ---

@@ -1,0 +1,43 @@
+title: 'Sticky Panels'
+fields:
+  -
+    handle: panels
+    field:
+      type: replicator
+      display: Panels
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            panel_group:
+              display: 'Panel Group'
+              fields:
+                -
+                  handle: panel_title
+                  field:
+                    type: text
+                    display: 'Panel Title'
+                -
+                  handle: panel_content
+                  field:
+                    remove_empty_nodes: false
+                    type: bard
+                    display: 'Panel Content'
+                -
+                  handle: panel_button_text
+                  field:
+                    type: text
+                    display: 'Panel Button Text'
+                    width: 50
+                -
+                  handle: panel_button_link
+                  field:
+                    type: link
+                    display: 'Panel Button Link'
+                    width: 50
+                -
+                  handle: panel_image
+                  field:
+                    container: s3_assets
+                    type: assets
+                    display: 'Panel Image'

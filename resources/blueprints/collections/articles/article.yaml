@@ -47,6 +47,13 @@ tabs:
               display: 'Article Category'
               mode: select
           -
+            handle: featured_image
+            field:
+              max_files: 1
+              container: s3_assets
+              type: assets
+              display: 'Featured Image'
+          -
             handle: template
             field:
               type: template
@@ -65,10 +72,3 @@ tabs:
             field:
               type: date
               display: 'Article Date'
-          -
-            handle: featured_image
-            field:
-              max_files: 1
-              container: assets
-              type: assets
-              display: 'Featured Image'

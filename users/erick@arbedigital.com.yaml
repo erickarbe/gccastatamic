@@ -13,3 +13,14 @@ preferences:
         - article_category
         - author
         - status
+      after_save: continue_editing
+    events:
+      columns:
+        - title
+        - event_category
+        - status
+    studio_artists:
+      columns:
+        - title
+        - studio
+        - artists_medium

@@ -1,0 +1,101 @@
+title: Event
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: location
+            field:
+              type: text
+              display: Location
+          -
+            handle: start_date_time
+            field:
+              time_enabled: true
+              type: date
+              display: 'Start Date & Time'
+              width: 50
+          -
+            handle: end_date_time
+            field:
+              time_enabled: true
+              type: date
+              display: 'End Date & Time'
+              width: 50
+          -
+            handle: all_day_event
+            field:
+              type: toggle
+              display: 'All Day Event'
+          -
+            handle: content
+            field:
+              remove_empty_nodes: false
+              container: s3_assets
+              type: bard
+              display: Content
+          -
+            handle: featured_image
+            field:
+              container: s3_assets
+              type: assets
+              display: 'Featured Image'
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: event_category
+            field:
+              type: terms
+              taxonomies:
+                - event_category
+              display: 'Event Category'
+              mode: select
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: date
+            field:
+              type: date
+              default: now
+              validate:
+                - required
+              display: 'Publish Date'
+          -
+            handle: author
+            field:
+              type: users
+              display: Author
+              default: current
+              localizable: true
+              max_items: 1
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - events
+              max_items: 1
+              listable: false
+              localizable: true
+          -
+            handle: template
+            field:
+              type: template
+              display: Template
+              localizable: true

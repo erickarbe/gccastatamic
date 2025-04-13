@@ -43,10 +43,10 @@ tabs:
               type: text
               display: 'Facebook Handle'
           -
-            handle: artist_qoute
+            handle: artist_quote
             field:
               type: textarea
-              display: 'Artist Qoute'
+              display: 'Artist Quote'
           -
             handle: biography
             field:
@@ -82,13 +82,22 @@ tabs:
             handle: featured_image
             field:
               max_files: 1
-              container: assets
+              container: s3_assets
               type: assets
               display: 'Featured Image'
           -
             handle: headshot
             field:
               max_files: 1
-              container: assets
+              container: s3_assets
               type: assets
               display: Headshot
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - studio_artists
+              max_items: 1
+              listable: false
+              localizable: true
