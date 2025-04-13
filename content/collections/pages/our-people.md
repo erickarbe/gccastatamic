@@ -3,9 +3,9 @@ id: 4b49b7d2-0525-40ac-a674-162a852a74c8
 blueprint: page
 title: 'Our People'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744395737
-turn_off_hero: false
+updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
+updated_at: 1744563887
+turn_off_hero: true
 eyebrow: Team
 blocks:
   -
@@ -14,6 +14,7 @@ blocks:
     title: Leadership
     type: basic_title
     enabled: true
+    eyebrow: 'Our People'
   -
     id: m9cvuytq
     people:
