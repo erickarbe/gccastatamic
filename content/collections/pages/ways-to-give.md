@@ -4,12 +4,17 @@ blueprint: page
 title: 'Ways to Give'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744412165
+updated_at: 1744568151
 turn_off_hero: false
 blocks:
   -
+    id: m9fytwri
+    text_alignment: left
+    title: 'You can support GCCA’s mission in a number of ways:'
+    type: basic_title
+    enabled: true
+  -
     id: m9ddeixx
-    content_grid_title: 'You can support GCCA’s mission in a number of ways:'
     content_grid_item:
       -
         id: m9ddf1ml

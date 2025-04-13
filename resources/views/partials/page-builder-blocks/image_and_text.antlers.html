@@ -1,34 +1,47 @@
-<section class="py-20 mr-[5vw] ml-[5vw]">
-    <div class="flex flex-col md:flex-row {{ if image_left_or_right == 'right' }}md:flex-row-reverse{{ /if }} items-center gap-10">
-      
-      {{ if image }}
-        <div class="md:w-1/2 w-full">
-          <img src="{{ image:url }}" alt="{{ image:alt }}" class="rounded-lg shadow-lg object-cover w-full h-[520px]" />
+<section class="my-20 pr-[5vw] pl-[5vw] md:border-y border-gray-200">
+  <div class="flex flex-col md:flex-row {{ if image_left_or_right == 'right' }}md:flex-row-reverse{{ /if }} items-center">
+
+    {{ if image }}
+      <div class="md:w-1/2 w-full py-20
+        {{ if image_left_or_right == 'right' }}
+          md:pl-20 md:pr-[0px] md:border-l border-gray-200
+        {{ else }}
+          md:pr-20 md:pl-[0px] md:border-r border-gray-200
+        {{ /if }}
+      ">
+        <img src="{{ image:url }}" alt="{{ image:alt }}" class="rounded-sm shadow-lg object-cover w-full md:h-[520px] h-[420px]" />
+      </div>
+    {{ /if }}
+
+    <div class="md:w-1/2 w-full text-center md:text-left pb-10 md:py-20
+      {{ if image_left_or_right == 'right' }}
+        md:pr-20
+      {{ else }}
+        md:pl-20
+      {{ /if }}
+    ">
+      {{ if content_group:eyebrow }}
+        <p class="text-sm uppercase tracking-widest text-gray-500 mb-2">{{ content_group:eyebrow }}</p>
+      {{ /if }}
+
+      {{ if content_group:heading }}
+        <h2 class="font-serif text-5xl font-bold mb-4">{{ content_group:heading }}</h2>
+      {{ /if }}
+
+      {{ if content_group:content }}
+        <div class="prose max-w-none text-gray-700 mb-6">
+          {{ content_group:content }}
         </div>
       {{ /if }}
-  
-      <div class="md:w-1/2 w-full text-center md:text-left">
-        {{ if content_group:eyebrow }}
-          <p class="text-sm uppercase tracking-widest text-gray-500 mb-2">{{ content_group:eyebrow }}</p>
-        {{ /if }}
-  
-        {{ if content_group:heading }}
-          <h2 class="text-4xl font-bold mb-4">{{ content_group:heading }}</h2>
-        {{ /if }}
-  
-        {{ if content_group:content }}
-          <div class="prose max-w-none text-gray-700 mb-6">
-            {{ content_group:content }}
-          </div>
-        {{ /if }}
-  
-        {{ if content_group:button_text and content_group:button_link }}
-          <a href="{{ content_group:button_link:url }}" class="inline-block bg-gcca-red text-white px-6 py-3 rounded hover:bg-gray-800 transition">
-            {{ content_group:button_text }}
-          </a>
-        {{ /if }}
-      </div>
-  
+
+      {{ if content_group:button_text and content_group:button_link }}
+        <a href="{{ content_group:button_link:url }}" class="inline-block bg-gcca-red text-white px-6 py-3 rounded hover:bg-gray-800 transition">
+          {{ content_group:button_text }}
+        </a>
+      {{ /if }}
     </div>
-  </section>  
+
+  </div>
+</section>
+ 
   
