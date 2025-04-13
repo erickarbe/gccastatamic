@@ -13,3 +13,8 @@ preferences:
         - article_category
         - author
         - status
+    events:
+      columns:
+        - title
+        - event_category
+        - status

@@ -7,10 +7,9 @@ end_date_time: '2025-04-04 21:45'
 date: '2025-04-13'
 event_category:
   - first-friday
-  - exhibitions
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744506259
+updated_at: 1744555223
 location: "Governor's School for the Arts"
 content:
   -

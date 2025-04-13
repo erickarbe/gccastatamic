@@ -32,6 +32,11 @@ tabs:
               display: 'End Date & Time'
               width: 50
           -
+            handle: all_day_event
+            field:
+              type: toggle
+              display: 'All Day Event'
+          -
             handle: content
             field:
               remove_empty_nodes: false

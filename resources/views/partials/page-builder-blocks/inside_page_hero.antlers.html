@@ -7,10 +7,10 @@
             </p>
             {{ /if }}
 
-            <h2 class="text-7xl mb-8 font-serif">
+            <h1 class="text-5xl md:text-7xl mb-8 font-serif">
                 {{ if inside_hero_header }} {{ inside_hero_header }} {{ else }}
                 {{ title }} {{ /if }}
-            </h2>
+            </h1>
 
             {{ if inside_hero_content }}
             <div class="prose max-w-none text-gray-700 mb-6">
@@ -28,13 +28,13 @@
         </div>
 
         <div class="inside-hero-image">
-            {{ if image }}
+            {{ inside_hero_image }}
             <img
-                src="{{ image:url }}"
-                alt="{{ image:alt }}"
+                src="{{ url }}"
+                alt="{{ alt }}"
                 class="rounded-lg shadow-lg object-cover w-full h-auto"
             />
-            {{ /if }}
+            {{ /inside_hero_image }}
         </div>
     </div>
 </section>

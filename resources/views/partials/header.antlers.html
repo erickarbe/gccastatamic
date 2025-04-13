@@ -6,16 +6,11 @@
             <div class="offcanvas-logo">
                 <nav class="simple-nav">
                     <ul>
+                        {{ nav:header_small_nav }}
                         <li>
-                            <a href="/" class="pl-0">Gift Shop</a>
+                            <a href="{{ url }}" {{ if open_in_new_window }}target="_blank"{{ /if }} class="pl-0">{{ title }}</a>
                         </li>
-                        <li><a href="/">Give</a></li>
-                        <li>
-                            <a href="/">Join</a>
-                        </li>
-                        <li>
-                            <a href="/">Purchase Art</a>
-                        </li>
+                        {{ /nav:header_small_nav }}
                     </ul>
                 </nav>
             </div>
@@ -23,241 +18,33 @@
         <div class="offcanvas-menu">
             <div class="offcanvas-nav">
                 <ul id="menu-main" class="menu">
-                    <li
-                        id="menu-item-270"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-270 active-item"
-                    >
-                        <a href="/">Visit</a>
-                        <ul class="sub-menu">
-                            <li
-                                id="menu-item-418"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-418"
-                            >
-                                <a href="/">Exhibitions</a>
-                            </li>
-                            <li
-                                id="menu-item-567"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-567"
-                            >
-                                <a href="/">Group Tours</a>
-                            </li>
-                            <li
-                                id="menu-item-271"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"
-                            >
-                                <a href="/">Need to Know</a>
-                            </li>
-                            <li
-                                id="menu-item-272"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-272"
-                            >
-                                <a href="/">Accessibility</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li
-                        id="menu-item-274"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-274"
-                    >
-                        <a href="/">Education</a>
-                        <ul class="sub-menu">
-                            <li
-                                id="menu-item-785"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-785"
-                            >
-                                <a href="/">Art School</a>
-                            </li>
-                            <li
-                                id="menu-item-275"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"
-                            >
-                                <a href="/">Summer Art Camp</a>
-                            </li>
-                            <li
-                                id="menu-item-276"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-276"
-                            >
-                                <a href="/">Community Engagement</a>
-                            </li>
-                            <li
-                                id="menu-item-1928"
-                                class="footer-safety-data-sheets menu-item menu-item-type-post_type menu-item-object-page menu-item-1928"
-                            >
-                                <a href="/">Instructor Proposals</a>
-                            </li>
-                            <li
-                                id="menu-item-1928"
-                                class="footer-safety-data-sheets menu-item menu-item-type-post_type menu-item-object-page menu-item-1928"
-                            >
-                                <a href="/">Scholarships</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li
-                        id="menu-item-278"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-278"
-                    >
-                        <a href="/">Events</a>
-                        <ul class="sub-menu">
-                            <li
-                                id="menu-item-2093"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2093"
-                            >
-                                <a href="/">Annual Showcase</a>
-                            </li>
-                            <li
-                                id="menu-item-279"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-279"
-                            >
-                                <a href="/">Color Gala</a>
-                            </li>
-                            <li
-                                id="menu-item-281"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-281"
-                            >
-                                <a href="/">First Friday</a>
-                            </li>
-                            <li
-                                id="menu-item-282"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-282"
-                            >
-                                <a href="/">ARTalk</a>
-                            </li>
-                            <li
-                                id="menu-item-283"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-283"
-                            >
-                                <a href="/">Calendar</a>
-                            </li>
-                            <li
-                                id="menu-item-283"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-283"
-                            >
-                                <a href="/">Host Your Event</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li
-                        id="menu-item-284"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-284"
-                    >
-                        <a href="/">Artists</a>
-                        <ul class="sub-menu">
-                            <li
-                                id="menu-item-2094"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2094"
-                            >
-                                <a href="/">Studio Artists</a>
-                            </li>
-                            <li
-                                id="menu-item-1245"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1245"
-                            >
-                                <a href="/">Brandon Fellowship</a>
-                            </li>
-                            <li
-                                id="menu-item-1272"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1272"
-                            >
-                                <a href="/">Exhibition Proposals</a>
-                            </li>
-                            <li
-                                id="menu-item-393"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393"
-                            >
-                                <a href="/">Gift Shop Proposals</a>
-                            </li>
-                            <li
-                                id="menu-item-394"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-394"
-                            >
-                                <a href="/">Resources for Artists</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li
-                        id="menu-item-292"
-                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-292"
-                    >
-                        <a target="_blank" href="/">Support</a>
-                        <ul class="sub-menu">
-                            <li
-                                id="menu-item-2096"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2096"
-                            >
-                                <a target="_blank" href="/"
-                                    >Ways to Give</a
-                                >
-                            </li>
-                            <li
-                                id="menu-item-1882"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1882"
-                            >
-                                <a target="_blank" href="/"
-                                    >Membership</a
-                                >
-                            </li>
-                            <li
-                                id="menu-item-1883"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1883"
-                            >
-                                <a target="_blank" href="/"
-                                    >Sponsorship</a
-                                >
-                            </li>
-                            <li
-                                id="menu-item-1884"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1884"
-                            >
-                                <a target="_blank" href="/"
-                                    >Planned Giving</a
-                                >
-                            </li>
-                            <li
-                                id="menu-item-1885"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1885"
-                            >
-                                <a target="_blank" href="/"
-                                    >Volunteer</a
-                                >
-                            </li>
-                        </ul>
-                    </li>
-                    <li
-                        id="menu-item-293"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-293"
-                    >
-                        <a href="/">About</a>
-                        <ul class="sub-menu">
-                            <li
-                                id="menu-item-2095"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2095"
-                            >
-                                <a href="/">Our Purpose</a>
-                            </li>
-                            <li
-                                id="menu-item-534"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-534"
-                            >
-                                <a target="_blank" href="/"
-                                    >Our People</a
-                                >
-                            </li>
-                            <li
-                                id="menu-item-396"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-396"
-                            >
-                                <a href="/">News</a>
-                            </li>
-                            <li
-                                id="menu-item-397"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397"
-                            >
-                                <a href="/">Blog</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+                    {{ nav:main_menu }}
+                      <li
+                        id="menu-item-{{ id }}"
+                        class="menu-item menu-item-type-{{ type }} menu-item-object-{{ collection or taxonomy or 'custom' }} {{ if children }}menu-item-has-children{{ /if }} menu-item-{{ id }}{{ if is_current or is_parent }} active-item{{ /if }}"
+                      >
+                        <a href="{{ url }}" {{ if new_window }}target="_blank"{{ /if }}>
+                          {{ title }}
+                        </a>
+                  
+                        {{ if children }}
+                          <ul class="sub-menu">
+                            {{ children }}
+                              <li
+                                id="menu-item-{{ id }}"
+                                class="menu-item menu-item-type-{{ type }} menu-item-object-{{ collection or taxonomy or 'custom' }} menu-item-{{ id }}"
+                              >
+                                <a href="{{ url }}" {{ if new_window }}target="_blank"{{ /if }}>
+                                  {{ title }}
+                                </a>
+                              </li>
+                            {{ /children }}
+                          </ul>
+                        {{ /if }}
+                      </li>
+                    {{ /nav:main_menu }}
+                  </ul>
+                  
             </div>
             <div id="sub-menu-container" style="display: block">
                 <a href="#" class="back-link"
@@ -278,56 +65,7 @@
                     Back</a
                 >
                 <ul class="sub-menu">
-                    <li
-                        id="menu-item-418"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-418"
-                    >
-                        <a href="/about/">Who We Are</a>
-                    </li>
-                    <li
-                        id="menu-item-567"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-567"
-                    >
-                        <a href="/about/history/">History</a>
-                    </li>
-                    <li
-                        id="menu-item-271"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"
-                    >
-                        <a href="/about/locations/">Locations</a>
-                    </li>
-                    <li
-                        id="menu-item-272"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-272"
-                    >
-                        <a href="/about/board-of-directors/"
-                            >Board of Directors</a
-                        >
-                    </li>
-                    <li
-                        id="menu-item-1901"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1901"
-                    >
-                        <a href="/about/executive-officers/"
-                            >Executive Officers</a
-                        >
-                    </li>
-                    <li
-                        id="menu-item-736"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-736"
-                    >
-                        <a href="/about/purpose-vision-values/"
-                            >Purpose, Vision, Values</a
-                        >
-                    </li>
-                    <li
-                        id="menu-item-273"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-273"
-                    >
-                        <a href="/about/ehs-compliance-safety-programs/"
-                            >Safety: Protecting What Matters</a
-                        >
-                    </li>
+                    <!-- We could put the first sub-menu here to show it on load -->
                 </ul>
             </div>
         </div>
@@ -412,7 +150,7 @@
     id="masthead"
     class="site-header flex items-center justify-between h-[100px] pl-[5vw] sticky top-0 border-b transition-all duration-200 ease-out"
 >
-    <div class="">
+    <div class="header-logo">
         <a href="/">
             <div
                 class="inline-flex items-center h-auto w-[182px] relative"
