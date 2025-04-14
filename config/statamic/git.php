@@ -60,7 +60,7 @@ return [
     |
     */
 
-    'dispatch_delay' => env('STATAMIC_GIT_DISPATCH_DELAY', 0),
+    'dispatch_delay' => env('STATAMIC_GIT_DISPATCH_DELAY', 3),
 
     /*
     |--------------------------------------------------------------------------
@@ -78,8 +78,8 @@ return [
     'use_authenticated' => true,
 
     'user' => [
-        'name' => env('STATAMIC_GIT_USER_NAME', 'Spock'),
-        'email' => env('STATAMIC_GIT_USER_EMAIL', 'spock@example.com'),
+        'name' => env('STATAMIC_GIT_USER_NAME', 'erickarbe'),
+        'email' => env('STATAMIC_GIT_USER_EMAIL', 'erick@arbegolf.com'),
     ],
 
     /*
