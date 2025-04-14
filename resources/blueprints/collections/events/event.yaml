@@ -74,6 +74,11 @@ tabs:
               localizable: true
               validate: 'max:200'
           -
+            handle: exhibition_artists
+            field:
+              type: text
+              display: 'Exhibition Artists'
+          -
             handle: date
             field:
               type: date

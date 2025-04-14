@@ -89,3 +89,9 @@ fields:
               fields:
                 -
                   import: four_up_grid
+            events_grid:
+              display: 'Events Grid'
+              icon: file-content-list
+              fields:
+                -
+                  import: events_grid

@@ -1,13 +1,9 @@
-<article class="relative px-[5vw] py-12 md:py-20">
+<section class="relative px-[5vw] py-12">
 
-  <div class="page-header">
-    <h1 class="text-5xl md:text-7xl mb-8 font-serif">{{ title }}</h1>
-  </div>
-
-  <div class="event-category grid md:grid-cols-2 lg:grid-cols-3 divide-x divide-y divide-gray-200 border-l border-t border-gray-200">
-    {{ entries paginate="5" }}
+  <div class="events-grid grid md:grid-cols-2 lg:grid-cols-3 divide-x divide-y divide-gray-200 border-l border-t border-gray-200">
     
-      {{ results }}
+    
+      {{ events_list }}
 
         <article class="bg-white p-6">
           <div
@@ -29,20 +25,23 @@
               title="{{ title }}"></a>
           </div>
           <div>
-            <div class="mt-4 font-primary text-sm flex items-center flex-wrap gap-y-px gap-x-2.5 border-b border-gray-300 pb-3 mb-2">
+            <div class="mt-4 font-primary text-sm flex items-center justify-between flex-wrap border-b border-gray-300 pb-3">
               {{ location }}
               {{ if all_day_event }}
+              <div>
                 <span>{{ start_date_time format="F j, Y" }}</span>
                 {{ if end_date_time }}
                   <span>- &nbsp; {{ end_date_time format="F j, Y" }}</span>
                 {{ /if }}
+              </div>
               {{ /if }}
-              <span class="inline-block w-[0.1875rem] h-[0.1875rem] bg-primary rounded-full"></span>
             </div>
 
-            <h2 class="mt-2 mb-4 text-xl font-serif">{{ title }}</h2>
+            <h2 class="mt-2 mb-4 text-2xl font-serif">
+              <a href="{{ url }}">{{ title }}</a>
+            </h2>
 
-            <a href="{{ url }}" class="fancy-button  relative inline-flex items-center justify-center"
+            {{# <a href="{{ url }}" class="fancy-button  relative inline-flex items-center justify-center"
               aria-label="Learn more" type="page"><span
                 class="btn-icon-arrow h-[48px] w-[48px] flex items-center justify-center relative transition-all duration-200 ease-out">
                 <span class="arrow-line w-[14px] h-[1px] rounded-[1px] bg-white"></span><svg viewBox="0 0 7 12"
@@ -54,13 +53,13 @@
                 </svg>
               </span>
               <span class="text relative transition-all duration-200 ease-out z-1 px-4 text-gray-blue">Read More</span>
-            </a>
+            </a> #}}
           </div>
         </article>
 
-      {{ /results }}
+      {{ /events_list }}
     
-    {{ /entries }}
+    
   </div>
-</article>
-  
+
+</section>

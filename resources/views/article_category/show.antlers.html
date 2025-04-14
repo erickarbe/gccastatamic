@@ -1,24 +1,33 @@
 <section class="relative px-[5vw] py-12 md:py-20">
+  
+  <div class="page-header">
+    <h1 class="text-5xl md:text-7xl mb-8 font-serif">{{ title }}</h1>
+  </div>
+  
   <div data-aos="fade-up-sm" data-aos-delay="200"
-    class="blog-search-results grid md:grid-cols-2 lg:grid-cols-3 divide-x divide-y divide-gray-200 border-l border-t border-gray-200">
-    {{ collection:articles as="articles" }}
-      {{ articles }}
+    class="article-category grid md:grid-cols-2 lg:grid-cols-3 divide-x divide-y divide-gray-200 border-l border-t border-gray-200">
+    {{ entries paginate="15" sort="date:desc|title:desc" }}
+      {{ results }}
         <article class="bg-white p-6">
           <div
-            class="relative overflow-hidden group hover:md:after:opacity-100 after:md:opacity-0 after:pointer-events-none after:absolute after:inset-0 after:bg-gradient-to-t after:duration-500 after:from-primary via-20% after:via-primary/40 to-transparent after:z-10 after:transition-opacity flex justify-center items-center">
+            class="relative overflow-hidden group hover:md:after:opacity-100 after:md:opacity-0 after:pointer-events-none after:absolute after:inset-0 after:bg-gradient-to-t after:duration-500 after:from-primary via-20% after:via-primary/40 after:bg-gcca-red/40 to-transparent after:z-10 after:transition-opacity flex justify-center items-center">
             <span
               class="absolute flex items-center justify-center w-16 h-16 text-white transition duration-500 rounded-full md:opacity-0 bg-primary group-hover:md:opacity-100 z-20 pointer-events-none"><svg
                 data-icon="true" class="text-white w-6 h-6" width="15px" height="15px" viewBox="0 0 15 15" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M0.733294 14.2589C0.578914 14.1045 0.492188 13.895 0.492188 13.6767C0.492188 13.4583 0.578914 13.2489 0.733294 13.0945L11.6808 2.14698H4.61029C4.39189 2.14698 4.18243 2.06022 4.028 1.90579C3.87356 1.75135 3.7868 1.54189 3.7868 1.32349C3.7868 1.10509 3.87356 0.89563 4.028 0.741195C4.18243 0.586761 4.39189 0.5 4.61029 0.5H13.6687C13.8871 0.5 14.0966 0.586761 14.251 0.741195C14.4054 0.89563 14.4922 1.10509 14.4922 1.32349V10.3819C14.4922 10.6003 14.4054 10.8098 14.251 10.9642C14.0966 11.1186 13.8871 11.2054 13.6687 11.2054C13.4503 11.2054 13.2408 11.1186 13.0864 10.9642C12.932 10.8098 12.8452 10.6003 12.8452 10.3819V3.3114L1.89936 14.2589C1.82286 14.3356 1.73199 14.3964 1.63194 14.4379C1.5319 14.4795 1.42464 14.5008 1.31633 14.5008C1.20801 14.5008 1.10076 14.4795 1.00071 14.4379C0.900663 14.3964 0.80979 14.3356 0.733294 14.2589Z"
-                  fill="#14161B"></path>
+                  fill="currentColor"></path>
               </svg>
             </span>
-            {{ featured_image }}
-              <img src="{{ url }}" alt="{{ alt }}" loading="lazy" decoding="async" width="450" height="450"
-                class="!h-[15.625rem] object-cover group-hover:scale-105 transition duration-500 min-w-full">
-            {{ /featured_image }}
+            {{ if featured_image }}
+              {{ featured_image }}
+                <img src="{{ url }}" alt="{{ alt }}" loading="lazy" decoding="async" width="450" height="450"
+                  class="!h-[15.625rem] object-cover group-hover:scale-105 transition duration-500 min-w-full">
+              {{ /featured_image }}
+            {{ else }}
+              <div class="min-w-full !h-[15.625rem]"></div>
+            {{ /if }}
             <a class="absolute inset-0 z-30" href="{{ url }}"
               title="{{ title }}"></a>
           </div>
@@ -45,7 +54,7 @@
             </a>
           </div>
         </article>
-      {{ /articles }}
-    {{ /collection:articles }}
+      {{ /results }}
+    {{ /entries }}
   </div>
 </section>

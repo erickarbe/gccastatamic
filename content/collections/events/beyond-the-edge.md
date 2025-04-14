@@ -10,8 +10,9 @@ featured_image:
 date: '2025-04-13'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744564299
+updated_at: 1744661834
 event_category:
   - exhibitions
 all_day_event: true
+exhibition_artists: 'Lindsay Godin & Ana Vizcarra Rankin'
 ---

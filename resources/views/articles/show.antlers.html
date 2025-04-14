@@ -1,6 +1,6 @@
 <article class="relative mx-auto max-w-7xl px-[5vw] py-12 md:py-20">
 
-  <div class="title-section ">
+  <div class="title-section">
     
       <h1 class="text-5xl md:text-6xl mb-8  font-serif text-center">
        {{ title }} 
@@ -58,9 +58,35 @@
    
   </div>
 
-  <div class="pt-8 ">
+  <div class="pt-8">
+    
     <div class="article-content prose-lg lg:prose-2xl">
       {{ content }}
+    </div>
+
+    <div class="prev-next-links flex justify-between items-center mt-8 md:mt-16">
+      <div class="prev">
+        {{ collection:previous in="articles" as="posts" limit="1" sort="date:asc" }}
+  
+          {{ posts }}
+            <div class="post">
+              <a href="{{ url }}" class="px-4 py-2 bg-gray-100 rounded">&larr; Previous Article</a>
+            </div>
+          {{ /posts }}
+        
+        {{ /collection:previous }}
+      </div>
+      <div class="next text-right">
+        {{ collection:next in="articles" as="posts" limit="1" sort="date:asc" }}
+  
+          {{ posts }}
+            <div class="post">
+              <a href="{{ url }}" class="px-4 py-2 bg-gray-100 rounded">Next Article &rarr;</a>
+            </div>
+          {{ /posts }}
+        
+        {{ /collection:next }}
+      </div>
     </div>
     
   </div>
