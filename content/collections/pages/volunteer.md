@@ -3,8 +3,8 @@ id: dd280318-cba2-4fd3-97dd-07de56a5b843
 blueprint: page
 title: Volunteer
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744416710
+updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
+updated_at: 1744672049
 turn_off_hero: false
 inside_hero_header: Volunteer
 inside_hero_content:
@@ -124,7 +124,21 @@ blocks:
             content:
               -
                 type: text
-                text: 'Please contact our Operations Director, Alicia Mizuno at alicia@artcentergreenville.org.'
+                text: 'Please contact our Operations Director, Alicia Mizuno at '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'mailto:alicia@artcentergreenville.org'
+                      rel: null
+                      target: null
+                      title: null
+                text: alicia@artcentergreenville.org
+              -
+                type: text
+                text: .
         type: new_set
         enabled: true
       -
@@ -148,9 +162,24 @@ blocks:
             content:
               -
                 type: text
-                text: 'Yes! Please contact our Operations Director, Alicia Mizuno at alicia@artcentergreenville.org.'
+                text: 'Yes! Please contact our Operations Director, Alicia Mizuno at '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'mailto:alicia@artcentergreenville.org'
+                      rel: null
+                      target: null
+                      title: null
+                text: alicia@artcentergreenville.org
+              -
+                type: text
+                text: .
         type: new_set
         enabled: true
     type: faq_accordion
     enabled: true
+inside_hero_image: ways-to-give-hero.jpg
 ---
