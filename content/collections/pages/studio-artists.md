@@ -5,7 +5,7 @@ title: 'Studio Artists'
 turn_off_hero: false
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744637097
+updated_at: 1744641782
 template: studio_artists/index
 inside_hero_content:
   -
@@ -25,5 +25,34 @@ inside_hero_content:
     content:
       -
         type: text
-        text: 'If you are an artist who is interested in renting a studio at GCCA, please visit our studio rentals page and fill out an application to be added to our waitlist. For more information about studio rentals, contact us at info@artcentergreenville.org or (864) 735-3948.'
+        text: 'If you are an artist who is interested in renting a studio at GCCA, please visit our studio rentals page and fill out an application to be added to our waitlist. For more information about studio rentals, contact us at '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'mailto:info@artcentergreenville.org'
+              rel: null
+              target: null
+              title: null
+        text: info@artcentergreenville.org
+      -
+        type: text
+        text: ' or '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'tel:(864) 735-3948'
+              rel: null
+              target: null
+              title: null
+        text: '(864) 735-3948'
+      -
+        type: text
+        text: .
+inside_hero_image: faith-art.png
 ---

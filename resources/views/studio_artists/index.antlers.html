@@ -3,21 +3,68 @@
 {{ /if }}
 
 <section class="pb-20 pt-12 mr-[5vw] ml-[5vw]">
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 border-t border-l border-gray-200">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 border-t border-l border-gray-200">
     {{ collection:studio_artists }}
-      <div class="border-b border-r border-gray-300 p-14 flex flex-col">
+      <div class="card cursor-pointer border-b border-r border-gray-300 px-14 py-10 flex flex-col">
+        
         {{ if headshot }}
-          <img src="{{ headshot:url }}" alt="{{ headshot:alt }}" class="w-full block mb-4" />
+        <div class="relative overflow-hidden group mb-4">
+          <img src="{{ headshot:url }}" alt="{{ headshot:alt }}" loading="lazy" decoding="async" class="w-full block  group-hover:scale-110 transition duration-500" />
+        </div>
         {{ /if }}
         
-        <h3 class="font-serif text-3xl text-dark-blue border-b border-gray-300 pb-2 mb-2">{{ title }}</h3>
+        <h3 class="font-serif text-3xl text-dark-blue border-b border-gray-300 pb-3 mb-3">{{ title }}</h3>
         
-        <div class=" font-primary text-sm flex items-center flex-wrap gap-y-px gap-x-2.5 pb-3 mb-2">
+        <div class="text-sm flex items-center flex-wrap gap-y-px gap-x-2.5 pb-3 mb-1">
           <span>{{ studio }}</span>
           <span class="inline-block w-[0.1875rem] h-[0.1875rem] bg-gray-blue rounded-full"></span>
           <span>{{ artists_medium }}</span>
         </div>
+
+        <div class="icons flex items-center gap-3 text-slate-500">
+          {{ if website }}
+            <a href="{{ website }}" target="_blank" class="hover:text-slate-700">
+              <svg class="size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
+              </svg>              
+            </a>
+          {{ /if }}
+          {{ if email }}
+            <a href="mailto:{{ email }}" class="hover:text-slate-700">
+              <svg class="size-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+              </svg>              
+            </a>
+          {{ /if }}
+          {{ if instagram_handle }}
+            <a href="{{ instagram_handle }}" target="_blank" class="hover:text-slate-700">
+              <svg class="size-6" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                </path>
+              </svg>
+            </a>
+          {{ /if }}
+          {{ if facebook_handle }}
+            <a href="{{ facebook_handle }}" target="_blank" class="hover:text-slate-700">
+              <svg class="size-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"/></svg>
+            </a>
+          {{ /if }}
+        </div>
         
+        <div class="biography-modal-content hidden">
+          {{ if featured_image }}
+            <img src="{{ featured_image:url }}" alt="{{ featured_image:alt }}" loading="lazy" class="w-full block mb-4" />
+          {{ /if }}
+          {{ biography }}
+
+          {{ if website }}
+          <div class="text-right mt-3">
+            <a href="{{ website }}" target="_blank">
+              View {{ title }}'s Website &rarr; 
+            </a>
+          </div>
+          {{ /if }}
+        </div>
         
       </div>
     {{ /collection:studio_artists }}

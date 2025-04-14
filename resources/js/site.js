@@ -326,3 +326,79 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
+// Studio Artists popups
+// Biography shortcode
+document.querySelectorAll(".card").forEach((card) => {
+    card.addEventListener("click", function () {
+        const modalContentElement = this.querySelector(
+            ".biography-modal-content"
+        );
+        const modalContent = modalContentElement
+            ? modalContentElement.innerHTML
+            : null;
+
+        if (modalContent) {
+            // Create overlay
+            const overlay = document.createElement("div");
+            overlay.className = "biography-modal-overlay";
+
+            // Create modal
+            const modal = document.createElement("div");
+            modal.className = "biography-modal";
+
+            const inner = document.createElement("div");
+            inner.className = "biography-modal-inner";
+            inner.innerHTML = modalContent;
+
+            const close = document.createElement("div");
+            close.className = "biography-modal-close";
+            close.innerHTML = `
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+          </svg>
+        `;
+
+            modal.appendChild(inner);
+            modal.appendChild(close);
+            document.body.appendChild(overlay);
+            document.body.appendChild(modal);
+
+            // Add transition
+            setTimeout(() => {
+                overlay.style.opacity = "1";
+
+                if (window.innerWidth > 768) {
+                    modal.style.opacity = "1";
+                    modal.style.transform = "translate(-50%, -50%) scale(1)";
+                } else {
+                    modal.style.opacity = "1";
+                    modal.style.top = "0";
+                    modal.style.left = "0";
+                    modal.style.width = "100%";
+                    modal.style.height = "100%";
+                    modal.style.transform = "none";
+                }
+            }, 10);
+
+            const closeModal = () => {
+                overlay.style.opacity = "0";
+
+                if (window.innerWidth > 768) {
+                    modal.style.opacity = "0";
+                    modal.style.transform = "translate(-50%, -50%) scale(0.8)";
+                } else {
+                    modal.style.opacity = "0";
+                }
+
+                setTimeout(() => {
+                    overlay.remove();
+                    modal.remove();
+                }, 300);
+            };
+
+            overlay.addEventListener("click", closeModal);
+            close.addEventListener("click", closeModal);
+        }
+    });
+});
