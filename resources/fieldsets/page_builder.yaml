@@ -79,3 +79,13 @@ fields:
               fields:
                 -
                   import: sticky_panels
+            sticky_links:
+              display: 'Sticky Links'
+              fields:
+                -
+                  import: sticky_links
+            four_up_grid:
+              display: 'Four Up Grid'
+              fields:
+                -
+                  import: four_up_grid
