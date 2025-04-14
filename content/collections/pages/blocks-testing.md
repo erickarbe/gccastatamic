@@ -5,25 +5,9 @@ title: 'Blocks Testing'
 turn_off_hero: true
 template: templates/page
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744314940
+updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
+updated_at: 1744672685
 blocks:
-  -
-    id: m9aaeysb
-    eyebrow: 'Inside Hero'
-    heading: 'This Is An Inside Page Hero'
-    content:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.'
-    button_text: 'Hero Button'
-    button_link: /
-    image: slide2.jpg
-    type: inside_page_hero
-    enabled: true
   -
     id: m9a6mdaq
     eyebrow: 'Testing This Block'
@@ -34,7 +18,7 @@ blocks:
         content:
           -
             type: text
-            text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.'
+            text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque. TESTERRRR'
     button_text: 'Testing Btn'
     button_link: /
     type: basic_centered_content
@@ -73,7 +57,7 @@ blocks:
               text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Faucibus ex sapien vitae pellentesque sem placerat in. Cursus mi pretium tellus duis convallis tempus leo. Aenean sed diam urna tempor pulvinar vivamus fringilla. Nec metus bibendum egestas iaculis massa nisl malesuada. Integer nunc posuere ut hendrerit semper vel class. Taciti sociosqu ad litora torquent per conubia nostra. Himenaeos orci varius natoque penatibus et magnis dis. Montes nascetur ridiculus mus donec rhoncus eros lobortis.'
       button_text: Button
       button_link: /
-    image: blog-linda-quinn-furman-building.jpg
+    image: artalk.jpg
     type: image_and_text
     enabled: true
   -
@@ -123,72 +107,96 @@ blocks:
     type: faq_accordion
     enabled: true
   -
-    id: m9bfcpbb
-    images:
-      - 852faedf-7480-4543-bd57-dc1dac085ebd_1_105_c.jpeg
-      - blog-linda-quinn-furman-building.jpg
-      - gcca_building.jpg
-      - hero2.jpg
-      - slide1.jpg
-      - slide2.jpg
-    type: full_width_carousel
-    enabled: true
-  -
-    id: m9bgtiq9
-    images:
-      - 852faedf-7480-4543-bd57-dc1dac085ebd_1_105_c.jpeg
-      - blog-linda-quinn-furman-building.jpg
-      - gcca_building.jpg
-      - hero2.jpg
-      - slide1.jpg
-      - slide2.jpg
-      - slide3.jpg
-      - articles/blog-anthropocene.jpg
-    type: image_gallery
-    enabled: true
-  -
     id: m9bliuom
     content_grid_item:
       -
         id: m9blivxy
         eyebrow: testing
         heading: 'Content Grid'
-        content: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.'
         type: new_item
         enabled: true
       -
         id: m9bljglz
         eyebrow: Hello
         heading: 'Testing Testing'
-        content: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.'
         type: new_item
         enabled: true
       -
         id: m9bljibl
         eyebrow: 'New Square'
         heading: 'How does this grid look?'
-        content: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.'
         type: new_item
         enabled: true
       -
         id: m9blk9qi
         eyebrow: 'New Grid'
         heading: 'Another Testing Square'
-        content: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.'
         type: new_item
         enabled: true
       -
         id: m9blkqd5
         eyebrow: 'Hello Hello'
         heading: 'Testing Hello'
-        content: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.'
         type: new_item
         enabled: true
       -
         id: m9bll7x5
         eyebrow: 'Sam Test'
         heading: 'Grid, Testing The Grid'
-        content: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.'
         type: new_item
         enabled: true
     type: content_grid
@@ -237,8 +245,6 @@ blocks:
                     type: text
                     text: 'Vitae pellentesque sem placerat in id cursus mi'
     images:
-      - gcca_building.jpg
-      - blog-linda-quinn-furman-building.jpg
       - 852faedf-7480-4543-bd57-dc1dac085ebd_1_105_c.jpeg
       - hero2.jpg
       - slide1.jpg
