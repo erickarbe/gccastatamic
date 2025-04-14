@@ -19,3 +19,19 @@ fields:
     field:
       type: markdown
       display: 'Iframe Embed'
+      buttons:
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - quote
+        - link
+        - image
+        - table
+        - code
+        - codeblock
+  -
+    handle: iframe_embed_two
+    field:
+      type: textarea
+      display: 'Iframe Embed Two'

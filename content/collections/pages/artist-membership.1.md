@@ -21,6 +21,104 @@ inside_hero_content:
         text: '—no separate membership fees! Higher membership levels offer additional recognition and benefits for philanthropic individuals. Funds raised through GCCA’s membership program support operations and all the things that make GCCA special, including exhibitions, programming, and outreach.'
 blocks:
   -
+    id: m9g0oy7t
+    image_left_or_right: left
+    content_group:
+      eyebrow: null
+      heading: 'A Gift of just $50 qualifies you as an artist member.'
+      content:
+        -
+          type: heading
+          attrs:
+            level: 2
+          content:
+            -
+              type: text
+              marks:
+                -
+                  type: bold
+              text: 'All GCCA Members Receive:'
+        -
+          type: bulletList
+          content:
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      marks:
+                        -
+                          type: bold
+                      text: 'Advance registration & 10% discount'
+                    -
+                      type: text
+                      text: ' on classes, workshops, & summer camps'
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'Eligibility to '
+                    -
+                      type: text
+                      marks:
+                        -
+                          type: bold
+                      text: 'exhibit a piece of art in the '
+                    -
+                      type: text
+                      marks:
+                        -
+                          type: link
+                          attrs:
+                            href: 'https://artcentergreenville.org/2024annualshowcase/'
+                            rel: null
+                            target: null
+                            title: null
+                        -
+                          type: bold
+                      text: 'Annual Showcase'
+                    -
+                      type: text
+                      text: ' in August'
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'Ability to apply for a spot in The Shop at GCCA'
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'Additional exclusive vendor, demo, and event opportunities'
+      button_text: null
+      button_link: null
+    image: man-painting.jpg
+    type: image_and_text
+    enabled: true
+  -
+    id: m9fzsufi
+    width: contained
+    type: iframe_container
+    enabled: true
+    iframe_embed_two: |-
+      <div class="qgiv-embed-container" data-qgiv-embed="true" data-embed-id="79363" data-embed="https://secure.qgiv.com/for/artmem/embed/79363/" data-width="830"></div>
+      <script>(function(w, d, s, id){var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "https://secure.qgiv.com/resources/core/js/embed.js";fjs.parentNode.insertBefore(js, fjs);})(window, document, 'script', 'qgiv-embedjs');</script>
+  -
     id: m9ft89l9
     accordion_item:
       -
@@ -130,6 +228,7 @@ blocks:
     type: faq_accordion
     enabled: true
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744559064
+updated_by: 916c3785-d212-40bc-89ff-572097ac9582
+updated_at: 1744577051
+inside_hero_image: gcca-showcase_0093.jpg
 ---

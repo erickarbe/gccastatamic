@@ -7,3 +7,6 @@ preferences:
   collections:
     pages:
       after_save: continue_editing
+  assets:
+    s3_assets:
+      per_page: 500
