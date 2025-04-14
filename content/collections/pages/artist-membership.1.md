@@ -30,13 +30,10 @@ blocks:
         -
           type: heading
           attrs:
-            level: 2
+            level: 3
           content:
             -
               type: text
-              marks:
-                -
-                  type: bold
               text: 'All GCCA Members Receive:'
         -
           type: bulletList
@@ -229,6 +226,6 @@ blocks:
     enabled: true
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744577051
+updated_at: 1744637514
 inside_hero_image: gcca-showcase_0093.jpg
 ---

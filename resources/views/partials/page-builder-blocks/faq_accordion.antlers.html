@@ -4,7 +4,7 @@
     <div class="faq-accordion space-y-4">
       {{ accordion_item }}
         <div class="faq-item border border-gray-300 rounded-lg overflow-hidden">
-          <button type="button" class="faq-toggle w-full flex justify-between items-center px-4 py-3 bg-gray-100 hover:bg-gray-200 transition text-left">
+          <button type="button" class="faq-toggle w-full flex justify-between items-center px-4 py-3 bg-gray-100 hover:bg-gray-200 transition duration-300 text-left">
             <span class="font-medium">{{ accordion_header }}</span>
             <span class="faq-icon transition-transform duration-300">+</span>
           </button>
@@ -17,3 +17,20 @@
   </section>
   
   
+  <style>
+    .faq-content {
+      max-height: 500px; /* Adjust if content exceeds this */
+      opacity: 1;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    }
+  
+    .faq-content.hidden {
+      display: block; /* Override Tailwind's display: none */
+      max-height: 0;
+      opacity: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  </style>

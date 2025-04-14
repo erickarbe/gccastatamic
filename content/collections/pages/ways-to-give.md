@@ -4,7 +4,7 @@ blueprint: page
 title: 'Ways to Give'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744568151
+updated_at: 1744638811
 turn_off_hero: false
 blocks:
   -
@@ -18,36 +18,37 @@ blocks:
     content_grid_item:
       -
         id: m9ddf1ml
-        heading: 1)
+        heading: 'Monthly Giving Program'
         content: 'Join our monthly giving program, the Creative Collective (link to CC page/monthly giving page)'
         type: new_item
         enabled: true
       -
         id: m9ddfg4r
-        heading: 2)
+        heading: 'Artist Member'
         content: 'Join as an Artist Member (link to Artist Member page)'
         type: new_item
         enabled: true
       -
         id: m9ddfuvt
-        heading: 3)
+        heading: 'Corporate Giving'
         content: 'Support through Corporate Giving and Sponsorship (link to Corporate Giving page)'
         type: new_item
         enabled: true
       -
         id: m9ddg8h5
-        heading: 4)
+        heading: 'Planned Giving'
         content: 'Make a gift through our Planned Giving program (link to Planned Giving page)'
         type: new_item
         enabled: true
       -
         id: m9ddgid6
-        heading: 5)
+        heading: Volunteer
         content: 'Volunteer at our events and at the center (link to Volunteer Page)'
         type: new_item
         enabled: true
     type: content_grid
     enabled: true
+    number_of_columns: three
 inside_hero_image: ways-to-give-hero.jpg
 inside_hero_header: 'Ways to Give'
 template: default

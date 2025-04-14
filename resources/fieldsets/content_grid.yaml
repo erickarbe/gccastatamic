@@ -1,6 +1,19 @@
 title: 'Content Grid'
 fields:
   -
+    handle: number_of_columns
+    field:
+      options:
+        -
+          key: three
+          value: Three
+        -
+          key: four
+          value: Four
+      type: radio
+      display: 'Number of Columns'
+      inline: true
+  -
     handle: content_grid_title
     field:
       type: text

@@ -4,7 +4,7 @@ blueprint: page
 title: 'Brandon Fellowship'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744584872
+updated_at: 1744594524
 turn_off_hero: false
 eyebrow: 'The Brandon Fellowship'
 inside_hero_header: 'Empowering the Next Generation of Artists'
@@ -132,6 +132,20 @@ blocks:
         type: new_item
         enabled: true
     type: content_grid
+    enabled: true
+  -
+    id: m9gei5uf
+    images:
+      - brandon-fellowship-gallery-7.jpg
+      - brandon-fellowship-gallery-6.jpg
+      - brandon-fellowship-2025-group.jpg
+      - brandon-fellowship-gallery-5.jpg
+      - brandon-fellowship-gallery-3.jpg
+      - brandon-fellowship-gallery-4.jpg
+      - kephira-in-studio.jpg
+      - raamen-stallings.jpg
+      - brandon-fellowship-gallery-1.jpg
+    type: full_width_carousel
     enabled: true
   -
     id: m9g8f7m5
