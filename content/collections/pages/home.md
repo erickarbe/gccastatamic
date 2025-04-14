@@ -198,6 +198,16 @@ home_page_blocks:
         link_content: 'Be part of the vibrant creative community at GCCA. Attend our events, exhibitions, and workshops, or join us for the First Friday gallery crawl. There’s always something inspiring happening here.'
         type: new_link_panel
         enabled: true
+  -
+    id: m9h8i8ys
+    width: full_width
+    heading: 'Join Our Community'
+    content: 'Your support fuels our mission to provide accessible arts education and experiences. Join us in nurturing talent, inspiring change, and enriching the cultural fabric of our community.'
+    button_text: 'Explore Monthly Giving'
+    button_link: 'entry::f6d575f3-821f-491e-84f2-c76f83e73619'
+    background_color: '#263340'
+    type: home_cta_section
+    enabled: true
 updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744467048
+updated_at: 1744645182
 ---
