@@ -123,6 +123,9 @@ body {
     width: 48px;
     z-index: 0;
 }
+.fancy-button.dark-blue:before {
+    @apply bg-dark-blue;
+}
 .fancy-button.white:before {
     @apply bg-white;
 }

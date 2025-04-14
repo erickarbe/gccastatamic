@@ -63,6 +63,11 @@ tabs:
                       fields:
                         -
                           import: sticky_links
+                    home_cta_section:
+                      display: 'Home CTA Section'
+                      fields:
+                        -
+                          import: cta_section
   sidebar:
     display: Sidebar
     sections:
