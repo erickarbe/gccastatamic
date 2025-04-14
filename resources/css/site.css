@@ -84,6 +84,9 @@ body {
 .sticky-link:hover .up-arrow {
     @apply text-gcca-red;
 }
+.panel-content ul {
+    padding-left: 0;
+}
 .panel-content ul li {
     padding-left: 30px;
     position: relative;
@@ -92,6 +95,14 @@ body {
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 20px;
+    transition: 0.3s ease all;
+}
+.panel-content ul li:has(a):hover {
+    background-position: 5px center;
+}
+.panel-content p a,
+.panel-content ul a {
+    text-decoration: underline;
 }
 .grid-content h2,
 .grid-content h3 {
@@ -139,12 +150,6 @@ body {
     width: 48px;
     z-index: 0;
 }
-.fancy-button.dark-blue:before {
-    @apply bg-dark-blue;
-}
-.fancy-button.white:before {
-    @apply bg-white;
-}
 .fancy-button:hover:before {
     width: 100%;
 }
@@ -157,8 +162,39 @@ body {
 .fancy-button:hover .text {
     color: white;
 }
+
+/* Dark Blue Variant */
+.fancy-button.dark-blue:before {
+    @apply bg-dark-blue;
+}
+.fancy-button.dark-blue:hover .text {
+    @apply text-white;
+}
+.fancy-button.dark-blue .arrow-line {
+    @apply bg-white;
+}
+.fancy-button.dark-blue .arrow-head {
+    @apply text-white;
+}
+.fancy-button.dark-blue .text {
+    @apply text-dark-blue;
+}
+
+/* White variant */
+.fancy-button.white:before {
+    @apply bg-white;
+}
 .fancy-button.white:hover .text {
     @apply text-dark-blue;
+}
+.fancy-button.white .arrow-line {
+    @apply bg-gcca-red;
+}
+.fancy-button.white .arrow-head {
+    @apply text-gcca-red;
+}
+.fancy-button.white .text {
+    @apply text-white;
 }
 
 /* Studio Artists Modal Window */
