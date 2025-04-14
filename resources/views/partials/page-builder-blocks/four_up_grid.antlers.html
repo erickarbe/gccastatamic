@@ -1,14 +1,16 @@
 <section class="four-grid relative bg-white md:px-[5vw] divide-y divide-gray-200">
   <div class="grid md:grid-cols-2 divide-x divide-gray-200">
-    <div class="p-8 md:pr-[5vw] md:py-24 space-y-4 md:space-y-8">
+    <div class="p-8 md:pr-[5vw] md:py-24 space-y-4 md:space-y-8 justify-center m-auto">
       {{ if grid_one_content }}
-        <div class="grid-content space-y-4 md:space-y-8">
+        <div class="prose grid-content space-y-4 md:space-y-8">
           {{ grid_one_content }}
         </div>
       {{ else }}
         {{ if grid_one_image }}
           {{ grid_one_image }}
-            <img src="{{ url }}" alt="{{ alt }}" class="w-full h-[350px] object-cover" />
+          <div class="w-full">
+            <img src="{{ url }}" alt="{{ alt }}" class="w-full min-h-[400px] max-h-[550px] object-cover block" />
+          </div>
           {{ /grid_one_image }}
         {{ /if }}
       {{ /if }}
@@ -31,15 +33,15 @@
         </a>
       {{ /if }}
     </div>
-    <div class="p-8 md:pl-[5vw] md:py-24 space-y-4 md:space-y-8">
+    <div class="p-8 md:pl-[5vw] md:py-24 space-y-4 md:space-y-8 justify-center m-auto">
       {{ if grid_two_content }}
-        <div class="grid-content space-y-4 md:space-y-8">
+        <div class="prose grid-content space-y-4 md:space-y-8">
           {{ grid_two_content }}
         </div>
       {{ else }}
         {{ if grid_two_image }}
           {{ grid_two_image }}
-            <img src="{{ url }}" alt="{{ alt }}" class="w-full h-[350px] object-cover" />
+            <img src="{{ url }}" alt="{{ alt }}" class="w-full min-h-[400px] max-h-[550px] object-cover" />
           {{ /grid_two_image }}
         {{ /if }}
       {{ /if }}
@@ -64,15 +66,15 @@
     </div>
   </div>
   <div class="grid md:grid-cols-2 divide-x divide-gray-200">
-    <div class="p-8 md:pr-[5vw] md:py-24 space-y-4 md:space-y-8">
+    <div class="p-8 md:pr-[5vw] md:py-24 space-y-4 md:space-y-8 justify-center m-auto">
       {{ if grid_three_content }}
-        <div class="grid-content space-y-4 md:space-y-8">
+        <div class="prose grid-content space-y-4 md:space-y-8">
           {{ grid_three_content }}
         </div>
       {{ else }}
         {{ if grid_three_image }}
           {{ grid_three_image }}
-            <img src="{{ url }}" alt="{{ alt }}" class="w-full h-[350px] object-cover" />
+            <img src="{{ url }}" alt="{{ alt }}" class="w-full min-h-[400px] max-h-[550px] object-cover" />
           {{ /grid_three_image }}
         {{ /if }}
       {{ /if }}
@@ -95,15 +97,15 @@
         </a>
       {{ /if }}
     </div>
-    <div class="p-8 md:pl-[5vw] md:py-24 space-y-8">
+    <div class="p-8 md:pl-[5vw] md:py-24 space-y-8 justify-center m-auto">
       {{ if grid_four_content }}
-        <div class="grid-content space-y-4 md:space-y-8">
+        <div class="prose grid-content space-y-4 md:space-y-8">
           {{ grid_four_content }}
         </div>
       {{ else }}
         {{ if grid_four_image }}
           {{ grid_four_image }}
-            <img src="{{ url }}" alt="{{ alt }}" class="w-full h-[350px] object-cover" />
+            <img src="{{ url }}" alt="{{ alt }}" class="w-full min-h-[400px] max-h-[550px] object-cover" />
           {{ /grid_four_image }}
         {{ /if }}
       {{ /if }}
@@ -128,3 +130,14 @@
     </div>
   </div>
 </section>
+
+<style>
+
+.four-grid ul li::marker {
+  color: #000;
+}
+/* .four-grid h3 {
+  font-size: 36px;
+} */
+
+</style>

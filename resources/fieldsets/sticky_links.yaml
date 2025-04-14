@@ -48,15 +48,8 @@ fields:
                 -
                   handle: link_content
                   field:
-                    buttons:
-                      - bold
-                      - italic
-                      - unorderedlist
-                      - orderedlist
-                      - quote
-                      - link
-                      - image
-                    type: markdown
+                    remove_empty_nodes: false
+                    type: bard
                     display: 'Link Content'
                 -
                   handle: link_url
