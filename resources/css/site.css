@@ -13,6 +13,10 @@
     --tw-prose-headings: #263340;
 }
 
+body {
+    @apply bg-white text-dark-blue;
+}
+
 /* Site Header */
 .site-header {
     z-index: 999;
