@@ -93,6 +93,22 @@ body {
     background-position: left center;
     background-size: 20px;
 }
+.grid-content h2,
+.grid-content h3 {
+    @apply leading-[1.2] text-4xl md:text-5xl font-serif font-semibold text-dark-blue;
+}
+
+.grid-content h2 span,
+.grid-content h3 span,
+.grid-content h2 em,
+.grid-content h3 em {
+    @apply text-gcca-red;
+    font-style: normal;
+}
+.grid-content {
+    @apply text-gray-blue md:text-lg font-light;
+}
+
 /* Global Notice */
 .offcanvas-open #global-notice {
     display: none;

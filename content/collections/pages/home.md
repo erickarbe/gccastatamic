@@ -208,6 +208,101 @@ home_page_blocks:
     background_color: '#263340'
     type: home_cta_section
     enabled: true
+  -
+    id: m9hdmo2v
+    grid_one_content:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Meet the '
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: Creators
+          -
+            type: hardBreak
+          -
+            type: text
+            text: 'Behind the Canvas'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Our community of local artists brings life to GCCA, working across a variety of mediums. Visit their studios, discover their creative processes, and connect with the stories behind the artwork.'
+    grid_one_link: 'entry::4204f1a0-69c6-4ff8-843c-c943f9c23069'
+    type: home_grid_section
+    enabled: true
+    grid_one_link_text: 'Meet the Artists'
+    grid_two_image:
+      - arttalk-greenville.jpg
+    grid_three_content_duplicate:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Art from Every Perspective. '
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'Support from Every Angle.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Your support fuels our mission to provide accessible arts education and experiences. Join us in nurturing talent, inspiring change, and enriching the cultural fabric of our community.'
+    grid_four_content:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Bring Art Home'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Explore our curated collection of art and unique gifts. Every purchase supports local artists and helps sustain our community arts center. Shop online or visit us in person to find the perfect piece to inspire your space.'
+    grid_four_link_text_duplicate: 'Shop Now'
+    grid_four_link_duplicate: 'https://shopgcca.square.site/shop/gift-shop/QKUHFB564YN7LNRSBUGIOKRO'
+    grid_three_content:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Art from Every Perspective. '
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'Support from Every Angle.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Your support fuels our mission to provide accessible arts education and experiences. Join us in nurturing talent, inspiring change, and enriching the cultural fabric of our community.'
+    grid_four_link_text: 'Shop Now'
+    grid_four_link: 'https://shopgcca.square.site/shop/gift-shop/QKUHFB564YN7LNRSBUGIOKRO'
 updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744645182
+updated_at: 1744656046
 ---

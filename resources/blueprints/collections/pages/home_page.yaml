@@ -68,6 +68,11 @@ tabs:
                       fields:
                         -
                           import: cta_section
+                    home_grid_section:
+                      display: 'Home Grid Section'
+                      fields:
+                        -
+                          import: four_up_grid
   sidebar:
     display: Sidebar
     sections:
