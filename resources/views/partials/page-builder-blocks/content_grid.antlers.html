@@ -2,7 +2,7 @@
   {{ if content_grid_title || content_grid_text }}
   <div class="mb-12 max-w-2xl">
     {{ if content_grid_title }}
-      <h2 class="font-serif sm:text-3xl md:text-5xl font-bold text-gray-900 mb-4">
+      <h2 class="font-serif text-4xl md:text-6xl font-bold text-gray-900 mb-4">
         {{ content_grid_title }}
       </h2>
     {{ /if }}
@@ -15,9 +15,8 @@
 {{ /if }}
 </section>
 <section class="mb-20 mt-10 pl-[5vw] pr-[5vw] content-grid border-y border-gray-200">
-
   {{ if content_grid_item }}
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 border-x divide-x divide-y border-gray-200 divide-gray-200">
+    <div class="grid grid-cols-1 sm:grid-cols-2 {{ if number_of_columns == 'three' }}lg:grid-cols-3{{ else }}lg:grid-cols-4{{ /if }} border-x border-gray-200 divide-y divide-gray-200">
       {{ content_grid_item }}
         {{ if eyebrow || heading || content }}
           <div class="p-6 flex flex-col h-full grid-item">
@@ -47,9 +46,59 @@
 
   
 <style>
+  .grid-item {
+    border-right: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+  }
 
-.content-grid .grid-item:nth-last-child(-n+1) {
-  border-right: 1px solid #ebe6e7;
-}
+  /* Remove right border for last item in each row at large breakpoint */
+  .lg\:grid-cols-3 .grid-item:nth-child(3n),
+  .lg\:grid-cols-4 .grid-item:nth-child(4n) {
+    border-right: none;
+  }
 
+  /* Remove bottom border for last row */
+  .no-border-bottom {
+    border-bottom: none;
+  }
+
+  /* Reset and apply borders for small breakpoint (sm: 2 columns) */
+  @media (min-width: 640px) and (max-width: 1023px) {
+    .grid-item {
+      border-right: 1px solid #e5e7eb; /* Reset border-right */
+    }
+    .grid-item:nth-child(2n) {
+      border-right: none; /* Last item in row for 2 columns */
+      border-bottom: 1px solid #e5e7eb; /* Keep bottom border */
+    }
+    .lg\:grid-cols-3 .grid-item:nth-child(3n),
+    .lg\:grid-cols-4 .grid-item:nth-child(4n) {
+      border-right: solid 1px #e5e7eb; /* Reset border-right for large breakpoint */
+    }
+  }
+
+  /* Reset borders for mobile (1 column) */
+  @media (max-width: 639px) {
+    .grid-item {
+      border-right: none; /* No right borders in single column */
+    }
+    .grid-item:nth-child(n) {
+      border-bottom: 1px solid #e5e7eb; /* Keep bottom border for all items */
+    }
+    .grid-item:last-child {
+      border-bottom: none; /* Remove bottom border for last item */
+    }
+  }
 </style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const grid = document.querySelector('.content-grid .grid');
+    if (grid) {
+      const items = grid.querySelectorAll('.grid-item');
+      const cols = grid.classList.contains('lg:grid-cols-3') ? 3 : 4;
+      const lastRowCount = items.length % cols || cols;
+      Array.from(items).slice(-lastRowCount).forEach(item => item.classList.add('no-border-bottom'));
+    }
+  });
+</script>
