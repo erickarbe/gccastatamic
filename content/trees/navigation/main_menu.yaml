@@ -5,9 +5,8 @@ tree:
     url: '#'
     children:
       -
-        id: cd7bcadd-4d26-4750-8854-fb15e412cd8e
-        title: Exhibitions
-        url: /event-category/exhibitions
+        id: 708aacee-0d1b-4709-8bb7-b18d082145d0
+        entry: b7e08d70-fe4a-4825-8774-46a1a95c0f7f
       -
         id: da708783-fbc1-497d-ba28-259144a21441
         entry: c4671ae2-763c-4dbc-aaf2-973fd4cfb18b

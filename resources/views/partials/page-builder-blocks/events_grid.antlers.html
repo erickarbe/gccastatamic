@@ -1,11 +1,11 @@
-<section class="relative px-[5vw] py-12">
+<section class="relative px-[5vw] border-y border-gray-200">
 
-  <div class="events-grid grid md:grid-cols-2 lg:grid-cols-3 divide-x divide-y divide-gray-200 border-l border-t border-gray-200">
+  <div class="events-grid grid md:grid-cols-2 lg:grid-cols-3 divide-x  divide-y md:divide-y-0 divide-gray-200 border-l  md:border-r border-gray-200">
     
     
       {{ events_list }}
 
-        <article class="bg-white p-6">
+        <article class="bg-white p-6 last:border-r border-gray-200 md:last:border-r-0">
           <div
             class="relative overflow-hidden group hover:md:after:opacity-100 after:md:opacity-0 after:pointer-events-none after:absolute after:inset-0 after:bg-gradient-to-t after:duration-500 after:from-primary via-20% after:via-primary/40 after:bg-gcca-red/40 to-transparent after:z-10 after:transition-opacity flex justify-center items-center">
             <span
@@ -29,10 +29,8 @@
               {{ location }}
               {{ if all_day_event }}
               <div>
-                <span>{{ start_date_time format="F j, Y" }}</span>
-                {{ if end_date_time }}
-                  <span>- &nbsp; {{ end_date_time format="F j, Y" }}</span>
-                {{ /if }}
+                <span>{{ start_date_time format="F j, Y" }} - {{ end_date_time format="F j, Y" }}</span>
+                
               </div>
               {{ /if }}
             </div>

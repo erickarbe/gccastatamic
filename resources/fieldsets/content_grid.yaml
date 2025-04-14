@@ -48,5 +48,6 @@ fields:
                 -
                   handle: content
                   field:
-                    type: textarea
+                    remove_empty_nodes: false
+                    type: bard
                     display: Content
