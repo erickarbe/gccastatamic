@@ -1,5 +1,5 @@
-<section class="my-20 pr-[5vw] pl-[5vw] md:border-y border-gray-200">
-  <div class="img-text relative flex flex-col md:flex-row {{ if image_left_or_right == 'right' }}md:flex-row-reverse{{ /if }} items-center flex-col-reverse">
+<section class="my-8 md:my-16 pr-[5vw] pl-[5vw] md:border-y border-gray-200">
+  <div class="img-text relative flex flex-col md:flex-row {{ if image_left_or_right == 'right' }}md:flex-row-reverse{{ /if }} {{ if align_columns == "center" }} items-center {{ /if }} {{ if align_columns == "top" }} items-start {{ /if }} {{ if align_columns == "bottom" }} items-end {{ /if }} flex-col-reverse">
     {{ if image }}
       <div class="md:w-1/2 w-full md:py-20 py-10
         {{ if image_left_or_right == 'right' }}
@@ -8,7 +8,7 @@
           md:pr-20 md:pl-[0px]
         {{ /if }}
       ">
-        <img src="{{ image:url }}" alt="{{ image:alt }}" class="rounded-sm shadow-lg object-cover w-full md:h-[520px] h-[420px]" />
+        <img src="{{ image:url }}" alt="{{ image:alt }}" class="rounded-sm shadow-lg w-full {{ if constrain_image }} object-cover  md:h-[520px] h-[420px] {{ /if }}" />
       </div>
     {{ /if }}
 

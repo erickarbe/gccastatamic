@@ -41,7 +41,7 @@ inside_hero_content:
         text: ', whether they are local talents or creators from across the U.S.'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744722472
+updated_at: 1744741962
 blocks:
   -
     id: m9hudp2a
@@ -100,6 +100,8 @@ blocks:
     image: ways-to-give-hero.jpg
     type: image_and_text
     enabled: true
+    align_columns: center
+    constrain_image: true
   -
     id: m9hucuur
     text_alignment: left
@@ -114,11 +116,13 @@ blocks:
         panel_title: 'May 23rd'
         panel_content:
           -
-            type: paragraph
+            type: heading
+            attrs:
+              level: 3
             content:
               -
                 type: text
-                text: 'May – ARTalk with Ana Vizcarra Rankin'
+                text: 'ARTalk with Ana Vizcarra Rankin'
           -
             type: paragraph
             content:
@@ -142,7 +146,7 @@ blocks:
         enabled: true
       -
         id: m9hu0md1
-        panel_title: 'July – Artist Talk with Jessica Swank & Kate Burke'
+        panel_title: 'July 12th'
         panel_content:
           -
             type: heading
@@ -151,7 +155,7 @@ blocks:
             content:
               -
                 type: text
-                text: 'July 12th'
+                text: 'Artist Talk with Jessica Swank & Kate Burke'
           -
             type: paragraph
             content:
@@ -164,7 +168,7 @@ blocks:
         enabled: true
       -
         id: m9hu7ohl
-        panel_title: 'September – Brandon Fellows Artist Demo & Talk'
+        panel_title: 'September 13th'
         panel_content:
           -
             type: heading
@@ -173,7 +177,7 @@ blocks:
             content:
               -
                 type: text
-                text: "September 13th\_"
+                text: "Brandon Fellows Artist Demo & Talk\_"
           -
             type: paragraph
             content:
@@ -186,20 +190,33 @@ blocks:
         enabled: true
       -
         id: m9hu943v
-        panel_title: 'November – ARTalk with Melissa Haviland'
+        panel_title: 'November 7th'
         panel_content:
           -
-            type: paragraph
+            type: heading
+            attrs:
+              level: 3
             content:
               -
                 type: text
-                text: 'Friday, November 7'
+                text: 'ARTalk with Melissa Haviland'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Featuring: Melissa Haviland'
+                marks:
+                  -
+                    type: bold
+                text: 'Featuring:'
+              -
+                type: text
+                text: ' '
+              -
+                type: hardBreak
+              -
+                type: text
+                text: 'Melissa Haviland'
         panel_image:
           - artalk.jpg
         type: panel_group

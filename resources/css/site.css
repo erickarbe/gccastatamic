@@ -104,6 +104,11 @@ body {
 .panel-content ul a {
     text-decoration: underline;
 }
+.panel-content h3 {
+    font-size: 1.25em;
+    margin-bottom: 0.6em;
+    line-height: 1.6;
+}
 .grid-content h2,
 .grid-content h3 {
     @apply leading-[1.2] text-4xl md:text-5xl font-serif font-semibold text-dark-blue;
