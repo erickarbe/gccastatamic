@@ -2,7 +2,13 @@
   <div class="grid grid-cols-1 sm:grid-cols-2 {{ if number_of_columns == 'four' }}lg:grid-cols-4{{ else }}lg:grid-cols-3{{ /if }}
   border-t border-l border-gray-200">
     {{ people }}
-      <div class="border-b border-r border-gray-300 p-14 flex flex-col">
+
+      {{ if block_link }}
+        <a href="{{ block_link }}" class="border-b border-r border-gray-300 p-14 flex flex-col hover:bg-gray-100">
+      {{ /else }}
+        <div class="border-b border-r border-gray-300 p-14 flex flex-col">
+      {{ /if }}
+
         {{ if headshot }}
           <img 
             src="{{ headshot:url }}" 
@@ -58,8 +64,13 @@
             {{ /if }}
           </div>
         {{ /if }}
-
-      </div>
+        
+        {{ if block_link }}
+          </a>
+        {{ else }}
+          </div>
+        {{ /if }}
+      
     {{ /people }}
   </div>
 </section>

@@ -4,7 +4,7 @@ blueprint: page
 title: 'Our People'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744743922
+updated_at: 1744747801
 turn_off_hero: true
 eyebrow: Team
 blocks:
@@ -36,6 +36,7 @@ blocks:
         type: new_person
         enabled: true
         headshot: jess_abbott.jpg
+        block_link: 'entry::2ec31653-a94d-4d2f-a92a-ba6e609c7366'
       -
         id: m9cy3tq2
         name: 'Javy Pagan'
@@ -43,6 +44,7 @@ blocks:
         headshot: javy_pagan.jpg
         type: new_person
         enabled: true
+        block_link: 'entry::305dd2d3-d17e-43b5-b4b7-6b7fce719749'
       -
         id: m9cy6k4m
         name: 'Sara Grambach'
@@ -50,6 +52,7 @@ blocks:
         headshot: sara_grambach.jpg
         type: new_person
         enabled: true
+        block_link: 'entry::1317c49e-5dd6-4ff7-81c3-1ea591f3adf1'
       -
         id: m9ij6mp7
         name: 'Ben Tarcson'
@@ -57,6 +60,7 @@ blocks:
         headshot: ben-tarcson.jpg
         type: new_person
         enabled: true
+        block_link: 'entry::8e607ad1-6899-4729-bb76-662291bae2b7'
       -
         id: m9ij9cvi
         name: 'Alicia Mizuno, CTA'
@@ -64,6 +68,7 @@ blocks:
         headshot: alicia-mizuno.jpg
         type: new_person
         enabled: true
+        block_link: 'entry::562583b0-a0b1-4827-9bf0-40ce3c7e0e6c'
       -
         id: m9ijbbwv
         name: 'Hailey Chapman, CTA'
@@ -71,6 +76,7 @@ blocks:
         headshot: hailey-chapman.jpg
         type: new_person
         enabled: true
+        block_link: 'entry::22cfbbbc-4ae9-4202-a2c8-03b79a898e62'
       -
         id: m9ijd4bf
         name: 'Alexis Krcelic'
@@ -78,6 +84,7 @@ blocks:
         headshot: alexis-krcelic.jpg
         type: new_person
         enabled: true
+        block_link: 'entry::03459126-05f7-4e16-9f36-409b25fcdf01'
     type: people_grid
     enabled: true
     number_of_columns: three

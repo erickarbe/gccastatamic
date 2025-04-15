@@ -77,3 +77,9 @@ fields:
                     type: link
                     display: 'X Link'
                     width: 50
+                -
+                  handle: block_link
+                  field:
+                    type: link
+                    display: 'Block Link'
+                    instructions: 'This will make the entire card a link.'

@@ -27,18 +27,22 @@ fields:
   -
     handle: content
     field:
-      type: textarea
+      remove_empty_nodes: false
+      container: s3_assets
+      type: bard
       display: Content
   -
     handle: button_text
     field:
       type: text
       display: 'Button Text'
+      width: 50
   -
     handle: button_link
     field:
       type: link
       display: 'Button Link'
+      width: 50
   -
     handle: image_layout
     field:
