@@ -27,6 +27,7 @@ tabs:
                 - unorderedlist
                 - aligncenter
                 - image
+              container: s3_assets
   sidebar:
     display: Sidebar
     sections:

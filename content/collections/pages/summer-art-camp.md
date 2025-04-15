@@ -3,8 +3,8 @@ id: 18195f17-11aa-4661-aa8d-f6686155586d
 blueprint: page
 title: 'Summer Art Camp'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744727860
+updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
+updated_at: 1744739217
 turn_off_hero: false
 eyebrow: 'Inspiring Young Artists'
 inside_hero_header: 'Summer <span>Art Camp</span>'
@@ -19,7 +19,7 @@ inside_hero_image: summerartcamp2.jpg
 blocks:
   -
     id: m9il8o9l
-    panel_heading: 'Explore the Different Camps We Offer'
+    panel_heading: 'Explore Our Summer Art Camps'
     panel_links:
       -
         id: m9il9mvx
@@ -187,7 +187,7 @@ blocks:
                       -
                         type: image
                         attrs:
-                          src: 'asset::s3_assets::blick-logo.jpg'
+                          src: 'asset::s3_assets::blick.jpg'
                           alt: null
       -
         type: paragraph

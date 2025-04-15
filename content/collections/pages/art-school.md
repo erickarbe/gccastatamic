@@ -3,8 +3,8 @@ id: 6ebd5a1d-a0f6-4f23-af44-4efc690de590
 blueprint: page
 title: 'Art School'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744726039
+updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
+updated_at: 1744738167
 turn_off_hero: false
 eyebrow: 'Art School'
 inside_hero_header: 'The <span>Carrie Burns Brown Art School</span> at GCCA'
@@ -44,13 +44,15 @@ blocks:
               type: text
               text: 'Art by Appointment offers artists of all levels the opportunity for private, customized, art experiences for you and up to 15 friends and family. These experiences are perfect for birthday parties, corporate outings, team building activities and more!'
       button_text: 'Learn More'
-      button_link: '#'
+      button_link: 'https://artcentergreenville.org/art-by-appointment/#inquiryform'
     image: group-of-women-painting.jpg
     type: image_and_text
     enabled: true
+    align_columns: center
+    constrain_image: true
   -
     id: m9ikrv2h
-    panel_heading: 'Art by Appointment Mediums'
+    panel_heading: Mediums
     panel_content:
       -
         type: paragraph

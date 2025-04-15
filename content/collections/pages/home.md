@@ -53,19 +53,10 @@ home_page_blocks:
             content:
               -
                 type: text
-                text: 'At the Greenville Center for Creative Arts, we empower our community to explore and express their creativity through a variety of enriching programs. Our diverse offerings—from hands-on classes and workshops to dynamic summer art camps and innovative school partnerships—are all designed around our "Create & Connect" philosophy. Through dedicated community outreach and free art experiences, we provide accessible opportunities for everyone to engage with the arts, fostering collaboration, inspiration, and lifelong learning.'
+                text: 'At the Greenville Center for Creative Arts, we make creativity accessible through classes, camps, and community programs. Guided by our "Create & Connect" philosophy, we foster inspiration, collaboration, and lifelong learning for all.'
           -
             type: bulletList
             content:
-              -
-                type: listItem
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Classes & Workshops'
               -
                 type: listItem
                 content:
@@ -144,6 +135,7 @@ home_page_blocks:
           - slide3.jpg
         type: panel_group
         enabled: true
+        panel_button_link: 'entry::b7e08d70-fe4a-4825-8774-46a1a95c0f7f'
     type: homepage_sticky_panels
     enabled: true
   -
@@ -180,7 +172,15 @@ home_page_blocks:
         id: m9e9k5dl
         link_eyebrow: Visit
         link_heading: 'Experience Art in Every Corner'
-        link_content: 'Discover a world of creativity at GCCA. Stroll through our dynamic Main Gallery and Community Gallery, where international, national, regional, and local artists share their stories. Whether you’re a first-time visitor or an art enthusiast, each visit promises new perspectives and inspiration.'
+        link_content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Discover a world of creativity at GCCA. Stroll through our dynamic Main Gallery and Community Gallery, where international, national, regional, and local artists share their stories. Whether you’re a first-time visitor or an art enthusiast, each visit promises new perspectives and inspiration.'
         type: new_link_panel
         enabled: true
         link_url: '#'
@@ -188,16 +188,33 @@ home_page_blocks:
         id: m9e9klow
         link_eyebrow: 'Education / Art School'
         link_heading: 'Unleash Your Creative Potential'
-        link_content: 'From beginners to experienced artists, our Art School offers classes and workshops that ignite curiosity and nurture talent. Explore multiple artistic mediums guided by passionate, knowledgeable artists dedicated to your growth.'
+        link_content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'From beginners to experienced artists, our Art School offers classes and workshops that ignite curiosity and nurture talent. Explore multiple artistic mediums guided by passionate, knowledgeable artists dedicated to your growth.'
         type: new_link_panel
         enabled: true
       -
         id: m9e9l4l6
         link_eyebrow: 'Events / Calendar'
         link_heading: 'Immerse Yourself in the Arts'
-        link_content: 'Be part of the vibrant creative community at GCCA. Attend our events, exhibitions, and workshops, or join us for the First Friday gallery crawl. There’s always something inspiring happening here.'
+        link_content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Be part of the vibrant creative community at GCCA. Attend our events, exhibitions, and workshops, or join us for the First Friday gallery crawl. There’s always something inspiring happening here.'
         type: new_link_panel
         enabled: true
+        link_url: /events/
   -
     id: m9h8i8ys
     width: full_width
@@ -304,5 +321,5 @@ home_page_blocks:
     grid_four_link_text: 'Shop Now'
     grid_four_link: 'https://shopgcca.square.site/shop/gift-shop/QKUHFB564YN7LNRSBUGIOKRO'
 updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744656046
+updated_at: 1744740271
 ---
