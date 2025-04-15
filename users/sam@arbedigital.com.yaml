@@ -7,6 +7,8 @@ preferences:
   collections:
     pages:
       after_save: continue_editing
+    articles:
+      per_page: 500
   assets:
     s3_assets:
       per_page: 500
