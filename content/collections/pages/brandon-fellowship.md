@@ -4,7 +4,7 @@ blueprint: page
 title: 'Brandon Fellowship'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744594524
+updated_at: 1744676728
 turn_off_hero: false
 eyebrow: 'The Brandon Fellowship'
 inside_hero_header: 'Empowering the Next Generation of Artists'
@@ -98,39 +98,88 @@ blocks:
     content_grid_item:
       -
         id: m9g85n7t
-        content: 'Free Studio Space: Fellows receive a university-style studio at GCCA, where they are required to spend a minimum of 20 hours per week creating work. During public hours, fellows engage with visitors, fostering connections within the arts community.'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Fellows receive a university-style studio at GCCA, where they are required to spend a minimum of 20 hours per week creating work. During public hours, fellows engage with visitors, fostering connections within the arts community.'
         type: new_item
         enabled: true
+        heading: 'Free Studio Space:'
       -
         id: m9g85yrk
-        content: '$750 Art Stipend: To support artistic growth, fellows receive a $750 stipend for art supplies or related expenses.'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'To support artistic growth, fellows receive a $750 stipend for art supplies or related expenses.'
         type: new_item
         enabled: true
+        heading: '$750 Art Stipend:'
       -
         id: m9g89lhg
-        content: 'Complimentary Classes & Workshops: Fellows gain free access to GCCA classes and workshops, expanding their skills and techniques.'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Fellows gain free access to GCCA classes and workshops, expanding their skills and techniques.'
         type: new_item
         enabled: true
+        heading: 'Complimentary Classes & Workshops:'
       -
         id: m9g89s5q
-        content: '$200 Travel Stipend: A $200 Spinx stipend helps cover transportation costs.'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'A $200 Spinx stipend helps cover transportation costs.'
         type: new_item
         enabled: true
+        heading: '$200 Travel Stipend:'
       -
         id: m9g89z8t
-        content: 'Exhibition & Artist Talk: Fellows showcase their work in an August–September exhibition, culminating in a public ARTalk presentation.'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Fellows showcase their work in an August–September exhibition, culminating in a public ARTalk presentation.'
         type: new_item
         enabled: true
+        heading: 'Exhibition & Artist Talk:'
       -
         id: m9g8a6gi
-        content: 'Networking & Collaboration: Fellows participate in local arts events, providing opportunities for networking and creative collaboration.'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Fellows participate in local arts events, providing opportunities for networking and creative collaboration.'
         type: new_item
         enabled: true
+        heading: 'Networking & Collaboration:'
       -
         id: m9g8aeem
-        content: 'Public Exposure & Promotion: The program offers broad visibility in Greenville and beyond, including the opportunity to manage a social media takeover of GCCA’s platforms, expanding their reach as emerging artists.'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'The program offers broad visibility in Greenville and beyond, including the opportunity to manage a social media takeover of GCCA’s platforms, expanding their reach as emerging artists.'
         type: new_item
         enabled: true
+        heading: 'Public Exposure & Promotion:'
     type: content_grid
     enabled: true
   -
@@ -154,39 +203,125 @@ blocks:
       -
         id: m9g8fdpm
         heading: 'Age Requirement:'
-        content: 'Applicants must be between 18 and 25 years old.'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Applicants must be between 18 and 25 years old.'
         type: new_item
         enabled: true
       -
         id: m9g8gwic
         heading: 'Education & Training:'
-        content: 'No prior professional art training or post-secondary education is required—what matters most is your dedication to your artistic practice and professional growth.'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'No prior professional art training or post-secondary education is required—what matters most is your dedication to your artistic practice and professional growth.'
         type: new_item
         enabled: true
       -
         id: m9g8h82u
         heading: 'Artistic Commitment:'
-        content: 'Ideal candidates are passionate about advancing their careers as working artists, demonstrating strong artistic talent, self-motivation, and a clear sense of direction.'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Ideal candidates are passionate about advancing their careers as working artists, demonstrating strong artistic talent, self-motivation, and a clear sense of direction.'
         type: new_item
         enabled: true
       -
         id: m9g8hivs
         heading: 'Studio & Community Engagement:'
-        content: 'Fellows must be fully committed to their studio practice, spending approximately 20 hours per week working in their GCCA studio, engaging with visitors, and actively participating in the arts community.'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Fellows must be fully committed to their studio practice, spending approximately 20 hours per week working in their GCCA studio, engaging with visitors, and actively participating in the arts community.'
         type: new_item
         enabled: true
       -
         id: m9g8huqk
         heading: 'Citizenship Requirement:'
-        content: 'At the time of application, applicants must be U.S. citizens or have been lawful permanent residents for at least five years.'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'At the time of application, applicants must be U.S. citizens or have been lawful permanent residents for at least five years.'
         type: new_item
         enabled: true
       -
         id: m9g8i998
         heading: Interview
-        content: 'If chosen for an interview, candidates must attend an in-person interview at GCCA before a selection committee.'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'If chosen for an interview, candidates must attend an in-person interview at GCCA before a selection committee.'
         type: new_item
         enabled: true
     type: content_grid
+    enabled: true
+  -
+    id: m9hqqnvw
+    text_alignment: left
+    title: 'Class of 2025 Brandon Fellows'
+    type: basic_title
+    enabled: true
+  -
+    id: m9hqh1gq
+    people:
+      -
+        id: m9hqjf9p
+        name: 'Alexander Rouse'
+        title: alexanderrouse.com
+        headshot: alexander-rouse.png
+        type: new_person
+        enabled: true
+      -
+        id: m9hqmu0k
+        name: 'Bella Bishara'
+        title: www.bellabishara.com
+        headshot: bella-bishara.png
+        type: new_person
+        enabled: true
+      -
+        id: m9hqojqr
+        name: 'Joel Houston'
+        title: joel-houston.com
+        headshot: joel-houston.png
+        type: new_person
+        enabled: true
+    type: people_grid
+    enabled: true
+  -
+    id: m9hqraj7
+    text_alignment: left
+    title: 'Brandon Fellowship Alumni'
+    type: basic_title
     enabled: true
 ---

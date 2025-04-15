@@ -1,5 +1,5 @@
-<section class="big-callout relative w-full overflow-hidden py-24" style="background-color: {{ background_color }};">
-  <div class="{{ if width == 'contained' }}max-w-7xl mx-auto{{ else }}w-full{{ /if }}">
+<section class="big-callout relative w-full overflow-hidden py-24">
+  <div class="{{ if width == 'contained' }}mr-[5vw] ml-[5vw] rounded-md mx-auto{{ else }}w-full{{ /if }} py-10" style="background-color: {{ background_color }}";>
     
     <div class="relative
         {{ if image_layout == 'beside_text' }}
@@ -26,7 +26,7 @@
       {{ /if }}
 
       <!-- Text Column -->
-      <div class="{{ if image_layout == 'beside_text' }}p-8{{ else }}max-w-2xl{{ /if }}">
+      <div class="{{ if image_layout == 'beside_text' }}p-8{{ else }}max-w-6xl{{ /if }}">
         {{ if eyebrow }}
           <p class="text-sm uppercase tracking-widest mb-2 text-white">{{ eyebrow }}</p>
         {{ /if }}
