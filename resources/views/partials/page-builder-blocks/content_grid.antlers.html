@@ -1,25 +1,25 @@
-<section class="mt-20 pl-[5vw] pr-[5vw] content-grid-text">
-  {{ if content_grid_title || content_grid_text }}
-  <div class="mb-12 max-w-2xl">
-    {{ if content_grid_title }}
-      <h2 class="font-serif text-4xl md:text-6xl font-bold text-gray-900 mb-4">
-        {{ content_grid_title }}
-      </h2>
-    {{ /if }}
-    {{ if content_grid_text }}
-      <p class="text-base text-gray-700 leading-relaxed">
-        {{ content_grid_text }}
-      </p>
-    {{ /if }}
-  </div>
+{{ if content_grid_title || content_grid_text }}
+  <section class="mt-20 pl-[5vw] pr-[5vw] content-grid-text">
+    <div class="mb-12 max-w-2xl">
+      {{ if content_grid_title }}
+        <h2 class="font-serif text-4xl md:text-6xl font-bold text-gray-900 mb-4">
+          {{ content_grid_title }}
+        </h2>
+      {{ /if }}
+      {{ if content_grid_text }}
+        <p class="text-base text-gray-700 leading-relaxed">
+          {{ content_grid_text }}
+        </p>
+      {{ /if }}
+    </div>
+  </section>
 {{ /if }}
-</section>
 <section class="mb-20 mt-10 pl-[5vw] pr-[5vw] content-grid border-y border-gray-200">
   {{ if content_grid_item }}
-    <div class="grid grid-cols-1 sm:grid-cols-2 {{ if number_of_columns == 'three' }}lg:grid-cols-3{{ else }}lg:grid-cols-4{{ /if }} border-x border-gray-200 divide-y divide-gray-200">
+    <div class="grid grid-cols-1 sm:grid-cols-2 {{ if number_of_columns == 'three' }}lg:grid-cols-3{{ else }}lg:grid-cols-4{{ /if }}  border-gray-200 divide-y md:divide-y-0 md:divide-x md:border-l   divide-gray-200">
       {{ content_grid_item }}
         {{ if eyebrow || heading || content }}
-          <div class="p-6 flex flex-col h-full grid-item">
+          <div class="p-6 flex flex-col h-full grid-item border-l md:border-l-0 border-r border-gray-200 {{ if index > 3 }} md:border-t {{ /if }}">
             {{ if eyebrow }}
               <p class="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-2">
                 {{ eyebrow }}
@@ -34,18 +34,25 @@
 
             {{ if content }}
               <div class="text-md prose text-gray-700 leading-relaxed">
-                {{ content }}
+                {{ content | nl2br }}
               </div>
             {{ /if }}
           </div>
         {{ /if }}
+        {{ if last && total_results == 7 }}
+            <div class="hidde p-6 md:flex flex-col h-full grid-item border-l md:border-l-0 border-r border-gray-200 md:border-t"></div>
+        {{ /if }}
+        {{ if last && total_results == 11 }}
+            <div class="hidden p-6 md:flex flex-col h-full grid-item border-l md:border-l-0 border-r border-gray-200 md:border-t"></div>
+        {{ /if }}
       {{ /content_grid_item }}
+      
     </div>
   {{ /if }}
 </section>
 
   
-<style>
+{{# <style>
   .grid-item {
     border-right: 1px solid #e5e7eb;
     border-bottom: 1px solid #e5e7eb;
@@ -101,4 +108,4 @@
       Array.from(items).slice(-lastRowCount).forEach(item => item.classList.add('no-border-bottom'));
     }
   });
-</script>
+</script> #}}
