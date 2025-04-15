@@ -4,7 +4,7 @@ blueprint: page
 title: 'Brandon Fellowship'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744676728
+updated_at: 1744739621
 turn_off_hero: false
 eyebrow: 'The Brandon Fellowship'
 inside_hero_header: 'Empowering the Next Generation of Artists'
@@ -289,7 +289,7 @@ blocks:
   -
     id: m9hqqnvw
     text_alignment: left
-    title: 'Class of 2025 Brandon Fellows'
+    title: 'Past & Present Brandon Fellows'
     type: basic_title
     enabled: true
   -
@@ -298,30 +298,284 @@ blocks:
       -
         id: m9hqjf9p
         name: 'Alexander Rouse'
-        title: alexanderrouse.com
+        title: 'Class of 2025'
         headshot: alexander-rouse.png
         type: new_person
         enabled: true
+        website_link: 'https://alexanderrouse.com/'
+        instagram_link: 'https://www.instagram.com/xanderrrouse.jpg/?hl=en'
+        email: xanderrrouse@gmail.com
       -
         id: m9hqmu0k
         name: 'Bella Bishara'
-        title: www.bellabishara.com
+        title: 'Class of 2025'
         headshot: bella-bishara.png
         type: new_person
         enabled: true
+        email: bellabishara@gmail.com
+        website_link: 'https://www.bellabishara.com/'
+        instagram_link: 'https://www.instagram.com/bellabishara/'
       -
         id: m9hqojqr
         name: 'Joel Houston'
-        title: joel-houston.com
+        title: 'Class of 2025'
         headshot: joel-houston.png
+        type: new_person
+        enabled: true
+        email: joel.houston369@gmail.com
+        website_link: 'https://joel-houston.com/'
+        instagram_link: 'https://www.instagram.com/joel_369/'
+      -
+        id: m9irfhww
+        name: 'Kephira Davis'
+        title: 'Class of 2024'
+        headshot: kephira-davis-1.png
+        website_link: 'https://kephiradavisstudio.com/'
+        instagram_link: 'https://www.instagram.com/kephiradavisstudio/'
+        type: new_person
+        enabled: true
+      -
+        id: m9iridrd
+        name: 'Christine Moore-Bonbright'
+        title: 'Class of 2024'
+        headshot: christine-moore-bonbright.png
+        website_link: 'https://www.christinembdesign.com/'
+        instagram_link: 'https://www.instagram.com/christinemb.art/'
+        type: new_person
+        enabled: true
+      -
+        id: m9irjgc7
+        name: 'Elizabeth Wallace'
+        title: 'Class of 2024'
+        headshot: elizabeth-wallace.png
+        website_link: 'https://www.instagram.com/elizabethparker_w/'
+        type: new_person
+        enabled: true
+      -
+        id: m9irk4ss
+        name: 'Faith Hudgens'
+        title: 'Class of 2023'
+        email: faithhudgens@gmail.com
+        headshot: faith-hudgens.webp
+        website_link: 'https://www.faithhudgensart.com/'
+        instagram_link: 'https://www.instagram.com/bigmama.ink/'
+        facebook_link: 'https://www.facebook.com/faith.monroe.54'
+        x_link: 'https://x.com/thebigmamafaith'
+        type: new_person
+        enabled: true
+      -
+        id: m9iromuk
+        name: 'Orlando Corona'
+        title: 'Class of 2023'
+        email: koronaprints@gmail.com
+        headshot: headshot-orlando-corona.webp
+        website_link: 'https://orfamivisualart.com/'
+        instagram_link: 'https://www.instagram.com/orfamivisualart/'
+        type: new_person
+        enabled: true
+      -
+        id: m9irqgsl
+        name: 'RaAmen Stallings'
+        title: 'Class of 2023'
+        email: raamenstallings@gmail.com
+        headshot: raamen-stallings.webp
+        website_link: 'https://linktr.ee/Raamenstallings'
+        instagram_link: 'https://www.instagram.com/raamenstallings/'
+        facebook_link: 'https://www.facebook.com/amenraphotography'
+        type: new_person
+        enabled: true
+      -
+        id: m9irsdha
+        name: 'Kim Le'
+        title: 'Class of 2022'
+        headshot: kim-le.webp
+        website_link: 'https://www.kimhanle.com/'
+        instagram_link: 'https://www.instagram.com/kim.han.le.art/'
+        type: new_person
+        enabled: true
+      -
+        id: m9irtyjv
+        name: 'Terrell Washington'
+        title: 'Class of 2022'
+        headshot: terrell-washington.webp
+        website_link: 'https://site-4715904-2193-7727.mystrikingly.com/'
+        instagram_link: 'https://www.instagram.com/tqwashington_art/'
+        facebook_link: 'https://www.facebook.com/terrell.washington.5245'
+        type: new_person
+        enabled: true
+      -
+        id: m9irwbj6
+        name: 'Sienna Patterson'
+        title: 'Class of 2022'
+        headshot: sienna-patterson.webp
+        website_link: 'https://slapatterson6.wixsite.com/teeth'
+        instagram_link: 'https://www.instagram.com/s.l.a.p.art/'
+        type: new_person
+        enabled: true
+      -
+        id: m9irxnde
+        name: 'Anna Grace Burch'
+        title: 'Class of 2021'
+        headshot: anna-grace-burch.webp
+        website_link: 'https://www.annagraceart.com/'
+        instagram_link: 'https://www.instagram.com/annagracefineart/'
+        type: new_person
+        enabled: true
+      -
+        id: m9irz2wh
+        name: 'Evan Givens'
+        title: 'Class of 2021'
+        headshot: even-givens.webp
+        website_link: 'https://www.evangivens.com/'
+        instagram_link: 'https://www.instagram.com/sadgodofficial/'
+        type: new_person
+        enabled: true
+      -
+        id: m9is0c6i
+        name: 'Savannah Ralph'
+        title: 'Class of 2021'
+        headshot: savannah-ralph_v2.webp
+        website_link: 'http://savvyralph.com/'
+        instagram_link: 'https://www.instagram.com/savvy_ralph/'
+        facebook_link: 'https://www.facebook.com/legendofsavvy'
+        x_link: 'https://twitter.com/SavvyRalph'
+        type: new_person
+        enabled: true
+      -
+        id: m9is24ha
+        name: 'Nick Burns'
+        title: 'Class of 2020'
+        headshot: nick-burns.webp
+        website_link: 'https://www.ninjapicasso.com/'
+        instagram_link: 'https://www.instagram.com/njapgallery/'
+        facebook_link: 'https://www.facebook.com/theninjapicasso'
+        type: new_person
+        enabled: true
+      -
+        id: m9isb0ro
+        name: 'Julius Ferguson'
+        title: 'Class of 2020'
+        headshot: julius-ferguson.webp
+        instagram_link: 'https://www.instagram.com/juliart_ink/'
+        type: new_person
+        enabled: true
+      -
+        id: m9iscmbe
+        name: 'Jaz Henderson'
+        title: 'Class of 2020'
+        headshot: jaz-henderson.webp
+        website_link: 'https://weirdartcreations.com/'
+        instagram_link: 'https://www.instagram.com/weirdartcreations2.0/'
+        type: new_person
+        enabled: true
+      -
+        id: m9isdu3s
+        name: 'Angel Jenkins'
+        title: 'Class of 2019'
+        headshot: angel-jenkins.webp
+        type: new_person
+        enabled: true
+      -
+        id: m9iserfa
+        name: 'Brittany Kelly'
+        title: 'Class of 2019'
+        headshot: brittany-kelly.webp
+        website_link: 'https://missbrittportfolio.weebly.com/'
+        instagram_link: 'https://www.instagram.com/thegooddrawer/'
+        type: new_person
+        enabled: true
+      -
+        id: m9isg5m8
+        name: 'Elliot Lovegrove'
+        title: 'Class of 2019'
+        headshot: elliot-lovegrove.webp
+        instagram_link: 'https://www.instagram.com/elliotlovegrove/'
+        type: new_person
+        enabled: true
+      -
+        id: m9ishfv0
+        name: 'Charis Jackson Barrios'
+        title: 'Class of 2018'
+        headshot: charis-jb.webp
+        website_link: 'https://society6.com/charisjb'
+        instagram_link: 'https://www.instagram.com/charisjb/'
+        type: new_person
+        enabled: true
+      -
+        id: m9isjhx9
+        name: 'Megan Hueble'
+        title: 'Class of 2018'
+        headshot: megan-hueble.webp
+        website_link: 'http://www.meganhueble.com/'
+        instagram_link: 'https://www.instagram.com/megan.hueble/'
+        type: new_person
+        enabled: true
+      -
+        id: m9isksgp
+        name: 'Olivia Perreault'
+        title: 'Class of 2018'
+        headshot: olivia-perreault.webp
+        website_link: 'http://oliviaperreault.com/'
+        instagram_link: 'https://www.instagram.com/livpero.studio/'
+        type: new_person
+        enabled: true
+      -
+        id: m9ismfi5
+        name: 'Brandon Seabrook Nelson'
+        title: 'Class of 2017'
+        headshot: brandon-seabrook-nelson.webp
+        instagram_link: 'https://www.instagram.com/seabrook84'
+        type: new_person
+        enabled: true
+      -
+        id: m9isnopv
+        name: 'Dorothy Shain'
+        title: 'Class of 2017'
+        headshot: dorothy-shain.webp
+        website_link: 'https://www.dorothyshain.com/'
+        instagram_link: 'https://www.instagram.com/dorothy_shain/'
+        facebook_link: 'https://www.facebook.com/dorothy.shain/'
+        type: new_person
+        enabled: true
+      -
+        id: m9ispf2r
+        name: 'Ashley Waller Rabanal'
+        title: 'Class of 2017'
+        headshot: ashley-waller_v2.webp
+        website_link: 'http://www.ashleywallerart.com/'
+        instagram_link: 'https://www.instagram.com/rabanalpaints/'
+        type: new_person
+        enabled: true
+      -
+        id: m9isrbki
+        name: 'Glory Day Loflin'
+        title: 'Class of 2016'
+        headshot: glory-loftin.webp
+        website_link: 'https://www.glorydayloflin.com/'
+        instagram_link: 'https://www.instagram.com/glorydayloflin/'
+        facebook_link: 'https://www.facebook.com/glorydayloflin'
+        type: new_person
+        enabled: true
+      -
+        id: m9istaar
+        name: 'Antonio Modesto Milian'
+        title: 'Class of 2016'
+        headshot: antonio-milian.webp
+        website_link: 'https://antoniomodestomilian.myportfolio.com/'
+        instagram_link: 'https://www.instagram.com/amodestophoto/'
+        x_link: 'https://twitter.com/amodestophoto'
+        type: new_person
+        enabled: true
+      -
+        id: m9isuwza
+        name: 'Naomi Nakazato'
+        title: 'Class of 2016'
+        headshot: naomi-nakazato.webp
+        website_link: 'http://www.naominakazato.com/'
+        instagram_link: 'https://www.instagram.com/naominakazato/'
         type: new_person
         enabled: true
     type: people_grid
     enabled: true
-  -
-    id: m9hqraj7
-    text_alignment: left
-    title: 'Brandon Fellowship Alumni'
-    type: basic_title
-    enabled: true
+    number_of_columns: four
 ---
