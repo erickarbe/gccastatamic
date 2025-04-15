@@ -3,8 +3,8 @@ id: 7f18f75f-7fd2-446a-852c-7f0570aece59
 blueprint: page
 title: 'Annual Showcase'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744730481
+updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
+updated_at: 1744743043
 turn_off_hero: false
 eyebrow: 'GCCA Member Juried Art Exhibition'
 inside_hero_header: 'Annual Showcase'
@@ -44,6 +44,8 @@ blocks:
     image: gcca-showcase_0001.jpg
     type: image_and_text
     enabled: true
+    align_columns: center
+    constrain_image: true
   -
     id: m9hrr9o9
     image_left_or_right: right
@@ -135,6 +137,8 @@ blocks:
     image: showcase-gallery-img.jpg
     type: image_and_text
     enabled: true
+    align_columns: center
+    constrain_image: true
   -
     id: m9hrxv5e
     panel_heading: 'Showcase Information'
@@ -652,4 +656,6 @@ blocks:
             text: 'We look forward to celebrating the remarkable talent of our GCCA member artists!'
     grid_four_link_text: 'Submission Portal'
     grid_four_link: 'https://www.artgalleria.com/portal'
+    grid_two_image:
+      - jennifer-2.jpg
 ---

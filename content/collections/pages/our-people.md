@@ -3,8 +3,8 @@ id: 4b49b7d2-0525-40ac-a674-162a852a74c8
 blueprint: page
 title: 'Our People'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744723652
+updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
+updated_at: 1744743922
 turn_off_hero: true
 eyebrow: Team
 blocks:
@@ -23,7 +23,6 @@ blocks:
         team_type: leadership
         name: 'Jess Abbott'
         title: 'Chief Executive Officer'
-        email: jess@artcentergreenville.org
         phone_number: 864.274.0351
         bio: |-
           Jess Abbott's journey in the world of nonprofit arts administration spans over 15 years of dedicated service, culminating in her appointment as Chief Executive Officer of the esteemed Greenville Center for Creative Arts (GCCA) in 2022. With a robust background in steering organizations from their nascent stages to thriving phases of growth, Jess brings a wealth of expertise to her leadership role.
@@ -81,6 +80,7 @@ blocks:
         enabled: true
     type: people_grid
     enabled: true
+    number_of_columns: three
   -
     id: m9d2ijsp
     text_alignment: left

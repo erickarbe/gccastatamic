@@ -3,8 +3,8 @@ id: 18195f17-11aa-4661-aa8d-f6686155586d
 blueprint: page
 title: 'Summer Art Camp'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744739217
+updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
+updated_at: 1744744450
 turn_off_hero: false
 eyebrow: 'Inspiring Young Artists'
 inside_hero_header: 'Summer <span>Art Camp</span>'
@@ -138,59 +138,20 @@ blocks:
     type: sticky_links
     enabled: true
   -
-    id: m9ilin8q
-    eyebrow: Sponsors
-    heading: 'Thank You To Our Art Camp Sponsors'
-    content:
+    id: m9ivpccu
+    grid_one_content:
       -
-        type: table
+        type: heading
+        attrs:
+          level: 3
         content:
           -
-            type: tableRow
-            content:
-              -
-                type: tableCell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth:
-                    - 289
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: image
-                        attrs:
-                          src: 'asset::s3_assets::scac2-logo.png'
-                          alt: null
-              -
-                type: tableCell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth:
-                    - 151
-                content:
-                  -
-                    type: paragraph
-              -
-                type: tableCell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: image
-                        attrs:
-                          src: 'asset::s3_assets::blick.jpg'
-                          alt: null
-      -
-        type: paragraph
-    type: basic_centered_content
+            type: text
+            text: 'Thank You To Our Art Camp Sponsors'
+    grid_three_image:
+      - scac2-logo.png
+    grid_four_image:
+      - blick-logo.jpg
+    type: four_up_grid
     enabled: true
 ---
