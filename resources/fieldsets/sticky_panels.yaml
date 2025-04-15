@@ -13,6 +13,11 @@ fields:
               display: 'Panel Group'
               fields:
                 -
+                  handle: eyebrow
+                  field:
+                    type: text
+                    display: Eyebrow
+                -
                   handle: panel_title
                   field:
                     type: text
