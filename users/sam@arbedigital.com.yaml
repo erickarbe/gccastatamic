@@ -10,4 +10,3 @@ preferences:
   assets:
     s3_assets:
       per_page: 500
-      mode: grid

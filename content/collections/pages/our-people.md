@@ -3,8 +3,8 @@ id: 4b49b7d2-0525-40ac-a674-162a852a74c8
 blueprint: page
 title: 'Our People'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744563887
+updated_by: 916c3785-d212-40bc-89ff-572097ac9582
+updated_at: 1744723652
 turn_off_hero: true
 eyebrow: Team
 blocks:
@@ -51,6 +51,34 @@ blocks:
         headshot: sara_grambach.jpg
         type: new_person
         enabled: true
+      -
+        id: m9ij6mp7
+        name: 'Ben Tarcson'
+        title: 'Gallery Director'
+        headshot: ben-tarcson.jpg
+        type: new_person
+        enabled: true
+      -
+        id: m9ij9cvi
+        name: 'Alicia Mizuno, CTA'
+        title: 'Operations Director, Jewelry Studio Manager'
+        headshot: alicia-mizuno.jpg
+        type: new_person
+        enabled: true
+      -
+        id: m9ijbbwv
+        name: 'Hailey Chapman, CTA'
+        title: 'Visitor Experience Manager'
+        headshot: hailey-chapman.jpg
+        type: new_person
+        enabled: true
+      -
+        id: m9ijd4bf
+        name: 'Alexis Krcelic'
+        title: 'Development and Events Coordinator'
+        headshot: alexis-krcelic.jpg
+        type: new_person
+        enabled: true
     type: people_grid
     enabled: true
   -
@@ -65,37 +93,69 @@ blocks:
       -
         id: m9d2j269
         heading: 'Sarah Paige Chapman'
-        content: |-
-          Visitor Experience Assistant
-          info@artcentergreenville.org
-          (864) 735-3948
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: |-
+                  Visitor Experience Assistant
+                  info@artcentergreenville.org
+                  (864) 735-3948
         type: new_item
         enabled: true
       -
         id: m9d2kh1b
         heading: 'Bella Bishara'
-        content: |-
-          Visitor Experience Assistant
-          info@artcentergreenville.org
-          (864) 735-3948
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: |-
+                  Visitor Experience Assistant
+                  info@artcentergreenville.org
+                  (864) 735-3948
         type: new_item
         enabled: true
       -
         id: m9d2kvb4
         heading: 'Abigail Broadwater'
-        content: |-
-          Visitor Experience Assistant
-          info@artcentergreenville.org
-          (864) 735-3948
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: |-
+                  Visitor Experience Assistant
+                  info@artcentergreenville.org
+                  (864) 735-3948
         type: new_item
         enabled: true
       -
         id: m9d2l8le
         heading: 'Abigale Taylor'
-        content: |-
-          Visitor Experience Assistant
-          info@artcentergreenville.org
-          (864) 735-3948
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: |-
+                  Visitor Experience Assistant
+                  info@artcentergreenville.org
+                  (864) 735-3948
         type: new_item
         enabled: true
     type: content_grid
@@ -112,19 +172,35 @@ blocks:
       -
         id: m9d2r0gp
         heading: 'Bethany Hallas'
-        content: |-
-          Administrative Intern
-          intern@artcentergreenville.org
-          (864) 735-3948
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: |-
+                  Administrative Intern
+                  intern@artcentergreenville.org
+                  (864) 735-3948
         type: new_item
         enabled: true
       -
         id: m9d2st6d
         heading: 'Claire Delaney'
-        content: |-
-          Gallery Intern
-          intern@artcentergreenville.org
-          (864) 735-3948
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: |-
+                  Gallery Intern
+                  intern@artcentergreenville.org
+                  (864) 735-3948
         type: new_item
         enabled: true
     type: content_grid
@@ -141,76 +217,164 @@ blocks:
       -
         id: m9d2r0gp
         heading: 'Bradley Wingate'
-        content: |-
-          Board Chair
-          Director of Visual & Performing Arts,
-          Greenville County Public Schools
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: |-
+                  Board Chair
+                  Director of Visual & Performing Arts,
+                  Greenville County Public Schools
         type: new_item
         enabled: true
       -
         id: m9d2st6d
         heading: 'Bill Stephenson'
-        content: |-
-          Board Vice Chair
-          Retired – Sr. Vice President in Commercial Real Estate Lending
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: |-
+                  Board Vice Chair
+                  Retired – Sr. Vice President in Commercial Real Estate Lending
         type: new_item
         enabled: true
       -
         id: m9d40tif
         heading: 'Dan Helwing'
-        content: |-
-          Board Treasurer
-          Partner, Ernst & Young
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: |-
+                  Board Treasurer
+                  Partner, Ernst & Young
         type: new_item
         enabled: true
       -
         id: m9d414x2
         heading: 'Blair Knobel'
-        content: |-
-          Board Secretary
-          Founder & CEO, Knobel Media
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: |-
+                  Board Secretary
+                  Founder & CEO, Knobel Media
         type: new_item
         enabled: true
       -
         id: m9d41g5c
         heading: 'Mary Church Cornette'
-        content: 'CEO, Head of Creative, FUEL'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'CEO, Head of Creative, FUEL'
         type: new_item
         enabled: true
       -
         id: m9d41sdz
         heading: 'Earle Furman (GCCA Founder)'
-        content: 'Chair, NAI Earle Furman'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Chair, NAI Earle Furman'
         type: new_item
         enabled: true
       -
         id: m9d4231a
         heading: 'Ben Hepner'
-        content: 'Attorney, Littler Law'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Attorney, Littler Law'
         type: new_item
         enabled: true
       -
         id: m9d42d3s
         heading: 'Kacee Lominack'
-        content: 'Marketing Manager, Peacock Marketing'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Marketing Manager, Peacock Marketing'
         type: new_item
         enabled: true
       -
         id: m9d42sp0
         heading: 'Vee Popat'
-        content: 'Director, Fine Arts Center'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Director, Fine Arts Center'
         type: new_item
         enabled: true
       -
         id: m9d439tk
         heading: 'Nathan Reynolds'
-        content: 'Navesink Aviation'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Navesink Aviation'
         type: new_item
         enabled: true
       -
         id: m9d43qa8
         heading: 'Liz Rundorff-Smith'
-        content: 'Art & Light Gallery'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Art & Light Gallery'
         type: new_item
         enabled: true
     type: content_grid

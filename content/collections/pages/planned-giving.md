@@ -4,7 +4,7 @@ blueprint: page
 title: 'Planned Giving'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744415979
+updated_at: 1744724234
 turn_off_hero: false
 inside_hero_header: 'Planned Giving'
 inside_hero_content:
@@ -121,107 +121,127 @@ blocks:
                       text: 'A gift that will be made from the remainder of your estate once all other bequests, debts, and taxes have been paid (e.g., you give 25% of the rest, residue, and remainder of your estate). Often called a “residuary bequest,” this approach assures that your family will be taken care of before your estate makes a bequest to GCCA.'
       button_text: null
       button_link: null
-    image: slide2.jpg
+    image: brandon-fellowship-gallery-3.jpg
     type: image_and_text
     enabled: true
   -
-    id: m9dg2xbr
-    content:
+    id: m9iji9le
+    panel_heading: 'How to Designate GCCA as a Beneficiary'
+    panel_links:
       -
-        type: paragraph
-        content:
+        id: m9ijm7d6
+        link_heading: 'Name GCCA as a Beneficiary'
+        link_content:
           -
-            type: text
-            text: 'To name GCCA as a beneficiary, please designate your gift as follows:'
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'To name GCCA as a beneficiary, please designate your gift as follows:'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Legal Name:'
+              -
+                type: text
+                text: ' Greenville Center for Creative Arts'
+              -
+                type: hardBreak
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Federal Tax ID#:'
+              -
+                type: text
+                text: ' 46-5542692'
+        type: new_link_panel
+        enabled: true
       -
-        type: paragraph
-        content:
+        id: m9ijo2te
+        link_heading: 'Notify Us'
+        link_content:
           -
-            type: text
-            marks:
+            type: paragraph
+            content:
               -
-                type: bold
-            text: 'Legal Name:'
-          -
-            type: text
-            text: ' Greenville Center for Creative Arts'
-          -
-            type: hardBreak
-          -
-            type: text
-            marks:
+                type: text
+                text: 'Notifying GCCA of your intended gift will allow us to honor your wishes and ensure that we maximize your gift’s impact. Please let us know your wishes by completing '
               -
-                type: bold
-            text: 'Federal Tax ID#:'
-          -
-            type: text
-            text: ' 46-5542692'
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://gccamedia.s3.amazonaws.com/gcca-declaration-of-intent-form.pdf'
+                      rel: null
+                      target: _blank
+                      title: null
+                text: 'GCCA’s Declaration of Intent Form'
+              -
+                type: text
+                text: ' and notifying '
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Jess Abbott'
+              -
+                type: text
+                text: ' below.'
+        type: new_link_panel
+        enabled: true
       -
-        type: paragraph
-        content:
+        id: m9ijovir
+        link_heading: 'Contact Info'
+        link_content:
           -
-            type: text
-            marks:
+            type: paragraph
+            content:
               -
-                type: bold
-            text: 'Notify Us'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Notifying GCCA of your intended gift will allow us to honor your wishes and ensure that we maximize your gift’s impact. Please let us know your wishes by completing '
-          -
-            type: text
-            marks:
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Jess Abbott'
               -
-                type: link
-                attrs:
-                  href: 'https://gccamedia.s3.amazonaws.com/gcca-declaration-of-intent-form.pdf'
-                  rel: null
-                  target: _blank
-                  title: null
-            text: 'GCCA’s Declaration of Intent Form'
-          -
-            type: text
-            text: ' and notifying:'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
+                type: hardBreak
+                marks:
+                  -
+                    type: bold
               -
-                type: bold
-            text: 'Jess Abbott'
-          -
-            type: hardBreak
-            marks:
+                type: text
+                text: 'Greenville Center for Creative Arts'
               -
-                type: bold
-          -
-            type: text
-            text: 'Greenville Center for Creative Arts'
-          -
-            type: hardBreak
-          -
-            type: text
-            text: 'P.O. Box 2206'
-          -
-            type: hardBreak
-          -
-            type: text
-            text: 'Greenville, SC 29602'
-          -
-            type: hardBreak
-          -
-            type: text
-            text: 864-274-0351
-          -
-            type: hardBreak
-          -
-            type: text
-            text: jess@artcentergreenville.org
-    type: basic_centered_content
+                type: hardBreak
+              -
+                type: text
+                text: 'P.O. Box 2206'
+              -
+                type: hardBreak
+              -
+                type: text
+                text: 'Greenville, SC 29602'
+              -
+                type: hardBreak
+              -
+                type: text
+                text: 864-274-0351
+              -
+                type: hardBreak
+              -
+                type: text
+                text: jess@artcentergreenville.org
+        link_url: 'mailto:jess@artcentergreenville.org'
+        type: new_link_panel
+        enabled: true
+    type: sticky_links
     enabled: true
 ---

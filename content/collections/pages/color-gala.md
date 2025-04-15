@@ -3,8 +3,8 @@ id: 4a9be87a-60f4-4cd9-8fcb-9000dd06d5fc
 blueprint: page
 title: 'Color Gala'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744680426
+updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
+updated_at: 1744729332
 turn_off_hero: false
 inside_hero_content:
   -
@@ -22,7 +22,7 @@ inside_hero_content:
       -
         type: text
         text: "Mark your calendar for our third annual Color Gala, GCCA’s signature fundraising event! Color Gala celebrates the best of Greenville's art scene with unique silent auction items, live music, performances, and art featuring our professional studio artists. Join us for cocktails and heavy appetizers and enjoy a beautiful evening celebrating GCCA."
-inside_hero_image: art-gallery-img-1.jpg
+inside_hero_image: a7403893-1536x864.webp
 blocks:
   -
     id: m9hticli

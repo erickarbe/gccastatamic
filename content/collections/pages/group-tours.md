@@ -4,7 +4,7 @@ blueprint: page
 title: 'Group Tours'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744678531
+updated_at: 1744723410
 turn_off_hero: false
 inside_hero_header: 'Group Tours'
 inside_hero_content:
@@ -103,17 +103,17 @@ blocks:
               text: 'Fully accessible building with a front ramp and an elevator to the second floor.'
       button_text: null
       button_link: null
-    image: visitbrandon2.jpg
+    image: annual-showcase-hero.jpg
     type: image_and_text
     enabled: true
   -
     id: m9hpzska
-    width: full_width
+    width: contained
     heading: 'Book A Group Tour'
     content: 'Submit your information, and a staff member will contact you to confirm details and provide pricing and an invoice. If you have any questions, please include them in the accommodations section of the form.'
     button_text: 'Book Now'
     button_link: 'https://podio.com/webforms/23253635/1661137'
-    background_color: '#ff162e'
+    background_color: '#263340'
     type: cta_section
     enabled: true
 ---

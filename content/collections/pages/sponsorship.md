@@ -4,7 +4,7 @@ blueprint: page
 title: Sponsorship
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744415088
+updated_at: 1744724293
 turn_off_hero: false
 inside_hero_header: Sponsorship
 inside_hero_content:
@@ -46,4 +46,5 @@ blocks:
     iframe_embed: 'Add to page as visual: https://drive.google.com/file/d/1YNa2N5m00SzGsXHx6F1bOzwPCfVx05m4/view?usp=drive_link'
     type: iframe_container
     enabled: true
+inside_hero_image: gallery_wide_shot.jpg
 ---
