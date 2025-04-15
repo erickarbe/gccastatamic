@@ -40,9 +40,72 @@ inside_hero_content:
         type: text
         text: ', whether they are local talents or creators from across the U.S.'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744554683
+updated_by: 916c3785-d212-40bc-89ff-572097ac9582
+updated_at: 1744681857
 blocks:
+  -
+    id: m9hudp2a
+    image_left_or_right: left
+    content_group:
+      eyebrow: null
+      heading: null
+      content:
+        -
+          type: paragraph
+          content:
+            -
+              type: text
+              text: 'Each ARTalk offers a deeper look into the artist’s creative process, inspirations, and techniques. Attendees can '
+            -
+              type: text
+              marks:
+                -
+                  type: bold
+              text: 'ask questions, gain insights, and connect with the artists'
+            -
+              type: text
+              text: ' in a welcoming and interactive environment. Whether you’re an artist, student, or simply an art enthusiast, ARTalks are a fantastic way to '
+            -
+              type: text
+              marks:
+                -
+                  type: bold
+              text: 'engage with the arts and expand your understanding of contemporary creative practices'
+            -
+              type: text
+              text: .
+        -
+          type: paragraph
+          content:
+            -
+              type: text
+              marks:
+                -
+                  type: bold
+              text: 'These events occur every other month and take place in January, March, May, July, September, and November.'
+        -
+          type: paragraph
+          content:
+            -
+              type: text
+              text: 'Don’t miss these chances to explore art through the eyes of its makers—'
+            -
+              type: text
+              marks:
+                -
+                  type: bold
+              text: 'admission is free!'
+      button_text: null
+      button_link: null
+    image: ways-to-give-hero.jpg
+    type: image_and_text
+    enabled: true
+  -
+    id: m9hucuur
+    text_alignment: left
+    title: '2025 Schedule'
+    type: basic_title
+    enabled: true
   -
     id: m9fngn0b
     panels:
@@ -77,6 +140,70 @@ blocks:
                 text: 'Ana Vizcarra Rankin from the Main Gallery exhibition, Beyond the Edge'
         panel_image:
           - arttalk-greenville.jpg
+        type: panel_group
+        enabled: true
+      -
+        id: m9hu0md1
+        panel_title: 'July – Artist Talk with Jessica Swank & Kate Burke'
+        panel_content:
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                text: 'July 12th'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'A gallery tour and demonstration with curators Jessica Swank and Kate Burke of Performative Practices in the Main Gallery.'
+        panel_image:
+          - arttalks-demonstration.jpg
+        type: panel_group
+        enabled: true
+      -
+        id: m9hu7ohl
+        panel_title: 'September – Brandon Fellows Artist Demo & Talk'
+        panel_content:
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                text: "September 13th\_"
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Bella Bishara and Alexander Rouse look back on their year in the 2025 Brandon Fellows program and demonstrate what they have learned.'
+        panel_image:
+          - slide3.jpg
+        type: panel_group
+        enabled: true
+      -
+        id: m9hu943v
+        panel_title: 'November – ARTalk with Melissa Haviland'
+        panel_content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Friday, November 7'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Featuring: Melissa Haviland'
+        panel_image:
+          - artalk.jpg
         type: panel_group
         enabled: true
     type: sticky_panels

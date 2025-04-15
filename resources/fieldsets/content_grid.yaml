@@ -51,3 +51,12 @@ fields:
                     remove_empty_nodes: false
                     type: bard
                     display: Content
+                    buttons:
+                      - h2
+                      - h3
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - quote
+                      - anchor
+                      - image

@@ -34,7 +34,7 @@
     const columns = [];
     for (let i = 0; i < numColumns; i++) {
       const col = document.createElement("div");
-      col.className = `w-full space-y-4`;
+      col.className = `w-full space-y-4 gallery-images`;
       col.style.flex = "1";
       col.style.transform = `translateY(${i * 40}px)`;
       col.style.display = "flex";
@@ -96,7 +96,7 @@
     max-width: 1560px;
     padding-left: 20px;
     padding-right: 20px;
-    /* margin-bottom: 120px; */
+    margin-bottom: 120px;
     /* min-height: 1000px; */
     /* height: 100vh; */
 }
@@ -108,6 +108,25 @@
 #staggered-gallery img {
     height: 350px;
     width: 350px;
+}
+
+@media screen and (max-width:639px) {
+    .image-gallery {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    #staggered-gallery img {
+        height: 420px;
+        width: 100%;
+    }
+
+    #staggered-gallery .gallery-images {
+        column-gap: 20px;
+        display: flex;
+        flex-direction: row !important;
+        overflow: scroll;
+    }
 }
 
 </style>
