@@ -40,8 +40,8 @@ inside_hero_content:
         type: text
         text: ', whether they are local talents or creators from across the U.S.'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744681857
+updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
+updated_at: 1744722472
 blocks:
   -
     id: m9hudp2a
@@ -111,16 +111,14 @@ blocks:
     panels:
       -
         id: m9fnh4l8
-        panel_title: 'May – ARTalk with Ana Vizcarra Rankin'
+        panel_title: 'May 23rd'
         panel_content:
           -
-            type: heading
-            attrs:
-              level: 3
+            type: paragraph
             content:
               -
                 type: text
-                text: 'May 23rd'
+                text: 'May – ARTalk with Ana Vizcarra Rankin'
           -
             type: paragraph
             content:
