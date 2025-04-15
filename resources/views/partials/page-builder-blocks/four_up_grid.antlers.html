@@ -9,7 +9,7 @@
         {{ if grid_one_image }}
           {{ grid_one_image }}
           <div class="w-full">
-            <img src="{{ url }}" alt="{{ alt }}" class="w-full min-h-[400px] max-h-[550px] object-cover block" />
+            <img src="{{ url }}" alt="{{ alt }}" class="w-full block {{ if constrain_image_1}} min-h-[400px] max-h-[550px] object-cover {{ /if }}" />
           </div>
           {{ /grid_one_image }}
         {{ /if }}
@@ -41,7 +41,7 @@
       {{ else }}
         {{ if grid_two_image }}
           {{ grid_two_image }}
-            <img src="{{ url }}" alt="{{ alt }}" class="w-full min-h-[400px] max-h-[550px] object-cover" />
+            <img src="{{ url }}" alt="{{ alt }}" class="w-full block {{ if constrain_image_2}} min-h-[400px] max-h-[550px] object-cover {{ /if }}" />
           {{ /grid_two_image }}
         {{ /if }}
       {{ /if }}
@@ -74,7 +74,7 @@
       {{ else }}
         {{ if grid_three_image }}
           {{ grid_three_image }}
-            <img src="{{ url }}" alt="{{ alt }}" class="w-full min-h-[400px] max-h-[550px] object-cover" />
+            <img src="{{ url }}" alt="{{ alt }}" class="w-full block {{ if constrain_image_3 }} min-h-[400px] max-h-[550px] object-cover {{ /if }}" />
           {{ /grid_three_image }}
         {{ /if }}
       {{ /if }}
@@ -105,7 +105,7 @@
       {{ else }}
         {{ if grid_four_image }}
           {{ grid_four_image }}
-            <img src="{{ url }}" alt="{{ alt }}" class="w-full min-h-[400px] max-h-[550px] object-cover" />
+            <img src="{{ url }}" alt="{{ alt }}" class="w-full block {{ if constrain_image_4 }} min-h-[400px] max-h-[550px] object-cover {{ /if }}" />
           {{ /grid_four_image }}
         {{ /if }}
       {{ /if }}

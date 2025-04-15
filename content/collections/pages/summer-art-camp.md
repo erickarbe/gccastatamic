@@ -4,7 +4,7 @@ blueprint: page
 title: 'Summer Art Camp'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744744450
+updated_at: 1744746978
 turn_off_hero: false
 eyebrow: 'Inspiring Young Artists'
 inside_hero_header: 'Summer <span>Art Camp</span>'
@@ -19,7 +19,7 @@ inside_hero_image: summerartcamp2.jpg
 blocks:
   -
     id: m9il8o9l
-    panel_heading: 'Explore Our Summer Art Camps'
+    panel_heading: 'Explore Our <em>Summer Art Camps</em>'
     panel_links:
       -
         id: m9il9mvx
@@ -135,6 +135,13 @@ blocks:
         link_url: 'https://campscui.active.com/orgs/GreenvilleCenterforCreativeArts?orglink=camps-registration'
         type: new_link_panel
         enabled: true
+        link_content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Click here to register your child for camp.'
     type: sticky_links
     enabled: true
   -
@@ -154,4 +161,8 @@ blocks:
       - blick-logo.jpg
     type: four_up_grid
     enabled: true
+    constrain_image_1: true
+    constrain_image_2: true
+    constrain_image_3: false
+    constrain_image_4: false
 ---

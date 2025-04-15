@@ -202,6 +202,23 @@ body {
     @apply text-white;
 }
 
+/* Red variant */
+.fancy-button.red:before {
+    @apply bg-gcca-red;
+}
+.fancy-button.red:hover .text {
+    @apply text-white;
+}
+.fancy-button.red .arrow-line {
+    @apply bg-white;
+}
+.fancy-button.red .arrow-head {
+    @apply text-white;
+}
+.fancy-button.red .text {
+    @apply text-dark-blue;
+}
+
 /* Studio Artists Modal Window */
 .biography-modal-overlay {
     position: fixed;

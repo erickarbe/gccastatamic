@@ -1,4 +1,8 @@
-<section class="big-panels relative bg-white md:px-[5vw] py-8 md:py-24 space-y-12">
+<section class="big-panels relative bg-white md:px-[5vw] py-8 md:py-24">
+    {{ if section_heading }}
+        <h2 class="font-semibold font-serif text-4xl md:text-6xl px-[5vw] md:px-0 mb-4 md:mb-8">{{ section_heading }} </h2>
+    {{ /if }}
+
     {{ panels }}
         <div id="panel-{{ index }}" class="grid md:grid-cols-2 md:gap-8 md:sticky top-[115px] mb-8">
             <div

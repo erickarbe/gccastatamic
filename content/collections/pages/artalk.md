@@ -41,7 +41,7 @@ inside_hero_content:
         text: ', whether they are local talents or creators from across the U.S.'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744741962
+updated_at: 1744745905
 blocks:
   -
     id: m9hudp2a
@@ -102,12 +102,6 @@ blocks:
     enabled: true
     align_columns: center
     constrain_image: true
-  -
-    id: m9hucuur
-    text_alignment: left
-    title: '2025 Schedule'
-    type: basic_title
-    enabled: true
   -
     id: m9fngn0b
     panels:
@@ -223,5 +217,6 @@ blocks:
         enabled: true
     type: sticky_panels
     enabled: true
+    section_heading: '2025 Schedule'
 inside_hero_image: artalk.jpg
 ---
