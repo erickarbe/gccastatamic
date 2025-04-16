@@ -5,7 +5,7 @@ title: Exhibitions
 turn_off_hero: true
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744671918
+updated_at: 1744764368
 blocks:
   -
     id: m9hjvlwy
@@ -99,6 +99,9 @@ blocks:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: bold
                 text: 'October 3, 2025 – November 26, 2025'
               -
                 type: hardBreak

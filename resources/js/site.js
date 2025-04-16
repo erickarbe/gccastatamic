@@ -58,6 +58,22 @@ document.addEventListener("DOMContentLoaded", function () {
             },
         });
     }
+
+    const heroImage = document.querySelector(".hero-image");
+    if (heroImage) {
+        gsap.to(heroImage, {
+            scale: 1.3,
+            ease: "none",
+            scrollTrigger: {
+                trigger: heroImage,
+                start: "top bottom", // when the top of the image enters the viewport from the bottom
+                end: "bottom top", // when the bottom of the image leaves the viewport at the top
+                scrub: true, // smooth scrubbing, takes the scroll position into account
+                // markers: true,      // Uncomment to see the trigger markers for debugging
+            },
+        });
+    }
+
     // Check scroll position on page load
     //checkScroll();
 
@@ -228,34 +244,34 @@ document.addEventListener("DOMContentLoaded", function () {
 // full width media scroll
 gsap.registerPlugin(ScrollTrigger);
 
-const zoomSections = document.querySelectorAll(".js-zoom-section");
+// const zoomSections = document.querySelectorAll(".js-zoom-section");
 
-zoomSections.forEach((section) => {
-    const wrapper = section.querySelector(".zoom-wrapper");
+// zoomSections.forEach((section) => {
+//     const wrapper = section.querySelector(".zoom-wrapper");
 
-    if (!wrapper) return;
+//     if (!wrapper) return;
 
-    gsap.fromTo(
-        wrapper,
-        {
-            scale: 1,
-            width: "100vw",
-            marginLeft: "0vw",
-        },
-        {
-            scale: 0.85,
-            // width: "93.3187vw",
-            // marginLeft: "3.3407vw",
-            ease: "none",
-            scrollTrigger: {
-                trigger: section,
-                start: "top top",
-                end: "+=600",
-                scrub: true,
-            },
-        }
-    );
-});
+//     gsap.fromTo(
+//         wrapper,
+//         {
+//             scale: 1,
+//             width: "100vw",
+//             marginLeft: "0vw",
+//         },
+//         {
+//             scale: 0.85,
+//             // width: "93.3187vw",
+//             // marginLeft: "3.3407vw",
+//             ease: "none",
+//             scrollTrigger: {
+//                 trigger: section,
+//                 start: "top top",
+//                 end: "+=600",
+//                 scrub: true,
+//             },
+//         }
+//     );
+// });
 
 // Accordion block functionality
 document.addEventListener("DOMContentLoaded", function () {

@@ -9,41 +9,57 @@ fields:
         new_set_group:
           display: 'New Set Group'
           sets:
-            iframe_container:
-              display: 'Iframe Container'
-              fields:
-                -
-                  import: iframe_container
-            full_width_media:
-              display: 'Full Width Media'
-              fields:
-                -
-                  import: full_width_media
             image_and_text:
               display: 'Image and Text'
+              icon: text-formatting-image-left
               fields:
                 -
                   import: image_and_text
+            full_width_media:
+              display: 'Full Width Media'
+              icon: shopping-jewelry-diamond-gem
+              fields:
+                -
+                  import: full_width_media
             faq_accordion:
               display: 'FAQ Accordion'
+              icon: layout-split-horizontal
               fields:
                 -
                   import: faq_accordion
+            four_up_grid:
+              display: 'Four Up Grid'
+              icon: dashboard-layout
+              fields:
+                -
+                  import: four_up_grid
+            sticky_panels:
+              display: 'Sticky Panels'
+              icon: layout-split-verical
+              fields:
+                -
+                  import: sticky_panels
+            sticky_links:
+              display: 'Sticky Links'
+              icon: money-cash-bill
+              fields:
+                -
+                  import: sticky_links
             basic_centered_content:
               display: 'Basic Centered Content'
               fields:
                 -
                   import: basic_centered_content
-            big_quote:
-              display: 'Big Quote'
-              fields:
-                -
-                  import: big_quote
             cta_section:
               display: 'CTA Section'
               fields:
                 -
                   import: cta_section
+            big_quote:
+              display: 'Big Quote'
+              fields:
+                -
+                  import: big_quote
             full_width_carousel:
               display: 'Full Width Carousel'
               fields:
@@ -59,39 +75,29 @@ fields:
               fields:
                 -
                   import: content_grid
-            two_column_animated:
-              display: 'Two Column Animated'
+            iframe_container:
+              display: 'Iframe Container'
               fields:
                 -
-                  import: two_column_animated
+                  import: iframe_container
             people_grid:
               display: 'People Grid'
               fields:
                 -
                   import: people_grid
-            basic_title:
-              display: 'Basic Title'
-              fields:
-                -
-                  import: basic_title
-            sticky_panels:
-              display: 'Sticky Panels'
-              fields:
-                -
-                  import: sticky_panels
-            sticky_links:
-              display: 'Sticky Links'
-              fields:
-                -
-                  import: sticky_links
-            four_up_grid:
-              display: 'Four Up Grid'
-              fields:
-                -
-                  import: four_up_grid
             events_grid:
               display: 'Events Grid'
               icon: file-content-list
               fields:
                 -
                   import: events_grid
+            basic_title:
+              display: 'Basic Title'
+              fields:
+                -
+                  import: basic_title
+            two_column_animated:
+              display: 'Two Column Animated'
+              fields:
+                -
+                  import: two_column_animated

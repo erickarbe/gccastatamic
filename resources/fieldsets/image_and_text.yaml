@@ -67,6 +67,18 @@ fields:
             type: link
             display: 'Button Link'
             width: 50
+        -
+          handle: content_width
+          field:
+            options:
+              - 25
+              - 33
+              - 50
+              - 66
+              - 75
+            default: '50'
+            type: width
+            display: 'Content Width'
   -
     handle: image
     field:

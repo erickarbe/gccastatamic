@@ -1,6 +1,24 @@
 title: 'FAQ Accordion'
 fields:
   -
+    handle: section_heading
+    field:
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+      remove_empty_nodes: false
+      container: s3_assets
+      type: bard
+      display: 'Section Heading'
+  -
     handle: accordion_item
     field:
       type: replicator

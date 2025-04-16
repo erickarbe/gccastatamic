@@ -114,8 +114,26 @@ home_page_blocks:
               -
                 type: text
                 text: ', where Ana Vizcarra Rankin and Lindsay Godin challenge the maps, myths, and motivations behind humanity’s relentless drive to claim the unknown.'
-        panel_button_text: 'Explore the Gallery'
-        panel_button_link: /gallery
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: link
+                            attrs:
+                              href: /gallery
+                              rel: null
+                              target: null
+                              title: null
+                        text: 'Explore the Gallery'
         panel_image:
           - slide2.jpg
         type: panel_group
@@ -130,12 +148,30 @@ home_page_blocks:
               -
                 type: text
                 text: 'The Main Gallery at GCCA showcases innovative contemporary art from local, regional, and national artists, while the Community Gallery uplifts Upstate South Carolina artists, strengthening community connections.'
-        panel_button_text: 'Explore Exhibitions'
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: link
+                            attrs:
+                              href: 'statamic://entry::b7e08d70-fe4a-4825-8774-46a1a95c0f7f'
+                              rel: null
+                              target: null
+                              title: null
+                        text: 'Explore Exhibitions'
         panel_image:
           - slide3.jpg
         type: panel_group
         enabled: true
-        panel_button_link: 'entry::b7e08d70-fe4a-4825-8774-46a1a95c0f7f'
     type: homepage_sticky_panels
     enabled: true
   -
@@ -219,7 +255,15 @@ home_page_blocks:
     id: m9h8i8ys
     width: full_width
     heading: 'Join Our Community'
-    content: 'Your support fuels our mission to provide accessible arts education and experiences. Join us in nurturing talent, inspiring change, and enriching the cultural fabric of our community.'
+    content:
+      -
+        type: paragraph
+        attrs:
+          textAlign: left
+        content:
+          -
+            type: text
+            text: 'Your support fuels our mission to provide accessible arts education and experiences. Join us in nurturing talent, inspiring change, and enriching the cultural fabric of our community.'
     button_text: 'Explore Monthly Giving'
     button_link: 'entry::f6d575f3-821f-491e-84f2-c76f83e73619'
     background_color: '#263340'
@@ -320,6 +364,10 @@ home_page_blocks:
             text: 'Your support fuels our mission to provide accessible arts education and experiences. Join us in nurturing talent, inspiring change, and enriching the cultural fabric of our community.'
     grid_four_link_text: 'Shop Now'
     grid_four_link: 'https://shopgcca.square.site/shop/gift-shop/QKUHFB564YN7LNRSBUGIOKRO'
+    constrain_image_1: true
+    constrain_image_2: true
+    constrain_image_3: true
+    constrain_image_4: true
 updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744740271
+updated_at: 1744764329
 ---
