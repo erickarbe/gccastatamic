@@ -1,10 +1,10 @@
 ---
 id: 206f55ef-b9f5-4c0c-806b-938d9328b135
 blueprint: page
-title: 'Need To Know'
+title: 'Need To <span>Know<span/>'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744728907
+updated_at: 1744749102
 turn_off_hero: false
 inside_hero_content:
   -
@@ -65,6 +65,8 @@ blocks:
     image: exhibitions-past1.jpg
     type: image_and_text
     enabled: true
+    align_columns: center
+    constrain_image: true
   -
     id: m9il357f
     image_left_or_right: right
@@ -106,6 +108,8 @@ blocks:
     image: first-friday-hero.jpg
     type: image_and_text
     enabled: true
+    align_columns: center
+    constrain_image: true
   -
     id: m9ijwo0s
     accordion_item:

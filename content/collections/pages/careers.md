@@ -4,7 +4,7 @@ blueprint: page
 title: Careers
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744737670
+updated_at: 1744750658
 turn_off_hero: false
 eyebrow: 'Work with us'
 inside_hero_header: Careers
@@ -14,11 +14,16 @@ inside_hero_content:
     content:
       -
         type: text
-        text: 'Greenville Center for Creative Arts is looking for friendly and outgoing individuals who have the passion and experience to work in Greenville’s only community-focused visual art center.'
+        text: 'Greenville Center for Creative Arts is looking for friendly, outgoing, and enthusiastic individuals who have the passion and experience to work in Greenville’s only community-focused visual art center.'
+  -
+    type: paragraph
+    content:
       -
-        type: hardBreak
-      -
-        type: hardBreak
+        type: text
+        text: 'Thank you for your interest in joining our team!'
+  -
+    type: paragraph
+    content:
       -
         type: text
         text: "There are currently no open positions at GCCA, but if you're interested in volunteering, please visit:"
