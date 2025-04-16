@@ -4,21 +4,14 @@ blueprint: page
 title: Policies
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744821751
-turn_off_hero: false
+updated_at: 1744829133
+turn_off_hero: true
 eyebrow: 'Art School'
 inside_hero_header: Policies
 inside_hero_image: summerartcamp2.jpg
 blocks:
   -
     id: m9k5n314
-    section_heading:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Please review the following policies to ensure a safe, respectful, and enjoyable experience for all who participate in GCCA programs and events.'
     accordion_item:
       -
         id: m9k5nddt
@@ -166,4 +159,22 @@ blocks:
         enabled: true
     type: faq_accordion
     enabled: true
+    use_second_column: true
+    second_column:
+      second_column_content:
+        -
+          type: heading
+          attrs:
+            level: 2
+          content:
+            -
+              type: text
+              text: Policies
+        -
+          type: paragraph
+          content:
+            -
+              type: text
+              text: 'Please review the following policies to ensure a safe, respectful, and enjoyable experience for all who participate in GCCA programs and events.'
+      second_column_width: 33
 ---

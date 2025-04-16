@@ -10,7 +10,7 @@ featured_image:
 date: '2025-04-13'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744767081
+updated_at: 1744829474
 event_category:
   - exhibitions
 all_day_event: true
@@ -63,9 +63,21 @@ blocks:
       button_text: null
       button_link: null
       content_width: 50
+      remove_top_margin: false
     image: beyond-the-edge-email-banner-anna-scaled.jpg
     constrain_image: false
     type: image_and_text
+    enabled: true
+  -
+    id: m9kae19h
+    images:
+      - imprint-scaled.jpg
+      - star-map-untitled-mexico.webp
+      - space-station-scaled.webp
+      - planet-x.webp
+      - bubble-chamber-6.webp
+      - astronomy-westerlund-2.webp
+    type: full_width_carousel
     enabled: true
   -
     id: m9j91rgz
@@ -114,6 +126,7 @@ blocks:
       button_text: null
       button_link: null
       content_width: 66
+      remove_top_margin: false
     image: lindsay.jpg
     constrain_image: false
     type: image_and_text
@@ -183,6 +196,7 @@ blocks:
       button_text: null
       button_link: null
       content_width: 66
+      remove_top_margin: false
     image: anna.jpg
     constrain_image: false
     type: image_and_text

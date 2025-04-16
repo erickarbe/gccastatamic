@@ -115,7 +115,7 @@ body {
 .grid-content h2,
 .grid-content h3,
 .section-heading h2 {
-    @apply leading-[1.2] text-4xl md:text-5xl font-serif font-semibold text-dark-blue;
+    @apply leading-[1.2] text-4xl md:text-5xl font-serif font-semibold text-dark-blue mb-2;
 }
 
 .grid-content h2 span,

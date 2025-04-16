@@ -1,5 +1,5 @@
 <section class="my-8 {{ if !content_group:remove_top_margin }}  md:my-16 {{ else }} md:my-0 {{ /if }} pr-[5vw] pl-[5vw] md:border-y border-gray-200">
-  <div class="img-text relative md:items-stretch  flex flex-col md:flex-row {{ if image_left_or_right == 'right' }}md:flex-row-reverse{{ /if }} {{ if align_columns == "center" }} items-center {{ /if }} {{ if align_columns == "top" }} items-start {{ /if }} {{ if align_columns == "bottom" }} items-end {{ /if }} flex-col-reverse">
+  <div class="img-text relative md:items-stretch flex flex-col md:flex-row {{ if image_left_or_right == 'right' }}md:flex-row-reverse{{ /if }} {{ if align_columns == "center" }} items-center {{ /if }} {{ if align_columns == "top" }} items-start {{ /if }} {{ if align_columns == "bottom" }} items-end {{ /if }} flex-col-reverse">
     {{ if image }}
       <div class="w-full md:py-0 py-10 {{ if content_group:content_width == 25 }} md:w-3/4 {{ /if }}
       {{ if content_group:content_width == 33 }} md:w-2/3 {{ /if }}

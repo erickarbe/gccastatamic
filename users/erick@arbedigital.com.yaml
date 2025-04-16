@@ -25,6 +25,3 @@ preferences:
         - title
         - studio
         - artists_medium
-  assets:
-    s3_assets:
-      mode: grid
