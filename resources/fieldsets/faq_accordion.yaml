@@ -29,6 +29,7 @@ fields:
           sets:
             new_set:
               display: 'New Set'
+              icon: text-formatting-initial-letter
               fields:
                 -
                   handle: accordion_header
@@ -41,3 +42,35 @@ fields:
                     remove_empty_nodes: false
                     type: bard
                     display: 'Accordion Content'
+  -
+    handle: use_second_column
+    field:
+      type: toggle
+      display: 'Use Second Column'
+  -
+    handle: second_column
+    field:
+      type: group
+      display: 'Second Column'
+      if:
+        use_second_column: 'equals true'
+      fields:
+        -
+          handle: second_column_content
+          field:
+            remove_empty_nodes: false
+            container: s3_assets
+            type: bard
+            display: 'Second Column Content'
+        -
+          handle: second_column_width
+          field:
+            options:
+              - 25
+              - 33
+              - 50
+              - 66
+              - 75
+            default: '50'
+            type: width
+            display: 'Second Column Width'

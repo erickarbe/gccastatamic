@@ -7,6 +7,8 @@
     </div>
 
   {{ /if}}
+
+  <div class="{{ if use_second_column }} flex flex-col md:flex-row {{ /if }}"></div>
   
     <div class="faq-accordion space-y-4">
       {{ accordion_item }}
@@ -21,6 +23,12 @@
         </div>
       {{ /accordion_item }}
     </div>
+
+    {{ if use_second_column }}
+      <div>
+        {{ second_column:second_column_content }}
+      </div>
+    {{ /if }}
   </section>
   
   

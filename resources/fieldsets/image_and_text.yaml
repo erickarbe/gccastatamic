@@ -79,6 +79,13 @@ fields:
             default: '50'
             type: width
             display: 'Content Width'
+            width: 50
+        -
+          handle: remove_top_margin
+          field:
+            type: toggle
+            display: 'Remove Top Margin'
+            width: 50
   -
     handle: image
     field:

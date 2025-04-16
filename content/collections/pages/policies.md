@@ -3,126 +3,167 @@ id: c921a778-2a2b-4f92-a1c3-fa7939b81fa4
 blueprint: page
 title: Policies
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744819857
+updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
+updated_at: 1744821751
 turn_off_hero: false
-eyebrow: 'Updated November 23, 2024'
-inside_hero_header: 'ONLINE PRIVACY POLICY AGREEMENT'
+eyebrow: 'Art School'
+inside_hero_header: Policies
+inside_hero_image: summerartcamp2.jpg
+blocks:
+  -
+    id: m9k5n314
+    section_heading:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Please review the following policies to ensure a safe, respectful, and enjoyable experience for all who participate in GCCA programs and events.'
+    accordion_item:
+      -
+        id: m9k5nddt
+        accordion_header: 'Cancelation Policy'
+        accordion_content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A partial refund or credit is given to students who cancel 10 days or more prior to the class start date.\_ A cancellation fee of $30 will be applied to cancellations. If a student cancels enrollment within 10 days of the first class no refund or credit will be given. If a class is cancelled due to insufficient enrollment, registrants will be notified by email or phone within 24 – 48 hours of the first class. By giving your phone number when signing up for classes you are consenting to recieve SMS messages in which data rates may apply. You are able to opt out at anytime. Frequency of messages varies based on the needs of GCCA to communicate to registrants. Registrants will be given the opportunity to transfer to another class or issued a refund. Refunds will include the total cost of the course fee, including materials and studio fees (if applicable)."
+        type: new_set
+        enabled: true
+      -
+        id: m9k5nk8y
+        accordion_header: 'Late Registration Policy'
+        accordion_content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "A $20 fee will be applied to all registrations occurring after the posted registration closing date.\_ All late registrations will have to be processed by GCCA Art School Administration and are accommodated at the sole discretion at GCCA Art School Administration."
+        type: new_set
+        enabled: true
+      -
+        id: m9k5nzd9
+        accordion_header: Membership
+        accordion_content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Every donor who gives a gift of $50 or more annually becomes a member of GCCA for the current calendar year. There is no longer a separate membership fee. GCCA members receive the benefit of advance registration and discount codes for classes, workshops, and summer camps. Visit the GCCA Membershipship page to learn more and become a member to receive member benefits.\_"
+        type: new_set
+        enabled: true
+      -
+        id: m9k5oc39
+        accordion_header: Animals
+        accordion_content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Pets are not permitted at GCCA, with the exception of authorized pet therapy and assistance dogs, in compliance with the Americans with Disabilities Act (ADA).'
+        type: new_set
+        enabled: true
+      -
+        id: m9k5ohxo
+        accordion_header: Smoking
+        accordion_content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'GCCA is a smoke-free environment. No smoking is allowed on the premises.'
+        type: new_set
+        enabled: true
+      -
+        id: m9k5oobf
+        accordion_header: 'Mobile Devices'
+        accordion_content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Students and Instructors are to be respectful of others by turning their cell phones to vibrate, or off, during class time. If anyone (Student or Instructor) must take a call during class time, please step out of the classroom to do so.'
+        type: new_set
+        enabled: true
+      -
+        id: m9k5owyq
+        accordion_header: 'Videos & Photographs'
+        accordion_content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'GCCA periodically documents educational offerings and events for promotional purposes. Registration in a course or attendance at an event includes permission to photograph or videotape students and/or their artwork and to use the image in publicity materials unless students and/or attendees specifically request otherwise.'
+        type: new_set
+        enabled: true
+      -
+        id: m9k5p5m5
+        accordion_header: 'Tools & Materials'
+        accordion_content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Students are responsible for their tools, supplies and any other possessions that may be brought to any classes or workshops at the GCCA or left on GCCA’s premises. GCCA is not responsible for any items that are lost, stolen, or damaged as a result of any student’s participation in any class, workshop or course at the GCCA or activities related thereto.'
+        type: new_set
+        enabled: true
+      -
+        id: m9k5pdxb
+        accordion_header: Risks
+        accordion_content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'It is the responsibility of all students and parents to know their sensitivities, allegories, or propensity for reaction to any materials, allergens, environmental conditions, or other substances. GCCA shall provide information regarding the materials and/or conditions for classes or workshops at the GCCA. It is expressly agreed to and understood that, by each student’s participation in a course or workshop at the GCCA that the student agrees to and assumes all of the risks associate with his/her participation in the corresponding class activities, including, but not limited to, the risks associated with physical injury, illness (including COVID-10 infection), property damage or loss, and/or any other risks, damages, or losses that may occur as a result of the student’s participation in a class, workshop, or course.'
+        type: new_set
+        enabled: true
+      -
+        id: m9k5poss
+        accordion_header: Claims
+        accordion_content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Class registrant(s), student(s), and/or their respective agents, successor(s), assign(s), and/or heir(s), shall, to the fullest extent possible indemnify and hold harmless the GCCA and its agents, directors, board members, employees, or servants, whether paid or volunteer, against any and all claims, liabilities, damages, costs, fees, including attorney’s fees, or monetary obligations that arise out of or are connected in any way with a party’s participation in any class, workshop, and/or course provided by, sponsored, or hosted by the GCCA, regardless of the location of said class, workshop, or course.'
+        type: new_set
+        enabled: true
+      -
+        id: m9k5pwbh
+        accordion_header: Delays
+        accordion_content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'GCCA shall not be liable for any delays or failures in performance resulting from any Majeure Force,” which shall include, without limitation, acts of God, labor or employment strikes, shortages, lockouts, or other labor disturbances; fires; floods, tornadoes, earthquakes, or other natural disasters; epidemics or pandemics; quarantines; governmental lockdowns; war or acts of war (whether war be declared or not); acts of terrorism; riots, civil unrest, or commotion; data breaches or other cybersecurity events, or other events beyond the reasonable control of the GCCA.'
+        type: new_set
+        enabled: true
+      -
+        id: m9k5q45l
+        accordion_header: Safety
+        accordion_content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'It is expressly understood that the GCCA seeks to provide a positive experience for all class registrants, students, participations, or their respective parent(s) as applicable. Therefore, each class registrants, students, participants, or, as applicable, their respective parent(s) agrees to abide by the safety precautions, protocols, and/or instructions provided by the GCCA; the instructors for each class, workshop, or course; industry standards and/or instruction information or protocols provided by any manufacturer or distributor of any materials used in a class, workshop or course at the GCCA; which shall include, but is not limited to, the exercise of reasonable care (the “Safety Protocols”). In the event that a class registrant, student, participant, or their respective parent(s) fails to abide by the Safety Protocols or takes any actions that jeopardize the safety of any of instructor, student or class participant, or any of the GCCA’s agents, directors, board members, employees, or servants, whether paid or volunteer, the GCCA may, in its sole discretion, remove the individual or individuals committing any such acts immediately. The GCCA shall not be liable to any class registrants, students, participants, or their respective parent(s) for its decision to exercise the rights and/or authority outlined in this section.'
+        type: new_set
+        enabled: true
+    type: faq_accordion
+    enabled: true
 ---
-Greenville Center For Creative Arts (GCCA) values its users’ privacy. This Privacy Policy (“Policy”) will help you understand how we collect and use personal information from those who visit our website or make use of our online facilities and services, and what we will and will not do with the information we collect. Our Policy has been designed and created to ensure those affiliated with Greenville Center For Creative Arts of our commitment and realization of our obligation not only to meet, but to exceed, most existing privacy standards.
-
-We reserve the right to make changes to this Policy at any given time. If you want to make sure that you are up to date with the latest changes, we advise you to frequently visit this page. If at any point in time Greenville Center For Creative Arts decides to make use of any personally identifiable information on file, in a manner vastly different from that which was stated when this information was initially collected, the user or users shall be promptly notified by email. Users at that time shall have the option as to whether to permit the use of their information in this separate manner.
-
-This Policy applies to Greenville Center For Creative Arts, and it governs any and all data collection and usage by us. Through the use of www.artcentergreenville.org, you are therefore consenting to the data collection procedures expressed in this Policy.
-
-Please note that this Policy does not govern the collection and use of information by companies that Greenville Center For Creative Arts does not control, nor by individuals not employed or managed by us. If you visit a website that we mention or link to, be sure to review its privacy policy before providing the site with information. It is highly recommended and suggested that you review the privacy policies and statements of any website you choose to use or frequent to better understand the way in which websites garner, make use of and share the information collected.
-
-Specifically, this Policy will inform you of the following
-
- What personally identifiable information is collected from you through our website;
-
-Why we collect personally identifiable information and the legal basis for such collection;
-
-How we use the collected information and with whom it may be shared;
-
-What choices are available to you regarding the use of your data; and
-
-The security procedures in place to protect the misuse of your information.
-
-Information We Collect
-
-It is always up to you whether to disclose personally identifiable information to us, although if you elect not to do so, we reserve the right not to register you as a user or provide you with any products or services. This website collects various types of information, such as:
-
-Voluntarily provided information which may include your name, address, email address, billing and/or credit card information etc. which may be used when you purchase products and/or services and to deliver the services you have requested.
-
-In addition, Greenville Center For Creative Arts may have the occasion to collect non-personal anonymous demographic information, such as age, gender, household income, political affiliation, race and religion, as well as the type of browser you are using, IP address, or type of operating system, which will assist us in providing and maintaining superior quality service.
-
-Please rest assured that this site will only collect personal information that you knowingly and willingly provide to us by way of surveys, completed membership forms, and emails. It is the intent of this site to use personal information only for the purpose for which it was requested, and any additional uses specifically provided for on this Policy.
-
-Why We Collect Information and For How Long
-
-We are collecting your data for several reasons:
-
-To better understand your needs and provide you with the services you have requested;
-
-To fulfill our legitimate interest in improving our services and products;
-
-To send you promotional emails containing information we think you may like when we have your consent to do so;
-
-To contact you to fill out surveys or participate in other types of market research, when we have your consent to do so;
-
-To customize our website according to your online behavior and personal preferences.
-
-The data we collect from you will be stored for no longer than necessary. The length of time we retain said information will be determined based upon the following criteria: the length of time your personal information remains relevant; the length of time it is reasonable to keep records to demonstrate that we have fulfilled our duties and obligations; any limitation periods within which claims might be made; any retention periods prescribed by law or recommended by regulators, professional bodies or associations; the type of contract we have with you, the existence of your consent, and our legitimate interest in keeping such information as stated in this Policy.
-
-Use of Information Collected
-
-Greenville Center For Creative Arts does not now, nor will it in the future, sell, rent or lease any of its customer lists and/or names to any third parties.
-
-Greenville Center For Creative Arts may collect and may make use of personal information to assist in the operation of our website and to ensure delivery of the services you need and request. At times, we may find it necessary to use personally identifiable information as a means to keep you informed of other possible products and/or services that may be available to you from www.artcentergreenville.org
-
-Greenville Center For Creative Arts may also be in contact with you with regards to completing surveys and/or research questionnaires related to your opinion of current or potential future services that may be offered.
-
-Greenville Center For Creative Arts uses various third-party social media features including but not limited to Facebook, Instagram and other interactive programs. These may collect your IP address and require cookies to work properly. These services are governed by the privacy policies of the providers and are not within Greenville Center For Creative Arts’s control.
-
-Disclosure of Information
-
-Greenville Center For Creative Arts may not use or disclose the information provided by you except under the following circumstances:
-
-as necessary to provide services or products you have ordered;
-
-in other ways described in this Policy or to which you have otherwise consented;
-
-in the aggregate with other information in such a way so that your identity cannot reasonably be determined;
-
-as required by law, or in response to a subpoena or search warrant;
-
-to outside auditors who have agreed to keep the information confidential;
-
-as necessary to enforce the Terms of Service;
-
-as necessary to maintain, safeguard and preserve all the rights and property of Greenville Center For Creative Arts.
-
-Non-Marketing Purposes
-
-Greenville Center For Creative Arts greatly respects your privacy. We do maintain and reserve the right to contact you if needed for non-marketing purposes (such as bug alerts, security breaches, account issues, and/or changes in Greenville Center For Creative Arts products and services). In certain circumstances, we may use our website, newspapers, or other public means to post a notice.
-
-Children under the age of 13
-
-Greenville Center For Creative Arts’s website is not directed to, and does not knowingly collect personal identifiable information from, children under the age of thirteen (13). If it is determined that such information has been inadvertently collected on anyone under the age of thirteen (13), we shall immediately take the necessary steps to ensure that such information is deleted from our system’s database, or in the alternative, that verifiable parental consent is obtained for the use and storage of such information. Anyone under the age of thirteen (13) must seek and obtain parent or guardian permission to use this website.
-
-Unsubscribe or Opt-Out
-
-All users and visitors to our website have the option to discontinue receiving communications from us by way of email or newsletters. To discontinue or unsubscribe from our website please send an email that you wish to unsubscribe to info@artcentergreenville.org. If you wish to unsubscribe or opt-out from any third-party websites, you must go to that specific website to unsubscribe or opt-out. Greenville Center For Creative Arts will continue to adhere to this Policy with respect to any personal information previously collected.
-
-Links to Other Websites
-
-Our website does contain links to affiliate and other websites. Greenville Center For Creative Arts does not claim nor accept responsibility for any privacy policies, practices and/or procedures of other such websites. Therefore, we encourage all users and visitors to be aware when they leave our website and to read the privacy statements of every website that collects personally identifiable information. This Privacy Policy Agreement applies only and solely to the information collected by our website.
-
-Notice to European Union Users
-
-Greenville Center For Creative Arts’s operations are located primarily in the United States. If you provide information to us, the information will be transferred out of the European Union (EU) and sent to the United States. (The adequacy decision on the EU-US Privacy became operational on August 1, 2016. This framework protects the fundamental rights of anyone in the EU whose personal data is transferred to the United States for commercial purposes. It allows the free transfer of data to companies that are certified in the US under the Privacy Shield.) By providing personal information to us, you are consenting to its storage and use as described in this Policy.
-
-Security
-
-Greenville Center For Creative Arts takes precautions to protect your information. When you submit sensitive information via the website, your information is protected both online and offline. Wherever we collect sensitive information (e.g. credit card information), that information is encrypted and transmitted to us in a secure way. You can verify this by looking for a lock icon in the address bar and looking for “https” at the beginning of the address of the webpage.
-
-While we use encryption to protect sensitive information transmitted online, we also protect your information offline. Only employees who need the information to perform a specific job (for example, billing or customer service) are granted access to personally identifiable information. The computers and servers in which we store personally identifiable information are kept in a secure environment. This is all done to prevent any loss, misuse, unauthorized access, disclosure or modification of the user’s personal information under our control.
-
-Acceptance of Terms
-
-By using this website, you are hereby accepting the terms and conditions stipulated within the Privacy Policy Agreement. If you are not in agreement with our terms and conditions, then you should refrain from further use of our sites. In addition, your continued use of our website following the posting of any updates or changes to our terms and conditions shall mean that you agree and acceptance of such changes.
-
-How to Contact Us
-
-If you have any questions or concerns regarding the Privacy Policy Agreement related to our website, please feel free to contact us at the following email, telephone number or mailing address.
-
-Email:  info@artcentergreenville.org
-
-Telephone Number: 864-735-3948
-
-Mailing Address:
-
-Greenville Center For Creative Arts
-
-101 Abney Street Greenville, South Carolina 29611
