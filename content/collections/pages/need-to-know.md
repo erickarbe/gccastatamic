@@ -1,10 +1,10 @@
 ---
 id: 206f55ef-b9f5-4c0c-806b-938d9328b135
 blueprint: page
-title: 'Need To <span>Know<span/>'
+title: 'Need To Know'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744749102
+updated_at: 1744817983
 turn_off_hero: false
 inside_hero_content:
   -
@@ -62,6 +62,7 @@ blocks:
               text: 'GCCA’s Main Gallery features rotating exhibitions displaying the artwork of local, regional, national, and international artists from all disciplines of visual art, while the Community Gallery provides a venue for some of the best local, Upstate South Carolina artists. GCCA also hosts artists in its upstairs Loft Gallery as well as student and instructor work in the Carrie Burns Brown Art School Gallery.'
       button_text: null
       button_link: null
+      content_width: '50'
     image: exhibitions-past1.jpg
     type: image_and_text
     enabled: true
@@ -105,6 +106,7 @@ blocks:
               text: '. Follow us on social media for the latest exhibition announcements and event details.'
       button_text: null
       button_link: null
+      content_width: '50'
     image: first-friday-hero.jpg
     type: image_and_text
     enabled: true

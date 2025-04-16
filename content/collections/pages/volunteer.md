@@ -3,8 +3,8 @@ id: dd280318-cba2-4fd3-97dd-07de56a5b843
 blueprint: page
 title: Volunteer
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744672049
+updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
+updated_at: 1744817902
 turn_off_hero: false
 inside_hero_header: Volunteer
 inside_hero_content:
@@ -57,26 +57,15 @@ blocks:
           content:
             -
               type: text
-              marks:
-                -
-                  type: link
-                  attrs:
-                    href: 'https://volunteer.bloomerang.co/web-admin/app/#/join-party?k=4mw47jksfqt4y0'
-                    rel: null
-                    target: null
-                    title: null
-              text: 'https://volunteer.bloomerang.co/web-admin/app/#/join-party?k=4mw47jksfqt4y0'
-        -
-          type: paragraph
-          content:
-            -
-              type: text
               text: 'We also recommend you check with your place of work as some businesses will also have perks when you volunteer for nonprofits such as GCCA! We at GCCA appreciate any and all of the help our volunteers provide. As a thank you, we will be throwing a volunteer appreciation event once a year during April as well. If you are interested in signing up and checking out open positions please follow the link below!'
-      button_text: null
-      button_link: null
+      button_text: 'Volunteer Sign Up'
+      button_link: 'https://volunteer.bloomerang.co/web-admin/app/#/join-party?k=4mw47jksfqt4y0'
+      content_width: '50'
     image: scc-digital.webp
     type: image_and_text
     enabled: true
+    align_columns: center
+    constrain_image: true
   -
     id: m9dgn30o
     images:
