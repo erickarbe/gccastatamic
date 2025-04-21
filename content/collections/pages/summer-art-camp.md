@@ -3,8 +3,8 @@ id: 18195f17-11aa-4661-aa8d-f6686155586d
 blueprint: page
 title: 'Summer Art Camp'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744746978
+updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
+updated_at: 1744823575
 turn_off_hero: false
 eyebrow: 'Inspiring Young Artists'
 inside_hero_header: 'Summer <span>Art Camp</span>'
@@ -67,14 +67,9 @@ blocks:
               -
                 type: text
                 text: 'Unleash your imagination in this one-of-a-kind art camp where LEGOs become your canvas! Dive into exciting challenges, build incredible sculptures, and explore how art and engineering collide. Whether crafting colorful mosaics or constructing towering masterpieces, this camp sparks creativity, teamwork, and fun—brick by brick. Perfect for budding builders and artists alike! '
-              -
-                type: text
-                marks:
-                  -
-                    type: italic
-                text: 'FLEXIBLE DAY CAMP OPTIONS'
         type: new_link_panel
         enabled: true
+        link_eyebrow: 'FLEXIBLE DAY CAMP OPTIONS'
       -
         id: m9ilb54o
         link_heading: Artcycling
@@ -85,14 +80,9 @@ blocks:
               -
                 type: text
                 text: 'Unlock the magic of turning recycled materials into incredible works of art! From stunning tissue paper “pottery” and personalized mason jar summer lanterns to wearable tape bracelets and masterpieces made from construction materials, this camp is all about innovation and creativity. Your young artist will explore endless possibilities while transforming everyday items into extraordinary treasures! '
-              -
-                type: text
-                marks:
-                  -
-                    type: italic
-                text: 'FLEXIBLE DAY CAMP OPTIONS'
         type: new_link_panel
         enabled: true
+        link_eyebrow: 'FLEXIBLE DAY CAMP OPTIONS'
       -
         id: m9ilbdpj
         link_heading: 'Out of this World Art'

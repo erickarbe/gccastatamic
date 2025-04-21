@@ -4,7 +4,7 @@ blueprint: page
 title: 'Art School'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744738167
+updated_at: 1744837506
 turn_off_hero: false
 eyebrow: 'Art School'
 inside_hero_header: 'The <span>Carrie Burns Brown Art School</span> at GCCA'
@@ -14,18 +14,18 @@ inside_hero_content:
     content:
       -
         type: text
-        text: "The Carrie Burns Brown Art School at GCCA welcomes artists of all levels to elevate their craft with dynamic, hands-on classes and workshops. Guided by expert teaching artists from the Upstate and Southeast, you'll explore a variety of mediums—including drawing, painting, fiber arts, printmaking, jewelry, photography, and more. Ignite your creativity and refine your skills in an inspiring, professional setting! Register below and review our registration policies "
+        text: "The Carrie Burns Brown Art School at GCCA welcomes artists of all levels to elevate their craft with dynamic, hands-on classes and workshops. Guided by expert teaching artists from the Upstate and Southeast, you'll explore a variety of mediums—including drawing, painting, fiber arts, printmaking, jewelry, photography, and more. Ignite your creativity and refine your skills in an inspiring, professional setting! Register below and review our "
       -
         type: text
         marks:
           -
             type: link
             attrs:
-              href: '#'
+              href: 'https://gcca.arbedigital.com/contacts-more/policies'
               rel: null
-              target: null
+              target: _blank
               title: null
-        text: here
+        text: 'registration policies here'
 inside_hero_button_text: 'Register for Art School'
 inside_hero_button_link: 'https://campscui.active.com/orgs/GreenvilleCenterforCreativeArts?orglink=camps-registration&e4q=c62733de-6279-401e-abb6-bb37d976ae68&e4p=91c9e4b9-9b96-432e-99de-5c98d795b0fb&e4ts=1744725302&e4c=active&e4e=snlvcmpscui00001load&e4rt=Safetynet&e4h=2806cbb3db5b15361e2dac0b7dc7ae1c'
 inside_hero_image: woman-painting-portrait.jpg
@@ -45,6 +45,8 @@ blocks:
               text: 'Art by Appointment offers artists of all levels the opportunity for private, customized, art experiences for you and up to 15 friends and family. These experiences are perfect for birthday parties, corporate outings, team building activities and more!'
       button_text: 'Learn More'
       button_link: 'https://artcentergreenville.org/art-by-appointment/#inquiryform'
+      content_width: '50'
+      remove_top_margin: false
     image: group-of-women-painting.jpg
     type: image_and_text
     enabled: true

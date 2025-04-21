@@ -12,8 +12,8 @@ inside_hero_content:
         text: 'Join GCCA for First Friday each month. Every month you can enjoy new gallery exhibitions, studio artists, performing arts series, demos, and more. It is free to attend and open to all ages. After you’ve visited, hop over to other open galleries and restaurants in the West Village or Downtown Greenville!'
 inside_hero_image: first-friday-hero.jpg
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744683471
+updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
+updated_at: 1744897278
 blocks:
   -
     id: m9hvb09p
@@ -208,4 +208,5 @@ blocks:
     type: content_grid
     enabled: true
     content_grid_title: '2025 First Friday Schedule'
+eyebrow: 'Make GCCA Your First Stop'
 ---

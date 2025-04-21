@@ -3,8 +3,8 @@ id: 26004a64-a94e-4832-9bf1-cd5f3991eebf
 blueprint: page
 title: 'Gift Shop Proposals'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744662647
+updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
+updated_at: 1744902699
 turn_off_hero: false
 blocks:
   -
@@ -36,9 +36,13 @@ blocks:
               text: 'Deadline to be considered for the November 2025 – May 2026 consignment period is June 13th, 2025 at 11:59 PM.'
       button_text: 'Apply Here'
       button_link: 'https://podio.com/webforms/28271020/2242151'
+      content_width: '50'
+      remove_top_margin: false
     image: the-shop-gcca-4.jpg
     type: image_and_text
     enabled: true
+    align_columns: center
+    constrain_image: true
   -
     id: m9hil9jp
     accordion_item:
@@ -104,6 +108,10 @@ blocks:
         enabled: true
     type: faq_accordion
     enabled: true
+    use_second_column: false
+    second_column:
+      second_column_content: null
+      second_column_width: null
 inside_hero_content:
   -
     type: paragraph

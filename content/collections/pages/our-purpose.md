@@ -3,8 +3,8 @@ id: 6eeb74fe-ca71-420a-a624-ef405b90ecfe
 blueprint: page
 title: 'Our Purpose'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744402378
+updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
+updated_at: 1744907481
 turn_off_hero: false
 inside_hero_header: 'Access Art from All Angles'
 eyebrow: 'Our Purpose'
@@ -76,9 +76,13 @@ blocks:
               text: ' through creative expression. Through education, exhibitions, and artist support, we foster dialogue, empower individuals, and strengthen the arts ecosystem. By removing barriers and investing in long-term growth, we ensure that art remains a powerful and transformative force in our community.'
       button_text: null
       button_link: null
+      content_width: '50'
+      remove_top_margin: false
     image: slide2.jpg
     type: image_and_text
     enabled: true
+    align_columns: center
+    constrain_image: true
   -
     id: m9d83emp
     image_left_or_right: right
@@ -151,21 +155,29 @@ blocks:
                     -
                       type: text
                       text: ' – Art strengthens communities. We cultivate meaningful partnerships that bring diverse voices together, fostering shared experiences and creative collaboration.'
-        -
-          type: paragraph
-          content:
             -
-              type: text
-              marks:
+              type: listItem
+              content:
                 -
-                  type: bold
-              text: 'Excellence & Innovation'
-            -
-              type: text
-              text: ' – We challenge artistic and educational boundaries, continuously evolving to inspire, engage, and elevate the arts community.'
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      marks:
+                        -
+                          type: bold
+                      text: 'Excellence & Innovation'
+                    -
+                      type: text
+                      text: ' – We challenge artistic and educational boundaries, continuously evolving to inspire, engage, and elevate the arts community.'
       button_text: null
       button_link: null
+      content_width: '50'
+      remove_top_margin: false
     image: slide1.jpg
     type: image_and_text
     enabled: true
+    align_columns: center
+    constrain_image: true
+inside_hero_image: gallery-hero-img.jpg
 ---

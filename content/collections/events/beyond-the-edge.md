@@ -10,7 +10,7 @@ featured_image:
 date: '2025-04-13'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744829474
+updated_at: 1744829857
 event_category:
   - exhibitions
 all_day_event: true
@@ -126,7 +126,7 @@ blocks:
       button_text: null
       button_link: null
       content_width: 66
-      remove_top_margin: false
+      remove_top_margin: true
     image: lindsay.jpg
     constrain_image: false
     type: image_and_text
@@ -196,7 +196,7 @@ blocks:
       button_text: null
       button_link: null
       content_width: 66
-      remove_top_margin: false
+      remove_top_margin: true
     image: anna.jpg
     constrain_image: false
     type: image_and_text

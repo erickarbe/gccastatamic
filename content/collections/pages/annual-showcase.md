@@ -3,8 +3,8 @@ id: 7f18f75f-7fd2-446a-852c-7f0570aece59
 blueprint: page
 title: 'Annual Showcase'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744743043
+updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
+updated_at: 1744896761
 turn_off_hero: false
 eyebrow: 'GCCA Member Juried Art Exhibition'
 inside_hero_header: 'Annual Showcase'
@@ -41,6 +41,8 @@ blocks:
               text: ', encourages artists to explore different viewpoints—both literal and metaphorical—through unique compositions, storytelling, or social perspectives. The exhibition seeks to highlight how individual identities contribute to and shape a larger communal narrative. Each piece serves as a personal story that, when combined with others, reflects the vast, interconnected fabric of our community.'
       button_text: null
       button_link: null
+      content_width: '50'
+      remove_top_margin: false
     image: gcca-showcase_0001.jpg
     type: image_and_text
     enabled: true
@@ -134,6 +136,8 @@ blocks:
                       text: 'The exhibition may include artist statements or interactive elements to provide deeper insight into the stories behind the artwork.'
       button_text: null
       button_link: null
+      content_width: '50'
+      remove_top_margin: false
     image: showcase-gallery-img.jpg
     type: image_and_text
     enabled: true
@@ -658,4 +662,8 @@ blocks:
     grid_four_link: 'https://www.artgalleria.com/portal'
     grid_two_image:
       - jennifer-2.jpg
+    constrain_image_1: true
+    constrain_image_2: true
+    constrain_image_3: true
+    constrain_image_4: true
 ---

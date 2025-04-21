@@ -4,7 +4,7 @@ blueprint: page
 title: Volunteer
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744817902
+updated_at: 1744903157
 turn_off_hero: false
 inside_hero_header: Volunteer
 inside_hero_content:
@@ -61,6 +61,7 @@ blocks:
       button_text: 'Volunteer Sign Up'
       button_link: 'https://volunteer.bloomerang.co/web-admin/app/#/join-party?k=4mw47jksfqt4y0'
       content_width: '50'
+      remove_top_margin: false
     image: scc-digital.webp
     type: image_and_text
     enabled: true
@@ -170,5 +171,9 @@ blocks:
         enabled: true
     type: faq_accordion
     enabled: true
-inside_hero_image: ways-to-give-hero.jpg
+    use_second_column: false
+    second_column:
+      second_column_content: null
+      second_column_width: null
+inside_hero_image: gcca-arp-2357.jpg
 ---

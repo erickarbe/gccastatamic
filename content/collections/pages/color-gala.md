@@ -4,7 +4,7 @@ blueprint: page
 title: 'Color Gala'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744729332
+updated_at: 1744897141
 turn_off_hero: false
 inside_hero_content:
   -
@@ -28,12 +28,40 @@ blocks:
     id: m9hticli
     width: contained
     heading: 'Interested in sponsoring?'
-    content: |-
-      Sponsorship packages are available to individuals or businesses of all sizes looking to be recognized for their meaningful commitment to the arts and our mission. 
-
-      VIP and individual tickets will go on sale May 10, 2025.
-
-      We are also seeking high-value, one of a kind experiences for live and silent auction items. If you have something you are interested in donating in support of GCCA, email alexis@artcentergreenville.org for more information. Thank you for your support!
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Sponsorship packages are available to individuals or businesses of all sizes looking to be recognized for their meaningful commitment to the arts and our mission. '
+          -
+            type: hardBreak
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'VIP and individual tickets will go on sale May 10, 2025.'
+          -
+            type: hardBreak
+          -
+            type: text
+            text: 'We are also seeking high-value, one of a kind experiences for live and silent auction items. If you have something you are interested in donating in support of GCCA, email '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'mailto:alexis@artcentergreenville.org'
+                  rel: null
+                  target: null
+                  title: null
+            text: alexis@artcentergreenville.org
+          -
+            type: text
+            text: ' for more information. Thank you for your support!'
     button_text: 'Sponsor Color Gala'
     button_link: 'entry::785cdacf-aaab-4aa6-bf4a-c0486d6c1b18'
     background_color: '#263340'

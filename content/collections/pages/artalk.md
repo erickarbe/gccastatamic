@@ -40,8 +40,8 @@ inside_hero_content:
         type: text
         text: ', whether they are local talents or creators from across the U.S.'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744745905
+updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
+updated_at: 1744897349
 blocks:
   -
     id: m9hudp2a
@@ -97,6 +97,8 @@ blocks:
               text: 'admission is free!'
       button_text: null
       button_link: null
+      content_width: '50'
+      remove_top_margin: false
     image: ways-to-give-hero.jpg
     type: image_and_text
     enabled: true
