@@ -4,9 +4,11 @@
     <h1 class="text-5xl md:text-7xl mb-8 font-serif">{{ title }}</h1>
   </div>
   
-  <div data-aos="fade-up-sm" data-aos-delay="200"
-    class="article-category grid md:grid-cols-2 lg:grid-cols-3 divide-x divide-y divide-gray-200 border-l border-t border-gray-200">
+  
     {{ entries paginate="15" sort="date:desc|title:desc" }}
+      
+    <div data-aos="fade-up-sm" data-aos-delay="200"
+    class="article-category grid md:grid-cols-2 lg:grid-cols-3 divide-x divide-y divide-gray-200 border-l border-t border-gray-200">
       {{ results }}
         <article class="bg-white p-6">
           <div
@@ -55,6 +57,41 @@
           </div>
         </article>
       {{ /results }}
+      </div>
+
+      {{ paginate }}
+          
+  
+          
+  
+         
+
+          <nav class="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3 sm:px-6" aria-label="Pagination">
+            <div class="hidden sm:block">
+              <p class="text-sm text-gray-700">
+                <span class="font-medium">{{ current_page }}</span> of <span class="font-medium">{{ total_pages }}</span> pages
+          (There are {{ total_items }} posts)
+               
+              </p>
+            </div>
+            <div class="flex flex-1 justify-between sm:justify-end">
+              {{ if prev_page }}
+              <a href="{{ prev_page }}" class="relative inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 ring-gray-300 ring-inset hover:bg-gray-50 focus-visible:outline-offset-0">Previous</a>
+              {{ else }}
+                <button type="button" disabled class="relative inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 ring-gray-300 ring-inset hover:bg-gray-50 focus-visible:outline-offset-0 opacity-30">Previous</button>
+              {{ /if }}
+              
+              {{ if next_page }}
+                <a href="{{ next_page }}" class="relative ml-3 inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 ring-gray-300 ring-inset hover:bg-gray-50 focus-visible:outline-offset-0">Next</a>
+              {{ else }}
+                <button type="button" disabled class="relative ml-3 inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 ring-gray-300 ring-inset hover:bg-gray-50 focus-visible:outline-offset-0 opacity-30">Next</button>
+              {{ /if }}
+
+            </div>
+          </nav>
+
+
+      {{ /paginate }}
     {{ /entries }}
-  </div>
+  
 </section>
