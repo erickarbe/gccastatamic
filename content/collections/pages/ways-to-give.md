@@ -3,8 +3,8 @@ id: b958b573-df8d-4deb-8724-b58b5f91347c
 blueprint: page
 title: 'Ways to Give'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744638811
+updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
+updated_at: 1745532208
 turn_off_hero: false
 blocks:
   -
@@ -19,31 +19,101 @@ blocks:
       -
         id: m9ddf1ml
         heading: 'Monthly Giving Program'
-        content: 'Join our monthly giving program, the Creative Collective (link to CC page/monthly giving page)'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://gcca.arbedigital.com/support/monthly_giving'
+                      rel: null
+                      target: null
+                      title: null
+                text: 'Join our monthly giving program, the Creative Collective'
         type: new_item
         enabled: true
       -
         id: m9ddfg4r
         heading: 'Artist Member'
-        content: 'Join as an Artist Member (link to Artist Member page)'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://gcca.arbedigital.com/artists/artist-membership'
+                      rel: null
+                      target: null
+                      title: null
+                text: 'Join as an Artist Member'
         type: new_item
         enabled: true
       -
         id: m9ddfuvt
         heading: 'Corporate Giving'
-        content: 'Support through Corporate Giving and Sponsorship (link to Corporate Giving page)'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://gcca.arbedigital.com/support/sponsorship'
+                      rel: null
+                      target: null
+                      title: null
+                text: 'Support through Corporate Giving and Sponsorship'
         type: new_item
         enabled: true
       -
         id: m9ddg8h5
         heading: 'Planned Giving'
-        content: 'Make a gift through our Planned Giving program (link to Planned Giving page)'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://gcca.arbedigital.com/support/planned-giving'
+                      rel: null
+                      target: null
+                      title: null
+                text: 'Make a gift through our Planned Giving program'
         type: new_item
         enabled: true
       -
         id: m9ddgid6
         heading: Volunteer
-        content: 'Volunteer at our events and at the center (link to Volunteer Page)'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://gcca.arbedigital.com/support/volunteer'
+                      rel: null
+                      target: null
+                      title: null
+                text: 'Volunteer at our events and at the center'
         type: new_item
         enabled: true
     type: content_grid
