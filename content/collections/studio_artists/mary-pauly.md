@@ -4,7 +4,7 @@ blueprint: studio_artist
 title: 'Mary Pauly'
 studio: 'Studio 1'
 artists_medium: Painter
-website: marypaulyart.com
+website: 'https://marypaulyart.com'
 email: mlimagine@gmail.com
 biography:
   -
@@ -43,6 +43,6 @@ biography:
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 headshot: mary-pauly.png
 updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744561539
+updated_at: 1746110062
 featured_image: mary-pauly-featured-image.png
 ---

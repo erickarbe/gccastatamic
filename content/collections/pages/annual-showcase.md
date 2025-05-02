@@ -4,7 +4,7 @@ blueprint: page
 title: 'Annual Showcase'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744896761
+updated_at: 1746135110
 turn_off_hero: false
 eyebrow: 'GCCA Member Juried Art Exhibition'
 inside_hero_header: 'Annual Showcase'
@@ -642,7 +642,7 @@ blocks:
                 content:
                   -
                     type: text
-                    text: 'Enter your email and complete the artwork information form on the portal page.'
+                    text: 'Enter your email and complete the artwork information form below. '
           -
             type: listItem
             content:
@@ -651,19 +651,37 @@ blocks:
                 content:
                   -
                     type: text
-                    text: 'For more details, visit [Insert Website] or contact ben@artcentergreenville.org.'
+                    text: 'For more details, contact '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'mailto:ben@artcentergreenville.org'
+                          rel: null
+                          target: null
+                          title: null
+                    text: ben@artcentergreenville.org
+                  -
+                    type: text
+                    text: .
       -
         type: paragraph
         content:
           -
             type: text
             text: 'We look forward to celebrating the remarkable talent of our GCCA member artists!'
-    grid_four_link_text: 'Submission Portal'
-    grid_four_link: 'https://www.artgalleria.com/portal'
     grid_two_image:
       - jennifer-2.jpg
     constrain_image_1: true
     constrain_image_2: true
     constrain_image_3: true
     constrain_image_4: true
+  -
+    id: ma5innx2
+    width: contained
+    iframe_embed: '<div style="width:100%;height:500px;" data-fillout-id="wPLgfBuntous" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div><script src="https://server.fillout.com/embed/v1/"></script>'
+    type: iframe_container
+    enabled: true
 ---

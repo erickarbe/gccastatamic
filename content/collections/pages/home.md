@@ -91,6 +91,23 @@ home_page_blocks:
                               target: null
                               title: null
                         text: 'Summer Art Camps'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: link
+                            attrs:
+                              href: 'statamic://entry::6ebd5a1d-a0f6-4f23-af44-4efc690de590'
+                              rel: null
+                              target: null
+                              title: null
+                        text: 'Art School'
         panel_image:
           - slide1.jpg
         type: panel_group
@@ -369,5 +386,5 @@ home_page_blocks:
     constrain_image_3: true
     constrain_image_4: true
 updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744829780
+updated_at: 1746111871
 ---

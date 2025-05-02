@@ -4,7 +4,7 @@ blueprint: page
 title: 'Art School'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744837506
+updated_at: 1746128642
 turn_off_hero: false
 eyebrow: 'Art School'
 inside_hero_header: 'The <span>Carrie Burns Brown Art School</span> at GCCA'
@@ -45,7 +45,7 @@ blocks:
               text: 'Art by Appointment offers artists of all levels the opportunity for private, customized, art experiences for you and up to 15 friends and family. These experiences are perfect for birthday parties, corporate outings, team building activities and more!'
       button_text: 'Learn More'
       button_link: 'https://artcentergreenville.org/art-by-appointment/#inquiryform'
-      content_width: '50'
+      content_width: 50
       remove_top_margin: false
     image: group-of-women-painting.jpg
     type: image_and_text
@@ -125,4 +125,21 @@ blocks:
         enabled: true
     type: sticky_links
     enabled: true
+  -
+    id: ma5roqh2
+    width: Contained
+    heading: Scholarships
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'We’re here to help ensure that financial challenges never stand in the way of your creativity and passion for the arts. '
+    button_text: 'Apply for Financial Aid'
+    button_link: 'https://gcca.arbedigital.com/education/scholarships'
+    type: cta_section
+    enabled: true
+    image_layout: background
+    background_color: '#25323e'
 ---

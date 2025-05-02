@@ -45,31 +45,16 @@ fields:
               fields:
                 -
                   import: sticky_links
-            basic_centered_content:
-              display: 'Basic Centered Content'
-              fields:
-                -
-                  import: basic_centered_content
             cta_section:
               display: 'CTA Section'
               fields:
                 -
                   import: cta_section
-            big_quote:
-              display: 'Big Quote'
-              fields:
-                -
-                  import: big_quote
             full_width_carousel:
               display: 'Full Width Carousel'
               fields:
                 -
                   import: full_width_carousel
-            image_gallery:
-              display: 'Image Gallery'
-              fields:
-                -
-                  import: image_gallery
             content_grid:
               display: 'Content Grid'
               fields:
@@ -96,8 +81,8 @@ fields:
               fields:
                 -
                   import: basic_title
-            two_column_animated:
-              display: 'Two Column Animated'
+            basic_centered_content:
+              display: 'Basic Centered Content'
               fields:
                 -
-                  import: two_column_animated
+                  import: basic_centered_content

@@ -4,7 +4,7 @@ blueprint: page
 title: 'Instructor Proposals'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744840494
+updated_at: 1746126307
 turn_off_hero: false
 inside_hero_header: 'Instructor <span>Proposals</span>'
 inside_hero_content:
@@ -57,39 +57,56 @@ blocks:
               type: text
               text: .
         -
-          type: heading
-          attrs:
-            level: 3
-          content:
-            -
-              type: text
-              text: 'How to Apply'
+          type: paragraph
         -
           type: paragraph
           content:
             -
               type: text
-              text: 'To be considered for a teaching position, please submit a proposal using the form below. This form helps us get to know you, your artistic practice, and your course idea. Proposals should '
+              text: 'If you’re interested in teaching at GCCA, please review the upcoming '
             -
               type: text
               marks:
                 -
                   type: bold
-              text: complement
+              text: 'teaching proposal deadlines'
             -
               type: text
-              text: ', not duplicate, what’s already on our schedule. While we may not always have room for new instructors, we welcome all submissions and '
+              text: ':'
             -
-              type: text
-              marks:
+              type: hardBreak
+        -
+          type: bulletList
+          content:
+            -
+              type: listItem
+              content:
                 -
-                  type: bold
-              text: 'keep proposals on file'
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'Summer Session Proposal Deadline: April 21, 2025'
             -
-              type: text
-              text: ' for future consideration. After you submit your proposal, our team will review it and reach out if we’d like more information or to discuss your class idea further.'
-      button_text: 'Apply Here'
-      button_link: 'https://podio.com/webforms/16740825/1125745'
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'Fall Session Proposal Deadline: June 23, 2025'
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'Winter Session Proposal Deadline: November 14, 2025'
+      button_text: null
+      button_link: null
       content_width: '50'
       remove_top_margin: false
     image: visitbrandon2.jpg
@@ -143,15 +160,15 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: 'Summer Session: '
-              -
-                type: text
-                text: ' '
+                text: 'Summer Session:   '
               -
                 type: hardBreak
               -
                 type: text
-                text: 'June 2 – August 9, 2025 '
+                marks:
+                  -
+                    type: bold
+                text: 'June 2 – August 9, 2025'
           -
             type: paragraph
             content:
@@ -169,8 +186,6 @@ blocks:
               -
                 type: text
                 text: 'August 25 – December 19, 2025'
-        panel_button_text: 'Apply Here'
-        panel_button_link: 'https://podio.com/webforms/16740825/1125745'
         panel_image:
           - visitclass.jpg
         type: panel_group
@@ -185,44 +200,29 @@ blocks:
         content:
           -
             type: text
-            text: 'If you’re interested in teaching at GCCA, please review the upcoming proposal deadlines below:'
-      -
-        type: paragraph
-        content:
+            text: 'To be considered for a teaching position, please submit a proposal using the form below. This form helps us get to know you, your artistic practice, and your course idea. Proposals should '
           -
             type: text
             marks:
               -
                 type: bold
-            text: 'Summer 2025 Class Session Proposal Deadline:'
+            text: complement
           -
             type: text
-            text: ' April 21, 2025'
+            text: ', not duplicate, what’s already on our schedule. While we may not always have room for new instructors, we welcome all submissions and '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'keep proposals on file'
+          -
+            type: text
+            text: ' for future consideration. After you submit your proposal, our team will review it and reach out if we’d like more information or to discuss your class idea further.'
           -
             type: hardBreak
           -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Fall 2025 Class Session Proposal Deadline:'
-          -
-            type: text
-            text: ' June 23, 2025'
-          -
             type: hardBreak
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Winter 2026 Class Session Proposal Deadline:'
-          -
-            type: text
-            text: ' November 14, 2025'
-      -
-        type: paragraph
-        content:
           -
             type: text
             marks:
@@ -261,6 +261,12 @@ blocks:
             text: ' javy@artcentergreenville.org'
     type: basic_centered_content
     enabled: true
-    eyebrow: 'Session Proposal Application Deadlines'
-    heading: Deadlines
+    eyebrow: 'submit an Art School proposal'
+    heading: 'How to Apply'
+  -
+    id: ma5pgqnp
+    width: contained
+    iframe_embed: '<div style="width:100%;height:500px;" data-fillout-id="oLZnXcvWPWus" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div><script src="https://server.fillout.com/embed/v1/"></script>'
+    type: iframe_container
+    enabled: true
 ---
