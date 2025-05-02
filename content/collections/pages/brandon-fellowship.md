@@ -4,7 +4,7 @@ blueprint: page
 title: 'Brandon Fellowship'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744739621
+updated_at: 1746208209
 turn_off_hero: false
 eyebrow: 'The Brandon Fellowship'
 inside_hero_header: 'Empowering the Next Generation of Artists'
@@ -89,9 +89,13 @@ blocks:
               text: 'The Brandon Fellowship program is supported by the Jolley Foundation, Earle Furman in memory of Linda Furman,Doug & Melissa Sturgis, and The National Endowment for the Arts.'
       button_text: null
       button_link: null
+      content_width: '50'
+      remove_top_margin: false
     image: brandon-fellowship-group_hug.jpg
     type: image_and_text
     enabled: true
+    align_columns: center
+    constrain_image: true
   -
     id: m9g84anb
     content_grid_title: 'Fellowship Benefits'
@@ -577,5 +581,5 @@ blocks:
         enabled: true
     type: people_grid
     enabled: true
-    number_of_columns: four
+    number_of_columns: three
 ---
