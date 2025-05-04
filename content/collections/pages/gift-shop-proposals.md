@@ -3,8 +3,8 @@ id: 26004a64-a94e-4832-9bf1-cd5f3991eebf
 blueprint: page
 title: 'Gift Shop Proposals'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744902699
+updated_by: 916c3785-d212-40bc-89ff-572097ac9582
+updated_at: 1746200860
 turn_off_hero: false
 blocks:
   -

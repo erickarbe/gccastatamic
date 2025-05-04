@@ -17,7 +17,7 @@
 
         <li class="bg-white transition py-6">
             <div
-                class="grid grid-cols-1 lg:grid-cols-[180px_1fr] gap-4 items-start"
+                class="grid grid-cols-1 lg:grid-cols-[180px_1fr_1fr] gap-4 items-start"
             >
                 <div class="flex items-center w-full mb-2 md:mb-0">
                     {{ event_category }}
@@ -31,7 +31,7 @@
                             viewBox="0 0 24 24"
                             stroke-width="1.5"
                             stroke="currentColor"
-                            class="size-4 md:size-6 text-red-400"
+                            class="size-4 md:size-[25px] text-red-400"
                         >
                             <path
                                 stroke-linecap="round"
@@ -47,7 +47,7 @@
                             viewBox="0 0 24 24"
                             stroke-width="1.5"
                             stroke="currentColor"
-                            class="size-4 md:size-6 text-red-400"
+                            class="size-4 md:size-[25px] text-red-400"
                         >
                             <path
                                 stroke-linecap="round"
@@ -63,7 +63,7 @@
                             viewBox="0 0 24 24"
                             stroke-width="1.5"
                             stroke="currentColor"
-                            class="size-4 md:size-6 text-green-400"
+                            class="size-4 md:size-[25px] text-green-400"
                         >
                             <path
                                 stroke-linecap="round"
@@ -79,7 +79,7 @@
                             viewBox="0 0 24 24"
                             stroke-width="1.5"
                             stroke="currentColor"
-                            class="size-4 md:size-6 text-blue-400"
+                            class="size-4 md:size-[25px] text-blue-400"
                         >
                             <path
                                 stroke-linecap="round"
@@ -95,7 +95,7 @@
                             viewBox="0 0 24 24"
                             stroke-width="1.5"
                             stroke="currentColor"
-                            class="size-4 md:size-6 text-yellow-400"
+                            class="size-4 md:size-[25px] text-yellow-400"
                         >
                             <path
                                 stroke-linecap="round"
@@ -105,7 +105,7 @@
                         </svg>
 
                         {{ /if }}
-                        <span class="ml-2">{{ title }}</span>
+                        <span class="ml-2 text-lg">{{ title }}</span>
                     </span>
                     {{ /event_category }}
                 </div>
@@ -132,6 +132,24 @@
                     <p class="text-sm text-gray-600 mt-1">📍 {{ location }}</p>
                     {{ /if }}
                 </div>
+
+                <!-- if has featured_image use like a thumbnail -->
+                {{ if featured_image }}
+                    <div class="flex justify-end">
+                        {{ featured_image }}
+                        <img
+                            src="{{ url }}"
+                            alt="{{ alt }}"
+                            loading="lazy"
+                            decoding="async"
+                            width="450"
+                            class="h-[250px] md:h-[300px] lg:h-[275px] w-[350px] md:w-full lg:w-[400px] object-cover group-hover:scale-105 transition duration-500"
+                        />
+                        {{ /featured_image }}
+                    </div>
+                {{ /if }}
+                
+
             </div>
         </li>
         {{ /events }}
