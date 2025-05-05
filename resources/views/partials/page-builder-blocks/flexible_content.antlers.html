@@ -1,0 +1,16 @@
+<div class="py-20 px-4 sm:px-6 md:px-[5vw]">
+    {{ if eyebrow }}
+        <p class="text-sm uppercase tracking-widest text-gray-500 mb-2 {{ two_columns ? 'text-left' : 'text-center' }}">{{ eyebrow }}</p>
+    {{ /if }}
+    {{ if heading }}
+        <h2 class="font-serif text-5xl font-bold mb-6 {{ two_columns ? 'text-left' : 'text-center' }}">{{ heading }}</h2>
+    {{ /if }}
+    <div class="{{ two_columns ? 'flex flex-col md:flex-row md:gap-8' : 'max-w-2xl mx-auto' }}">
+        {{ if content_one }}
+            <div class="text-gray-700 leading-relaxed {{ two_columns ? 'md:w-1/2' : 'text-center' }}">{{ content_one }}</div>
+        {{ /if }}
+        {{ if two_columns && content_two }}
+            <div class="text-gray-700 leading-relaxed {{ two_columns ? 'md:w-1/2 mt-4 md:mt-0' : '' }}">{{ content_two }}</div>
+        {{ /if }}
+    </div>
+</div>

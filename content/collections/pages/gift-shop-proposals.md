@@ -4,7 +4,7 @@ blueprint: page
 title: 'Gift Shop Proposals'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1746200860
+updated_at: 1746471919
 turn_off_hero: false
 blocks:
   -

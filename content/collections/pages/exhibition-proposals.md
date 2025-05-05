@@ -4,7 +4,7 @@ blueprint: page
 title: 'Exhibition Proposals'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744661716
+updated_at: 1746475619
 turn_off_hero: false
 inside_hero_content:
   -
@@ -97,9 +97,13 @@ blocks:
               text: 'This exhibition space is open to artists from across the continental United States, providing a remarkable opportunity to present your work in a professional setting.'
       button_text: null
       button_link: null
+      content_width: '50'
+      remove_top_margin: false
     image: gallery-img-2.jpg
     type: image_and_text
     enabled: true
+    align_columns: center
+    constrain_image: true
   -
     id: m9hg1o2m
     panel_heading: 'Main Gallery Proposals Criteria & Requirements'
@@ -291,6 +295,12 @@ blocks:
     type: sticky_links
     enabled: true
   -
+    id: mabiddik
+    width: full_width
+    iframe_embed: '<div style="width:100%;height:500px;" data-fillout-id="nqvUCNCwUMus" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div><script src="https://server.fillout.com/embed/v1/"></script>'
+    type: iframe_container
+    enabled: true
+  -
     id: m9hf3ag2
     heading: 'Main Gallery Floor Plan'
     content:
@@ -394,9 +404,13 @@ blocks:
               text: 'We present six exhibitions annually, each lasting approximately two months, ensuring ample opportunity for visibility and engagement. GCCA also includes support for installation, ensuring a seamless and professional experience for selected artists.'
       button_text: null
       button_link: null
+      content_width: '50'
+      remove_top_margin: false
     image: community-gallery-2.jpg
     type: image_and_text
     enabled: true
+    align_columns: center
+    constrain_image: true
   -
     id: m9hh7uzz
     panel_heading: 'Community Gallery Criteria'
@@ -505,6 +519,12 @@ blocks:
         type: new_link_panel
         enabled: true
     type: sticky_links
+    enabled: true
+  -
+    id: mabih5t3
+    width: full_width
+    iframe_embed: '<div style="width:100%;height:500px;" data-fillout-id="rPB5WY5aQZus" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div><script src="https://server.fillout.com/embed/v1/"></script>'
+    type: iframe_container
     enabled: true
   -
     id: m9hdwqm2
@@ -655,4 +675,8 @@ blocks:
                   -
                     type: text
                     text: 'Indicate whether the accompanying images are images you are proposing for exhibition, or are representative images only.'
+    constrain_image_1: true
+    constrain_image_2: true
+    constrain_image_3: true
+    constrain_image_4: true
 ---

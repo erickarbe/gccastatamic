@@ -28,10 +28,10 @@
       {{ if second_column:second_column_width == 75 }} md:w-1/4 {{ /if }}
       {{ if !second_column_width == 75 }} md:w-full {{ /if }}">
         {{ accordion_item }}
-          <div class="faq-item border border-gray-300 rounded overflow-hidden">
-            <button type="button" class="faq-toggle w-full flex justify-between items-center px-4 py-3 bg-gray-100 hover:bg-gray-200 transition duration-300 text-left">
+          <div class="faq-item border-b border-gray-300 rounded overflow-hidden mb-0">
+            <button type="button" class="faq-toggle w-full flex justify-between items-center cursor-pointer px-4 py-8 hover:bg-gray-100 transition duration-300 text-left">
               <span class="font-medium">{{ accordion_header }}</span>
-              <span class="faq-icon transition-transform duration-300">+</span>
+              <span class="faq-icon text-2xl transition-transform duration-300">+</span>
             </button>
             <div class="faq-content px-4 py-4 text-gray-700 bg-white hidden">
               {{ accordion_content }}
