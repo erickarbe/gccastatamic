@@ -4,7 +4,7 @@ blueprint: page
 title: 'Brandon Fellowship'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1746475809
+updated_at: 1746637553
 turn_off_hero: false
 eyebrow: 'The Brandon Fellowship'
 inside_hero_header: 'Empowering the Next Generation of Artists'
@@ -290,6 +290,7 @@ blocks:
         enabled: true
     type: content_grid
     enabled: true
+    number_of_columns: three
   -
     id: mabikjom
     heading: 'Brandon Fellowship Selection Committee'
