@@ -86,3 +86,8 @@ fields:
               fields:
                 -
                   import: basic_centered_content
+            flexible_content:
+              display: 'Flexible Content'
+              fields:
+                -
+                  import: flexible_content

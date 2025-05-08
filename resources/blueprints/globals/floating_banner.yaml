@@ -1,0 +1,23 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: override_message
+            field:
+              type: text
+              display: 'Override Message'
+          -
+            handle: override_hours
+            field:
+              type: text
+              display: 'Override Hours'
+              width: 50
+          -
+            handle: override_date
+            field:
+              type: text
+              display: 'Override Date'
+              width: 50

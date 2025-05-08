@@ -584,6 +584,73 @@
             </div>
         </div>
 
+        <div class="w-full pt-12">
+            <p class="text-white text-xl mb-4">Subscribe to our newsletter:</p>
+            <form class="w-full">
+                <div class="md:flex md:gap-4 md:mb-4">
+                    <div class="w-1/5">
+                        <label
+                            for="first-name"
+                            class="block text-sm/6 font-medium text-gray-400"
+                            >First name</label
+                        >
+                        <div class="mt-2">
+                            <input
+                                type="text"
+                                name="first-name"
+                                id="first-name"
+                                autocomplete="given-name"
+                                class="block w-full rounded bg-gray-400 px-3 py-1.5 text-base text-white outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-gray-blue sm:text-sm/6"
+                            />
+                        </div>
+                    </div>
+
+                    <div class="w-1/5">
+                        <label
+                            for="last-name"
+                            class="block text-sm/6 font-medium text-gray-400"
+                            >Last name</label
+                        >
+                        <div class="mt-2">
+                            <input
+                                type="text"
+                                name="last-name"
+                                id="last-name"
+                                autocomplete="family-name"
+                                class="block w-full rounded bg-gray-400 px-3 py-1.5 text-base text-white outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-gray-blue sm:text-sm/6"
+                            />
+                        </div>
+                    </div>
+
+                    <div class="w-1/5">
+                        <label
+                            for="email"
+                            class="block text-sm/6 font-medium text-gray-400"
+                            >Email address</label
+                        >
+                        <div class="mt-2">
+                            <input
+                                id="email"
+                                name="email"
+                                type="email"
+                                autocomplete="email"
+                                class="block w-full rounded bg-gray-400 px-3 py-1.5 text-base text-white outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-gray-blue sm:text-sm/6"
+                            />
+                        </div>
+                    </div>
+
+                    <div class="w-1/5 items-end flex">
+                        <button
+                    type="submit"
+                    class="w-full mt-4 text-xs h-fit flex-none rounded bg-gray-blue px-3.5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-gray-blue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-blue"
+                >
+                    Subscribe
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
         <div
             class="mt-8 lg:mt-20 text-gray-400 border-t border-white/10 pt-8 md:flex md:items-center md:justify-between"
         >
@@ -678,18 +745,65 @@
     <div
         class="pointer-events-auto flex items-center justify-between gap-x-6 bg-dark-blue px-6 py-2.5 sm:rounded-full sm:py-3 sm:px-8"
     >
-        <p class="text-sm/6 text-white font-light">
-            <a href="#">
-                <strong class="font-semibold">We're open right now!</strong>
-                It's Monday, March 3rd - we're open until 6pm.
-            </a>
-        </p>
+        <div class="flex gap-2">   
+                {{ if floating_banner:override_message }}
+                    <p class="text-sm/6 text-white font-light"><strong class="font-semibold">{{ floating_banner:override_message }}</strong></p>
+                {{ else }}
+                    <p class="text-sm/6 text-white font-light"><strong class="font-semibold">We're open right now!</strong></p>
+                {{ /if }}
+                {{ if floating_banner:override_date }}
+                    <p class="text-sm/6 text-white font-light">{{ floating_banner:override_date }}</p>
+                {{ else }}
+                    <p class="text-sm/6 text-white font-light">It's {{ current_date iso_format="dddd, MMMM Do" }}</p>
+                {{ /if }}
+                <p class="text-white">-</p>
+                {{ if floating_banner:override_hours }}
+                    <p class="text-sm/6 text-white font-light">{{ floating_banner:override_hours }}</p>
+                {{ else }}
+                    <p class="text-sm/6 text-white font-light">we close at 6pm</p>
+                {{ /if }}
+        </div> 
+        <!-- hide the aside on click of this -->
         <button
             type="button"
-            class="-m-3 flex-none p-3 focus-visible:outline-offset-[-4px]"
+            class="cursor-pointer text-gray-400 hover:text-gray-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+            data-dismiss-target="#global-notice"
+            data-dismiss
         >
             <span class="sr-only">Dismiss</span>
-            <XMarkIcon class="size-5 text-white" aria-hidden="true" />
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+            >
+                <path d="M18 6L6 18" />
+                <path d="M6 6l12 12" />
+            </svg>
         </button>
     </div>
 </aside>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // Select all elements with data-dismiss attribute
+    const dismissButtons = document.querySelectorAll('[data-dismiss]');
+    
+    dismissButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Get the target element's ID from data-dismiss-target
+            const targetId = button.getAttribute('data-dismiss-target');
+            const targetElement = document.querySelector(targetId);
+            
+            if (targetElement) {
+                // Hide the target element
+                targetElement.style.display = 'none';
+            }
+        });
+    });
+});
+</script>

@@ -9,8 +9,8 @@ featured_image:
   - slide2.jpg
 date: '2025-04-13'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1746109130
+updated_by: 916c3785-d212-40bc-89ff-572097ac9582
+updated_at: 1746453824
 event_category:
   - exhibitions
 all_day_event: true
@@ -201,6 +201,8 @@ blocks:
     constrain_image: false
     type: image_and_text
     enabled: true
+event_cost: $35
+age_range: 8-80
 content:
   -
     type: paragraph

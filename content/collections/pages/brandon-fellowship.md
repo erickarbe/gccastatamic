@@ -4,7 +4,7 @@ blueprint: page
 title: 'Brandon Fellowship'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1746208209
+updated_at: 1746637553
 turn_off_hero: false
 eyebrow: 'The Brandon Fellowship'
 inside_hero_header: 'Empowering the Next Generation of Artists'
@@ -289,6 +289,25 @@ blocks:
         type: new_item
         enabled: true
     type: content_grid
+    enabled: true
+    number_of_columns: three
+  -
+    id: mabikjom
+    heading: 'Brandon Fellowship Selection Committee'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'List these like the staff section on the about page.'
+    type: basic_centered_content
+    enabled: true
+  -
+    id: mabil9hr
+    width: full_width
+    iframe_embed: '<div style="width:100%;height:500px;" data-fillout-id="cgn7E9PQi7us" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div><script src="https://server.fillout.com/embed/v1/"></script>'
+    type: iframe_container
     enabled: true
   -
     id: m9hqqnvw

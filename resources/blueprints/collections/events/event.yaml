@@ -36,6 +36,19 @@ tabs:
             field:
               type: toggle
               display: 'All Day Event'
+              width: 33
+          -
+            handle: event_cost
+            field:
+              type: text
+              display: 'Event Cost'
+              width: 33
+          -
+            handle: age_range
+            field:
+              type: text
+              display: 'Age Range'
+              width: 33
           -
             handle: content
             field:

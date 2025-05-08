@@ -9,7 +9,7 @@
 
             <h1 class="text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-8 font-serif font-semibold">{{ title }}</h1>
 
-            <div class="prose flex gap-6 text-gray-600 mb-6">
+            <div class="prose grid grid-cols-2 md:flex md:flex-row gap-6 text-gray-600 mb-6">
                 <span>
                     📆  &nbsp;{{ start_date_time format="F j, Y" }}
                 </span>
@@ -21,6 +21,12 @@
                 </span>
                 {{ /if }} {{ if location }}
                 <span>📍 {{ location }}</span>
+                {{ /if }}
+                {{ if event_cost }}
+                <span>💰 {{ event_cost }}</span>
+                {{ /if }}
+                {{ if age_range }}
+                <span>open to ages: {{ age_range }}</span>
                 {{ /if }}
 
                 
