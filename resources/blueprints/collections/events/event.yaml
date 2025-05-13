@@ -18,6 +18,11 @@ tabs:
               type: text
               display: Location
           -
+            handle: event_external_link
+            field:
+              type: text
+              display: 'Event External Link'
+          -
             handle: start_date_time
             field:
               time_enabled: true

@@ -5,19 +5,43 @@ tabs:
       -
         fields:
           -
+            handle: monday_hours
+            field:
+              type: text
+              display: 'Monday Hours'
+          -
+            handle: tuesday_hours
+            field:
+              type: text
+              display: 'Tuesday Hours'
+          -
+            handle: wednesday_hours
+            field:
+              type: text
+              display: 'Wednesday Hours'
+          -
+            handle: thursday_hours
+            field:
+              type: text
+              display: 'Thursday Hours'
+          -
+            handle: friday_hours
+            field:
+              type: text
+              display: 'Friday Hours'
+          -
+            handle: saturday_hours
+            field:
+              type: text
+              display: 'Saturday Hours'
+          -
+            handle: sunday_hours
+            field:
+              type: text
+              display: 'Sunday Hours'
+          -
             handle: override_message
             field:
-              type: text
+              remove_empty_nodes: false
+              type: bard
               display: 'Override Message'
-          -
-            handle: override_hours
-            field:
-              type: text
-              display: 'Override Hours'
-              width: 50
-          -
-            handle: override_date
-            field:
-              type: text
-              display: 'Override Date'
-              width: 50
