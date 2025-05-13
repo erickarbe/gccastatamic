@@ -124,8 +124,4 @@ tree:
       -
         id: 2c5df49a-c948-4e9e-bbe4-c6a2de823200
         title: News
-        url: /article-category/news
-      -
-        id: cac0bc36-0995-4d3f-bec9-e6bf875f4b2c
-        title: Blog
-        url: /article-category/blog
+        url: /article-category/

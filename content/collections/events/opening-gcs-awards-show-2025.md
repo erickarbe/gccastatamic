@@ -9,6 +9,8 @@ event_category:
   - first-friday
 date: '2025-04-13'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744558406
+updated_by: 916c3785-d212-40bc-89ff-572097ac9582
+updated_at: 1747059656
+featured_image:
+  - 2023-brandon-fellows-announcement-featured-image.webp
 ---
