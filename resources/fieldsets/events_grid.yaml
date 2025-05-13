@@ -1,9 +1,0 @@
-title: 'Events Grid'
-fields:
-  -
-    handle: events_list
-    field:
-      collections:
-        - events
-      type: entries
-      display: 'Events List'
