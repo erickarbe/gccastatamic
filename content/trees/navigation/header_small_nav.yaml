@@ -1,0 +1,10 @@
+tree:
+  -
+    id: de810d9c-e0c7-4f5d-b098-79990a081c5c
+    title: Shop
+    url: 'https://shopgcca.square.site/'
+    data:
+      open_in_new_window: true
+  -
+    id: e9d11eba-18cc-40af-b6d3-6b5a6b21935d
+    entry: fd43beae-58d8-4a36-8deb-32c3221f44de

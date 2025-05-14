@@ -1,0 +1,78 @@
+title: Article
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: content
+            field:
+              remove_empty_nodes: false
+              type: bard
+              display: Content
+              buttons:
+                - alignleft
+                - bold
+                - anchor
+                - italic
+                - h4
+                - unorderedlist
+                - aligncenter
+                - image
+              container: s3_assets
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: article_category
+            field:
+              type: terms
+              taxonomies:
+                - article_category
+              display: 'Article Category'
+              mode: select
+          -
+            handle: featured_image
+            field:
+              max_files: 1
+              container: s3_assets
+              type: assets
+              display: 'Featured Image'
+          -
+            handle: date
+            field:
+              type: date
+              required: true
+              default: now
+              validate:
+                - required
+          -
+            handle: template
+            field:
+              type: template
+              display: Template
+              localizable: true
+          -
+            handle: author
+            field:
+              type: users
+              display: Author
+              default: current
+              localizable: true
+              max_items: 1

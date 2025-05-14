@@ -1,0 +1,58 @@
+title: 'Sticky Links'
+fields:
+  -
+    handle: panel_heading
+    field:
+      type: text
+      display: 'Panel Heading'
+  -
+    handle: panel_content
+    field:
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+      remove_empty_nodes: false
+      container: s3_assets
+      type: bard
+      display: 'Panel Content'
+  -
+    handle: panel_links
+    field:
+      type: replicator
+      display: 'Panel Links'
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            new_link_panel:
+              display: 'New Link Panel'
+              fields:
+                -
+                  handle: link_eyebrow
+                  field:
+                    type: text
+                    display: 'Link Eyebrow'
+                -
+                  handle: link_heading
+                  field:
+                    type: text
+                    display: 'Link Heading'
+                -
+                  handle: link_content
+                  field:
+                    remove_empty_nodes: false
+                    type: bard
+                    display: 'Link Content'
+                -
+                  handle: link_url
+                  field:
+                    type: link
+                    display: 'Link URL'

@@ -1,0 +1,105 @@
+title: 'Image and Text'
+fields:
+  -
+    handle: image_left_or_right
+    field:
+      options:
+        -
+          key: left
+          value: Left
+        -
+          key: right
+          value: Right
+      inline: true
+      default: left
+      type: radio
+      display: 'Image Left or Right'
+      width: 50
+  -
+    handle: align_columns
+    field:
+      options:
+        -
+          key: center
+          value: Center
+        -
+          key: top
+          value: Top
+        -
+          key: bottom
+          value: Bottom
+      inline: true
+      default: center
+      type: radio
+      display: 'Align Columns'
+      width: 50
+  -
+    handle: content_group
+    field:
+      type: group
+      display: 'Content Group'
+      fields:
+        -
+          handle: eyebrow
+          field:
+            type: text
+            display: Eyebrow
+        -
+          handle: heading
+          field:
+            type: text
+            display: Heading
+        -
+          handle: content
+          field:
+            remove_empty_nodes: false
+            type: bard
+            display: Content
+        -
+          handle: button_text
+          field:
+            type: text
+            display: 'Button Text'
+            width: 50
+        -
+          handle: button_link
+          field:
+            type: link
+            display: 'Button Link'
+            width: 50
+        -
+          handle: content_width
+          field:
+            options:
+              - 25
+              - 33
+              - 50
+              - 66
+              - 75
+            default: '50'
+            type: width
+            display: 'Content Width'
+            width: 50
+        -
+          handle: remove_top_margin
+          field:
+            type: toggle
+            display: 'Remove Top Margin'
+            width: 50
+  -
+    handle: image
+    field:
+      max_files: 1
+      min_files: 1
+      container: s3_assets
+      type: assets
+      display: Image
+      width: 50
+  -
+    handle: constrain_image
+    field:
+      default: true
+      type: toggle
+      display: 'Constrain Image'
+      instructions: "This will keep the image in a nice aspect ratio. Uncheck to load the image in it's natural dimensions."
+      width: 50

@@ -1,0 +1,143 @@
+<section class="four-grid relative bg-white md:px-[5vw] divide-y divide-gray-200">
+  <div class="grid md:grid-cols-2 divide-x divide-gray-200">
+    <div class="p-8 md:pr-[5vw] md:py-24 space-y-4 md:space-y-8 justify-center m-auto">
+      {{ if grid_one_content }}
+        <div class="prose grid-content space-y-4 md:space-y-8">
+          {{ grid_one_content }}
+        </div>
+      {{ else }}
+        {{ if grid_one_image }}
+          {{ grid_one_image }}
+          <div class="w-full">
+            <img src="{{ url }}" alt="{{ alt }}" class="w-full block {{ if constrain_image_1}} min-h-[400px] max-h-[550px] object-cover {{ /if }}" />
+          </div>
+          {{ /grid_one_image }}
+        {{ /if }}
+      {{ /if }}
+      {{ if grid_one_link_text }}
+        <a href="{{ grid_one_link }}" class="fancy-button dark-blue relative inline-flex items-center justify-center"
+          aria-label="{{ grid_one_link_text }}">
+          <div
+            class="btn-icon-arrow h-[48px] w-[48px] flex items-center justify-center relative transition-all duration-200 ease-out">
+            <span class="arrow-line w-[14px] h-[1px] rounded-[1px] "></span><svg viewBox="0 0 7 12"
+              fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+              class="arrow-head h-[12px] absolute top-1/2 transform -translate-y-1/2 right-4 ">
+              <path class="fill" fill-rule="evenodd" clip-rule="evenodd"
+                d="M3.95353 5.4346C4.40326 5.4346 4.62847 4.88717 4.30488 4.57484L0.447099 0.851283C0.243546 0.654813 0.243545 0.328692 0.447098 0.132221V0.132221C0.640709 -0.0546532 0.947532 -0.0546531 1.14114 0.132221L6.85231 5.64468V5.64468C7.0489 5.83444 7.0489 6.14941 6.85231 6.33916V6.33916L1.14114 11.8516C0.947531 12.0385 0.640709 12.0385 0.447098 11.8516V11.8516C0.243545 11.6552 0.243545 11.329 0.447098 11.1326L4.42366 7.29436C4.74725 6.98203 4.52615 6.4346 4.07642 6.4346H3.95187C3.67573 6.4346 3.45187 6.21074 3.45187 5.9346V5.9346C3.45187 5.65846 3.67739 5.4346 3.95353 5.4346V5.4346Z"
+                fill="currentColor"></path>
+            </svg>
+          </div>
+          <span class="text md:text-[22px] relative transition-all duration-200 ease-out z-1 px-4 ">
+            {{ grid_one_link_text }}
+          </span>
+        </a>
+      {{ /if }}
+    </div>
+    <div class="p-8 md:pl-[5vw] md:py-24 space-y-4 md:space-y-8 justify-center m-auto">
+      {{ if grid_two_content }}
+        <div class="prose grid-content space-y-4 md:space-y-8">
+          {{ grid_two_content }}
+        </div>
+      {{ else }}
+        {{ if grid_two_image }}
+          {{ grid_two_image }}
+            <img src="{{ url }}" alt="{{ alt }}" class="w-full block {{ if constrain_image_2}} min-h-[400px] max-h-[550px] object-cover {{ /if }}" />
+          {{ /grid_two_image }}
+        {{ /if }}
+      {{ /if }}
+      {{ if grid_two_link_text }}
+        <a href="{{ grid_two_link }}" class="fancy-button dark-blue relative inline-flex items-center justify-center"
+          aria-label="{{ grid_two_link_text }}">
+          <div
+            class="btn-icon-arrow h-[48px] w-[48px] flex items-center justify-center relative transition-all duration-200 ease-out bg-dark-blue">
+            <span class="arrow-line w-[14px] h-[1px] rounded-[1px] bg-white"></span><svg viewBox="0 0 7 12"
+              fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+              class="arrow-head h-[12px] absolute top-1/2 transform -translate-y-1/2 right-4 text-white">
+              <path class="fill" fill-rule="evenodd" clip-rule="evenodd"
+                d="M3.95353 5.4346C4.40326 5.4346 4.62847 4.88717 4.30488 4.57484L0.447099 0.851283C0.243546 0.654813 0.243545 0.328692 0.447098 0.132221V0.132221C0.640709 -0.0546532 0.947532 -0.0546531 1.14114 0.132221L6.85231 5.64468V5.64468C7.0489 5.83444 7.0489 6.14941 6.85231 6.33916V6.33916L1.14114 11.8516C0.947531 12.0385 0.640709 12.0385 0.447098 11.8516V11.8516C0.243545 11.6552 0.243545 11.329 0.447098 11.1326L4.42366 7.29436C4.74725 6.98203 4.52615 6.4346 4.07642 6.4346H3.95187C3.67573 6.4346 3.45187 6.21074 3.45187 5.9346V5.9346C3.45187 5.65846 3.67739 5.4346 3.95353 5.4346V5.4346Z"
+                fill="currentColor"></path>
+            </svg>
+          </div>
+          <span class="text md:text-[22px] relative transition-all duration-200 ease-out z-1 px-4 text-dark-blue">
+            {{ grid_two_link_text }}
+          </span>
+        </a>
+      {{ /if }}
+    </div>
+  </div>
+  <div class="grid md:grid-cols-2 divide-x divide-gray-200">
+    <div class="p-8 md:pr-[5vw] md:py-24 space-y-4 md:space-y-8 justify-center m-auto">
+      {{ if grid_three_content }}
+        <div class="prose grid-content space-y-4 md:space-y-8">
+          {{ grid_three_content }}
+        </div>
+      {{ else }}
+        {{ if grid_three_image }}
+          {{ grid_three_image }}
+            <img src="{{ url }}" alt="{{ alt }}" class="w-full block {{ if constrain_image_3 }} min-h-[400px] max-h-[550px] object-cover {{ /if }}" />
+          {{ /grid_three_image }}
+        {{ /if }}
+      {{ /if }}
+      {{ if grid_three_link_text }}
+        <a href="{{ grid_three_link }}" class="fancy-button dark-blue relative inline-flex items-center justify-center"
+          aria-label="{{ grid_three_link_text }}">
+          <div
+            class="btn-icon-arrow h-[48px] w-[48px] flex items-center justify-center relative transition-all duration-200 ease-out bg-dark-blue">
+            <span class="arrow-line w-[14px] h-[1px] rounded-[1px] bg-white"></span><svg viewBox="0 0 7 12"
+              fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+              class="arrow-head h-[12px] absolute top-1/2 transform -translate-y-1/2 right-4 text-white">
+              <path class="fill" fill-rule="evenodd" clip-rule="evenodd"
+                d="M3.95353 5.4346C4.40326 5.4346 4.62847 4.88717 4.30488 4.57484L0.447099 0.851283C0.243546 0.654813 0.243545 0.328692 0.447098 0.132221V0.132221C0.640709 -0.0546532 0.947532 -0.0546531 1.14114 0.132221L6.85231 5.64468V5.64468C7.0489 5.83444 7.0489 6.14941 6.85231 6.33916V6.33916L1.14114 11.8516C0.947531 12.0385 0.640709 12.0385 0.447098 11.8516V11.8516C0.243545 11.6552 0.243545 11.329 0.447098 11.1326L4.42366 7.29436C4.74725 6.98203 4.52615 6.4346 4.07642 6.4346H3.95187C3.67573 6.4346 3.45187 6.21074 3.45187 5.9346V5.9346C3.45187 5.65846 3.67739 5.4346 3.95353 5.4346V5.4346Z"
+                fill="currentColor"></path>
+            </svg>
+          </div>
+          <span class="text md:text-[22px] relative transition-all duration-200 ease-out z-1 px-4 text-dark-blue">
+            {{ grid_three_link_text }}
+          </span>
+        </a>
+      {{ /if }}
+    </div>
+    <div class="p-8 md:pl-[5vw] md:py-24 space-y-8 justify-center m-auto">
+      {{ if grid_four_content }}
+        <div class="prose grid-content space-y-4 md:space-y-8">
+          {{ grid_four_content }}
+        </div>
+      {{ else }}
+        {{ if grid_four_image }}
+          {{ grid_four_image }}
+            <img src="{{ url }}" alt="{{ alt }}" class="w-full block {{ if constrain_image_4 }} min-h-[400px] max-h-[550px] object-cover {{ /if }}" />
+          {{ /grid_four_image }}
+        {{ /if }}
+      {{ /if }}
+      {{ if grid_four_link_text }}
+        <a href="{{ grid_four_link }}" class="fancy-button dark-blue relative inline-flex items-center justify-center"
+          aria-label="{{ grid_four_link_text }}">
+          <div
+            class="btn-icon-arrow h-[48px] w-[48px] flex items-center justify-center relative transition-all duration-200 ease-out bg-dark-blue">
+            <span class="arrow-line w-[14px] h-[1px] rounded-[1px] bg-white"></span><svg viewBox="0 0 7 12"
+              fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+              class="arrow-head h-[12px] absolute top-1/2 transform -translate-y-1/2 right-4 text-white">
+              <path class="fill" fill-rule="evenodd" clip-rule="evenodd"
+                d="M3.95353 5.4346C4.40326 5.4346 4.62847 4.88717 4.30488 4.57484L0.447099 0.851283C0.243546 0.654813 0.243545 0.328692 0.447098 0.132221V0.132221C0.640709 -0.0546532 0.947532 -0.0546531 1.14114 0.132221L6.85231 5.64468V5.64468C7.0489 5.83444 7.0489 6.14941 6.85231 6.33916V6.33916L1.14114 11.8516C0.947531 12.0385 0.640709 12.0385 0.447098 11.8516V11.8516C0.243545 11.6552 0.243545 11.329 0.447098 11.1326L4.42366 7.29436C4.74725 6.98203 4.52615 6.4346 4.07642 6.4346H3.95187C3.67573 6.4346 3.45187 6.21074 3.45187 5.9346V5.9346C3.45187 5.65846 3.67739 5.4346 3.95353 5.4346V5.4346Z"
+                fill="currentColor"></path>
+            </svg>
+          </div>
+          <span class="text md:text-[22px] relative transition-all duration-200 ease-out z-1 px-4 text-dark-blue">
+            {{ grid_four_link_text }}
+          </span>
+        </a>
+      {{ /if }}
+    </div>
+  </div>
+</section>
+
+<style>
+
+.four-grid ul li::marker {
+  color: #000;
+}
+/* .four-grid h3 {
+  font-size: 36px;
+} */
+
+</style>

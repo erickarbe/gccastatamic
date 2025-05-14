@@ -1,0 +1,37 @@
+<section class="py-16 px-[5vw] bg-gray-100">
+  <div class="text-center max-w-6xl mx-auto">
+    {{ if eyebrow }}
+      <p class="w-full uppercase tracking-widest text-gray-500 mb-2">{{ eyebrow }}</p>
+    {{ /if }}
+  
+    {{ if heading }}
+      <h2 class="font-serif font-semibold text-5xl w-full mb-6">{{ heading }}</h2>
+    {{ /if }}
+  
+    {{ if content }}
+      <div class="w-full md:prose-lg mb-6">
+        {{ content }}
+      </div>
+    {{ /if }}
+  
+    {{ if button_text and button_link }}
+      <a href="{{ button_link:url }}" class="fancy-button dark-blue relative inline-flex items-center justify-center"
+        aria-label="Learn more" type="page">
+        <div
+            class="btn-icon-arrow h-[48px] w-[48px] flex items-center justify-center relative transition-all duration-200 ease-out">
+            <span class="arrow-line w-[14px] h-[1px] rounded-[1px] bg-gcca-red"></span><svg viewBox="0 0 7 12"
+                fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                class="arrow-head h-[12px] absolute top-1/2 transform -translate-y-1/2 right-4 text-gcca-red">
+                <path class="fill" fill-rule="evenodd" clip-rule="evenodd"
+                    d="M3.95353 5.4346C4.40326 5.4346 4.62847 4.88717 4.30488 4.57484L0.447099 0.851283C0.243546 0.654813 0.243545 0.328692 0.447098 0.132221V0.132221C0.640709 -0.0546532 0.947532 -0.0546531 1.14114 0.132221L6.85231 5.64468V5.64468C7.0489 5.83444 7.0489 6.14941 6.85231 6.33916V6.33916L1.14114 11.8516C0.947531 12.0385 0.640709 12.0385 0.447098 11.8516V11.8516C0.243545 11.6552 0.243545 11.329 0.447098 11.1326L4.42366 7.29436C4.74725 6.98203 4.52615 6.4346 4.07642 6.4346H3.95187C3.67573 6.4346 3.45187 6.21074 3.45187 5.9346V5.9346C3.45187 5.65846 3.67739 5.4346 3.95353 5.4346V5.4346Z"
+                    fill="currentColor"></path>
+            </svg>
+        </div>
+        <span class="text md:text-[22px] relative transition-all duration-200 ease-out z-1 px-4 text-white">
+          {{ button_text }}
+        </span>
+      </a>
+    {{ /if }}
+  </div>
+</section>
+  

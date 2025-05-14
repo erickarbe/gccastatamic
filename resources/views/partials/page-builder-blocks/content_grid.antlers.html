@@ -1,0 +1,111 @@
+{{ if content_grid_title || content_grid_text }}
+  <section class="mt-20 pl-[5vw] pr-[5vw] content-grid-text">
+    <div class="mb-12 max-w-2xl">
+      {{ if content_grid_title }}
+        <h2 class="font-serif text-4xl md:text-6xl font-bold text-gray-900 mb-4">
+          {{ content_grid_title }}
+        </h2>
+      {{ /if }}
+      {{ if content_grid_text }}
+        <p class="text-base text-gray-700 leading-relaxed">
+          {{ content_grid_text }}
+        </p>
+      {{ /if }}
+    </div>
+  </section>
+{{ /if }}
+<section class="mb-20 mt-10 pl-[5vw] pr-[5vw] content-grid border-y border-gray-200">
+  {{ if content_grid_item }}
+    <div class="grid grid-cols-1 sm:grid-cols-2 {{ if number_of_columns == 'three' }}lg:grid-cols-3{{ else }}lg:grid-cols-4{{ /if }}  border-gray-200 divide-y md:divide-y-0 md:divide-x md:border-l   divide-gray-200">
+      {{ content_grid_item }}
+        {{ if eyebrow || heading || content }}
+          <div class="p-6 flex flex-col h-full grid-item border-l md:border-l-0 border-r border-gray-200 {{ if index > 3 }} md:border-t {{ /if }}">
+            {{ if eyebrow }}
+              <p class="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-2">
+                {{ eyebrow }}
+              </p>
+            {{ /if }}
+
+            {{ if heading }}
+              <h3 class="text-xl font-semibold mb-3 text-gray-900">
+                {{ heading }}
+              </h3>
+            {{ /if }}
+
+            {{ if content }}
+              <div class="text-md prose text-gray-700 leading-relaxed">
+                {{ content | nl2br }}
+              </div>
+            {{ /if }}
+          </div>
+        {{ /if }}
+        {{ if last && total_results == 7 }}
+            <div class="hidde p-6 md:flex flex-col h-full grid-item border-l md:border-l-0 border-r border-gray-200 md:border-t"></div>
+        {{ /if }}
+        {{ if last && total_results == 11 }}
+            <div class="hidden p-6 md:flex flex-col h-full grid-item border-l md:border-l-0 border-r border-gray-200 md:border-t"></div>
+        {{ /if }}
+      {{ /content_grid_item }}
+      
+    </div>
+  {{ /if }}
+</section>
+
+  
+{{# <style>
+  .grid-item {
+    border-right: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  /* Remove right border for last item in each row at large breakpoint */
+  .lg\:grid-cols-3 .grid-item:nth-child(3n),
+  .lg\:grid-cols-4 .grid-item:nth-child(4n) {
+    border-right: none;
+  }
+
+  /* Remove bottom border for last row */
+  .no-border-bottom {
+    border-bottom: none;
+  }
+
+  /* Reset and apply borders for small breakpoint (sm: 2 columns) */
+  @media (min-width: 640px) and (max-width: 1023px) {
+    .grid-item {
+      border-right: 1px solid #e5e7eb; /* Reset border-right */
+    }
+    .grid-item:nth-child(2n) {
+      border-right: none; /* Last item in row for 2 columns */
+      border-bottom: 1px solid #e5e7eb; /* Keep bottom border */
+    }
+    .lg\:grid-cols-3 .grid-item:nth-child(3n),
+    .lg\:grid-cols-4 .grid-item:nth-child(4n) {
+      border-right: solid 1px #e5e7eb; /* Reset border-right for large breakpoint */
+    }
+  }
+
+  /* Reset borders for mobile (1 column) */
+  @media (max-width: 639px) {
+    .grid-item {
+      border-right: none; /* No right borders in single column */
+    }
+    .grid-item:nth-child(n) {
+      border-bottom: 1px solid #e5e7eb; /* Keep bottom border for all items */
+    }
+    .grid-item:last-child {
+      border-bottom: none; /* Remove bottom border for last item */
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const grid = document.querySelector('.content-grid .grid');
+    if (grid) {
+      const items = grid.querySelectorAll('.grid-item');
+      const cols = grid.classList.contains('lg:grid-cols-3') ? 3 : 4;
+      const lastRowCount = items.length % cols || cols;
+      Array.from(items).slice(-lastRowCount).forEach(item => item.classList.add('no-border-bottom'));
+    }
+  });
+</script> #}}

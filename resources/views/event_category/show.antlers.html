@@ -1,0 +1,78 @@
+<article class="relative px-[5vw] py-12 md:py-20">
+
+  <div class="page-header">
+    <h1 class="text-5xl md:text-7xl mb-8 font-serif">{{ title }}</h1>
+  </div>
+
+  <div class="event-category grid md:grid-cols-2 lg:grid-cols-3 divide-x divide-y divide-gray-200 border-l border-t border-gray-200">
+    {{ entries paginate="5" }}
+    
+      {{ results }}
+
+        <article class="bg-white p-6">
+          <div
+            class="relative overflow-hidden group hover:md:after:opacity-100 after:md:opacity-0 after:pointer-events-none after:absolute after:inset-0 after:bg-gradient-to-t after:duration-500 after:from-primary via-20% after:via-primary/40 after:bg-gcca-red/40 to-transparent after:z-10 after:transition-opacity flex justify-center items-center">
+            <span
+              class="absolute flex items-center justify-center w-16 h-16 text-white transition duration-500 rounded-full md:opacity-0 bg-primary group-hover:md:opacity-100 z-20 pointer-events-none"><svg
+                data-icon="true" class="text-white w-6 h-6" width="15px" height="15px" viewBox="0 0 15 15" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M0.733294 14.2589C0.578914 14.1045 0.492188 13.895 0.492188 13.6767C0.492188 13.4583 0.578914 13.2489 0.733294 13.0945L11.6808 2.14698H4.61029C4.39189 2.14698 4.18243 2.06022 4.028 1.90579C3.87356 1.75135 3.7868 1.54189 3.7868 1.32349C3.7868 1.10509 3.87356 0.89563 4.028 0.741195C4.18243 0.586761 4.39189 0.5 4.61029 0.5H13.6687C13.8871 0.5 14.0966 0.586761 14.251 0.741195C14.4054 0.89563 14.4922 1.10509 14.4922 1.32349V10.3819C14.4922 10.6003 14.4054 10.8098 14.251 10.9642C14.0966 11.1186 13.8871 11.2054 13.6687 11.2054C13.4503 11.2054 13.2408 11.1186 13.0864 10.9642C12.932 10.8098 12.8452 10.6003 12.8452 10.3819V3.3114L1.89936 14.2589C1.82286 14.3356 1.73199 14.3964 1.63194 14.4379C1.5319 14.4795 1.42464 14.5008 1.31633 14.5008C1.20801 14.5008 1.10076 14.4795 1.00071 14.4379C0.900663 14.3964 0.80979 14.3356 0.733294 14.2589Z"
+                  fill="currentColor"></path>
+              </svg>
+            </span>
+            {{ featured_image }}
+                <img src="{{ url }}" alt="{{ alt }}" loading="lazy" decoding="async" width="450" height="450"
+                  class="!h-[15.625rem] object-cover group-hover:scale-105 transition duration-500 min-w-full">
+            {{ /featured_image }}
+            {{ if event_external_link }}
+              <a class="absolute inset-0 z-30" href="{{ event_external_link }}"
+                title="{{ title }}" target="_blank"></a>
+            {{ else }}
+              <!-- if no event_external_link then use url -->
+              <a class="absolute inset-0 z-30" href="{{ url }}"
+                title="{{ title }}"></a>
+            {{ /if }}
+          </div>
+          <div>
+            <div class="mt-4 font-primary text-sm flex items-center flex-wrap gap-y-px gap-x-2.5 border-b border-gray-300 pb-3 mb-2">
+              {{ location }}
+              {{ if all_day_event }}
+                <span>{{ start_date_time format="F j, Y" }}</span>
+                {{ if end_date_time }}
+                  <span>- &nbsp; {{ end_date_time format="F j, Y" }}</span>
+                {{ /if }}
+              {{ /if }}
+              <span class="inline-block w-[0.1875rem] h-[0.1875rem] bg-primary rounded-full"></span>
+            </div>
+
+            <h2 class="mt-2 mb-4 text-xl font-serif">{{ title }}</h2>
+
+            <!-- if event_external_link then use that as the href and open in new tab, else use url -->
+            {{ if event_external_link }}
+              <a href="{{ event_external_link }}" target="_blank" rel="noopener noreferrer" class="fancy-button relative inline-flex items-center justify-center"
+                aria-label="Learn more" type="page">
+            {{ else }}
+              <a href="{{ url }}" class="fancy-button  relative inline-flex items-center justify-center" aria-label="Learn more" type="page">
+            {{ /if }}
+                <span
+                  class="btn-icon-arrow h-[48px] w-[48px] flex items-center justify-center relative transition-all duration-200 ease-out">
+                  <span class="arrow-line w-[14px] h-[1px] rounded-[1px] bg-white"></span><svg viewBox="0 0 7 12"
+                    fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                    class="arrow-head h-[12px] absolute top-1/2 transform -translate-y-1/2 right-4 text-white">
+                    <path class="fill" fill-rule="evenodd" clip-rule="evenodd"
+                      d="M3.95353 5.4346C4.40326 5.4346 4.62847 4.88717 4.30488 4.57484L0.447099 0.851283C0.243546 0.654813 0.243545 0.328692 0.447098 0.132221V0.132221C0.640709 -0.0546532 0.947532 -0.0546531 1.14114 0.132221L6.85231 5.64468V5.64468C7.0489 5.83444 7.0489 6.14941 6.85231 6.33916V6.33916L1.14114 11.8516C0.947531 12.0385 0.640709 12.0385 0.447098 11.8516V11.8516C0.243545 11.6552 0.243545 11.329 0.447098 11.1326L4.42366 7.29436C4.74725 6.98203 4.52615 6.4346 4.07642 6.4346H3.95187C3.67573 6.4346 3.45187 6.21074 3.45187 5.9346V5.9346C3.45187 5.65846 3.67739 5.4346 3.95353 5.4346V5.4346Z"
+                      fill="currentColor"></path>
+                  </svg>
+                </span>
+              <span class="text relative transition-all duration-200 ease-out z-1 px-4 text-gray-blue">Read More</span>
+            </a>
+          </div>
+        </article>
+
+      {{ /results }}
+    
+    {{ /entries }}
+  </div>
+</article>
+  

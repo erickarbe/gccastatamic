@@ -1,0 +1,70 @@
+title: 'CTA Section'
+fields:
+  -
+    handle: width
+    field:
+      options:
+        -
+          key: contained
+          value: Contained
+        -
+          key: full_width
+          value: 'Full Width'
+      default: Contained
+      type: radio
+      display: Width
+      inline: true
+  -
+    handle: eyebrow
+    field:
+      type: text
+      display: Eyebrow
+  -
+    handle: heading
+    field:
+      type: text
+      display: Heading
+  -
+    handle: content
+    field:
+      remove_empty_nodes: false
+      container: s3_assets
+      type: bard
+      display: Content
+  -
+    handle: button_text
+    field:
+      type: text
+      display: 'Button Text'
+      width: 50
+  -
+    handle: button_link
+    field:
+      type: link
+      display: 'Button Link'
+      width: 50
+  -
+    handle: image_layout
+    field:
+      options:
+        -
+          key: background
+          value: Background
+        -
+          key: beside_text
+          value: 'Beside Text'
+      inline: true
+      type: radio
+      display: 'Image Layout'
+  -
+    handle: image
+    field:
+      max_files: 1
+      container: s3_assets
+      type: assets
+      display: Image
+  -
+    handle: background_color
+    field:
+      type: color
+      display: 'Background Color'
