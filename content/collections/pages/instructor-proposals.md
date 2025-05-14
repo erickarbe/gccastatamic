@@ -3,8 +3,8 @@ id: f59f3c92-b928-438e-bb7d-daeddad499a8
 blueprint: page
 title: 'Instructor Proposals'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1746126307
+updated_by: 916c3785-d212-40bc-89ff-572097ac9582
+updated_at: 1747142814
 turn_off_hero: false
 inside_hero_header: 'Instructor <span>Proposals</span>'
 inside_hero_content:
@@ -265,7 +265,7 @@ blocks:
     heading: 'How to Apply'
   -
     id: ma5pgqnp
-    width: contained
+    width: full_width
     iframe_embed: '<div style="width:100%;height:500px;" data-fillout-id="oLZnXcvWPWus" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div><script src="https://server.fillout.com/embed/v1/"></script>'
     type: iframe_container
     enabled: true
