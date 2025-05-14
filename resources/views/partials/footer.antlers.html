@@ -1,3 +1,4 @@
+{{ if url == '/' }}
 <div
     class="bg-gray-100 py-16 sm:py-24 lg:py-24 relative border-t border-gray-200"
 >
@@ -80,6 +81,7 @@
         </form>
     </div>
 </div>
+{{ /if }}
 
 <section
     class="pre-footer border-t border-gray-200 md:px-[5vw] bg-white relative"
@@ -754,18 +756,20 @@
 >
     <div
         class="pointer-events-auto flex items-center justify-between gap-x-6 bg-dark-blue px-6 py-2.5 sm:rounded-full sm:py-3 sm:px-8"
-    >
+    > 
         <div class="flex gap-2">   
             {{ if floating_banner:override_message }}
             <p class="text-sm/6 text-white font-light"><strong class="text-white">{{ floating_banner:override_message }}</strong></p>
             {{ else }}
+                
                 <p class="text-sm/6 text-white font-light">It's {{ current_date iso_format="dddd, MMMM Do" }}</p>
                 <p class="text-white">-</p>
-                {{ if current_date iso_format="dddd" == "Monday" }}
+                
+                {{ if now format="l" == "Monday" }}
                     <p class="text-sm/6 text-white font-light">{{ floating_banner:monday_hours ? floating_banner:monday_hours : "Hours not specified" }}</p>
-                {{ elseif current_date iso_format="dddd" == "Tuesday" }}
+                {{ elseif now format="l" == "Tuesday" }}
                     <p class="text-sm/6 text-white font-light">{{ floating_banner:tuesday_hours ? floating_banner:tuesday_hours : "Hours not specified" }}</p>
-                {{ elseif current_date iso_format="dddd" == "Wednesday" }}
+                {{ elseif now format="l" == "Wednesday" }}
                     <p class="text-sm/6 text-white font-light">{{ floating_banner:wednesday_hours ? floating_banner:wednesday_hours : "Hours not specified" }}</p>
                 {{ elseif current_date iso_format="dddd" == "Thursday" }}
                     <p class="text-sm/6 text-white font-light">{{ floating_banner:thursday_hours ? floating_banner:thursday_hours : "Hours not specified" }}</p>
