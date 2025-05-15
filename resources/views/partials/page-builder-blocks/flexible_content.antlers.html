@@ -7,10 +7,14 @@
     {{ /if }}
     <div class="{{ two_columns ? 'flex flex-col md:flex-row md:gap-8' : 'max-w-2xl mx-auto' }}">
         {{ if content_one }}
-            <div class="text-gray-700 leading-relaxed {{ two_columns ? 'md:w-1/2' : 'text-center' }}">{{ content_one }}</div>
+            <div class="text-gray-700 leading-relaxed {{ two_columns ? 'md:w-1/2' : 'text-center' }}">
+                <div class="prose">{{ content_one | raw | bard_html }}</div>
+            </div>
         {{ /if }}
         {{ if two_columns && content_two }}
-            <div class="text-gray-700 leading-relaxed {{ two_columns ? 'md:w-1/2 mt-4 md:mt-0' : '' }}">{{ content_two }}</div>
+            <div class="text-gray-700 leading-relaxed {{ two_columns ? 'md:w-1/2 mt-4 md:mt-0' : '' }}">
+                <div class="prose">{{ content_two | raw | bard_html }}</div>
+            </div>
         {{ /if }}
     </div>
 </div>

@@ -91,3 +91,8 @@ fields:
               fields:
                 -
                   import: flexible_content
+            form_and_text:
+              display: 'Form and Text'
+              fields:
+                -
+                  import: form_and_text
