@@ -1,0 +1,12 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: favicon_image
+            field:
+              container: s3_assets
+              type: assets
+              display: 'Favicon Image'
