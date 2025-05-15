@@ -7,13 +7,13 @@
 
   <div class="grid grid-cols-1 md:grid-cols-5">
     {{ if text }}
-    <div class="text-section prose prose-lg mx-auto md:mx-0 text-gray-blue font-light md:col-span-2">
+    <div class="text-section prose prose-lg md:mx-0 text-gray-blue font-light md:col-span-2">
       <div class="md:sticky md:top-[150px]">{{ text | raw | bard_html }}</div>
     </div>
     {{ /if }}
 
     {{ if form_embed }}
-    <div class="mx-auto md:mx-0 md:col-span-3">
+    <div class="md:mx-0 md:col-span-3">
       {{ form_embed | markdown }}
     </div>
     {{ /if }}
