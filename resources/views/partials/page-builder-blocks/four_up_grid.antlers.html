@@ -2,7 +2,7 @@
   <div class="grid md:grid-cols-2 divide-x divide-gray-200">
     <div class="p-8 md:pr-[5vw] md:py-24 space-y-4 md:space-y-8 justify-center m-auto">
       {{ if grid_one_content }}
-        <div class="prose grid-content space-y-4 md:space-y-8">
+        <div class="prose text-gray-blue font-light grid-content space-y-4 md:space-y-8">
           {{ grid_one_content }}
         </div>
       {{ else }}
@@ -15,8 +15,13 @@
         {{ /if }}
       {{ /if }}
       {{ if grid_one_link_text }}
-        <a href="{{ grid_one_link }}" class="fancy-button dark-blue relative inline-flex items-center justify-center"
+        {{ if grid_one_open_in_new_tab }}
+          <a href="{{ grid_one_link }}" target="_blank" rel="noopener noreferrer" class="fancy-button dark-blue relative inline-flex items-center justify-center"
           aria-label="{{ grid_one_link_text }}">
+        {{ else }}
+          <a href="{{ grid_one_link }}" class="fancy-button dark-blue relative inline-flex items-center justify-center"
+            aria-label="{{ grid_one_link_text }}">
+        {{ /if }}
           <div
             class="btn-icon-arrow h-[48px] w-[48px] flex items-center justify-center relative transition-all duration-200 ease-out">
             <span class="arrow-line w-[14px] h-[1px] rounded-[1px] "></span><svg viewBox="0 0 7 12"
@@ -35,7 +40,7 @@
     </div>
     <div class="p-8 md:pl-[5vw] md:py-24 space-y-4 md:space-y-8 justify-center m-auto">
       {{ if grid_two_content }}
-        <div class="prose grid-content space-y-4 md:space-y-8">
+        <div class="prose text-gray-blue font-light grid-content space-y-4 md:space-y-8">
           {{ grid_two_content }}
         </div>
       {{ else }}
@@ -46,8 +51,13 @@
         {{ /if }}
       {{ /if }}
       {{ if grid_two_link_text }}
-        <a href="{{ grid_two_link }}" class="fancy-button dark-blue relative inline-flex items-center justify-center"
-          aria-label="{{ grid_two_link_text }}">
+        {{ if grid_two_open_in_new_tab }}
+          <a href="{{ grid_two_link }}" target="_blank" rel="noopener noreferrer" class="fancy-button dark-blue relative inline-flex items-center justify-center"
+            aria-label="{{ grid_two_link_text }}">
+        {{ else }}
+          <a href="{{ grid_two_link }}" class="fancy-button dark-blue relative inline-flex items-center justify-center"
+            aria-label="{{ grid_two_link_text }}">
+        {{ /if }}
           <div
             class="btn-icon-arrow h-[48px] w-[48px] flex items-center justify-center relative transition-all duration-200 ease-out bg-dark-blue">
             <span class="arrow-line w-[14px] h-[1px] rounded-[1px] bg-white"></span><svg viewBox="0 0 7 12"
@@ -68,7 +78,7 @@
   <div class="grid md:grid-cols-2 divide-x divide-gray-200">
     <div class="p-8 md:pr-[5vw] md:py-24 space-y-4 md:space-y-8 justify-center m-auto">
       {{ if grid_three_content }}
-        <div class="prose grid-content space-y-4 md:space-y-8">
+        <div class="prose text-gray-blue font-light grid-content space-y-4 md:space-y-8">
           {{ grid_three_content }}
         </div>
       {{ else }}
@@ -79,8 +89,13 @@
         {{ /if }}
       {{ /if }}
       {{ if grid_three_link_text }}
-        <a href="{{ grid_three_link }}" class="fancy-button dark-blue relative inline-flex items-center justify-center"
-          aria-label="{{ grid_three_link_text }}">
+        {{ if grid_three_open_in_new_tab }}
+          <a href="{{ grid_three_link }}" target="_blank" rel="noopener noreferrer" class="fancy-button dark-blue relative inline-flex items-center justify-center"
+            aria-label="{{ grid_three_link_text }}">
+        {{ else }}
+          <a href="{{ grid_three_link }}" class="fancy-button dark-blue relative inline-flex items-center justify-center"
+            aria-label="{{ grid_three_link_text }}">
+        {{ /if }}
           <div
             class="btn-icon-arrow h-[48px] w-[48px] flex items-center justify-center relative transition-all duration-200 ease-out bg-dark-blue">
             <span class="arrow-line w-[14px] h-[1px] rounded-[1px] bg-white"></span><svg viewBox="0 0 7 12"
@@ -99,7 +114,7 @@
     </div>
     <div class="p-8 md:pl-[5vw] md:py-24 space-y-8 justify-center m-auto">
       {{ if grid_four_content }}
-        <div class="prose grid-content space-y-4 md:space-y-8">
+        <div class="text-lg/8 prose text-gray-blue font-light md:prose-lg grid-content space-y-4 md:space-y-8">
           {{ grid_four_content }}
         </div>
       {{ else }}
@@ -110,8 +125,13 @@
         {{ /if }}
       {{ /if }}
       {{ if grid_four_link_text }}
-        <a href="{{ grid_four_link }}" class="fancy-button dark-blue relative inline-flex items-center justify-center"
-          aria-label="{{ grid_four_link_text }}">
+        {{ if grid_four_open_in_new_tab }}
+          <a href="{{ grid_four_link }}" target="_blank" rel="noopener noreferrer" class="fancy-button dark-blue relative inline-flex items-center justify-center"
+            aria-label="{{ grid_four_link_text }}">
+        {{ else }}
+          <a href="{{ grid_four_link }}" class="fancy-button dark-blue relative inline-flex items-center justify-center"
+            aria-label="{{ grid_four_link_text }}">
+        {{ /if }}
           <div
             class="btn-icon-arrow h-[48px] w-[48px] flex items-center justify-center relative transition-all duration-200 ease-out bg-dark-blue">
             <span class="arrow-line w-[14px] h-[1px] rounded-[1px] bg-white"></span><svg viewBox="0 0 7 12"
@@ -122,7 +142,7 @@
                 fill="currentColor"></path>
             </svg>
           </div>
-          <span class="text md:text-[22px] relative transition-all duration-200 ease-out z-1 px-4 text-dark-blue">
+          <span class=" relative transition-all duration-200 ease-out z-1 px-4 text-black">
             {{ grid_four_link_text }}
           </span>
         </a>
@@ -135,6 +155,10 @@
 
 .four-grid ul li::marker {
   color: #000;
+}
+.four-grid ul li p {
+  margin-bottom: 0;
+  margin-top: 5px;
 }
 /* .four-grid h3 {
   font-size: 36px;

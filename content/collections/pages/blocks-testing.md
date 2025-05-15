@@ -5,7 +5,7 @@ title: 'Blocks Testing'
 turn_off_hero: true
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1747080280
+updated_at: 1747250673
 blocks:
   -
     id: m9a6mdaq
@@ -78,6 +78,7 @@ blocks:
     button_link: /
     type: basic_centered_content
     enabled: true
+    open_in_new_tab: true
   -
     id: m9a7j5ki
     width: contained
@@ -100,6 +101,7 @@ blocks:
     image_layout: beside_text
     background_color: '#000000'
     image: 2023-brandon-fellows-announcement-featured-image.webp
+    open_in_new_tab: false
   -
     id: m9adjftd
     image_left_or_right: left
@@ -115,6 +117,7 @@ blocks:
               text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Faucibus ex sapien vitae pellentesque sem placerat in. Cursus mi pretium tellus duis convallis tempus leo. Aenean sed diam urna tempor pulvinar vivamus fringilla. Nec metus bibendum egestas iaculis massa nisl malesuada. Integer nunc posuere ut hendrerit semper vel class. Taciti sociosqu ad litora torquent per conubia nostra. Himenaeos orci varius natoque penatibus et magnis dis. Montes nascetur ridiculus mus donec rhoncus eros lobortis.'
       button_text: Button
       button_link: /
+      open_in_new_tab: false
       content_width: 66
       remove_top_margin: true
     image: 2022-brandon-fellowship-apps-featured-image.webp
@@ -257,8 +260,6 @@ blocks:
         content:
           -
             type: paragraph
-            attrs:
-              textAlign: left
             content:
               -
                 type: text
@@ -282,4 +283,5 @@ inside_hero_content:
 inside_hero_button_text: 'Test Button'
 inside_hero_button_link: 'https://artcentergreenville.org/'
 inside_hero_image: 2022-brandon-fellowship-apps-featured-image.webp
+open_in_new_tab: false
 ---

@@ -1,6 +1,16 @@
 title: 'Basic Centered Content'
 fields:
   -
+    handle: background_color
+    field:
+      swatches:
+        - '#263340'
+        - '#ff172e'
+        - '#f6f3f4'
+      default: '#ffffff'
+      type: color
+      display: 'Background Color'
+  -
     handle: eyebrow
     field:
       type: text
@@ -22,8 +32,15 @@ fields:
     field:
       type: text
       display: 'Button Text'
+      width: 50
   -
     handle: button_link
     field:
       type: link
       display: 'Button Link'
+      width: 50
+  -
+    handle: open_in_new_tab
+    field:
+      type: toggle
+      display: 'Open in new tab'

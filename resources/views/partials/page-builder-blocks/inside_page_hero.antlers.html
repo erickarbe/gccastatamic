@@ -13,15 +13,20 @@
             </h1>
 
             {{ if inside_hero_content }}
-            <div class="prose md:prose-lg lg:prose-xl max-w-none text-gray-700 mb-6">
+            <div class="prose md:prose-lg lg:prose-xl max-w-none text-gray-blue font-light mb-6">
                 {{ inside_hero_content }}
             </div>
             {{ /if }} 
             
             {{ if inside_hero_button_text }}
-            
-            <a href="{{ inside_hero_button_link }}" class="fancy-button red relative inline-flex items-center justify-center"
-              aria-label="Learn more" type="page"><span
+                {{ if open_in_new_tab }}
+                <a href="{{ inside_hero_button_link }}" target="_blank" rel="noopener noreferrer" class="fancy-button red relative inline-flex items-center justify-center"
+                aria-label="Learn more" type="page">
+                {{ else }}
+                <a href="{{ inside_hero_button_link }}" class="fancy-button red relative inline-flex items-center justify-center"
+                aria-label="Learn more" type="page">
+                {{ /if }}
+              <span
                 class="btn-icon-arrow h-[48px] w-[48px] flex items-center justify-center relative transition-all duration-200 ease-out">
                 <span class="arrow-line w-[14px] h-[1px] rounded-[1px] bg-white"></span><svg viewBox="0 0 7 12"
                   fill="currentColor" xmlns="http://www.w3.org/2000/svg"

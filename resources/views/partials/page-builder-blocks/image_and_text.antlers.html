@@ -36,18 +36,23 @@
       {{ /if }}
 
       {{ if content_group:heading }}
-        <h2 class="font-serif text-5xl font-bold mb-6">{{ content_group:heading }}</h2>
+        <h2 class="font-serif text-4xl md:text-5xl lg:text-6xl font-semibold mb-6">{{ content_group:heading }}</h2>
       {{ /if }}
 
       {{ if content_group:content }}
-        <div class="prose md:prose-lg max-w-none text-gray-700 mb-6">
+        <div class="prose md:prose-lg max-w-none text-gray-blue font-light mb-6">
           {{ content_group:content }}
         </div>
       {{ /if }}
 
       {{ if content_group:button_text and content_group:button_link }}
-      <a href="{{ content_group:button_link:url }}" class="fancy-button dark-blue relative inline-flex items-center justify-center"
-        aria-label="Learn more" type="page">
+        {{ if content_group:open_in_new_tab }}
+          <a href="{{ content_group:button_link:url }}" target="_blank" rel=”noopener noreferrer” class="fancy-button dark-blue relative inline-flex items-center justify-center"
+            aria-label="Learn more" type="page">
+        {{ else }}
+        <a href="{{ content_group:button_link:url }}" class="fancy-button dark-blue relative inline-flex items-center justify-center"
+          aria-label="Learn more" type="page">
+        {{ /if }}
         <div
             class="btn-icon-arrow h-[48px] w-[48px] flex items-center justify-center relative transition-all duration-200 ease-out">
             <span class="arrow-line w-[14px] h-[1px] rounded-[1px] bg-gcca-red"></span><svg viewBox="0 0 7 12"
@@ -74,6 +79,7 @@
   .img-text-content li,
   .img-text-content li p {
     margin-bottom: 0;
+    margin-top: 5px;
   }
   .img-text-content li::marker {
     color: #000;

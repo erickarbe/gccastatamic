@@ -68,6 +68,11 @@ fields:
             display: 'Button Link'
             width: 50
         -
+          handle: open_in_new_tab
+          field:
+            type: toggle
+            display: 'Open in new tab'
+        -
           handle: content_width
           field:
             options:

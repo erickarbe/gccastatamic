@@ -22,6 +22,7 @@ tabs:
             field:
               type: text
               display: 'Event External Link'
+              instructions: 'This is used when you need to link to an external website/webpage.'
           -
             handle: start_date_time
             field:

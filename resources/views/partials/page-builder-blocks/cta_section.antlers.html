@@ -38,14 +38,17 @@
         {{ /if }}
 
         {{ if content }}
-          <div class="mx-auto max-w-4xl prose-lg md:prose-xl prose-invert text-white mb-6 font-light">
+          <div class="mx-auto max-w-4xl prose md:prose-lg prose-invert text-white mb-6 font-light">
             {{ content }}
           </div>
         {{ /if }}
 
         {{ if button_text and button_link }}
-          
+          {{ if open_in_new_tab }}
+          <a href="{{ button_link:url }}" target="_blank" rel="noopener noreferrer" class="fancy-button white text-lg font-light relative inline-flex items-center justify-center">
+          {{ else }}
           <a href="{{ button_link:url }}" class="fancy-button white text-lg font-light relative inline-flex items-center justify-center">
+          {{ /if }}
             <div class="btn-icon-arrow h-[48px] w-[48px] flex items-center justify-center relative transition-all duration-200 ease-out">
                 <span class="arrow-line w-[14px] h-[1px] rounded-[1px]"></span>
                 <svg class="arrow-head h-[12px] absolute top-1/2 transform -translate-y-1/2 right-4" viewBox="0 0 7 12" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

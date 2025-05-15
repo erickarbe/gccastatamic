@@ -72,6 +72,11 @@ tabs:
                 turn_off_hero: 'equals true'
               width: 50
           -
+            handle: open_in_new_tab
+            field:
+              type: toggle
+              display: 'Open in new tab'
+          -
             handle: inside_hero_image
             field:
               max_files: 1

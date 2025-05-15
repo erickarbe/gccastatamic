@@ -4,7 +4,7 @@ blueprint: page
 title: 'Annual Report'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1747142878
+updated_at: 1747257212
 turn_off_hero: false
 inside_hero_header: 'Annual <span>Report</span>'
 inside_hero_content:
@@ -40,6 +40,7 @@ blocks:
               text: 'The 2023 Annual Report for the Greenville Center for Creative Arts (GCCA) highlights a transformative year of growth, impact, and community engagement. It showcases the center’s efforts to expand arts access, elevate local talent, and foster inclusivity through dynamic programs, partnerships, and events. With a focus on financial transparency, community impact, and artistic development, the report details GCCA’s strides in programming, audience reach, and financial health. It celebrates milestones achieved and outlines the vision for continued investment in the arts, reinforcing GCCA’s role as a vital cultural hub in Greenville.'
       button_text: 'View Report'
       button_link: 'https://issuu.com/artcentergvl/docs/gca_-annual_report-2023_v6_1_?fr=xKAE9_zU1NQ'
+      open_in_new_tab: false
       content_width: '50'
       remove_top_margin: false
     image: screenshot-2025-04-15-at-11.10.11-am.png
@@ -47,4 +48,22 @@ blocks:
     enabled: true
     align_columns: center
     constrain_image: false
+  -
+    id: maofsdgp
+    image_left_or_right: right
+    align_columns: center
+    content_group:
+      eyebrow: null
+      heading: '2022 Annual Report'
+      content: null
+      button_text: 'View Report'
+      button_link: 'https://issuu.com/artcentergvl/docs/gca_1135616014-annual_report-design_issuu?fr=xKAE9_zU1NQ'
+      open_in_new_tab: true
+      content_width: '50'
+      remove_top_margin: true
+    image: gcca_2022-ar.png
+    constrain_image: false
+    type: image_and_text
+    enabled: true
+open_in_new_tab: false
 ---

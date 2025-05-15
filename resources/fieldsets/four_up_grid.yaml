@@ -31,6 +31,11 @@ fields:
       instructions: Optional!
       width: 50
   -
+    handle: grid_one_open_in_new_tab
+    field:
+      type: toggle
+      display: 'Grid one open in new tab'
+  -
     handle: grid_one_image
     field:
       container: s3_assets
@@ -75,6 +80,11 @@ fields:
       display: 'Grid Two Link'
       instructions: Optional!
       width: 50
+  -
+    handle: grid_two_open_in_new_tab
+    field:
+      type: toggle
+      display: 'Grid two open in new tab'
   -
     handle: grid_two_image
     field:
@@ -121,6 +131,11 @@ fields:
       instructions: Optional!
       width: 50
   -
+    handle: grid_three_open_in_new_tab
+    field:
+      type: toggle
+      display: 'Grid three open in new tab'
+  -
     handle: grid_three_image
     field:
       container: s3_assets
@@ -165,6 +180,11 @@ fields:
       display: 'Grid Four Link'
       instructions: Optional!
       width: 50
+  -
+    handle: grid_four_open_in_new_tab
+    field:
+      type: toggle
+      display: 'Grid four open in new tab'
   -
     handle: grid_four_image
     field:

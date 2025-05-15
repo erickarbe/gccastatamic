@@ -758,15 +758,19 @@
         class="pointer-events-auto flex items-center justify-between gap-x-6 bg-dark-blue px-6 py-2.5 sm:rounded-full sm:py-3 sm:px-8"
     > 
         <div class="flex gap-2">   
+            {{ nocache }}
+
+            
+        
             {{ if floating_banner:override_message }}
-            <p class="text-sm/6 text-white font-light"><strong class="text-white">{{ floating_banner:override_message }}</strong></p>
+                <p class="text-sm/6 text-white font-light">
+                {{ floating_banner:override_message }}
+                </p>
+
             {{ else }}
-                
-                <p class="text-sm/6 text-white font-light">It's {{ current_date iso_format="dddd, MMMM Do" }}</p>
-                <p class="text-white">-</p>
-                
+                <p class="text-sm/6 text-white font-light"> Its {{ now format="l, F jS" }} - </p>
                 {{ if now format="l" == "Monday" }}
-                    <p class="text-sm/6 text-white font-light">{{ floating_banner:monday_hours ? floating_banner:monday_hours : "Hours not specified" }}</p>
+                <p class="text-sm/6 text-white font-light">{{ floating_banner:monday_hours ? floating_banner:monday_hours : "Hours not specified" }}</p>
                 {{ elseif now format="l" == "Tuesday" }}
                     <p class="text-sm/6 text-white font-light">{{ floating_banner:tuesday_hours ? floating_banner:tuesday_hours : "Hours not specified" }}</p>
                 {{ elseif now format="l" == "Wednesday" }}
@@ -783,6 +787,10 @@
                     <p class="text-sm/6 text-white font-light">Hours not specified</p>
                 {{ /if }}
             {{ /if }}
+
+            {{ /nocache }}
+
+
         </div> 
         <!-- hide the aside on click of this -->
         <button

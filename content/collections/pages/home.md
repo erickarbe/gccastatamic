@@ -112,6 +112,7 @@ home_page_blocks:
           - slide1.jpg
         type: panel_group
         enabled: true
+        open_in_new_tab: false
       -
         id: m9d3lzv1
         panel_title: 'On Display Now in the Main Gallery'
@@ -155,6 +156,7 @@ home_page_blocks:
           - slide2.jpg
         type: panel_group
         enabled: true
+        open_in_new_tab: false
       -
         id: m9e93oc8
         panel_title: 'Explore Art Exhibitions at GCCA'
@@ -189,6 +191,7 @@ home_page_blocks:
           - slide3.jpg
         type: panel_group
         enabled: true
+        open_in_new_tab: false
     type: homepage_sticky_panels
     enabled: true
   -
@@ -286,6 +289,7 @@ home_page_blocks:
     background_color: '#263340'
     type: home_cta_section
     enabled: true
+    open_in_new_tab: false
   -
     id: m9hdmo2v
     grid_one_content:
@@ -385,6 +389,10 @@ home_page_blocks:
     constrain_image_2: true
     constrain_image_3: true
     constrain_image_4: true
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1746111871
+    grid_one_open_in_new_tab: false
+    grid_two_open_in_new_tab: false
+    grid_three_open_in_new_tab: false
+    grid_four_open_in_new_tab: false
+updated_by: 916c3785-d212-40bc-89ff-572097ac9582
+updated_at: 1747247236
 ---

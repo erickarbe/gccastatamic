@@ -47,6 +47,11 @@ fields:
                     display: 'Panel Button Link'
                     width: 50
                 -
+                  handle: open_in_new_tab
+                  field:
+                    type: toggle
+                    display: 'Open in new tab'
+                -
                   handle: panel_image
                   field:
                     container: s3_assets
