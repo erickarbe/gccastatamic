@@ -763,29 +763,41 @@
             
         
             {{ if floating_banner:override_message }}
+                
                 <p class="text-sm/6 text-white font-light">
                 {{ floating_banner:override_message }}
                 </p>
 
             {{ else }}
-                <p class="text-sm/6 text-white font-light"> Its {{ now format="l, F jS" }} - </p>
-                {{ if now format="l" == "Monday" }}
-                <p class="text-sm/6 text-white font-light">{{ floating_banner:monday_hours ? floating_banner:monday_hours : "Hours not specified" }}</p>
-                {{ elseif now format="l" == "Tuesday" }}
-                    <p class="text-sm/6 text-white font-light">{{ floating_banner:tuesday_hours ? floating_banner:tuesday_hours : "Hours not specified" }}</p>
-                {{ elseif now format="l" == "Wednesday" }}
-                    <p class="text-sm/6 text-white font-light">{{ floating_banner:wednesday_hours ? floating_banner:wednesday_hours : "Hours not specified" }}</p>
-                {{ elseif current_date iso_format="dddd" == "Thursday" }}
-                    <p class="text-sm/6 text-white font-light">{{ floating_banner:thursday_hours ? floating_banner:thursday_hours : "Hours not specified" }}</p>
-                {{ elseif current_date iso_format="dddd" == "Friday" }}
-                    <p class="text-sm/6 text-white font-light">{{ floating_banner:friday_hours ? floating_banner:friday_hours : "Hours not specified" }}</p>
-                {{ elseif current_date iso_format="dddd" == "Saturday" }}
-                    <p class="text-sm/6 text-white font-light">{{ floating_banner:saturday_hours ? floating_banner:saturday_hours : "Hours not specified" }}</p>
-                {{ elseif current_date iso_format="dddd" == "Sunday" }}
-                    <p class="text-sm/6 text-white font-light">{{ floating_banner:sunday_hours ? floating_banner:sunday_hours : "Hours not specified" }}</p>
-                {{ else }}
-                    <p class="text-sm/6 text-white font-light">Hours not specified</p>
-                {{ /if }}
+
+                
+                <p class="text-sm/6 text-white font-light" id="today-hours">Loading today’s hours...</p>
+
+                <script>
+                const floatingHours = {
+                    monday: "{{ floating_banner:monday_hours }}",
+                    tuesday: "{{ floating_banner:tuesday_hours }}",
+                    wednesday: "{{ floating_banner:wednesday_hours }}",
+                    thursday: "{{ floating_banner:thursday_hours }}",
+                    friday: "{{ floating_banner:friday_hours }}",
+                    saturday: "{{ floating_banner:saturday_hours }}",
+                    sunday: "{{ floating_banner:sunday_hours }}"
+                };
+
+                const today = new Date();
+                const weekday = today.toLocaleString("en-US", { weekday: "long" }).toLowerCase();
+                const hours = floatingHours[weekday] || "Hours not specified";
+
+                document.addEventListener("DOMContentLoaded", function () {
+                    const output = document.getElementById("today-hours");
+                    output.textContent = `It's ${today.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" })} - ${hours}`;
+                });
+                </script>
+
+                <noscript>
+                <p class="text-sm/6 text-white font-light">Please enable JavaScript to view today's hours.</p>
+                </noscript>
+
             {{ /if }}
 
             {{ /nocache }}
