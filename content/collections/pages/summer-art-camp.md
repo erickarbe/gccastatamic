@@ -3,8 +3,8 @@ id: 18195f17-11aa-4661-aa8d-f6686155586d
 blueprint: page
 title: 'Summer Art Camp'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744823575
+updated_by: 916c3785-d212-40bc-89ff-572097ac9582
+updated_at: 1747335796
 turn_off_hero: false
 eyebrow: 'Inspiring Young Artists'
 inside_hero_header: 'Summer <span>Art Camp</span>'
@@ -135,24 +135,23 @@ blocks:
     type: sticky_links
     enabled: true
   -
-    id: m9ivpccu
-    grid_one_content:
+    id: mapq1bkw
+    logos:
       -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: 'Thank You To Our Art Camp Sponsors'
-    grid_three_image:
-      - scac2-logo.png
-    grid_four_image:
-      - blick-logo.jpg
-    type: four_up_grid
+        id: mapq1cyf
+        logo:
+          - blick-logo.jpg
+        type: new_logo
+        enabled: true
+      -
+        id: mapq1lca
+        logo:
+          - scac2-logo.png
+        type: new_logo
+        enabled: true
+    type: logo_grid
     enabled: true
-    constrain_image_1: true
-    constrain_image_2: true
-    constrain_image_3: false
-    constrain_image_4: false
+    number_of_columns: three
+    heading: 'Thank You To Our Art Camp Sponsors'
+open_in_new_tab: false
 ---

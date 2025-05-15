@@ -1,0 +1,37 @@
+{{ if logos }}
+<section class="">
+    {{ if heading }}
+            <h2 class="pl-[5vw] pr-[5vw] prose font-serif text-4xl md:text-5xl lg:text-6xl font-semibold mb-4 text-gray-900">
+            {{ heading }}
+            </h2>
+    {{ /if }}
+    <section class="mb-20 mt-14 pl-[5vw] pr-[5vw] content-grid border-y border-gray-200">
+
+    <div
+        class="
+        grid
+        grid-cols-1
+        sm:grid-cols-2
+        {{ if number_of_columns == 'three' }}lg:grid-cols-3{{ else }}lg:grid-cols-4{{ /if }}
+        border-gray-200
+        divide-y
+        md:divide-y-0
+        md:divide-x
+        md:border-l
+        divide-gray-200
+        "
+    >
+        {{ logos }}
+            {{ logo}}
+                <div class="p-16 flex items-center justify-center h-full grid-item border-l md:border-l-0 border-r border-gray-200 {{ if index > (number_of_columns == 'three' ? 3 : 4) }}md:border-t{{ /if }}">
+                    <img src="{{ url }}" alt="{{ logo:alt }}" class="max-h-24 mx-auto" />
+                </div>
+            {{ /logo }}
+        {{ /logos }}
+
+    </div>
+
+
+    </section>
+</section>
+{{ /if }}

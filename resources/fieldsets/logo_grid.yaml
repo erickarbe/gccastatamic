@@ -1,0 +1,38 @@
+title: 'Logo Grid'
+fields:
+  -
+    handle: number_of_columns
+    field:
+      options:
+        -
+          key: three
+          value: Three
+        -
+          key: four
+          value: Four
+      inline: true
+      type: radio
+      display: 'Number of Columns'
+  -
+    handle: heading
+    field:
+      type: text
+      display: Heading
+  -
+    handle: logos
+    field:
+      type: replicator
+      display: "Logo's"
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            new_logo:
+              display: 'New Logo'
+              fields:
+                -
+                  handle: logo
+                  field:
+                    container: s3_assets
+                    type: assets
+                    display: Logo

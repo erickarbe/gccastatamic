@@ -19,7 +19,7 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 {{ if number_of_columns == 'three' }}lg:grid-cols-3{{ else }}lg:grid-cols-4{{ /if }}  border-gray-200 divide-y md:divide-y-0 md:divide-x md:border-l   divide-gray-200">
       {{ content_grid_item }}
         {{ if eyebrow || heading || content }}
-          <div class="p-6 flex flex-col h-full grid-item border-l md:border-l-0 border-r border-gray-200 {{ if index > 3 }} md:border-t {{ /if }}">
+          <div class="p-6 flex flex-col h-full grid-item border-l md:border-l-0 border-r border-gray-200 {{ if index > 2 }} md:border-t {{ /if }}">
             {{ if eyebrow }}
               <p class="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-2">
                 {{ eyebrow }}
@@ -42,6 +42,15 @@
         {{ if last && total_results == 7 }}
             <div class="hidde p-6 md:flex flex-col h-full grid-item border-l md:border-l-0 border-r border-gray-200 md:border-t"></div>
         {{ /if }}
+        {{ if number_of_columns == 'three' && last && total_results == 7 }}
+            <div class="hidden p-6 md:flex flex-col h-full grid-item border-l md:border-l-0 border-r border-gray-200 md:border-t"></div>
+        {{ /if }}
+        {{ if number_of_columns == 'four' && last && total_results == 9 }}
+            <div class="hidden p-6 md:flex flex-col h-full grid-item border-l md:border-l-0 border-r border-gray-200 md:border-t"></div>
+        {{ /if }}
+        {{ if number_of_columns == 'four' && last && total_results == 10 }}
+            <div class="hidden p-6 md:flex flex-col h-full grid-item border-l md:border-l-0 border-r border-gray-200 md:border-t"></div>
+        {{ /if }}
         {{ if last && total_results == 11 }}
             <div class="hidden p-6 md:flex flex-col h-full grid-item border-l md:border-l-0 border-r border-gray-200 md:border-t"></div>
         {{ /if }}
@@ -51,8 +60,10 @@
   {{ /if }}
 </section>
 
+
+
   
-{{# <style>
+<!-- {{# <style>
   .grid-item {
     border-right: 1px solid #e5e7eb;
     border-bottom: 1px solid #e5e7eb;
@@ -108,4 +119,4 @@
       Array.from(items).slice(-lastRowCount).forEach(item => item.classList.add('no-border-bottom'));
     }
   });
-</script> #}}
+</script> #}} -->

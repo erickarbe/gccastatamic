@@ -96,3 +96,8 @@ fields:
               fields:
                 -
                   import: form_and_text
+            logo_grid:
+              display: 'Logo Grid'
+              fields:
+                -
+                  import: logo_grid

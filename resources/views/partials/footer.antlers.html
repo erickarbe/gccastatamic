@@ -653,13 +653,12 @@
                     <div aria-hidden="true" style="position: absolute; left: -5000px;">
                         <input type="text" name="b_7edbff943525a665390005ed9_48d3372785" tabindex="-1" value="">
                     </div>
-            
-                    <!-- Response containers -->
-                    <div id="mce-responses" class="clear">
-                        <div class="response" id="mce-error-response" style="display: none;"></div>
-                        <div class="response" id="mce-success-response" style="display: none;"></div>
-                    </div>
                 </div>
+                <!-- Response containers -->
+                    <div id="mce-responses" class="clear">
+                        <div class="response text-white" id="mce-error-response" style="display: none;"></div>
+                        <div class="response text-white" id="mce-success-response" style="display: none;"></div>
+                    </div>
             </form>
         </div>
 
@@ -889,5 +888,62 @@ document.addEventListener('DOMContentLoaded', () => {
     // if (isDismissed !== 'true') {
     //     notice.style.display = 'block';
     // }
+
+
+
 });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const notice = document.getElementById('global-notice');
+  if (!notice) {
+    console.warn('No element with #global-notice found');
+    return;
+  }
+
+  const DISMISS_KEY = 'noticeDismissed';
+  const TS_KEY      = 'noticeDismissedTimestamp';
+  const TTL = 24 * 60 * 60 * 1000; // 1 day in milliseconds
+  // 1) Read stored values
+  const tsStr     = localStorage.getItem(TS_KEY);
+  const wasHidden = localStorage.getItem(DISMISS_KEY) === 'true';
+
+//   console.log('🔔 stored ts:', tsStr, 'wasHidden:', wasHidden);
+
+  // 2) Expire after 5 minutes
+  if (tsStr) {
+    const tsNum = Number(tsStr);
+    if (Date.now() - tsNum > TTL) {
+    //   console.log('⏰ TTL expired — clearing storage keys');
+      localStorage.removeItem(TS_KEY);
+      localStorage.removeItem(DISMISS_KEY);
+    }
+  }
+
+  // 3) Decide show/hide
+//   const nowHidden = localStorage.getItem(DISMISS_KEY) === 'true';
+//   console.log('👁️ after cleanup, nowHidden:', nowHidden);
+
+//   notice.style.display = nowHidden ? 'none' : 'block';
+
+//   // 4) Hook up all [data-dismiss] buttons
+//   document.querySelectorAll('[data-dismiss]').forEach(btn => {
+//     btn.addEventListener('click', () => {
+//       console.log('❌ dismiss clicked');
+//       const targetSelector = btn.getAttribute('data-dismiss-target');
+//       const targetEl = targetSelector
+//         ? document.querySelector(targetSelector)
+//         : notice;
+
+//       if (targetEl) targetEl.style.display = 'none';
+
+//       localStorage.setItem(DISMISS_KEY, 'true');
+//       localStorage.setItem(TS_KEY, Date.now().toString());
+//       console.log('🗄️ saved dismissal at', localStorage.getItem(TS_KEY));
+//     });
+//   });
+});
+
+
+
 </script>
