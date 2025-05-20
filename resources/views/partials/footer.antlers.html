@@ -763,9 +763,7 @@
         
             {{ if floating_banner:override_message }}
                 
-                <p class="text-sm/6 text-white font-light">
-                {{ floating_banner:override_message }}
-                </p>
+                <div class="prose text-sm/6 text-white font-light">{{ floating_banner:override_message }}</div>
 
             {{ else }}
 
@@ -889,8 +887,6 @@ document.addEventListener('DOMContentLoaded', () => {
     //     notice.style.display = 'block';
     // }
 
-
-
 });
 
 
@@ -920,28 +916,28 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // 3) Decide show/hide
-//   const nowHidden = localStorage.getItem(DISMISS_KEY) === 'true';
-//   console.log('👁️ after cleanup, nowHidden:', nowHidden);
+//   3) Decide show/hide
+  const nowHidden = localStorage.getItem(DISMISS_KEY) === 'true';
+  console.log('👁️ after cleanup, nowHidden:', nowHidden);
 
-//   notice.style.display = nowHidden ? 'none' : 'block';
+  notice.style.display = nowHidden ? 'none' : 'block';
 
-//   // 4) Hook up all [data-dismiss] buttons
-//   document.querySelectorAll('[data-dismiss]').forEach(btn => {
-//     btn.addEventListener('click', () => {
-//       console.log('❌ dismiss clicked');
-//       const targetSelector = btn.getAttribute('data-dismiss-target');
-//       const targetEl = targetSelector
-//         ? document.querySelector(targetSelector)
-//         : notice;
+  // 4) Hook up all [data-dismiss] buttons
+  document.querySelectorAll('[data-dismiss]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      console.log('❌ dismiss clicked');
+      const targetSelector = btn.getAttribute('data-dismiss-target');
+      const targetEl = targetSelector
+        ? document.querySelector(targetSelector)
+        : notice;
 
-//       if (targetEl) targetEl.style.display = 'none';
+      if (targetEl) targetEl.style.display = 'none';
 
-//       localStorage.setItem(DISMISS_KEY, 'true');
-//       localStorage.setItem(TS_KEY, Date.now().toString());
-//       console.log('🗄️ saved dismissal at', localStorage.getItem(TS_KEY));
-//     });
-//   });
+      localStorage.setItem(DISMISS_KEY, 'true');
+      localStorage.setItem(TS_KEY, Date.now().toString());
+      console.log('🗄️ saved dismissal at', localStorage.getItem(TS_KEY));
+    });
+  });
 });
 
 
