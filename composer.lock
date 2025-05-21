@@ -4249,16 +4249,16 @@
         },
         {
             "name": "rebing/graphql-laravel",
-            "version": "9.9.0",
+            "version": "9.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rebing/graphql-laravel.git",
-                "reference": "602a656c426d359ebdd74761d2f2385b09ae6602"
+                "reference": "f89d557ff13f52e513d6ebb08fdb471c78deee3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rebing/graphql-laravel/zipball/602a656c426d359ebdd74761d2f2385b09ae6602",
-                "reference": "602a656c426d359ebdd74761d2f2385b09ae6602",
+                "url": "https://api.github.com/repos/rebing/graphql-laravel/zipball/f89d557ff13f52e513d6ebb08fdb471c78deee3b",
+                "reference": "f89d557ff13f52e513d6ebb08fdb471c78deee3b",
                 "shasum": ""
             },
             "require": {
@@ -4347,7 +4347,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rebing/graphql-laravel/issues",
-                "source": "https://github.com/rebing/graphql-laravel/tree/9.9.0"
+                "source": "https://github.com/rebing/graphql-laravel/tree/9.10.0"
             },
             "funding": [
                 {
@@ -4355,7 +4355,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-24T20:03:20+00:00"
+            "time": "2025-05-17T15:27:18+00:00"
         },
         {
             "name": "rhukster/dom-sanitizer",
@@ -4898,16 +4898,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v5.54.0",
+            "version": "v5.56.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "ac50ce121e2db82455f3cc9be381b432a51ad385"
+                "reference": "bfd4050233d4ef0612f2d449fce2d64250580e3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/ac50ce121e2db82455f3cc9be381b432a51ad385",
-                "reference": "ac50ce121e2db82455f3cc9be381b432a51ad385",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/bfd4050233d4ef0612f2d449fce2d64250580e3e",
+                "reference": "bfd4050233d4ef0612f2d449fce2d64250580e3e",
                 "shasum": ""
             },
             "require": {
@@ -4992,7 +4992,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.54.0"
+                "source": "https://github.com/statamic/cms/tree/v5.56.0"
             },
             "funding": [
                 {
@@ -5000,7 +5000,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-05-02T19:32:08+00:00"
+            "time": "2025-05-20T19:06:31+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -7584,16 +7584,16 @@
         },
         {
             "name": "thecodingmachine/safe",
-            "version": "v3.1.1",
+            "version": "v3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thecodingmachine/safe.git",
-                "reference": "234f6fe34a0bead8c5ae1cfc0800539442e6f619"
+                "reference": "2cdd579eeaa2e78e51c7509b50cc9fb89a956236"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/234f6fe34a0bead8c5ae1cfc0800539442e6f619",
-                "reference": "234f6fe34a0bead8c5ae1cfc0800539442e6f619",
+                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/2cdd579eeaa2e78e51c7509b50cc9fb89a956236",
+                "reference": "2cdd579eeaa2e78e51c7509b50cc9fb89a956236",
                 "shasum": ""
             },
             "require": {
@@ -7703,7 +7703,7 @@
             "description": "PHP core functions that throw exceptions instead of returning FALSE on error",
             "support": {
                 "issues": "https://github.com/thecodingmachine/safe/issues",
-                "source": "https://github.com/thecodingmachine/safe/tree/v3.1.1"
+                "source": "https://github.com/thecodingmachine/safe/tree/v3.3.0"
             },
             "funding": [
                 {
@@ -7719,7 +7719,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-04-28T07:56:17+00:00"
+            "time": "2025-05-14T06:15:44+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
