@@ -40,15 +40,13 @@ inside_hero_content:
         type: text
         text: ', whether they are local talents or creators from across the U.S.'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1747676988
+updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
+updated_at: 1747846955
 blocks:
   -
     id: m9hudp2a
     image_left_or_right: left
     content_group:
-      eyebrow: null
-      heading: null
       content:
         -
           type: paragraph
@@ -95,11 +93,7 @@ blocks:
                 -
                   type: bold
               text: 'admission is free!'
-      button_text: null
-      button_link: null
-      open_in_new_tab: false
       content_width: '50'
-      remove_top_margin: false
     image: ways-to-give-hero.jpg
     type: image_and_text
     enabled: true
@@ -129,6 +123,8 @@ blocks:
         type: panel_group
         enabled: true
         open_in_new_tab: false
+        panel_image:
+          - arttalks-demonstration.jpg
       -
         id: m9hu7ohl
         panel_title: 'September 13th'
@@ -150,6 +146,8 @@ blocks:
         type: panel_group
         enabled: true
         open_in_new_tab: false
+        panel_image:
+          - slide3.jpg
       -
         id: m9hu943v
         panel_title: 'November 7th'
@@ -182,6 +180,8 @@ blocks:
         type: panel_group
         enabled: true
         open_in_new_tab: false
+        panel_image:
+          - artalk.jpg
     type: sticky_panels
     enabled: true
     section_heading: '2025 Schedule'
