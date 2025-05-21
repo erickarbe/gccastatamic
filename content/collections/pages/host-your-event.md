@@ -3,8 +3,8 @@ id: ec33ca3e-4bfd-4b06-aab3-3370bba1b9b3
 blueprint: page
 title: 'Host Your Event'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744682924
+updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
+updated_at: 1747790601
 turn_off_hero: false
 eyebrow: 'Host Your Event'
 inside_hero_header: 'Venue Rentals'
@@ -51,6 +51,7 @@ blocks:
           - gray-loft-2.jpg
         type: panel_group
         enabled: true
+        open_in_new_tab: false
       -
         id: m9hutzwt
         panel_title: 'Conference Room'
@@ -83,6 +84,7 @@ blocks:
           - conference-room-1.webp
         type: panel_group
         enabled: true
+        open_in_new_tab: false
       -
         id: m9huqwkg
         panel_title: 'Main Gallery'
@@ -109,6 +111,7 @@ blocks:
           - main-gallery-1.webp
         type: panel_group
         enabled: true
+        open_in_new_tab: false
     type: sticky_panels
     enabled: true
   -
@@ -203,4 +206,5 @@ blocks:
     type: sticky_links
     enabled: true
 inside_hero_image: gcca-showcase_dance_0009.jpg
+open_in_new_tab: false
 ---
