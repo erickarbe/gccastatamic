@@ -3,8 +3,8 @@ id: 7f18f75f-7fd2-446a-852c-7f0570aece59
 blueprint: page
 title: 'Annual Showcase'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1746135110
+updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
+updated_at: 1747676859
 turn_off_hero: false
 eyebrow: 'GCCA Member Juried Art Exhibition'
 inside_hero_header: 'Annual Showcase'
@@ -14,7 +14,7 @@ inside_hero_content:
     content:
       -
         type: text
-        text: "The GCCA Member Juried Art Exhibition showcases the exceptional talent and creative excellence of our members. All submitted artworks will be displayed in GCCA’s Main Gallery, providing artists with an equal opportunity to present their work to a broader audience. However, this year’s exhibition will feature prizes for Best in Show, First Place, Second Place, Third Place, and People's Choice."
+        text: "The GCCA Annual Showcase: Member Art Exhibition showcases the exceptional talent and creative excellence of our members. All submitted artworks will be displayed in GCCA’s Main Gallery, providing artists with an equal opportunity to present their work to a broader audience. However, this year’s exhibition will feature prizes for Best in Show, First Place, Second Place, Third Place, and People's Choice."
 inside_hero_image: annual-showcase-hero.jpg
 blocks:
   -
@@ -29,7 +29,7 @@ blocks:
           content:
             -
               type: text
-              text: 'The Greenville Center for Creative Arts (GCCA) invites member artists to participate in the annual Member Juried Art Exhibition. This year’s theme,'
+              text: 'The Greenville Center for Creative Arts (GCCA) invites member artists to participate in the Annual Showcase: Member Art Exhibition. This year’s theme,'
             -
               type: text
               marks:
@@ -41,6 +41,7 @@ blocks:
               text: ', encourages artists to explore different viewpoints—both literal and metaphorical—through unique compositions, storytelling, or social perspectives. The exhibition seeks to highlight how individual identities contribute to and shape a larger communal narrative. Each piece serves as a personal story that, when combined with others, reflects the vast, interconnected fabric of our community.'
       button_text: null
       button_link: null
+      open_in_new_tab: false
       content_width: '50'
       remove_top_margin: false
     image: gcca-showcase_0001.jpg
@@ -62,47 +63,6 @@ blocks:
           content:
             -
               type: text
-              text: 'Artistic Directions:'
-        -
-          type: bulletList
-          content:
-            -
-              type: listItem
-              content:
-                -
-                  type: paragraph
-                  content:
-                    -
-                      type: text
-                      marks:
-                        -
-                          type: bold
-                      text: 'Portraiture & Self-Representation:'
-                    -
-                      type: text
-                      text: ' Works that delve into personal history, heritage, or inner life.'
-            -
-              type: listItem
-              content:
-                -
-                  type: paragraph
-                  content:
-                    -
-                      type: text
-                      marks:
-                        -
-                          type: bold
-                      text: 'Cultural & Historical Narratives:'
-                    -
-                      type: text
-                      text: ' Art that connects personal identity to broader cultural or social contexts, illustrating the evolution of community identity over time.'
-        -
-          type: heading
-          attrs:
-            level: 2
-          content:
-            -
-              type: text
               text: 'Creative Guideline:'
         -
           type: bulletList
@@ -115,7 +75,25 @@ blocks:
                   content:
                     -
                       type: text
-                      text: 'Works should reflect ties to representational art.'
+                      text: 'Works should reflect ties to representational art. '
+                    -
+                      type: text
+                      marks:
+                        -
+                          type: bold
+                      text: 'Portraiture & Self-Representation:'
+                    -
+                      type: text
+                      text: ' Works that delve into personal history, heritage, or inner life. '
+                    -
+                      type: text
+                      marks:
+                        -
+                          type: bold
+                      text: 'Cultural & Historical Narratives:'
+                    -
+                      type: text
+                      text: ' Art that connects personal identity to broader cultural or social contexts, illustrating the evolution of community identity over time.'
             -
               type: listItem
               content:
@@ -136,6 +114,7 @@ blocks:
                       text: 'The exhibition may include artist statements or interactive elements to provide deeper insight into the stories behind the artwork.'
       button_text: null
       button_link: null
+      open_in_new_tab: false
       content_width: '50'
       remove_top_margin: false
     image: showcase-gallery-img.jpg
@@ -322,7 +301,7 @@ blocks:
                         text: one
                       -
                         type: text
-                        text: ' artwork for consideration.'
+                        text: ' artwork display and for consideration for prizes.'
               -
                 type: listItem
                 content:
@@ -616,6 +595,36 @@ blocks:
           -
             type: text
             text: ", including Best in Show, First Place, Second Place, Third Place, and People's Choice."
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Best in Show – $200\_"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'First Place – $125'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Second Place – $75'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Third Place – $50'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Peoples Choice Award – $50'
     grid_four_content:
       -
         type: heading
@@ -678,10 +687,15 @@ blocks:
     constrain_image_2: true
     constrain_image_3: true
     constrain_image_4: true
+    grid_one_open_in_new_tab: false
+    grid_two_open_in_new_tab: false
+    grid_three_open_in_new_tab: false
+    grid_four_open_in_new_tab: false
   -
     id: ma5innx2
     width: contained
     iframe_embed: '<div style="width:100%;height:500px;" data-fillout-id="wPLgfBuntous" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div><script src="https://server.fillout.com/embed/v1/"></script>'
     type: iframe_container
     enabled: true
+open_in_new_tab: false
 ---

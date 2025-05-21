@@ -3,8 +3,8 @@ id: 782bae0a-6ff7-4dd9-b003-a76732b8d3cd
 blueprint: page
 title: 'Community Engagement'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744728329
+updated_by: adf77df4-a236-4446-b367-16f732a5430d
+updated_at: 1747771543
 turn_off_hero: false
 eyebrow: 'Creativity with Purpose'
 inside_hero_header: 'Community <span>Engagement</span>'
@@ -49,23 +49,19 @@ blocks:
           -
             type: text
             text: 'The Art with an Impact program is a transformative visual arts initiative created through a partnership between Greenville Center for Creative Arts (GCCA) and Perry Correctional Facility, designed to provide incarcerated individuals—particularly those serving life sentences—with meaningful opportunities for creative expression and personal growth. Aligned with GCCA’s mission to ignite creativity, foster empathy, and expand arts access, this program offers high-quality, hands-on visual arts instruction led by local professional teaching artists. Research shows that arts engagement in correctional settings promotes emotional well-being, reduces behavioral infractions, and lowers recidivism rates, and Art with an Impact aims to harness these benefits by offering a constructive outlet for self-expression and reflection. Looking ahead, the program seeks to grow its impact by incorporating visual art therapy, further supporting participants’ mental health and rehabilitation. Through this initiative, GCCA and Perry Correctional Facility are breaking down barriers to creative access and using the transformative power of art to inspire hope and healing.'
-    grid_three_content:
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'GCCA’s Performance Artists Series'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'The Performance Artist Series at Greenville Center for Creative Arts (GCCA) enhances the First Friday experience by inviting guests to spend more time in our space, engage deeply with artists and their community, and enjoy professional-quality performance art—all at no cost. This series not only amplifies exposure for performing artists but also provides them with additional revenue for their time and talent. With a mission to foster public education and accessibility to the arts for all ages, the series also encourages cross-disciplinary collaboration, inspiring creative connections between visual and performing arts. Through this initiative, GCCA strengthens its role as a vibrant hub for artistic expression and community engagement.'
     grid_four_image:
       - community1.jpg
     type: four_up_grid
     enabled: true
+    grid_one_open_in_new_tab: false
+    constrain_image_1: true
+    grid_two_open_in_new_tab: false
+    constrain_image_2: true
+    grid_three_open_in_new_tab: false
+    grid_three_image:
+      - img_3632-(1)-(1).jpg
+    constrain_image_3: true
+    grid_four_open_in_new_tab: false
+    constrain_image_4: true
+open_in_new_tab: false
 ---

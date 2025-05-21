@@ -4,8 +4,8 @@ blueprint: page
 title: Exhibitions
 turn_off_hero: true
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744764368
+updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
+updated_at: 1747783342
 blocks:
   -
     id: m9hjvlwy
@@ -71,7 +71,7 @@ blocks:
       -
         id: m9hmo3wr
         eyebrow: 'Main Gallery'
-        heading: '10th Annual Showcase - Perspective: Art from All Angles Juried Exhibition'
+        heading: '10th Annual Showcase - Perspective: Art from All Angles Juried Prize Exhibition'
         content:
           -
             type: paragraph
@@ -202,4 +202,5 @@ blocks:
 eyebrow: Visit
 inside_hero_header: Exhibitions
 inside_hero_image: exhibitions-past6.jpg
+open_in_new_tab: false
 ---

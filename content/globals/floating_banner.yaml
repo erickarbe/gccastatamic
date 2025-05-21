@@ -1,9 +1,9 @@
 title: 'Floating Banner'
 data:
   monday_hours: 'Sorry, we are closed on Mondays.'
-  tuesday_hours: 'We are open 9 am – 5 pm'
-  wednesday_hours: 'We are open 9 am – 5 pm'
+  tuesday_hours: 'Sorry, we are closed on Tuesdays.'
+  wednesday_hours: 'Yay! We are open 9 am – 5 pm'
   thursday_hours: 'We are open 9 am – 5 pm'
   friday_hours: 'We are open 9 am – 5 pm'
   saturday_hours: 'We are open 11 am – 3 pm'
-  sunday_hours: 'Sorry, we are closed.'
+  sunday_hours: 'Sorry, we are closed on Sundays.'

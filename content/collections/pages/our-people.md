@@ -3,8 +3,8 @@ id: 4b49b7d2-0525-40ac-a674-162a852a74c8
 blueprint: page
 title: 'Our People'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1745587876
+updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
+updated_at: 1747771009
 turn_off_hero: true
 eyebrow: Team
 blocks:
@@ -21,7 +21,7 @@ blocks:
       -
         id: m9cy6k4m
         name: 'Sara Grambach'
-        title: 'Interim Chief Executive Officer'
+        title: 'Chief Executive Officer'
         headshot: sara_grambach.jpg
         type: new_person
         enabled: true
@@ -79,75 +79,30 @@ blocks:
     id: m9d2iwld
     content_grid_item:
       -
-        id: m9d2j269
-        heading: 'Sarah Paige Chapman'
+        id: mawvunh9
+        heading: 'Alexander Rouse'
         content:
           -
             type: paragraph
-            attrs:
-              textAlign: left
             content:
               -
                 type: text
-                text: |-
-                  Visitor Experience Assistant
-                  info@artcentergreenville.org
-                  (864) 735-3948
-        type: new_item
-        enabled: true
-      -
-        id: m9d2kh1b
-        heading: 'Bella Bishara'
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
+                text: 'Visitor Experience Assistant'
+              -
+                type: hardBreak
               -
                 type: text
-                text: |-
-                  Visitor Experience Assistant
-                  info@artcentergreenville.org
-                  (864) 735-3948
-        type: new_item
-        enabled: true
-      -
-        id: m9d2kvb4
-        heading: 'Abigail Broadwater'
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
+                text: 'info@artcentergreenville.org '
+              -
+                type: hardBreak
               -
                 type: text
-                text: |-
-                  Visitor Experience Assistant
-                  info@artcentergreenville.org
-                  (864) 735-3948
-        type: new_item
-        enabled: true
-      -
-        id: m9d2l8le
-        heading: 'Abigale Taylor'
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: |-
-                  Visitor Experience Assistant
-                  info@artcentergreenville.org
-                  (864) 735-3948
+                text: '(864) 735-3948'
         type: new_item
         enabled: true
     type: content_grid
     enabled: true
+    number_of_columns: three
   -
     id: m9d2pum9
     text_alignment: left
@@ -415,4 +370,5 @@ blocks:
     enabled: true
 template: default
 inside_hero_image: hero2.jpg
+open_in_new_tab: false
 ---

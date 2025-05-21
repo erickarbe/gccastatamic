@@ -3,8 +3,8 @@ id: 5a62b7be-8ce1-462c-a3f7-5c679c747edc
 blueprint: page
 title: 'Exhibition Proposals'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1746475619
+updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
+updated_at: 1747749164
 turn_off_hero: false
 inside_hero_content:
   -
@@ -34,43 +34,6 @@ inside_hero_content:
 inside_hero_image: gallery-hero-img.jpg
 blocks:
   -
-    id: m9hiic23
-    content:
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'NEED:'
-          -
-            type: text
-            text: ' '
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Community Gallery Exhibition Proposal Review Committee Members'
-      -
-        type: bulletList
-        content:
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Listed here? - tabs? Bubbles with pictures? Align with how we do staff images/bios?\_"
-    type: basic_centered_content
-    enabled: true
-  -
     id: m9h7qtxw
     image_left_or_right: left
     content_group:
@@ -97,6 +60,7 @@ blocks:
               text: 'This exhibition space is open to artists from across the continental United States, providing a remarkable opportunity to present your work in a professional setting.'
       button_text: null
       button_link: null
+      open_in_new_tab: false
       content_width: '50'
       remove_top_margin: false
     image: gallery-img-2.jpg
@@ -289,7 +253,6 @@ blocks:
       -
         id: m9hgupp9
         link_heading: 'Submit Your Main Gallery Proposal'
-        link_url: 'https://podio.com/webforms/17017714/1144294'
         type: new_link_panel
         enabled: true
     type: sticky_links
@@ -314,6 +277,8 @@ blocks:
     button_link: 'https://gccamedia.s3.amazonaws.com/main-gallery-2025_layout-compressed.pdf'
     type: basic_centered_content
     enabled: true
+    background_color: '#ffffff'
+    open_in_new_tab: false
   -
     id: m9hiemqo
     images:
@@ -325,8 +290,6 @@ blocks:
       - gallery-img-2.jpg
       - past_presetn_install.jpg
       - gallery-hero-img.jpg
-      - community-gallery-1.jpg
-      - community-gallery-2.jpg
     type: full_width_carousel
     enabled: true
   -
@@ -404,6 +367,7 @@ blocks:
               text: 'We present six exhibitions annually, each lasting approximately two months, ensuring ample opportunity for visibility and engagement. GCCA also includes support for installation, ensuring a seamless and professional experience for selected artists.'
       button_text: null
       button_link: null
+      open_in_new_tab: false
       content_width: '50'
       remove_top_margin: false
     image: community-gallery-2.jpg
@@ -515,7 +479,6 @@ blocks:
       -
         id: m9hhdtno
         link_heading: 'Submit Your Community Gallery Proposal'
-        link_url: 'https://podio.com/webforms/24952502/1852946'
         type: new_link_panel
         enabled: true
     type: sticky_links
@@ -679,4 +642,9 @@ blocks:
     constrain_image_2: true
     constrain_image_3: true
     constrain_image_4: true
+    grid_one_open_in_new_tab: false
+    grid_two_open_in_new_tab: false
+    grid_three_open_in_new_tab: false
+    grid_four_open_in_new_tab: false
+open_in_new_tab: false
 ---

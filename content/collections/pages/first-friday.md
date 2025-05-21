@@ -12,31 +12,13 @@ inside_hero_content:
         text: 'Join GCCA for First Friday each month. Every month you can enjoy new gallery exhibitions, studio artists, performing arts series, demos, and more. It is free to attend and open to all ages. After you’ve visited, hop over to other open galleries and restaurants in the West Village or Downtown Greenville!'
 inside_hero_image: first-friday-hero.jpg
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744897278
+updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
+updated_at: 1747677789
 blocks:
   -
     id: m9hvb09p
     number_of_columns: four
     content_grid_item:
-      -
-        id: m9hvb2rj
-        heading: 'May 2'
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: '6-9 pm'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Opening: GCS Awards Show 2025'
-        type: new_item
-        enabled: true
       -
         id: m9hvbpkf
         heading: 'June 6'
@@ -87,20 +69,20 @@ blocks:
         enabled: true
       -
         id: m9hvckj7
-        heading: 'August 1'
+        heading: 'August 2'
         content:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: '5-8 pm'
+                text: '12pm-6 pm'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Opening: 2025 Annual Showcase'
+                text: 'Opening: 2025 Annual Showcase & Art Bash'
           -
             type: paragraph
             content:
@@ -172,7 +154,13 @@ blocks:
             content:
               -
                 type: text
-                text: "Opening: Studio Artist Themed Concept Show\_"
+                text: 'Opening: Root & Canopy: Perspectives from GCCA Studio Artists'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Open Studios preview night'
           -
             type: paragraph
             content:
@@ -196,7 +184,7 @@ blocks:
             content:
               -
                 type: text
-                text: 'Opening: TSAGVL Curated Exhibition by Kevin Kao'
+                text: 'Opening: TSA GVL exhibition curated by Kevin Kao'
           -
             type: paragraph
             content:
@@ -209,4 +197,5 @@ blocks:
     enabled: true
     content_grid_title: '2025 First Friday Schedule'
 eyebrow: 'Make GCCA Your First Stop'
+open_in_new_tab: false
 ---

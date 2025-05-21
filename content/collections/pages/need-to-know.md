@@ -3,8 +3,8 @@ id: 206f55ef-b9f5-4c0c-806b-938d9328b135
 blueprint: page
 title: 'Need To Know'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744817983
+updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
+updated_at: 1747699667
 turn_off_hero: false
 inside_hero_content:
   -
@@ -24,7 +24,7 @@ inside_hero_content:
     content:
       -
         type: text
-        text: "Tuesday – Friday:\_ "
+        text: "Wednesday – Friday:\_ "
       -
         type: text
         marks:
@@ -62,7 +62,9 @@ blocks:
               text: 'GCCA’s Main Gallery features rotating exhibitions displaying the artwork of local, regional, national, and international artists from all disciplines of visual art, while the Community Gallery provides a venue for some of the best local, Upstate South Carolina artists. GCCA also hosts artists in its upstairs Loft Gallery as well as student and instructor work in the Carrie Burns Brown Art School Gallery.'
       button_text: null
       button_link: null
+      open_in_new_tab: false
       content_width: '50'
+      remove_top_margin: false
     image: exhibitions-past1.jpg
     type: image_and_text
     enabled: true
@@ -85,7 +87,7 @@ blocks:
                   type: bold
                 -
                   type: italic
-              text: 'Every First Friday from 6–9 PM.'
+              text: 'Every First Friday from 5–8 PM.'
         -
           type: paragraph
           content:
@@ -106,7 +108,9 @@ blocks:
               text: '. Follow us on social media for the latest exhibition announcements and event details.'
       button_text: null
       button_link: null
+      open_in_new_tab: false
       content_width: '50'
+      remove_top_margin: false
     image: first-friday-hero.jpg
     type: image_and_text
     enabled: true
@@ -375,4 +379,9 @@ blocks:
         enabled: true
     type: faq_accordion
     enabled: true
+    use_second_column: false
+    second_column:
+      second_column_content: null
+      second_column_width: null
+open_in_new_tab: false
 ---

@@ -20,7 +20,7 @@ inside_hero_content:
         text: ARTalks
       -
         type: text
-        text: ', a series of free artist talks, performances, and demonstrations held in conjunction with our '
+        text: ', a series of free artist talks, performances, virtual interviews, and demonstrations held in conjunction with our '
       -
         type: text
         marks:
@@ -40,8 +40,8 @@ inside_hero_content:
         type: text
         text: ', whether they are local talents or creators from across the U.S.'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744897349
+updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
+updated_at: 1747676988
 blocks:
   -
     id: m9hudp2a
@@ -97,6 +97,7 @@ blocks:
               text: 'admission is free!'
       button_text: null
       button_link: null
+      open_in_new_tab: false
       content_width: '50'
       remove_top_margin: false
     image: ways-to-give-hero.jpg
@@ -107,39 +108,6 @@ blocks:
   -
     id: m9fngn0b
     panels:
-      -
-        id: m9fnh4l8
-        panel_title: 'May 23rd'
-        panel_content:
-          -
-            type: heading
-            attrs:
-              level: 3
-            content:
-              -
-                type: text
-                text: 'ARTalk with Ana Vizcarra Rankin'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Featuring:'
-              -
-                type: text
-                text: ' '
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'Ana Vizcarra Rankin from the Main Gallery exhibition, Beyond the Edge'
-        panel_image:
-          - arttalk-greenville.jpg
-        type: panel_group
-        enabled: true
       -
         id: m9hu0md1
         panel_title: 'July 12th'
@@ -158,10 +126,9 @@ blocks:
               -
                 type: text
                 text: 'A gallery tour and demonstration with curators Jessica Swank and Kate Burke of Performative Practices in the Main Gallery.'
-        panel_image:
-          - arttalks-demonstration.jpg
         type: panel_group
         enabled: true
+        open_in_new_tab: false
       -
         id: m9hu7ohl
         panel_title: 'September 13th'
@@ -180,10 +147,9 @@ blocks:
               -
                 type: text
                 text: 'Bella Bishara and Alexander Rouse look back on their year in the 2025 Brandon Fellows program and demonstrate what they have learned.'
-        panel_image:
-          - slide3.jpg
         type: panel_group
         enabled: true
+        open_in_new_tab: false
       -
         id: m9hu943v
         panel_title: 'November 7th'
@@ -213,12 +179,12 @@ blocks:
               -
                 type: text
                 text: 'Melissa Haviland'
-        panel_image:
-          - artalk.jpg
         type: panel_group
         enabled: true
+        open_in_new_tab: false
     type: sticky_panels
     enabled: true
     section_heading: '2025 Schedule'
 inside_hero_image: artalk.jpg
+open_in_new_tab: false
 ---

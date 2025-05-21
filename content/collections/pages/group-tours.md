@@ -3,8 +3,8 @@ id: c4671ae2-763c-4dbc-aaf2-973fd4cfb18b
 blueprint: page
 title: 'Group Tours'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744748969
+updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
+updated_at: 1747783648
 turn_off_hero: false
 inside_hero_header: 'Group Tours'
 inside_hero_content:
@@ -105,9 +105,15 @@ blocks:
           -
             type: text
             text: 'Submit your information, and a staff member will contact you to confirm details and provide pricing and an invoice. If you have any questions, please include them in the accommodations section of the form.'
-    button_text: 'Book Now'
-    button_link: 'https://podio.com/webforms/23253635/1661137'
     background_color: '#263340'
     type: cta_section
     enabled: true
+    open_in_new_tab: false
+  -
+    id: max58a39
+    width: contained
+    iframe_embed: '<div style="width:100%;height:500px;" data-fillout-id="mGZXYee8wrus" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div><script src="https://server.fillout.com/embed/v1/"></script>'
+    type: iframe_container
+    enabled: true
+open_in_new_tab: false
 ---

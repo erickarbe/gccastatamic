@@ -1,10 +1,10 @@
 ---
 id: 4a9be87a-60f4-4cd9-8fcb-9000dd06d5fc
 blueprint: page
-title: 'Color Gala'
+title: 'Color the Night'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744897141
+updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
+updated_at: 1747750734
 turn_off_hero: false
 inside_hero_content:
   -
@@ -15,14 +15,23 @@ inside_hero_content:
         marks:
           -
             type: bold
-        text: 'Save the Date! November 6, 2025!'
+        text: 'Save the Date! '
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Mark your calendar for our third annual Color Gala, GCCA’s signature fundraising event! Color Gala celebrates the best of Greenville's art scene with unique silent auction items, live music, performances, and art featuring our professional studio artists. Join us for cocktails and heavy appetizers and enjoy a beautiful evening celebrating GCCA."
-inside_hero_image: a7403893-1536x864.webp
+        marks:
+          -
+            type: bold
+        text: 'November 6, 2025!'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "Mark your calendar for Color the Night, GCCA’s signature fundraising event! Color the Night celebrates the best of Greenville's art scene with unique silent auction items, live music, performances, and art featuring our professional studio artists. Join us for cocktails and heavy appetizers and enjoy a beautiful evening celebrating GCCA."
+inside_hero_image: ctn-savethedate_v2.png
 blocks:
   -
     id: m9hticli
@@ -42,7 +51,7 @@ blocks:
             marks:
               -
                 type: bold
-            text: 'VIP and individual tickets will go on sale May 10, 2025.'
+            text: 'VIP and individual tickets will go on sale July 1, 2025.'
           -
             type: hardBreak
           -
@@ -68,4 +77,6 @@ blocks:
     type: cta_section
     enabled: true
     image_layout: background
+    open_in_new_tab: false
+open_in_new_tab: false
 ---

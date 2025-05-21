@@ -3,8 +3,8 @@ id: f6218353-edc9-4563-9882-903e75a72c98
 blueprint: page
 title: 'The Art of Business'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744664432
+updated_by: adf77df4-a236-4446-b367-16f732a5430d
+updated_at: 1747772033
 turn_off_hero: false
 eyebrow: 'The Art of Business: Workshop Series'
 inside_hero_header: 'Empowering Artists with Essential Business Skills'
@@ -14,13 +14,10 @@ inside_hero_content:
     content:
       -
         type: text
-        text: 'Following successful workshop series in 2021 and 2022, '
-      -
-        type: text
         marks:
           -
             type: bold
-        text: 'Greenville Center for Creative Arts (GCCA)'
+        text: 'Greenville Center for Creative Arts '
       -
         type: text
         text: ' is excited to offer a '
@@ -29,7 +26,7 @@ inside_hero_content:
         marks:
           -
             type: bold
-        text: 'new 12-part series beginning in June 2025'
+        text: 'new Art of Business Workshop series beginning in Fall 2025'
       -
         type: text
         text: ', designed to help artists develop the foundational business skills necessary to thrive in today’s creative economy.'
@@ -58,43 +55,99 @@ blocks:
       -
         id: m9hjv9wy
         heading: Entrepreneurship
-        content: 'Craig Ragsdale'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Craig Ragsdale'
         type: new_item
         enabled: true
       -
         id: m9hjvhn6
         heading: 'Community Engagement & Brand Management'
-        content: 'Blank Canvas Mural Company'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'Blank Canvas Mural Company'
         type: new_item
         enabled: true
       -
         id: m9hjvx5h
         heading: 'Social Media Management'
-        content: 'TBD - GVLToday'
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: 'TBD - GVLToday'
         type: new_item
         enabled: true
       -
         id: m9hjwb8w
         heading: 'Grant Writing'
-        content: TBD
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: TBD
         type: new_item
         enabled: true
       -
         id: m9hjwk4c
         heading: 'How To: Public Art in Greenville'
-        content: TBD
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: TBD
         type: new_item
         enabled: true
       -
         id: m9hjws65
         heading: 'Financial Literacy'
-        content: TBD
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: TBD
         type: new_item
         enabled: true
       -
         id: m9hjwzvi
         heading: 'Financial Planning'
-        content: TBD
+        content:
+          -
+            type: paragraph
+            attrs:
+              textAlign: left
+            content:
+              -
+                type: text
+                text: TBD
         type: new_item
         enabled: true
     type: content_grid
@@ -238,5 +291,14 @@ blocks:
     enabled: true
     grid_three_image:
       - gallery_wide_shot.jpg
+    grid_one_open_in_new_tab: false
+    constrain_image_1: true
+    grid_two_open_in_new_tab: false
+    constrain_image_2: true
+    grid_three_open_in_new_tab: false
+    constrain_image_3: true
+    grid_four_open_in_new_tab: false
+    constrain_image_4: true
 inside_hero_image: gcca-showcase_0093.jpg
+open_in_new_tab: false
 ---

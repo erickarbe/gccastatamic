@@ -3,8 +3,8 @@ id: e69e9c4a-9ed2-484d-8b29-1fa12af2ba71
 blueprint: page
 title: 'Brandon Fellowship'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1747328994
+updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
+updated_at: 1747773728
 turn_off_hero: false
 eyebrow: 'The Brandon Fellowship'
 inside_hero_header: 'Empowering the Next Generation of Artists'
@@ -15,6 +15,15 @@ inside_hero_content:
       -
         type: text
         text: 'Established in 2015 alongside the grand opening of the Greenville Center for Creative Arts (GCCA), the Brandon Fellowship was created to provide transformative opportunities for emerging artists. Named after the historic Brandon Mill and its surrounding textile village—now home to GCCA—the fellowship reflects the center’s commitment to fostering artistic growth and professional development.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Deadline to apply: Tuesday, July 1st'
 inside_hero_image: brandon-fellowship-ceremony.jpg
 blocks:
   -
@@ -41,7 +50,7 @@ blocks:
           content:
             -
               type: text
-              text: 'Applications open in May 2025, with the review process beginning in July 2025 for the 2025–2026 program year.'
+              text: 'Applications open in May 2025, with the deadline for applications set for July 1st. A review and interview process will follow for the 2025–2026 program year candidates.'
         -
           type: paragraph
           content:
@@ -86,7 +95,7 @@ blocks:
           content:
             -
               type: text
-              text: 'The Brandon Fellowship program is supported by the Jolley Foundation, Earle Furman in memory of Linda Furman,Doug & Melissa Sturgis, and The National Endowment for the Arts.'
+              text: 'The Brandon Fellowship program is supported by the Jolley Foundation, Earle Furman in memory of Linda Furman, Doug & Melissa Sturgis, and The National Endowment for the Arts.'
       button_text: null
       button_link: null
       open_in_new_tab: false
@@ -206,7 +215,6 @@ blocks:
       - brandon-fellowship-gallery-3.jpg
       - brandon-fellowship-gallery-4.jpg
       - kephira-in-studio.jpg
-      - raamen-stallings.jpg
       - brandon-fellowship-gallery-1.jpg
     type: full_width_carousel
     enabled: true
@@ -306,11 +314,44 @@ blocks:
     heading: 'Brandon Fellowship Selection Committee'
     content:
       -
-        type: paragraph
+        type: bulletList
         content:
           -
-            type: text
-            text: 'List these like the staff section on the about page.'
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ben Tarcson, Gallery Director & Brandon Fellowship Program Manager'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Danielle Fontaine, Brandon Fellowship Founder'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'RaAmen Stallings, Brandon Fellowship alumni & current mentor'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Liz Rundorff Smith, GCCA Board Member & Assistant Gallery Director at Art & Light Gallery'
     type: basic_centered_content
     enabled: true
     background_color: '#ffffff'

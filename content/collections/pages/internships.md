@@ -3,8 +3,8 @@ id: b2a70c9d-6153-470b-b053-38ba40fc22da
 blueprint: page
 title: Internships
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1747324549
+updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
+updated_at: 1747789808
 turn_off_hero: false
 inside_hero_header: Internships
 inside_hero_content:
@@ -22,7 +22,7 @@ blocks:
     accordion_item:
       -
         id: mapj83g2
-        accordion_header: 'Marketing and Events Intern'
+        accordion_header: 'Development and Events Intern'
         accordion_content:
           -
             type: paragraph
@@ -38,7 +38,7 @@ blocks:
             content:
               -
                 type: text
-                text: 'With direct oversight from the Development Team, the Marketing and Events Intern will be learning the day-to-day workings of a community arts non-profit during the summer months of the year. This is an opportunity to get insight and experience working on the creative and administrative sides of Marketing and Development. Delve deeper into how GCCA organizes, manages, and implements events, fundraising and community relationships. Interns are expected to work in cooperation with GCCA staff, donors, Founders, vendors and visitors . This is an unpaid internship with the potential to work hybrid.'
+                text: 'With direct oversight from the Development Team, the Marketing and Events Intern will be learning the day-to-day workings of a community arts non-profit during the summer months of the year. This is an opportunity to get insight and experience working on the creative and administrative sides of Development and Events. Delve deeper into how GCCA organizes, manages, and implements events, fundraising and community relationships. Interns are expected to work in cooperation with GCCA staff, donors, Founders, vendors and visitors . This is an unpaid internship with the potential to work hybrid.'
           -
             type: paragraph
             content:
@@ -277,7 +277,7 @@ blocks:
                     type: bold
                 text: 'Application Deadline: April 25th, 2025'
         type: new_set
-        enabled: true
+        enabled: false
       -
         id: mapjbdrt
         accordion_header: 'Summer Administrative Intern'
@@ -643,7 +643,7 @@ blocks:
                     type: bold
                 text: 'Application Deadline: April 25th, 2025'
         type: new_set
-        enabled: true
+        enabled: false
       -
         id: mapjiu0c
         accordion_header: 'Annual Administrative Intern'
@@ -1017,7 +1017,7 @@ blocks:
           content:
             -
               type: text
-              text: 'Join our community arts non-profit as a Marketing and Events, Summer, or Annual Administrative Intern! Reporting to the Operations Director, you’ll collaborate with our Development, Education, and Visitor Experience teams to learn the ropes of running an arts organization. Summer roles run June–August; Annual roles span September–May. Apply now to launch your arts career!'
+              text: 'Join our community arts non-profit as a Development and Events, Summer, or Annual Administrative Intern! Reporting to the Operations Director, you’ll collaborate with our Development, Education, and Visitor Experience teams to learn the ropes of running an arts organization. Summer roles run June–August; Annual roles span September–May. Apply now to launch your arts career!'
       second_column_width: '50'
     type: faq_accordion
     enabled: true

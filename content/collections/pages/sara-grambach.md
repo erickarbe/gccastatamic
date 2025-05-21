@@ -16,7 +16,7 @@ blocks:
           content:
             -
               type: text
-              text: 'Interim Chief Executive Officer'
+              text: 'Chief Executive Officer'
             -
               type: hardBreak
             -
@@ -49,6 +49,7 @@ blocks:
               text: 'Sara attended Wade Hampton High school and The Fine Arts Center. She then pursued a degree in advertising at the University of Georgia and earned an MS in health communications at Tufts University School of Medicine in Boston. Non-profit art organizations have held a special place in her heart for many years. Sara is grateful to steward GCCA into the future alongside the incredible staff, board, community partners, and donors in the Upstate and beyond.'
       button_text: null
       button_link: null
+      open_in_new_tab: false
       content_width: '50'
       remove_top_margin: false
     image: sara_grambach.jpg
@@ -57,6 +58,7 @@ blocks:
     align_columns: top
     constrain_image: false
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1745587778
+updated_by: 2693eb90-c978-4278-9409-edf2208f8d10
+updated_at: 1747668790
+open_in_new_tab: false
 ---
