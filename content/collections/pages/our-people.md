@@ -4,7 +4,7 @@ blueprint: page
 title: 'Our People'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1747771009
+updated_at: 1747856867
 turn_off_hero: true
 eyebrow: Team
 blocks:
@@ -72,7 +72,7 @@ blocks:
   -
     id: m9d2ijsp
     text_alignment: left
-    title: 'Visitor Experience Team'
+    title: 'Digital Media Team'
     type: basic_title
     enabled: true
   -
@@ -87,7 +87,7 @@ blocks:
             content:
               -
                 type: text
-                text: 'Visitor Experience Assistant'
+                text: 'Digital Media & Design Specialist'
               -
                 type: hardBreak
               -

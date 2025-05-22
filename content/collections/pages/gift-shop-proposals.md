@@ -3,15 +3,14 @@ id: 26004a64-a94e-4832-9bf1-cd5f3991eebf
 blueprint: page
 title: 'Gift Shop Proposals'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1746471919
+updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
+updated_at: 1747858520
 turn_off_hero: false
 blocks:
   -
     id: m9hivi8l
     image_left_or_right: left
     content_group:
-      eyebrow: null
       heading: 'Apply for Consignment'
       content:
         -
@@ -35,9 +34,8 @@ blocks:
                   type: italic
               text: 'Deadline to be considered for the November 2025 – May 2026 consignment period is June 13th, 2025 at 11:59 PM.'
       button_text: 'Apply Here'
-      button_link: 'https://podio.com/webforms/28271020/2242151'
+      button_link: 'https://forms.fillout.com/t/gSRLqcwModus'
       content_width: '50'
-      remove_top_margin: false
     image: the-shop-gcca-4.jpg
     type: image_and_text
     enabled: true
@@ -109,9 +107,6 @@ blocks:
     type: faq_accordion
     enabled: true
     use_second_column: false
-    second_column:
-      second_column_content: null
-      second_column_width: null
 inside_hero_content:
   -
     type: paragraph
@@ -120,4 +115,5 @@ inside_hero_content:
         type: text
         text: 'The Shop at GCCA serves as another opportunity for GCCA to support local artists. GCCA Artist Members have the opportunity to consign and sell their work, offering visitors a diverse selection of prints, small originals, jewelry, pottery, and more. The Shop at GCCA also offers novelty merchandise so you can show your love for Greenville arts everywhere you go! Apply to consign your own work or come and check out The Shop at GCCA during any of our business hours.'
 inside_hero_image: the-shop-gcca-5.jpg
+open_in_new_tab: false
 ---

@@ -14,7 +14,9 @@ event_category:
 date: '2025-05-20'
 author: af34862d-025c-48c9-ad41-5b60c3f113c3
 updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1747755295
+updated_at: 1747862410
+featured_image:
+  - mnv.jpg
 content:
   -
     type: paragraph
