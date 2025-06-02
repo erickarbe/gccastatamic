@@ -1,0 +1,8 @@
+id: 8425b660-3c69-4ea5-876e-aae1698c6160
+enabled: true
+source: /business-toolkit
+source_md5: e4641cdcc6b59dbbbdfb879ebc12068e
+destination: 'https://artcentergreenville.org/artists/the-art-of-business'
+type: 301
+site: default
+match_type: exact

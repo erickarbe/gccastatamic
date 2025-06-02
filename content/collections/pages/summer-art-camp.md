@@ -3,8 +3,8 @@ id: 18195f17-11aa-4661-aa8d-f6686155586d
 blueprint: page
 title: 'Summer Art Camp'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1747335796
+updated_by: adf77df4-a236-4446-b367-16f732a5430d
+updated_at: 1748011045
 turn_off_hero: false
 eyebrow: 'Inspiring Young Artists'
 inside_hero_header: 'Summer <span>Art Camp</span>'
@@ -26,6 +26,17 @@ blocks:
         link_heading: 'Multi-Color Magic'
         link_content:
           -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'June 2-June 6'
+          -
             type: paragraph
             content:
               -
@@ -37,6 +48,17 @@ blocks:
         id: m9il9zp3
         link_heading: 'Animation and Creation'
         link_content:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'June 9-June 13'
           -
             type: paragraph
             content:
@@ -50,6 +72,17 @@ blocks:
         link_heading: 'Dive into Watercolor'
         link_content:
           -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'June 16-June 20'
+          -
             type: paragraph
             content:
               -
@@ -61,6 +94,17 @@ blocks:
         id: m9ilaoc1
         link_heading: 'Brick by Brick: Creative Lego Art Camp'
         link_content:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'June 23-27'
           -
             type: paragraph
             content:
@@ -75,6 +119,17 @@ blocks:
         link_heading: Artcycling
         link_content:
           -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'July 7-July 11'
+          -
             type: paragraph
             content:
               -
@@ -88,6 +143,17 @@ blocks:
         link_heading: 'Out of this World Art'
         link_content:
           -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'July 14-July 18'
+          -
             type: paragraph
             content:
               -
@@ -100,6 +166,17 @@ blocks:
         link_heading: 'Jurassic ART'
         link_content:
           -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'July 21-July 25'
+          -
             type: paragraph
             content:
               -
@@ -111,6 +188,17 @@ blocks:
         id: m9ilc1cg
         link_heading: 'Back to School is COOL'
         link_content:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'July 28-August 1'
           -
             type: paragraph
             content:

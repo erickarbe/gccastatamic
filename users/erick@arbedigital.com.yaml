@@ -1,7 +1,7 @@
 name: 'Erick Arbe'
 super: true
 id: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-password_hash: $2y$12$lJXZTc8UAETOsAH0VCK8Ye/tgY7Wsi7kOWetYvyNy.n9bAkLUa69q
+password_hash: $2y$12$NEcQvOG1Mm248zNzgAbZf.Q3yTPJjI87djzEw2wy2s0/yULU3jUF.
 preferences:
   theme: light
   collections:

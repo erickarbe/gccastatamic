@@ -1,0 +1,8 @@
+id: 8069f44b-3189-460f-a913-df780f7c256f
+enabled: true
+source: /shop
+source_md5: a4309ff6cdbc7cb4c2f2776cfb45bdb8
+destination: 'https://shopgcca.square.site/'
+type: 301
+site: default
+match_type: exact

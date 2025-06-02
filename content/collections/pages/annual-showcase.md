@@ -4,9 +4,9 @@ blueprint: page
 title: 'Annual Showcase'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1747676859
+updated_at: 1748617639
 turn_off_hero: false
-eyebrow: 'GCCA Member Juried Art Exhibition'
+eyebrow: 'GCCA Member Prize Art Exhibition'
 inside_hero_header: 'Annual Showcase'
 inside_hero_content:
   -
@@ -21,7 +21,6 @@ blocks:
     id: m9hrmtu4
     image_left_or_right: left
     content_group:
-      eyebrow: null
       heading: '"Perspective: Art From All Angles"'
       content:
         -
@@ -39,11 +38,7 @@ blocks:
             -
               type: text
               text: ', encourages artists to explore different viewpoints—both literal and metaphorical—through unique compositions, storytelling, or social perspectives. The exhibition seeks to highlight how individual identities contribute to and shape a larger communal narrative. Each piece serves as a personal story that, when combined with others, reflects the vast, interconnected fabric of our community.'
-      button_text: null
-      button_link: null
-      open_in_new_tab: false
       content_width: '50'
-      remove_top_margin: false
     image: gcca-showcase_0001.jpg
     type: image_and_text
     enabled: true
@@ -53,8 +48,6 @@ blocks:
     id: m9hrr9o9
     image_left_or_right: right
     content_group:
-      eyebrow: null
-      heading: null
       content:
         -
           type: heading
@@ -112,11 +105,7 @@ blocks:
                     -
                       type: text
                       text: 'The exhibition may include artist statements or interactive elements to provide deeper insight into the stories behind the artwork.'
-      button_text: null
-      button_link: null
-      open_in_new_tab: false
       content_width: '50'
-      remove_top_margin: false
     image: showcase-gallery-img.jpg
     type: image_and_text
     enabled: true
@@ -427,7 +416,7 @@ blocks:
                         text: 'Exhibition Dates:'
                       -
                         type: text
-                        text: ' August 1, 2025 - September 24, 2025'
+                        text: ' August 2, 2025 - September 20, 2025'
               -
                 type: listItem
                 content:
@@ -490,7 +479,7 @@ blocks:
                         text: 'Opening Reception:'
                       -
                         type: text
-                        text: ' Friday, August 1, 6 - 9 PM'
+                        text: ' Friday, August 2, 12 - 6 PM'
               -
                 type: listItem
                 content:

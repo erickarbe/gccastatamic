@@ -1,5 +1,6 @@
 ---
 id: 4036136d-70de-4cd9-913c-1789a903eb21
+published: false
 blueprint: event
 title: 'Nourish & Namaste'
 location: 'Gray Loft'
@@ -15,8 +16,8 @@ event_category:
   - general-events
 date: '2025-05-20'
 author: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1747758387
+updated_by: db8343ae-1cfd-4a4a-810e-2417eae3fc2b
+updated_at: 1748636493
 content:
   -
     type: paragraph

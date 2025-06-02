@@ -1,0 +1,8 @@
+id: 78425c6a-96f3-4a48-a088-78bfbba9739e
+enabled: true
+source: /internship
+source_md5: 271c30cceb1cf3c408d4887cf374dfa4
+destination: /join-our-team/internships
+type: 301
+site: default
+match_type: exact

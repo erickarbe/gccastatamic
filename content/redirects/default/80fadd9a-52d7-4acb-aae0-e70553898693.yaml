@@ -1,0 +1,8 @@
+id: 80fadd9a-52d7-4acb-aae0-e70553898693
+enabled: true
+source: /registration-policies
+source_md5: ac6db1326b020667994fe3d4abdc2f5d
+destination: /contacts-more/policies
+type: 301
+site: default
+match_type: exact

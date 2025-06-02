@@ -1,5 +1,6 @@
 ---
 id: c53e6f63-d98a-4fec-b6c0-5ce6959cb9ee
+published: false
 blueprint: event
 title: 'Chromatic Catharsis by Faith Hudgens'
 location: 'Loft Gallery'
@@ -12,7 +13,7 @@ exhibition_artists: 'Faith Hudgens'
 date: '2025-04-14'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1747773869
+updated_at: 1748613247
 featured_image:
   - faith-art.png
 event_cost: Free

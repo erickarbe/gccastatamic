@@ -3,8 +3,8 @@ id: 4b49b7d2-0525-40ac-a674-162a852a74c8
 blueprint: page
 title: 'Our People'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1747856867
+updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
+updated_at: 1748541543
 turn_off_hero: true
 eyebrow: Team
 blocks:
@@ -51,6 +51,14 @@ blocks:
         enabled: true
         block_link: 'entry::562583b0-a0b1-4827-9bf0-40ce3c7e0e6c'
       -
+        id: m9ijd4bf
+        name: 'Alexis Krcelic'
+        title: 'Advancement and Event Director'
+        headshot: alexis-krcelic.jpg
+        type: new_person
+        enabled: true
+        block_link: 'entry::03459126-05f7-4e16-9f36-409b25fcdf01'
+      -
         id: m9ijbbwv
         name: 'Hailey Chapman, CTA'
         title: 'Visitor Experience Manager'
@@ -58,14 +66,6 @@ blocks:
         type: new_person
         enabled: true
         block_link: 'entry::22cfbbbc-4ae9-4202-a2c8-03b79a898e62'
-      -
-        id: m9ijd4bf
-        name: 'Alexis Krcelic'
-        title: 'Development and Events Coordinator'
-        headshot: alexis-krcelic.jpg
-        type: new_person
-        enabled: true
-        block_link: 'entry::03459126-05f7-4e16-9f36-409b25fcdf01'
     type: people_grid
     enabled: true
     number_of_columns: three

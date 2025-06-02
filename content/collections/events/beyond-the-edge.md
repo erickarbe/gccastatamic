@@ -1,5 +1,6 @@
 ---
 id: 567f6429-7cf9-4ecf-a0ce-c9d503656f88
+published: false
 blueprint: event
 title: 'Beyond the Edge'
 location: 'Main Gallery'
@@ -10,7 +11,7 @@ featured_image:
 date: '2025-04-13'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1747772831
+updated_at: 1748613200
 event_category:
   - exhibitions
 all_day_event: true
@@ -82,7 +83,6 @@ blocks:
     image_left_or_right: right
     align_columns: top
     content_group:
-      eyebrow: null
       heading: 'Lindsay Godin'
       content:
         -
@@ -115,9 +115,6 @@ blocks:
             -
               type: text
               text: 'Futurisms (2019-present) is an on-going body of work that aims to encapsulate mankind’s preoccupation with uncharted territories. Dating back to the earliest sightings by ancient civilizations to the present day, mankind has continuously observed, imprinted, and has attempted to dominate unclaimed landscapes. As humankind evolved, this preoccupation expanded to extraterrestrial territories due to the invention of the telescope and the advancement of the rocket machine. Today, this machine is now a sophisticated extension of mankind’s intellect: an artificial observer yearning to explore territories which are beyond mankind’s physical abilities. The images in Futurisms shed light on the endless continuum of mankind’s propensity and instinctive motive to ultimately claim the unexplored territories beyond planet Earth.'
-      button_text: null
-      button_link: null
-      open_in_new_tab: false
       content_width: 66
       remove_top_margin: true
     image: lindsay.jpg
@@ -140,7 +137,6 @@ blocks:
     image_left_or_right: left
     align_columns: top
     content_group:
-      eyebrow: null
       heading: 'Ana Vizcarra Rankin'
       content:
         -
@@ -197,9 +193,6 @@ blocks:
             -
               type: text
               text: 'Amid the extraordinary complexity of the universe, our planet stands alone as a living ecosystem. I want to inspire wonder and action: to encourage people to revel in dark skies and see the stars, to plant more trees than we harvest, to advocate for water clean enough to swim in, drink, and sustain biodiversity. My artwork translates these aspirations into a visual language that expresses what my words cannot.'
-      button_text: null
-      button_link: null
-      open_in_new_tab: false
       content_width: 66
       remove_top_margin: true
     image: anna.jpg

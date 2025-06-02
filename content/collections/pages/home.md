@@ -115,23 +115,23 @@ home_page_blocks:
         open_in_new_tab: false
       -
         id: m9d3lzv1
-        panel_title: 'On Display Now in the Main Gallery'
+        panel_title: 'On Display Now in the Community Gallery'
         panel_content:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Push past the boundaries of exploration in '
+                text: "The current\_Community Gallery exhibition features the award-winning artwork from students across "
               -
                 type: text
                 marks:
                   -
-                    type: italic
-                text: 'Beyond the Edge'
+                    type: bold
+                text: 'Greenville County Schools'
               -
                 type: text
-                text: ', where Ana Vizcarra Rankin and Lindsay Godin challenge the maps, myths, and motivations behind humanity’s relentless drive to claim the unknown.'
+                text: ', encompassing elementary, middle, and high schools. Come and celebrate the award-winning work from talented young artists in Greenville!'
           -
             type: bulletList
             content:
@@ -147,13 +147,13 @@ home_page_blocks:
                           -
                             type: link
                             attrs:
-                              href: 'statamic://entry::567f6429-7cf9-4ecf-a0ce-c9d503656f88'
+                              href: 'statamic://entry::f7848f53-9aa9-4833-8879-5b609ea4db90'
                               rel: null
                               target: null
                               title: null
                         text: 'Explore the Gallery'
         panel_image:
-          - slide2.jpg
+          - img_1910-large.jpeg
         type: panel_group
         enabled: true
         open_in_new_tab: false
@@ -186,7 +186,7 @@ home_page_blocks:
                               rel: null
                               target: null
                               title: null
-                        text: 'Explore Exhibitions'
+                        text: 'Explore Current & Upcoming Exhibitions'
         panel_image:
           - slide3.jpg
         type: panel_group
@@ -393,6 +393,6 @@ home_page_blocks:
     grid_two_open_in_new_tab: false
     grid_three_open_in_new_tab: false
     grid_four_open_in_new_tab: false
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1747247236
+updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
+updated_at: 1748619671
 ---

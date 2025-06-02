@@ -1,0 +1,8 @@
+id: c2593b65-32e9-40e9-90c3-7a1771e0f41a
+enabled: true
+source: /studio-artists
+source_md5: 789cdd5d7ed7390ed551839850bec421
+destination: 'https://artcentergreenville.org/artists/studio-artists'
+type: 301
+site: default
+match_type: exact

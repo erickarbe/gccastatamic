@@ -1,0 +1,8 @@
+id: d81d909f-a157-47fc-be33-f6e678eb4a81
+enabled: true
+source: /exhibition-proposals
+source_md5: 0b54a6e285ee933c4fe40f0933f6abc6
+destination: 'https://artcentergreenville.org/artists/exhibition-proposals'
+type: 301
+site: default
+match_type: exact

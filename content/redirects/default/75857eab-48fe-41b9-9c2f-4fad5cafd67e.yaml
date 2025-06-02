@@ -1,0 +1,8 @@
+id: 75857eab-48fe-41b9-9c2f-4fad5cafd67e
+enabled: true
+source: /fullclasslisting
+source_md5: 30a300a1c6584e05a5abbf67f0897d1d
+destination: 'https://artcentergreenville.org/education/art-school'
+type: 301
+site: default
+match_type: exact

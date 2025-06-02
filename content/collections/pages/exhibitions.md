@@ -5,7 +5,7 @@ title: Exhibitions
 turn_off_hero: true
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1747783342
+updated_at: 1748617485
 blocks:
   -
     id: m9hjvlwy
@@ -17,36 +17,15 @@ blocks:
   -
     id: m9hk792b
     events_list:
-      - 567f6429-7cf9-4ecf-a0ce-c9d503656f88
+      - 76cfae18-2f6b-4bd3-bd47-9d345cbd27ea
       - f7848f53-9aa9-4833-8879-5b609ea4db90
-      - c53e6f63-d98a-4fec-b6c0-5ce6959cb9ee
+      - 40db0acb-f0f3-482d-bf5c-464de9415256
     type: events_grid
     enabled: true
   -
     id: m9hmlcfm
     number_of_columns: four
     content_grid_item:
-      -
-        id: m9hmlscu
-        eyebrow: 'Main Gallery'
-        heading: 'Beyond the Edge'
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'April 4, 2025 – May 28, 2025'
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'Artists: Lindsay Godin & Ana Vizcarra Rankin'
-        type: new_item
-        enabled: true
       -
         id: m9hmnbjh
         eyebrow: 'Main Gallery'
@@ -81,7 +60,7 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: 'August 1, 2025 – September 24, 2025'
+                text: 'August 2, 2025 – September 20, 2025'
               -
                 type: hardBreak
               -
