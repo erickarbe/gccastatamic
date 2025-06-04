@@ -1,5 +1,6 @@
 ---
 id: 61f0852f-125d-4a16-a99b-8218a491a151
+published: false
 blueprint: event
 title: 'Plein Air Spring Art Expo'
 location: 'Gray Loft'
@@ -15,7 +16,7 @@ event_category:
 date: '2025-05-20'
 author: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
 updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1747759273
+updated_at: 1749049182
 content:
   -
     type: paragraph

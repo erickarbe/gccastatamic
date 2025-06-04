@@ -4,7 +4,7 @@ blueprint: page
 title: Internships
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1747789808
+updated_at: 1748965304
 turn_off_hero: false
 inside_hero_header: Internships
 inside_hero_content:
@@ -998,7 +998,7 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: 'Application Deadline: June 1st, 2025'
+                text: 'Application Deadline: June 20th, 2025'
         type: new_set
         enabled: true
     use_second_column: true

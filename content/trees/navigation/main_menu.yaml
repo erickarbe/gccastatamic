@@ -42,6 +42,10 @@ tree:
     url: '#'
     children:
       -
+        id: 736b4172-71ef-469d-9989-5c692c744ea1
+        title: 'Art Bash'
+        url: 'https://secure.qgiv.com/event/artbash/'
+      -
         id: 76c0f8dc-3d1e-4da7-9eb0-09cf2e52ffad
         entry: 7f18f75f-7fd2-446a-852c-7f0570aece59
       -

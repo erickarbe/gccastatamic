@@ -1,0 +1,8 @@
+id: f5de8b1a-4b82-42a9-845a-9dce48a1061c
+enabled: true
+source: /studio-rental
+source_md5: 485e0e8ff7bee8ed47d6a30784956457
+destination: 'https://artcentergreenville.org/artists/studio-artists'
+type: 301
+site: default
+match_type: exact

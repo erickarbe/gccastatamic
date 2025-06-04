@@ -3,8 +3,8 @@ id: 26004a64-a94e-4832-9bf1-cd5f3991eebf
 blueprint: page
 title: 'Gift Shop Proposals'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1747858520
+updated_by: c98725f6-4197-43a0-84ee-8fa9e628c108
+updated_at: 1748976295
 turn_off_hero: false
 blocks:
   -
@@ -32,7 +32,7 @@ blocks:
                   type: bold
                 -
                   type: italic
-              text: 'Deadline to be considered for the November 2025 – May 2026 consignment period is June 13th, 2025 at 11:59 PM.'
+              text: 'Deadline to be considered for the November 2025 – May 2026 consignment period is July 4th, 2025 at 11:59 PM.'
       button_text: 'Apply Here'
       button_link: 'https://forms.fillout.com/t/gSRLqcwModus'
       content_width: '50'

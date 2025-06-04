@@ -1,0 +1,8 @@
+id: 772e708f-357d-4830-8eee-e61dfeadc859
+enabled: true
+source: /gccamembership
+source_md5: 0dedb169395f310bea8a45df3cc15d51
+destination: 'https://artcentergreenville.org/artists/artist-membership'
+type: 301
+site: default
+match_type: exact
