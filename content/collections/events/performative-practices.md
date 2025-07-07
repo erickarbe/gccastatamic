@@ -2,18 +2,18 @@
 id: 76cfae18-2f6b-4bd3-bd47-9d345cbd27ea
 blueprint: event
 title: 'Performative Practices'
-location: 'Main Gallery'
-start_date_time: '2025-06-06 21:00'
+location: 'Main Gallery, First Floor'
+start_date_time: '2025-06-06 09:00'
 end_date_time: '2025-07-23 17:00'
 featured_image:
   - kate-burke_1.2.jpg
 date: '2025-05-20'
 author: 4bbfb4a7-c929-44bc-9b6c-75777742f264
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1748619962
+updated_at: 1749747756
 event_category:
   - exhibitions
-all_day_event: false
+all_day_event: true
 exhibition_artists: 'Jessica Swank & Kate Burke'
 blocks:
   -
@@ -59,7 +59,7 @@ blocks:
       - kate-burke_1.jpg
       - kate-burke_2.png
       - kate-burke_9.png
-      - kate-burke_11.png
+      - 220521_kburke_006-copy.jpg
     type: full_width_carousel
     enabled: true
   -
@@ -129,7 +129,7 @@ blocks:
       - my-own-flesh-and-blood-(1).jpeg
       - sink-her-(1).jpg
       - "what-we're-made-of-(1).jpg"
-      - were-not-the-same-any-longer-are-we-(1).jpg
+      - image-asset-(5).jpeg
     type: full_width_carousel
     enabled: true
   -

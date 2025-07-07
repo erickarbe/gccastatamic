@@ -40,8 +40,8 @@ inside_hero_content:
         type: text
         text: ', whether they are local talents or creators from across the U.S.'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1747846955
+updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
+updated_at: 1751471006
 blocks:
   -
     id: m9hudp2a
@@ -104,7 +104,7 @@ blocks:
     panels:
       -
         id: m9hu0md1
-        panel_title: 'July 12th'
+        panel_title: 'July 23rd'
         panel_content:
           -
             type: heading

@@ -3,8 +3,8 @@ id: 5a62b7be-8ce1-462c-a3f7-5c679c747edc
 blueprint: page
 title: 'Exhibition Proposals'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1747749164
+updated_by: 4eef24d1-eafa-41fa-821b-734f99bfe9ed
+updated_at: 1750255060
 turn_off_hero: false
 inside_hero_content:
   -
@@ -31,13 +31,23 @@ inside_hero_content:
       -
         type: text
         text: 'Artists are responsible for the delivery and return of their work. Initial shipping costs must be covered by the artist, curator, or group.'
+  -
+    type: paragraph
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Interested in sponsoring one of our exhibitions? Click the link below to learn more!'
 inside_hero_image: gallery-hero-img.jpg
 blocks:
   -
     id: m9h7qtxw
     image_left_or_right: left
     content_group:
-      eyebrow: null
       heading: 'Main Gallery Proposals'
       content:
         -
@@ -58,11 +68,7 @@ blocks:
             -
               type: text
               text: 'This exhibition space is open to artists from across the continental United States, providing a remarkable opportunity to present your work in a professional setting.'
-      button_text: null
-      button_link: null
-      open_in_new_tab: false
       content_width: '50'
-      remove_top_margin: false
     image: gallery-img-2.jpg
     type: image_and_text
     enabled: true
@@ -296,7 +302,6 @@ blocks:
     id: m9hdp0ma
     image_left_or_right: left
     content_group:
-      eyebrow: null
       heading: 'Community Gallery Proposals'
       content:
         -
@@ -365,11 +370,7 @@ blocks:
             -
               type: text
               text: 'We present six exhibitions annually, each lasting approximately two months, ensuring ample opportunity for visibility and engagement. GCCA also includes support for installation, ensuring a seamless and professional experience for selected artists.'
-      button_text: null
-      button_link: null
-      open_in_new_tab: false
       content_width: '50'
-      remove_top_margin: false
     image: community-gallery-2.jpg
     type: image_and_text
     enabled: true
@@ -646,5 +647,7 @@ blocks:
     grid_two_open_in_new_tab: false
     grid_three_open_in_new_tab: false
     grid_four_open_in_new_tab: false
-open_in_new_tab: false
+open_in_new_tab: true
+inside_hero_button_text: 'Exhibition Sponsorship'
+inside_hero_button_link: 'https://gccamedia.s3.amazonaws.com/exhibition-sponsordeck.pdf'
 ---

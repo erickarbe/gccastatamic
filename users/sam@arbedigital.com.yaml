@@ -1,7 +1,7 @@
 name: 'Sam Kennedy'
 super: true
 id: 916c3785-d212-40bc-89ff-572097ac9582
-password_hash: $2y$12$TUh/1y8hxhlrkJ6JMe1UMOojFDvqj50gqJRYEPCBZN8N02gvGP0Ca
+password_hash: $2y$12$T3Ens4.385pogQ6KkAcCa.zJRPvgHB35TNgJUFUTVFjVvuw75GQM.
 preferences:
   theme: dark
   collections:

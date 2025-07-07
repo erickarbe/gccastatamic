@@ -1,0 +1,8 @@
+id: 00fa586d-9459-426d-be14-042ddf520585
+enabled: true
+source: /membership
+source_md5: c114e1b2b99b695ab1ecafd20b92b21c
+destination: 'https://artcentergreenville.org/artists/artist-membership'
+type: 301
+site: default
+match_type: exact

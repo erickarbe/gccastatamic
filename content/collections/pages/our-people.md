@@ -3,8 +3,8 @@ id: 4b49b7d2-0525-40ac-a674-162a852a74c8
 blueprint: page
 title: 'Our People'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1748541543
+updated_by: db8343ae-1cfd-4a4a-810e-2417eae3fc2b
+updated_at: 1749656558
 turn_off_hero: true
 eyebrow: Team
 blocks:
@@ -76,33 +76,19 @@ blocks:
     type: basic_title
     enabled: true
   -
-    id: m9d2iwld
-    content_grid_item:
-      -
-        id: mawvunh9
-        heading: 'Alexander Rouse'
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Digital Media & Design Specialist'
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'info@artcentergreenville.org '
-              -
-                type: hardBreak
-              -
-                type: text
-                text: '(864) 735-3948'
-        type: new_item
-        enabled: true
-    type: content_grid
-    enabled: true
+    id: mbpak5we
     number_of_columns: three
+    people:
+      -
+        id: mbpak7ur
+        name: 'Alexander Rouse'
+        title: 'Digital Media & Design Specialist'
+        email: alexander@artcentergreenville.org
+        headshot: gcca-3.4.25-arp-08404.jpg
+        type: new_person
+        enabled: true
+    type: people_grid
+    enabled: true
   -
     id: m9d2pum9
     text_alignment: left
@@ -110,43 +96,34 @@ blocks:
     type: basic_title
     enabled: true
   -
-    id: m9d2qh5t
-    content_grid_item:
+    id: mbs40d6t
+    number_of_columns: three
+    people:
       -
-        id: m9d2r0gp
-        heading: 'Bethany Hallas'
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: |-
-                  Administrative Intern
-                  intern@artcentergreenville.org
-                  (864) 735-3948
-        type: new_item
+        id: mbs40fuw
+        name: 'Carmen Bunche'
+        title: 'Administrative Intern'
+        email: adminintern@artcentergreenville.org
+        headshot: carmen-new.png
+        type: new_person
         enabled: true
       -
-        id: m9d2st6d
-        heading: 'Claire Delaney'
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: |-
-                  Gallery Intern
-                  intern@artcentergreenville.org
-                  (864) 735-3948
-        type: new_item
+        id: mbs468f9
+        name: 'Karis King'
+        title: 'Marketing and Events Intern'
+        email: devintern@artcentergreenville.org
+        headshot: karis-new.png
+        type: new_person
         enabled: true
-    type: content_grid
+      -
+        id: mbs49ikj
+        name: 'Claire Delaney'
+        title: 'Gallery Intern'
+        email: galleryintern@artcentergreenville.org
+        headshot: claire.png
+        type: new_person
+        enabled: true
+    type: people_grid
     enabled: true
   -
     id: m9d3z0rx

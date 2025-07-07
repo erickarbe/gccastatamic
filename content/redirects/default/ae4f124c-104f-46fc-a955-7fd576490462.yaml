@@ -1,0 +1,8 @@
+id: ae4f124c-104f-46fc-a955-7fd576490462
+enabled: true
+source: /news
+source_md5: d115249ce213c861e5716505547085f1
+destination: 'https://artcentergreenville.org/article-category/'
+type: 301
+site: default
+match_type: exact

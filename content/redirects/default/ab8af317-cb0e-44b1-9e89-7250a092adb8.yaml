@@ -1,8 +1,0 @@
-id: ab8af317-cb0e-44b1-9e89-7250a092adb8
-enabled: true
-source: 'https://artcentergreenville.org/support'
-source_md5: a202410b0468bb43ca5f16d558d6e9f2
-destination: 'https://artcentergreenville.org/support/donate'
-type: 301
-site: default
-match_type: exact

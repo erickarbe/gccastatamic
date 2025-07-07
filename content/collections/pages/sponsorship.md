@@ -3,8 +3,8 @@ id: 785cdacf-aaab-4aa6-bf4a-c0486d6c1b18
 blueprint: page
 title: Sponsorship
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744743256
+updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
+updated_at: 1751475727
 turn_off_hero: false
 inside_hero_header: Sponsorship
 inside_hero_content:
@@ -13,14 +13,13 @@ inside_hero_content:
     content:
       -
         type: text
-        text: 'Sponsorship - or Corporate Giving - is a wonderful way for our partners (individuals and businesses) to support our General Operating activities. In exchange, GCCA offers marketing and communications exposure through our media channels (social, enewsletter, and website), as well as onsite presence at our ongoing events, including tickets to attend.'
+        text: 'Sponsorship is a wonderful way for our partners (individuals and businesses) to support our General Operating activities or specific programming. In exchange, GCCA offers marketing and communications exposure through our media channels (social, e-newsletter, and website), as well as onsite presence at our ongoing events, including tickets to attend.'
 blocks:
   -
     id: m9iv0gya
     image_left_or_right: left
     align_columns: top
     content_group:
-      eyebrow: null
       heading: '2025 Sponsorships'
       content:
         -
@@ -28,27 +27,89 @@ blocks:
           content:
             -
               type: text
-              text: 'The table below outlines our current Giving Program. Support like this is vital for GCCA to accomplish its mission. Let’s have a conversation about the right level of support. Please contact Sara Grambach, Development Director, at '
+              text: 'The information below outlines our various giving programs. Support like this is vital for GCCA to accomplish its mission. Let’s have a conversation about the right level of support! Please contact Alexis Krcelic, Advancement Director, at '
             -
               type: text
               marks:
                 -
                   type: link
                   attrs:
-                    href: 'mailto:sgrambach@artcentergreenville.org'
+                    href: 'mailto:alexis@artcentergreenville.org'
                     rel: null
                     target: null
                     title: null
-              text: sgrambach@artcentergreenville.org
+              text: alexis@artcentergreenville.org
             -
               type: text
               text: .
-      button_text: null
-      button_link: null
-    image: gcca-2025-sponsorships.jpg
+      button_text: 'General Sponsorships'
+      button_link: 'https://gccamedia.s3.amazonaws.com/gcca-sponsordeck-(1).pdf'
+      content_width: '50'
+    image: screenshot-2025-06-25-at-10.27.06-am.png
+    constrain_image: false
+    type: image_and_text
+    enabled: true
+  -
+    id: mcc1j5q2
+    image_left_or_right: left
+    align_columns: center
+    content_group:
+      eyebrow: 'Brandon Fellow Sponsorship'
+      content:
+        -
+          type: paragraph
+          content:
+            -
+              type: text
+              text: 'Established in 2015 alongside the grand opening of the Greenville Center for Creative Arts (GCCA), the Brandon Fellowship was created to provide transformative opportunities for young, emerging artists. Named after the historic Brandon Mill and its surrounding textile village—now home to GCCA—the fellowship reflects the center’s commitment to fostering artistic growth and professional development.'
+      button_text: 'Brandon Fellow Sponsorship Packet'
+      button_link: 'https://gccamedia.s3.amazonaws.com/brandonfellowship-sponsordeck.pdf'
+      content_width: '50'
+    image: screenshot-2025-06-25-at-10.26.21-am.png
+    constrain_image: false
+    type: image_and_text
+    enabled: true
+  -
+    id: mcc1mt0v
+    image_left_or_right: right
+    align_columns: center
+    content_group:
+      eyebrow: 'Exhibition/Gallery Sponsorship'
+      content:
+        -
+          type: paragraph
+          content:
+            -
+              type: text
+              text: 'We strive to make art accessible to all through free galleries open year round as well as hyper local and nationwide artists featured in the various galleries.'
+      button_text: 'Exhibition Sponsorship Packet'
+      button_link: 'https://gccamedia.s3.amazonaws.com/exhibition-sponsordeck.pdf'
+      content_width: '50'
+    image: screenshot-2025-06-25-at-10.26.49-am.png
+    constrain_image: false
+    type: image_and_text
+    enabled: true
+  -
+    id: mcc1ng5q
+    image_left_or_right: left
+    align_columns: center
+    content_group:
+      eyebrow: 'Color The Night Sponsorship'
+      content:
+        -
+          type: paragraph
+          content:
+            -
+              type: text
+              text: 'November 6, 2025, Greenville Center for Creative Arts (GCCA) will host its third annual signature fundraising event - Color The Night - to raise critical funds to support programming and opportunities for the Greenville community to have access to art for all.'
+      button_text: 'Color The Night Sponsorship Packet'
+      button_link: 'https://gccamedia.s3.amazonaws.com/ctn-sponsorpack.pdf'
+      content_width: '50'
+    image: screenshot-2025-06-25-at-10.26.35-am.png
     constrain_image: false
     type: image_and_text
     enabled: true
 inside_hero_image: gallery_wide_shot.jpg
 eyebrow: Support
+open_in_new_tab: false
 ---

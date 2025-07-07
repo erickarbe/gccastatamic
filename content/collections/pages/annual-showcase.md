@@ -4,7 +4,7 @@ blueprint: page
 title: 'Annual Showcase'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1748617639
+updated_at: 1750859582
 turn_off_hero: false
 eyebrow: 'GCCA Member Prize Art Exhibition'
 inside_hero_header: 'Annual Showcase'
@@ -551,23 +551,6 @@ blocks:
         content:
           -
             type: text
-            text: ' Juror - Jennifer Oladipo'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Our esteemed juror will review all submissions and select works for exhibition based on artistic merit, originality, and overall impact.'
-    type: four_up_grid
-    enabled: true
-    grid_three_content:
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
             text: Awards
       -
         type: paragraph
@@ -614,7 +597,17 @@ blocks:
           -
             type: text
             text: 'Peoples Choice Award – $50'
-    grid_four_content:
+    type: four_up_grid
+    enabled: true
+    constrain_image_1: true
+    constrain_image_2: true
+    constrain_image_3: true
+    constrain_image_4: true
+    grid_one_open_in_new_tab: false
+    grid_two_open_in_new_tab: false
+    grid_three_open_in_new_tab: false
+    grid_four_open_in_new_tab: false
+    grid_two_content:
       -
         type: heading
         attrs:
@@ -670,16 +663,6 @@ blocks:
           -
             type: text
             text: 'We look forward to celebrating the remarkable talent of our GCCA member artists!'
-    grid_two_image:
-      - jennifer-2.jpg
-    constrain_image_1: true
-    constrain_image_2: true
-    constrain_image_3: true
-    constrain_image_4: true
-    grid_one_open_in_new_tab: false
-    grid_two_open_in_new_tab: false
-    grid_three_open_in_new_tab: false
-    grid_four_open_in_new_tab: false
   -
     id: ma5innx2
     width: contained

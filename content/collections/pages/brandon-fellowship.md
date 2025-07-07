@@ -3,8 +3,8 @@ id: e69e9c4a-9ed2-484d-8b29-1fa12af2ba71
 blueprint: page
 title: 'Brandon Fellowship'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1747773728
+updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
+updated_at: 1751475689
 turn_off_hero: false
 eyebrow: 'The Brandon Fellowship'
 inside_hero_header: 'Empowering the Next Generation of Artists'
@@ -30,8 +30,6 @@ blocks:
     id: m9g7t4ni
     image_left_or_right: left
     content_group:
-      eyebrow: null
-      heading: null
       content:
         -
           type: paragraph
@@ -50,7 +48,7 @@ blocks:
           content:
             -
               type: text
-              text: 'Applications open in May 2025, with the deadline for applications set for July 1st. A review and interview process will follow for the 2025–2026 program year candidates.'
+              text: 'Applications opened in May 2025, with the deadline for applications set for July 1st. A review and interview process will follow for the 2025–2026 program year candidates.'
         -
           type: paragraph
           content:
@@ -96,11 +94,7 @@ blocks:
             -
               type: text
               text: 'The Brandon Fellowship program is supported by the Jolley Foundation, Earle Furman in memory of Linda Furman, Doug & Melissa Sturgis, and The National Endowment for the Arts.'
-      button_text: null
-      button_link: null
-      open_in_new_tab: false
       content_width: '50'
-      remove_top_margin: false
     image: brandon-fellowship-group_hug.jpg
     type: image_and_text
     enabled: true
@@ -298,12 +292,10 @@ blocks:
         content:
           -
             type: paragraph
-            attrs:
-              textAlign: left
             content:
               -
                 type: text
-                text: 'If chosen for an interview, candidates must attend an in-person interview at GCCA before a selection committee.'
+                text: 'If chosen for an interview, candidates must attend an in-person interview at GCCA on July 22nd before the selection committee.'
         type: new_item
         enabled: true
     type: content_grid
@@ -342,6 +334,15 @@ blocks:
                 content:
                   -
                     type: text
+                    text: 'Pat Kilburg, GCCA Founder and artist'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
                     text: 'RaAmen Stallings, Brandon Fellowship alumni & current mentor'
           -
             type: listItem
@@ -352,6 +353,33 @@ blocks:
                   -
                     type: text
                     text: 'Liz Rundorff Smith, GCCA Board Member & Assistant Gallery Director at Art & Light Gallery'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Gene Krcelic, President of Premier Arts Collective'
+    type: basic_centered_content
+    enabled: true
+    background_color: '#ffffff'
+    open_in_new_tab: false
+  -
+    id: mc92dycc
+    content:
+      -
+        type: blockquote
+        content:
+          -
+            type: heading
+            attrs:
+              level: 2
+            content:
+              -
+                type: text
+                text: 'Applicants please have your references send their letters of recommendation to Ben Tarcson at ben@artcentergreenville.org or have them mail the letters to 101 Abney St.  Greenville, SC 29611. '
     type: basic_centered_content
     enabled: true
     background_color: '#ffffff'
@@ -654,5 +682,26 @@ blocks:
     type: people_grid
     enabled: true
     number_of_columns: three
+  -
+    id: mcc5cr4r
+    width: contained
+    heading: 'Brandon Fellowship Sponsorship'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Interested in supporting our Fellows? Click the link below to learn more!'
+    button_text: 'Sponsor Packet'
+    button_link: 'https://gccamedia.s3.amazonaws.com/brandonfellowship-sponsordeck.pdf'
+    open_in_new_tab: true
+    image_layout: background
+    background_color: '#263340'
+    type: cta_section
+    enabled: true
 open_in_new_tab: false
 ---
