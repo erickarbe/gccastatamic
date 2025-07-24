@@ -1,0 +1,8 @@
+id: cb666510-3a7e-4d68-b41d-04b111b6991f
+enabled: true
+source: 'https://artcentergreenville.org/event-category/first-friday'
+source_md5: 55a3d3a241c3be7807bc84ed955926f3
+destination: 'https://artcentergreenville.org/events/firstfriday'
+type: 301
+site: default
+match_type: exact

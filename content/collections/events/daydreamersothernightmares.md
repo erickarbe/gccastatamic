@@ -10,7 +10,7 @@ featured_image:
 date: '2025-05-20'
 author: 4bbfb4a7-c929-44bc-9b6c-75777742f264
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1750277933
+updated_at: 1752862786
 event_category:
   - exhibitions
 all_day_event: true
@@ -64,6 +64,20 @@ blocks:
           -
             type: text
             text: 'This exhibition argues that mythology and nostalgia are not mere romanticism or retreat, but vital tools for resilience. By referencing shared cultural memory, the artists invite viewers into a familiar world reimagined—one where the past is a lens, not a limit.'
+      -
+        type: paragraph
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Greenville Center for Creative Arts affirms the importance of artistic freedom and the power of creative expression — including work that may provoke, challenge, or confront. This exhibition contains content that some viewers may find unsettling or emotionally intense, including nudity and explicit imagery.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Viewer discretion is advised for all ages.'
     open_in_new_tab: false
     type: basic_centered_content
     enabled: true
@@ -560,6 +574,47 @@ blocks:
         accordion_header: 'Nic Salazar'
         type: new_set
         enabled: true
+        accordion_content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: Biography
+              -
+                type: hardBreak
+              -
+                type: text
+                text: "Born in Greenville to Catholic Ecuadorian immigrant parents, Nic attended the Fine Arts Center. I was also part of the Questbridge program but was always split on leaving my parents and staying close or fulfilling some vicarious dream for them farther away. With the support of the Fine Arts Center community, I ended up committing to Macalester College (2018-2022), where I graduated with a BFA in Art History and American Studies, as well as a minor in Education.\_"
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Artist Statement'
+              -
+                type: hardBreak
+              -
+                type: text
+                text: 'Artistically, I center my own ancestral history, story-telling, and radical dreams to imagine an ideal world and to question our current one.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'As an Art Historian, I make work to join the bigger conversations surrounding colonialism/post- colonialism. I draw inspiration from everywhere, but Coco Fusco’s writing and Ana Mendieta’s performances have critically informed my own work. As Latina women, I empathize with how they respond to violence, especially in instances perpetuated by white men (and the sometimes the same white man, Carl Andre). Through my own work, I hope to find and embody that same resilience.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Currently, I explore the theme of loving despite, drawing from Butler’s Precarious Life and Surrealist thinking. My identity (queer, Latinx, and female, among other identities that have shifted throughout the year) and the tenuous relationship with my mother have been crucial factors in creating my own beliefs about love. I have used creation as a purging process and would like to have a space where I can create with safety, as I currently live with my parents. Although I could argue that all my work has been made out of love in retrospect (love for the environment, love in highschool, love for my ancestral history), I would use this opportunity to hone in on moments where love has felt precarious and loving despite the conditions and environment. With the current year and the overall history of education (especially education in the South), I embody my own theme that I have set for myself (precarious love and hope). I have seen a lot of love and hope in both my work environment and my own life.  '
       -
         id: mc0rbn1d
         accordion_header: 'Jackson Shaner'

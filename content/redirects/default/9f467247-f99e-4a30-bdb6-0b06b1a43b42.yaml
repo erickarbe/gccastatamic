@@ -1,8 +1,0 @@
-id: 9f467247-f99e-4a30-bdb6-0b06b1a43b42
-enabled: true
-source: /support
-source_md5: caa68563dfb61577c2c4699e1aa63010
-destination: /support/waystogive
-type: 301
-site: default
-match_type: exact

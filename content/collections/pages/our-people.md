@@ -3,8 +3,8 @@ id: 4b49b7d2-0525-40ac-a674-162a852a74c8
 blueprint: page
 title: 'Our People'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: db8343ae-1cfd-4a4a-810e-2417eae3fc2b
-updated_at: 1749656558
+updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
+updated_at: 1751920647
 turn_off_hero: true
 eyebrow: Team
 blocks:
@@ -64,7 +64,7 @@ blocks:
         title: 'Visitor Experience Manager'
         headshot: hailey-chapman.jpg
         type: new_person
-        enabled: true
+        enabled: false
         block_link: 'entry::22cfbbbc-4ae9-4202-a2c8-03b79a898e62'
     type: people_grid
     enabled: true

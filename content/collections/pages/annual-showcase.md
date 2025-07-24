@@ -4,7 +4,7 @@ blueprint: page
 title: 'Annual Showcase'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1750859582
+updated_at: 1751979384
 turn_off_hero: false
 eyebrow: 'GCCA Member Prize Art Exhibition'
 inside_hero_header: 'Annual Showcase'
@@ -479,7 +479,7 @@ blocks:
                         text: 'Opening Reception:'
                       -
                         type: text
-                        text: ' Friday, August 2, 12 - 6 PM'
+                        text: ' Saturday, August 2, 12 - 6 PM'
               -
                 type: listItem
                 content:

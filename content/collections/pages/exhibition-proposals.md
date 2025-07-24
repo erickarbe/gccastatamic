@@ -3,8 +3,8 @@ id: 5a62b7be-8ce1-462c-a3f7-5c679c747edc
 blueprint: page
 title: 'Exhibition Proposals'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 4eef24d1-eafa-41fa-821b-734f99bfe9ed
-updated_at: 1750255060
+updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
+updated_at: 1751987449
 turn_off_hero: false
 inside_hero_content:
   -
@@ -30,7 +30,7 @@ inside_hero_content:
     content:
       -
         type: text
-        text: 'Artists are responsible for the delivery and return of their work. Initial shipping costs must be covered by the artist, curator, or group.'
+        text: 'Artists are responsible for the delivery and return of their work. Shipping costs must be covered by the artist, curator, or group.'
   -
     type: paragraph
   -
@@ -242,18 +242,6 @@ blocks:
                       -
                         type: text
                         text: ' (Representative of the proposal or the actual work to be displayed)'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Non-Refundable $30 Application Fee'
-              -
-                type: text
-                text: ' (Required for Main Gallery proposals; must be submitted electronically with the application form)'
         type: new_link_panel
         enabled: true
       -
@@ -272,13 +260,6 @@ blocks:
   -
     id: m9hf3ag2
     heading: 'Main Gallery Floor Plan'
-    content:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Floor Plan Video Goes Here'
     button_text: 'Download Floor Plan'
     button_link: 'https://gccamedia.s3.amazonaws.com/main-gallery-2025_layout-compressed.pdf'
     type: basic_centered_content
@@ -466,15 +447,6 @@ blocks:
                       -
                         type: text
                         text: '5 – 10 images of artwork for review'
-              -
-                type: listItem
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: '$15 non-refundable exhibition proposal fee'
         type: new_link_panel
         enabled: true
       -

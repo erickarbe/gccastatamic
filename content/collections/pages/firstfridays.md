@@ -1,7 +1,7 @@
 ---
-id: fed253c7-fa9c-4450-bc27-6050b88ff4de
+id: b0fa6ae2-9487-4f81-a4b0-186d9fb8ed32
 blueprint: page
-title: 'First Friday'
+title: 'First Friday (Duplicated)'
 turn_off_hero: false
 inside_hero_content:
   -
@@ -11,38 +11,14 @@ inside_hero_content:
         type: text
         text: 'Join GCCA for First Friday each month. Every month you can enjoy new gallery exhibitions, studio artists, performing arts series, demos, and more. It is free to attend and open to all ages. After you’ve visited, hop over to other open galleries and restaurants in the West Village or Downtown Greenville!'
 inside_hero_image: first-friday-hero.jpg
-author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1747677789
+author: 5f81e286-c3b1-4700-935f-b6b3f8b8baa2
+updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
+updated_at: 1752254839
 blocks:
   -
     id: m9hvb09p
     number_of_columns: four
     content_grid_item:
-      -
-        id: m9hvbpkf
-        heading: 'June 6'
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: '5-8 pm'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Opening: Performative Practices by Kate Burke & Jessica Swank'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Performances: Jazz Musicians'
-        type: new_item
-        enabled: true
       -
         id: m9hvc5qt
         heading: 'July 11'
@@ -64,7 +40,7 @@ blocks:
             content:
               -
                 type: text
-                text: 'Performances:'
+                text: "Demos: Steven Chapp's Monotype Printmaking "
         type: new_item
         enabled: true
       -
@@ -198,4 +174,5 @@ blocks:
     content_grid_title: '2025 First Friday Schedule'
 eyebrow: 'Make GCCA Your First Stop'
 open_in_new_tab: false
+duplicated_from: fed253c7-fa9c-4450-bc27-6050b88ff4de
 ---

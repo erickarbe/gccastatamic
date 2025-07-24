@@ -52,9 +52,9 @@ tree:
         id: f7d4ef8a-9ede-49e1-92ab-d294f32f4811
         entry: 4a9be87a-60f4-4cd9-8fcb-9000dd06d5fc
       -
-        id: 776ab4f6-3f69-4fe6-8e15-b54e80f58a45
+        id: 50fc09cc-f87f-4c22-af41-bcc2a19f17ca
         title: 'First Friday'
-        url: /event-category/first-friday
+        url: 'https://artcentergreenville.org/events/firstfriday'
       -
         id: 8b6410ab-0b60-429e-a61d-87e4ced4d070
         entry: 0e321df4-9e0c-46ab-a2f7-04b33fcc4325

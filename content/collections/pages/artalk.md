@@ -41,7 +41,7 @@ inside_hero_content:
         text: ', whether they are local talents or creators from across the U.S.'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1751471006
+updated_at: 1753111140
 blocks:
   -
     id: m9hudp2a
@@ -102,29 +102,6 @@ blocks:
   -
     id: m9fngn0b
     panels:
-      -
-        id: m9hu0md1
-        panel_title: 'July 23rd'
-        panel_content:
-          -
-            type: heading
-            attrs:
-              level: 3
-            content:
-              -
-                type: text
-                text: 'Artist Talk with Jessica Swank & Kate Burke'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'A gallery tour and demonstration with curators Jessica Swank and Kate Burke of Performative Practices in the Main Gallery.'
-        type: panel_group
-        enabled: true
-        open_in_new_tab: false
-        panel_image:
-          - arttalks-demonstration.jpg
       -
         id: m9hu7ohl
         panel_title: 'September 13th'

@@ -1,5 +1,6 @@
 ---
 id: 22cfbbbc-4ae9-4202-a2c8-03b79a898e62
+published: false
 blueprint: page
 title: 'Hailey Chapman, CTA'
 turn_off_hero: true
@@ -40,13 +41,13 @@ blocks:
             -
               type: text
               text: 'Upon returning to Greenville and joining the team at GCCA, Hailey hopes to become a more active participant in Greenville’s thriving arts community and to make a positive impact in the lives of others, even through the simplest of interactions.'
-      button_text: null
-      button_link: null
+      content_width: '50'
     image: hailey-chapman.jpg
     constrain_image: true
     type: image_and_text
     enabled: true
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744738050
+updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
+updated_at: 1751920565
+open_in_new_tab: false
 ---
