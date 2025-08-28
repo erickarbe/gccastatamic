@@ -124,7 +124,7 @@ fields:
       width: 50
       instructions: Optional!
   -
-    handle: grid_three_link_duplicate
+    handle: grid_three_link
     field:
       type: link
       display: 'Grid Three Link'
