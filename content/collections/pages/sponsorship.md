@@ -4,7 +4,7 @@ blueprint: page
 title: Sponsorship
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1752175724
+updated_at: 1756234779
 turn_off_hero: false
 inside_hero_header: Sponsorship
 inside_hero_content:
@@ -43,9 +43,11 @@ blocks:
               type: text
               text: .
       button_text: 'General Sponsorships'
-      button_link: 'https://gccamedia.s3.amazonaws.com/gcca-sponsordeck-(1).pdf'
+      button_link: 'https://gccamedia.s3.amazonaws.com/gcca-sponsordeck.pdf'
+      open_in_new_tab: true
       content_width: '50'
-    image: screenshot-2025-06-25-at-10.27.06-am.png
+      remove_top_margin: false
+    image: screenshot-2025-08-20-at-3.25.06-pm.png
     constrain_image: false
     type: image_and_text
     enabled: true
@@ -63,9 +65,11 @@ blocks:
               type: text
               text: 'Established in 2015 alongside the grand opening of the Greenville Center for Creative Arts (GCCA), the Brandon Fellowship was created to provide transformative opportunities for young, emerging artists. Named after the historic Brandon Mill and its surrounding textile village—now home to GCCA—the fellowship reflects the center’s commitment to fostering artistic growth and professional development.'
       button_text: 'Brandon Fellow Sponsorship Packet'
-      button_link: 'https://gccamedia.s3.amazonaws.com/brandonfellowship-sponsordeck.pdf'
+      button_link: 'https://gccamedia.s3.amazonaws.com/bf-sponsordeck.pdf'
+      open_in_new_tab: true
       content_width: '50'
-    image: screenshot-2025-06-25-at-10.26.21-am.png
+      remove_top_margin: false
+    image: bf-sponsordeck.jpg
     constrain_image: false
     type: image_and_text
     enabled: true
@@ -83,9 +87,11 @@ blocks:
               type: text
               text: 'We strive to make art accessible to all through free galleries open year round as well as hyper local and nationwide artists featured in the various galleries.'
       button_text: 'Exhibition Sponsorship Packet'
-      button_link: 'https://gccamedia.s3.amazonaws.com/exhibition-sponsordeck.pdf'
+      button_link: 'https://gccamedia.s3.amazonaws.com/exhibition-sponsorship.pdf'
+      open_in_new_tab: true
       content_width: '50'
-    image: screenshot-2025-06-25-at-10.26.49-am.png
+      remove_top_margin: false
+    image: screenshot-2025-08-20-at-3.26.35-pm.png
     constrain_image: false
     type: image_and_text
     enabled: true
@@ -103,9 +109,11 @@ blocks:
               type: text
               text: 'November 6, 2025, Greenville Center for Creative Arts (GCCA) will host its third annual signature fundraising event - Color The Night - to raise critical funds to support programming and opportunities for the Greenville community to have access to art for all.'
       button_text: 'Color The Night Sponsorship Packet'
-      button_link: 'https://gccamedia.s3.amazonaws.com/colorthenight_sponsorship.pdf'
+      button_link: 'https://gccamedia.s3.amazonaws.com/colorthenight-sponsorship.pdf'
+      open_in_new_tab: true
       content_width: '50'
-    image: screenshot-2025-06-25-at-10.26.35-am.png
+      remove_top_margin: false
+    image: screenshot-2025-08-20-at-3.27.10-pm.png
     constrain_image: false
     type: image_and_text
     enabled: true

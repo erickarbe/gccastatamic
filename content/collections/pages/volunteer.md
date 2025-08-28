@@ -3,8 +3,8 @@ id: dd280318-cba2-4fd3-97dd-07de56a5b843
 blueprint: page
 title: Volunteer
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744903157
+updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
+updated_at: 1755718034
 turn_off_hero: false
 inside_hero_header: Volunteer
 inside_hero_content:
@@ -13,13 +13,12 @@ inside_hero_content:
     content:
       -
         type: text
-        text: 'GCCA is a non-profit community arts center that strives to support the arts community by making our center a hub for accessible visual arts education and experiences. Volunteers would be helping to support our 23 studio artists, 3 Brandon Fellows, staff and over a 1,000 students of all ages and backgrounds through the year.'
+        text: 'GCCA is a non-profit community arts center that strives to support the arts community by making our center a hub for accessible visual arts education and experiences. Volunteers would be helping to support our 23 studio artists, 4 Brandon Fellows, staff and over a 1,000 students of all ages and backgrounds through the year.'
 blocks:
   -
     id: m9dgd7r7
     image_left_or_right: left
     content_group:
-      eyebrow: null
       heading: 'Volunteer Perks'
       content:
         -
@@ -51,7 +50,7 @@ blocks:
                   content:
                     -
                       type: text
-                      text: '$10 off a class of your choice for every 20 hours worked(roughly 4 shifts)'
+                      text: '$10 off a class of your choice for every 20 hours worked (roughly 4 shifts)'
         -
           type: paragraph
           content:
@@ -60,6 +59,7 @@ blocks:
               text: 'We also recommend you check with your place of work as some businesses will also have perks when you volunteer for nonprofits such as GCCA! We at GCCA appreciate any and all of the help our volunteers provide. As a thank you, we will be throwing a volunteer appreciation event once a year during April as well. If you are interested in signing up and checking out open positions please follow the link below!'
       button_text: 'Volunteer Sign Up'
       button_link: 'https://volunteer.bloomerang.co/web-admin/app/#/join-party?k=4mw47jksfqt4y0'
+      open_in_new_tab: true
       content_width: '50'
       remove_top_margin: false
     image: scc-digital.webp
@@ -172,8 +172,6 @@ blocks:
     type: faq_accordion
     enabled: true
     use_second_column: false
-    second_column:
-      second_column_content: null
-      second_column_width: null
 inside_hero_image: gcca-arp-2357.jpg
+open_in_new_tab: false
 ---

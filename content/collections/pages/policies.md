@@ -3,8 +3,8 @@ id: c921a778-2a2b-4f92-a1c3-fa7939b81fa4
 blueprint: page
 title: Policies
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744829133
+updated_by: adf77df4-a236-4446-b367-16f732a5430d
+updated_at: 1755278759
 turn_off_hero: true
 eyebrow: 'Art School'
 inside_hero_header: Policies
@@ -15,7 +15,7 @@ blocks:
     accordion_item:
       -
         id: m9k5nddt
-        accordion_header: 'Cancelation Policy'
+        accordion_header: 'Cancellation Policy'
         accordion_content:
           -
             type: paragraph
@@ -177,4 +177,5 @@ blocks:
               type: text
               text: 'Please review the following policies to ensure a safe, respectful, and enjoyable experience for all who participate in GCCA programs and events.'
       second_column_width: 33
+open_in_new_tab: false
 ---

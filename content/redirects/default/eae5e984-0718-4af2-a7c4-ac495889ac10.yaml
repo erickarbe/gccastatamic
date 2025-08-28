@@ -1,0 +1,8 @@
+id: eae5e984-0718-4af2-a7c4-ac495889ac10
+enabled: true
+source: 'https://artcentergreenville.org/visit/shop'
+source_md5: 364cff76c5bf23a55c939ace395d06b3
+destination: 'https://shopgcca.square.site/'
+type: 301
+site: default
+match_type: exact

@@ -3,8 +3,8 @@ id: 9f443f80-8416-4458-9154-96da5afc5548
 blueprint: page
 title: Accessibility
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744674022
+updated_by: 0d544cd1-b384-48fd-90bd-c684c02fb335
+updated_at: 1755028043
 turn_off_hero: false
 inside_hero_content:
   -
@@ -27,13 +27,12 @@ inside_hero_content:
       -
         type: text
         text: .
-inside_hero_image: blog-gwg-grant.jpg
+inside_hero_image: gcca-exterior-3-(1).jpg
 blocks:
   -
     id: m9hpq1af
     image_left_or_right: left
     content_group:
-      eyebrow: null
       heading: 'Facilities Features'
       content:
         -
@@ -54,9 +53,13 @@ blocks:
             -
               type: text
               text: 'All spaces offer flexible seating arrangements to accommodate guests using wheelchairs and their companions. If you have any questions or specific accessibility needs, please contact us in advance of your visit.'
-      button_text: null
-      button_link: null
-    image: building-front.jpg
+      open_in_new_tab: false
+      content_width: '50'
+      remove_top_margin: false
+    image: gcca-exterior-2.jpg
     type: image_and_text
     enabled: true
+    align_columns: center
+    constrain_image: true
+open_in_new_tab: false
 ---

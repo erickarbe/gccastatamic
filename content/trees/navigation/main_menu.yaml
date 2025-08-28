@@ -8,6 +8,10 @@ tree:
         id: 708aacee-0d1b-4709-8bb7-b18d082145d0
         entry: b7e08d70-fe4a-4825-8774-46a1a95c0f7f
       -
+        id: 7adc3986-f810-4a12-8c59-bd83107d28f2
+        title: Shop
+        url: 'https://shopgcca.square.site/'
+      -
         id: da708783-fbc1-497d-ba28-259144a21441
         entry: c4671ae2-763c-4dbc-aaf2-973fd4cfb18b
       -
@@ -42,15 +46,13 @@ tree:
     url: '#'
     children:
       -
-        id: 736b4172-71ef-469d-9989-5c692c744ea1
-        title: 'Art Bash'
-        url: 'https://secure.qgiv.com/event/artbash/'
+        id: f45dba2e-7461-4b0d-bd57-ecc1472b9520
+        title: 'Color The Night'
+        url: 'https://secure.qgiv.com/event/colorthenight'
       -
-        id: 76c0f8dc-3d1e-4da7-9eb0-09cf2e52ffad
-        entry: 7f18f75f-7fd2-446a-852c-7f0570aece59
-      -
-        id: f7d4ef8a-9ede-49e1-92ab-d294f32f4811
-        entry: 4a9be87a-60f4-4cd9-8fcb-9000dd06d5fc
+        id: 7ac26813-d4bc-402f-b129-6af8ee5b18e7
+        title: Calendar
+        url: /events/
       -
         id: 50fc09cc-f87f-4c22-af41-bcc2a19f17ca
         title: 'First Friday'
@@ -59,9 +61,8 @@ tree:
         id: 8b6410ab-0b60-429e-a61d-87e4ced4d070
         entry: 0e321df4-9e0c-46ab-a2f7-04b33fcc4325
       -
-        id: 7ac26813-d4bc-402f-b129-6af8ee5b18e7
-        title: Calendar
-        url: /events/
+        id: 76c0f8dc-3d1e-4da7-9eb0-09cf2e52ffad
+        entry: 7f18f75f-7fd2-446a-852c-7f0570aece59
       -
         id: ef700d07-8b1c-466f-a4a5-fc6fefdd8e26
         entry: ec33ca3e-4bfd-4b06-aab3-3370bba1b9b3

@@ -4,7 +4,7 @@ blueprint: page
 title: Careers
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1751642836
+updated_at: 1755719229
 turn_off_hero: false
 eyebrow: 'Work with us'
 inside_hero_header: Careers
@@ -49,47 +49,10 @@ blocks:
               marks:
                 -
                   type: bold
-              text: 'Position Title: '
-            -
-              type: text
-              text: 'Education & Operations Coordinator '
-            -
-              type: hardBreak
-            -
-              type: text
-              marks:
-                -
-                  type: bold
-              text: 'Reports To: '
-            -
-              type: text
-              text: 'Education & Community Engagement Director & CEO'
-            -
-              type: hardBreak
-            -
-              type: text
-              marks:
-                -
-                  type: bold
-              text: 'Employment Type: '
-            -
-              type: text
-              text: 'Full-time, Non-Exempt '
-            -
-              type: hardBreak
-            -
-              type: text
-              marks:
-                -
-                  type: bold
-              text: 'Location: '
-            -
-              type: text
-              text: '101 Abney St, Greenville SC 29611'
-      button_text: 'Position Information'
-      button_link: '@child'
-      open_in_new_tab: true
+              text: 'There are no open positions at this time.'
+      open_in_new_tab: false
       content_width: '50'
+      remove_top_margin: false
     image: blog-new-board-members-2022.jpg
     constrain_image: true
     type: image_and_text

@@ -4,7 +4,7 @@ blueprint: page
 title: 'The Art of Business'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: adf77df4-a236-4446-b367-16f732a5430d
-updated_at: 1747772033
+updated_at: 1755718223
 turn_off_hero: false
 eyebrow: 'The Art of Business: Workshop Series'
 inside_hero_header: 'Empowering Artists with Essential Business Skills'
@@ -53,101 +53,258 @@ blocks:
     content_grid_text: 'Each workshop is led by experienced professionals who will provide practical, real-world insights and hands-on guidance. Additional topics and instructor details will be announced soon! Topics include:'
     content_grid_item:
       -
-        id: m9hjv9wy
-        heading: Entrepreneurship
+        id: m9hjwb8w
+        heading: 'Grant Writing for Artists Virtual Workshop'
         content:
           -
             type: paragraph
-            attrs:
-              textAlign: left
             content:
               -
                 type: text
-                text: 'Craig Ragsdale'
+                marks:
+                  -
+                    type: bold
+                text: 'September 22, 2025'
+              -
+                type: text
+                text: ' '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '6pm-7:30pm '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Presenter: Tanisha N. Brown, '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://www.southcarolinaarts.com/direct-programs/artist-development/'
+                      rel: null
+                      target: null
+                      title: 'South Carolina Arts Commission'
+                text: 'South Carolina Arts Commission '
         type: new_item
         enabled: true
       -
-        id: m9hjvhn6
-        heading: 'Community Engagement & Brand Management'
+        id: m9hjv9wy
+        heading: 'Entrepreneurship 101: Building a sustainable creative business'
         content:
           -
             type: paragraph
-            attrs:
-              textAlign: left
             content:
               -
                 type: text
-                text: 'Blank Canvas Mural Company'
+                marks:
+                  -
+                    type: bold
+                text: 'October 27, 2025 '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '6pm-7:30pm'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Presenter: Craig Ragsdale, '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://www.craigragsdale.com/'
+                      rel: null
+                      target: null
+                      title: 'Craig Ragsdale Studio'
+                text: 'Craig Ragsdale Studio'
+              -
+                type: text
+                text: ' and Martin Printing '
         type: new_item
         enabled: true
       -
         id: m9hjvx5h
-        heading: 'Social Media Management'
+        heading: 'Diverse Skills for a Creative Career'
         content:
           -
             type: paragraph
-            attrs:
-              textAlign: left
             content:
               -
                 type: text
-                text: 'TBD - GVLToday'
-        type: new_item
-        enabled: true
-      -
-        id: m9hjwb8w
-        heading: 'Grant Writing'
-        content:
+                marks:
+                  -
+                    type: bold
+                text: 'November 17, 2025 '
           -
             type: paragraph
-            attrs:
-              textAlign: left
             content:
               -
                 type: text
-                text: TBD
+                text: '6pm-7:30pm'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Presenter: Stephanie Freeman, Upstate theatre artist, event manager, and journalist '
         type: new_item
         enabled: true
       -
         id: m9hjwk4c
-        heading: 'How To: Public Art in Greenville'
+        heading: 'Branding and Marketing Workshop'
         content:
           -
             type: paragraph
-            attrs:
-              textAlign: left
             content:
               -
                 type: text
-                text: TBD
+                marks:
+                  -
+                    type: bold
+                text: 'January 26, 2026 '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '6pm-7:30pm '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Presenter: Jessie Amos, '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://www.littlevictoriesandco.com/'
+                      rel: null
+                      target: null
+                      title: 'Little Victories Branding and Co'
+                text: 'Little Victories Branding and Co. '
+        type: new_item
+        enabled: true
+      -
+        id: m9hjvhn6
+        heading: 'How One Community Project Created My Mural Business'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'February 23, 2026 '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '6pm-7:30pm'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Presenter: Adam Schrimmer, '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://www.blankcanvasmuralco.com/'
+                      rel: null
+                      target: null
+                      title: 'Blank Canvas Mural Company'
+                text: 'Blank Canvas Mural Company'
         type: new_item
         enabled: true
       -
         id: m9hjws65
-        heading: 'Financial Literacy'
+        heading: 'Financial Literacy for Artists'
         content:
           -
             type: paragraph
-            attrs:
-              textAlign: left
             content:
               -
                 type: text
-                text: TBD
+                text: 'March 30, 2026 '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '6pm-7:30pm'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Presenter: Kathryn Poole, Family '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://www.familytrust.org/'
+                      rel: null
+                      target: null
+                      title: 'Family Trust Federal Credit Union'
+                text: 'Trust Federal Credit Union '
         type: new_item
         enabled: true
       -
         id: m9hjwzvi
-        heading: 'Financial Planning'
+        heading: 'Top Ten Financial Planning Tips'
         content:
           -
             type: paragraph
-            attrs:
-              textAlign: left
             content:
               -
                 type: text
-                text: TBD
+                text: 'April 27, 2026 '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '6pm-7:30pm'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Presenter: Laird Green and Anne Marie Ashworth, '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://abacusplanninggroup.com/'
+                      rel: null
+                      target: null
+                      title: 'Abacus Planning Group'
+                text: 'Abacus Planning Group '
         type: new_item
         enabled: true
     type: content_grid
@@ -155,6 +312,34 @@ blocks:
   -
     id: m9hjyxyo
     grid_one_content:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: Register
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Whether you’re an emerging artist looking for foundational business skills or a seasoned creative professional looking to refine your approach, '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'The Art of Business'
+          -
+            type: text
+            text: ' workshop series is designed to support you at every stage of your career.'
+    grid_two_image:
+      - 20240802_gcca-showcase_0008.jpg
+    grid_three_image_duplicate:
+      - gallery_wide_shot.jpg
+    grid_four_content:
       -
         type: heading
         attrs:
@@ -259,39 +444,11 @@ blocks:
           -
             type: text
             text: ', this program will make a lasting impact on our creative community, helping artists turn their passion into a profession.'
-    grid_two_image:
-      - slide2.jpg
-    grid_three_image_duplicate:
-      - gallery_wide_shot.jpg
-    grid_four_content:
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: 'How to Participate'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Stay tuned for registration details! Whether you’re an emerging artist looking for foundational business skills or a seasoned creative professional looking to refine your approach, '
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'The Art of Business'
-          -
-            type: text
-            text: ' workshop series is designed to support you at every stage of your career.'
     type: four_up_grid
     enabled: true
     grid_three_image:
-      - gallery_wide_shot.jpg
-    grid_one_open_in_new_tab: false
+      - gcca-showcase_0001.jpg
+    grid_one_open_in_new_tab: true
     constrain_image_1: true
     grid_two_open_in_new_tab: false
     constrain_image_2: true
@@ -299,6 +456,8 @@ blocks:
     constrain_image_3: true
     grid_four_open_in_new_tab: false
     constrain_image_4: true
-inside_hero_image: gcca-showcase_0093.jpg
+    grid_one_link_text: 'Art of Business Registration'
+    grid_one_link: 'https://form.fillout.com/t/tHkUHZoSnuus'
+inside_hero_image: aob-social.jpg
 open_in_new_tab: false
 ---

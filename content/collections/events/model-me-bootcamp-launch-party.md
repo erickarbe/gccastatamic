@@ -1,5 +1,6 @@
 ---
 id: bd7d51f5-dd90-465a-b773-b363aa408ed0
+published: false
 blueprint: event
 title: 'Model Me Bootcamp Launch Party'
 location: '101 Abney Street, Greenville, SC 29611'
@@ -12,8 +13,8 @@ event_category:
   - general-events
 date: '2025-06-11'
 author: db8343ae-1cfd-4a4a-810e-2417eae3fc2b
-updated_by: db8343ae-1cfd-4a4a-810e-2417eae3fc2b
-updated_at: 1749659296
+updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
+updated_at: 1754095073
 content:
   -
     type: paragraph

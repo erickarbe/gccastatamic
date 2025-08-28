@@ -1,0 +1,8 @@
+id: 987b4d4f-6a5a-46bb-9b71-b2725178db83
+enabled: true
+source: /events/firstfridays
+source_md5: 0c4502d2259ce5c3178c67afa7667f8c
+destination: /events/firstfriday
+type: 301
+site: default
+match_type: exact

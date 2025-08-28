@@ -1,0 +1,8 @@
+id: a0637bbf-ac34-4441-ba47-e732ad14d8b3
+enabled: true
+source: /events/daydreamersothernightmares-1
+source_md5: 15649c878fb6c41202a505a2db526012
+destination: /events/boundunbound
+type: 301
+site: default
+match_type: exact

@@ -4,8 +4,8 @@ blueprint: page
 title: 'Studio Artists'
 turn_off_hero: false
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744641782
+updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
+updated_at: 1755717098
 template: studio_artists/index
 inside_hero_content:
   -
@@ -19,7 +19,7 @@ inside_hero_content:
     content:
       -
         type: text
-        text: 'You can visit the studios by making an appointment with the individual artists, or by attending the First Friday gallery crawl from 6 – 9 pm on the first Friday of most months.'
+        text: 'You can visit the studios by making an appointment with the individual artists, or by attending the First Friday gallery crawl from 5 – 8 pm on the first Friday of most months.'
   -
     type: paragraph
     content:
@@ -46,7 +46,7 @@ inside_hero_content:
           -
             type: link
             attrs:
-              href: 'tel:(864) 735-3948'
+              href: 'tel:(864)735-3948'
               rel: null
               target: null
               title: null
@@ -55,4 +55,5 @@ inside_hero_content:
         type: text
         text: .
 inside_hero_image: faith-art.png
+open_in_new_tab: false
 ---

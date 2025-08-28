@@ -4,7 +4,7 @@ blueprint: page
 title: 'Brandon Fellowship'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1751475689
+updated_at: 1756234811
 turn_off_hero: false
 eyebrow: 'The Brandon Fellowship'
 inside_hero_header: 'Empowering the Next Generation of Artists'
@@ -23,7 +23,7 @@ inside_hero_content:
         marks:
           -
             type: bold
-        text: 'Deadline to apply: Tuesday, July 1st'
+        text: 'Deadline to apply for the 2025-2026 Fellowship has closed. Applications for the 2026-2027 program year will open in May 2026. '
 inside_hero_image: brandon-fellowship-ceremony.jpg
 blocks:
   -
@@ -36,7 +36,7 @@ blocks:
           content:
             -
               type: text
-              text: 'This prestigious 12-month program supports three emerging artists, ages 18–25, who are eager to advance their careers. Ideal candidates demonstrate exceptional talent, self-motivation, and a strong commitment to their artistic journey.'
+              text: 'This prestigious 12-month program supports four emerging artists, ages 18–25, who are eager to advance their careers and become community leaders. Ideal candidates demonstrate exceptional talent, self-motivation, and a strong commitment to their artistic journey.'
         -
           type: paragraph
           content:
@@ -48,7 +48,7 @@ blocks:
           content:
             -
               type: text
-              text: 'Applications opened in May 2025, with the deadline for applications set for July 1st. A review and interview process will follow for the 2025–2026 program year candidates.'
+              text: 'Applications will open in May 2026, with the deadline for applications set at the beginning of July. A review and interview process will follow for the 2026–2027 program year candidates.'
         -
           type: paragraph
           content:
@@ -94,7 +94,9 @@ blocks:
             -
               type: text
               text: 'The Brandon Fellowship program is supported by the Jolley Foundation, Earle Furman in memory of Linda Furman, Doug & Melissa Sturgis, and The National Endowment for the Arts.'
+      open_in_new_tab: false
       content_width: '50'
+      remove_top_margin: false
     image: brandon-fellowship-group_hug.jpg
     type: image_and_text
     enabled: true
@@ -295,7 +297,7 @@ blocks:
             content:
               -
                 type: text
-                text: 'If chosen for an interview, candidates must attend an in-person interview at GCCA on July 22nd before the selection committee.'
+                text: 'If chosen for an interview, candidates must attend an in-person interview at GCCA before the selection committee.'
         type: new_item
         enabled: true
     type: content_grid
@@ -303,7 +305,7 @@ blocks:
     number_of_columns: three
   -
     id: mabikjom
-    heading: 'Brandon Fellowship Selection Committee'
+    heading: '2025 Brandon Fellowship Selection Committee'
     content:
       -
         type: bulletList
@@ -381,19 +383,59 @@ blocks:
                 type: text
                 text: 'Applicants please have your references send their letters of recommendation to Ben Tarcson at ben@artcentergreenville.org or have them mail the letters to 101 Abney St.  Greenville, SC 29611. '
     type: basic_centered_content
-    enabled: true
+    enabled: false
     background_color: '#ffffff'
     open_in_new_tab: false
   -
     id: mabil9hr
     width: full_width
-    iframe_embed: '<div style="width:100%;height:500px;" data-fillout-id="cgn7E9PQi7us" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div><script src="https://server.fillout.com/embed/v1/"></script>'
+    iframe_embed: '<div style="width:100%;height:500px;box-shadow: none;" data-fillout-id="cgn7E9PQi7us" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div><script src="https://server.fillout.com/embed/v1/"></script>'
     type: iframe_container
     enabled: true
   -
     id: m9hqqnvw
-    text_alignment: left
-    title: 'Past & Present Brandon Fellows'
+    text_alignment: center
+    title: 'Current Brandon Fellows'
+    type: basic_title
+    enabled: true
+  -
+    id: mekb32tn
+    number_of_columns: four
+    people:
+      -
+        id: mekb34pa
+        name: 'Tripp Brown'
+        title: 'Class of 2026'
+        headshot: bf202611.jpg
+        type: new_person
+        enabled: true
+      -
+        id: mekbzhtq
+        name: 'Jackson Herren'
+        title: 'Class of 2026'
+        headshot: bf20269.jpg
+        type: new_person
+        enabled: true
+      -
+        id: mekc0a4f
+        name: 'Adelle Pruitt'
+        title: 'Class of 2026'
+        headshot: bf202612.jpg
+        type: new_person
+        enabled: true
+      -
+        id: mekc0qky
+        name: 'Nic Salazar'
+        title: 'Class of 2026'
+        headshot: bf202617.jpg
+        type: new_person
+        enabled: true
+    type: people_grid
+    enabled: true
+  -
+    id: mekc2wt5
+    text_alignment: center
+    title: 'Brandon Fellowship Alumni'
     type: basic_title
     enabled: true
   -
@@ -449,7 +491,7 @@ blocks:
         enabled: true
       -
         id: m9irjgc7
-        name: 'Elizabeth Wallace'
+        name: 'Elizabeth Hall'
         title: 'Class of 2024'
         headshot: elizabeth-wallace.png
         website_link: 'https://www.instagram.com/elizabethparker_w/'
@@ -574,7 +616,7 @@ blocks:
         enabled: true
       -
         id: m9isdu3s
-        name: 'Angel Jenkins'
+        name: 'Angel Fodor'
         title: 'Class of 2019'
         headshot: angel-jenkins.webp
         type: new_person
@@ -652,7 +694,7 @@ blocks:
         enabled: true
       -
         id: m9isrbki
-        name: 'Glory Day Loflin'
+        name: 'Glory Day Loflin McSharry'
         title: 'Class of 2016'
         headshot: glory-loftin.webp
         website_link: 'https://www.glorydayloflin.com/'
@@ -697,7 +739,7 @@ blocks:
                 type: bold
             text: 'Interested in supporting our Fellows? Click the link below to learn more!'
     button_text: 'Sponsor Packet'
-    button_link: 'https://gccamedia.s3.amazonaws.com/brandonfellowship-sponsordeck.pdf'
+    button_link: 'https://gccamedia.s3.amazonaws.com/bf-sponsordeck.pdf'
     open_in_new_tab: true
     image_layout: background
     background_color: '#263340'

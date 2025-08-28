@@ -1,5 +1,6 @@
 ---
 id: 54cc198a-200e-4a5f-aa5c-73f5b10aeb45
+published: false
 blueprint: page
 title: 'Education & Operations Coordinator'
 turn_off_hero: false
@@ -439,6 +440,6 @@ inside_hero_content:
         text: 'This position description does not imply that these are the only duties to be performed by the employee occupying this position. Employees may be required to follow other job-related duties as assigned by their supervisor. This document does not create an employment contract implied or otherwise, other than an "at-will" relationship. GCCA is an equal opportunity employer and is committed to building a diverse and inclusive team.'
 open_in_new_tab: false
 author: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1751642704
+updated_by: adf77df4-a236-4446-b367-16f732a5430d
+updated_at: 1756340449
 ---

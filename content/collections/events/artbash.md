@@ -1,5 +1,6 @@
 ---
 id: 86470fe3-540d-4db5-92fa-f82a882108ab
+published: false
 blueprint: event
 title: 'Art Bash'
 location: 'Greenville Center for Creative Arts'
@@ -15,8 +16,8 @@ event_category:
   - general-events
 date: '2025-05-21'
 author: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1748963509
+updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
+updated_at: 1754509376
 content:
   -
     type: paragraph

@@ -2,7 +2,7 @@
 id: 22cfbbbc-4ae9-4202-a2c8-03b79a898e62
 published: false
 blueprint: page
-title: 'Hailey Chapman, CTA'
+title: 'Kara Tyndall'
 turn_off_hero: true
 blocks:
   -
@@ -11,19 +11,19 @@ blocks:
     align_columns: center
     content_group:
       eyebrow: 'Our People'
-      heading: 'Hailey Chapman, CTA'
+      heading: 'Kara Tyndall'
       content:
         -
           type: paragraph
           content:
             -
               type: text
-              text: 'Visitor Experience Manager'
+              text: 'Kara Tyndall'
             -
               type: hardBreak
             -
               type: text
-              text: hailey@artcentergreenville.org
+              text: kara@artcentergreenville.org
             -
               type: hardBreak
             -
@@ -31,23 +31,15 @@ blocks:
               text: 864.274.0350
         -
           type: paragraph
-          content:
-            -
-              type: text
-              text: 'Hailey Chapman is a native of Greenville, South Carolina. She holds an undergraduate degree in Psychology with a minor in Management from Clemson University. As a lifelong practicing artist, she is deeply passionate about identifying meaningful connections between art and psychology. Following her graduation from Clemson, Hailey relocated to North Carolina, where she cultivated her professional experience with a non-profit organization, gaining skills in Graphic Design, hospitality, and customer service. She is highly adept at managing an exceptional guest experience from start to finish.'
-        -
-          type: paragraph
-          content:
-            -
-              type: text
-              text: 'Upon returning to Greenville and joining the team at GCCA, Hailey hopes to become a more active participant in Greenville’s thriving arts community and to make a positive impact in the lives of others, even through the simplest of interactions.'
+      open_in_new_tab: false
       content_width: '50'
-    image: hailey-chapman.jpg
+      remove_top_margin: false
+    image: profile-icon.png
     constrain_image: true
     type: image_and_text
     enabled: true
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1751920565
+updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
+updated_at: 1755891767
 open_in_new_tab: false
 ---

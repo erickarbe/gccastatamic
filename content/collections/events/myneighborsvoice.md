@@ -1,5 +1,6 @@
 ---
 id: adeb95e7-69b5-4bf5-81c3-39e282f75238
+published: false
 blueprint: event
 title: 'Community Story Table and Art Workshop'
 location: 'Greenville Center for Creative Arts'
@@ -14,9 +15,9 @@ event_category:
 date: '2025-05-20'
 author: af34862d-025c-48c9-ad41-5b60c3f113c3
 updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1750779121
+updated_at: 1754095084
 featured_image:
-  - screenshot-2025-06-24-at-11.31.37-am.png
+  - mnv_email.jpg
 content:
   -
     type: paragraph

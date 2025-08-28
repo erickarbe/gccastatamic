@@ -3,8 +3,8 @@ id: 6eeb74fe-ca71-420a-a624-ef405b90ecfe
 blueprint: page
 title: 'Our Purpose'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744907481
+updated_by: 0d544cd1-b384-48fd-90bd-c684c02fb335
+updated_at: 1755719004
 turn_off_hero: false
 inside_hero_header: 'Access Art from All Angles'
 eyebrow: 'Our Purpose'
@@ -74,11 +74,10 @@ blocks:
             -
               type: text
               text: ' through creative expression. Through education, exhibitions, and artist support, we foster dialogue, empower individuals, and strengthen the arts ecosystem. By removing barriers and investing in long-term growth, we ensure that art remains a powerful and transformative force in our community.'
-      button_text: null
-      button_link: null
+      open_in_new_tab: false
       content_width: '50'
       remove_top_margin: false
-    image: slide2.jpg
+    image: 20240802_gcca-showcase_0008.jpg
     type: image_and_text
     enabled: true
     align_columns: center
@@ -87,7 +86,6 @@ blocks:
     id: m9d83emp
     image_left_or_right: right
     content_group:
-      eyebrow: null
       heading: Values
       content:
         -
@@ -170,14 +168,14 @@ blocks:
                     -
                       type: text
                       text: ' – We challenge artistic and educational boundaries, continuously evolving to inspire, engage, and elevate the arts community.'
-      button_text: null
-      button_link: null
+      open_in_new_tab: false
       content_width: '50'
       remove_top_margin: false
-    image: slide1.jpg
+    image: artcamp-06.19.25-4.jpg
     type: image_and_text
     enabled: true
     align_columns: center
     constrain_image: true
 inside_hero_image: gallery-hero-img.jpg
+open_in_new_tab: false
 ---

@@ -1,0 +1,8 @@
+id: 3c9c5d72-52fe-4734-a51c-18995c9c5551
+enabled: true
+source: /events/annual-showcase-1
+source_md5: eec1cbb9e850eed1c97bf4af576f87cc
+destination: /events/annual-showcase
+type: 301
+site: default
+match_type: exact

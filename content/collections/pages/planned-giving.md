@@ -3,8 +3,8 @@ id: 64277344-bfc4-4a32-9a09-f06bfdb2b27a
 blueprint: page
 title: 'Planned Giving'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1744724234
+updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
+updated_at: 1755092348
 turn_off_hero: false
 inside_hero_header: 'Planned Giving'
 inside_hero_content:
@@ -20,13 +20,12 @@ inside_hero_content:
       -
         type: text
         text: 'Your planned gift will likely be larger than any gift you could make during your lifetime. The Masterpiece Society allows us to recognize your generosity now, for the incredible gift you will make later. You will keep control over your bequest assets should you need them during your lifetime, and you may modify your gift at any time, should your circumstances or desires change.'
-inside_hero_image: slide2.jpg
+inside_hero_image: 20240802_gcca-showcase_0008.jpg
 blocks:
   -
     id: m9dfzf4l
     image_left_or_right: left
     content_group:
-      eyebrow: null
       heading: 'Ways to Give'
       content:
         -
@@ -77,16 +76,18 @@ blocks:
                     -
                       type: text
                       text: 'IRA Charitable Rollover'
-      button_text: null
-      button_link: null
-    image: slide1.jpg
+      open_in_new_tab: false
+      content_width: '50'
+      remove_top_margin: false
+    image: artcamp-06.19.25-4.jpg
     type: image_and_text
     enabled: true
+    align_columns: center
+    constrain_image: true
   -
     id: m9dg15ec
     image_left_or_right: right
     content_group:
-      eyebrow: null
       heading: 'How You Can Define Your Bequest'
       content:
         -
@@ -119,11 +120,14 @@ blocks:
                     -
                       type: text
                       text: 'A gift that will be made from the remainder of your estate once all other bequests, debts, and taxes have been paid (e.g., you give 25% of the rest, residue, and remainder of your estate). Often called a “residuary bequest,” this approach assures that your family will be taken care of before your estate makes a bequest to GCCA.'
-      button_text: null
-      button_link: null
+      open_in_new_tab: false
+      content_width: '50'
+      remove_top_margin: false
     image: brandon-fellowship-gallery-3.jpg
     type: image_and_text
     enabled: true
+    align_columns: center
+    constrain_image: true
   -
     id: m9iji9le
     panel_heading: 'How to Designate GCCA as a Beneficiary'
@@ -192,7 +196,7 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: 'Jess Abbott'
+                text: 'Sara Grambach'
               -
                 type: text
                 text: ' below.'
@@ -210,7 +214,7 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: 'Jess Abbott'
+                text: 'Sara Grambach'
               -
                 type: hardBreak
                 marks:
@@ -233,15 +237,16 @@ blocks:
                 type: hardBreak
               -
                 type: text
-                text: 864-274-0351
+                text: 864-274-0355
               -
                 type: hardBreak
               -
                 type: text
-                text: jess@artcentergreenville.org
-        link_url: 'mailto:jess@artcentergreenville.org'
+                text: sara@artcentergreenville.org
+        link_url: 'mailto:sara@artcentergreenville.org'
         type: new_link_panel
         enabled: true
     type: sticky_links
     enabled: true
+open_in_new_tab: false
 ---

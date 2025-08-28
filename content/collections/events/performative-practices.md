@@ -1,5 +1,6 @@
 ---
 id: 76cfae18-2f6b-4bd3-bd47-9d345cbd27ea
+published: false
 blueprint: event
 title: 'Performative Practices'
 location: 'Main Gallery, First Floor'
@@ -10,7 +11,7 @@ featured_image:
 date: '2025-05-20'
 author: 4bbfb4a7-c929-44bc-9b6c-75777742f264
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1749747756
+updated_at: 1754320769
 event_category:
   - exhibitions
 all_day_event: true
@@ -117,6 +118,7 @@ blocks:
             -
               type: text
               text: 'My obsession with the internet and its spiritual effect on humans ultimately led me to discover the concept of “Metaphysical poetry:” a genre of poetry that muses philosophical concepts through intense and dissonant imagery, complex metaphors, and perhaps even whimsical or contradictory language to pontificate about the human experience. With the social sphere of the internet being shepherded by the company “Meta” and my bend towards craft to make my ideas “physical”--I use the traditional, intimate, and intentional technologies of the human experience (textiles and ceramics) to dissect my philosophical discussions about the fleeting yet pervasive effects of cellular devices and other ethereal digital platforms on Homo Sapiens. Does our time on the Internet provide a mental framework that mirrors the magnitude of effects that an intense religious upbringing can have on a person? How easy is it for me to fall into that framework, and how do I wiggle away if I want out? By switching from ethereal textile works to heavy ceramic mosaics, I can empathetically force the viewers into bodily responding to the weight, heaviness, or intangible nature of a spiritual or philosophical idea, paving way for a greater connection with our felt sense and ability to critically tap into a side of ourselves that is often shut away in today’s society.'
+      open_in_new_tab: false
       content_width: 66
       remove_top_margin: true
     image: kb_headshot_2024.jpg
@@ -181,6 +183,7 @@ blocks:
             -
               type: text
               text: "This work addresses the relationship between humans and digital technology from a personal perspective. Intersections of organic and synthetic materials function as a metaphor for the blurred boundaries between humans and machines. By utilizing various methods of self-extension, fragmentation, and recontextualization, I attempt to depict the merging of these entities. Many of the pieces include remnants of myself or those close to me, abject traces of our own existence. Flesh-like membranes represent extensions of myself and use my own skin tone as a form of self-portraiture. Combined with both natural and manufactured objects, I view these works as relatives to the cyborg. Technology allows for the duplication and extension of the self, and simultaneously aids us in the subversion of labor for the sake of convenience. In response, I've created works in which the materials and structures that are present may feel familiar, yet entirely separate from the human form. When examined closely, the systems between the technological and biological world are not so different. It is easy to blur the lines between them when the digital world is carefully modeled to mimic that with which we are familiar. In documenting the interplay between material, gesture, and my own fragmented body, these works construct a narrative of interdependence, tension, disembodiment, and inseparability."
+      open_in_new_tab: false
       content_width: 66
       remove_top_margin: true
     image: dsc_8687-edit.jpg

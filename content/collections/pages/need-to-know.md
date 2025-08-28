@@ -4,7 +4,7 @@ blueprint: page
 title: 'Need To Know'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1747699667
+updated_at: 1755027880
 turn_off_hero: false
 inside_hero_content:
   -
@@ -12,7 +12,7 @@ inside_hero_content:
     content:
       -
         type: text
-        text: 'Located in the former Brandon Textile Mill in the Village of West Greenville, Greenville Center for Creative Arts has something for everyone!'
+        text: 'Located in the former Brandon Textile Mill at 101 Abney Street in the Village of West Greenville, Greenville Center for Creative Arts has something for everyone!'
   -
     type: paragraph
     content:
@@ -51,7 +51,6 @@ blocks:
     id: m9hv3hup
     image_left_or_right: left
     content_group:
-      eyebrow: null
       heading: 'GCCA’s Main Gallery'
       content:
         -
@@ -60,8 +59,6 @@ blocks:
             -
               type: text
               text: 'GCCA’s Main Gallery features rotating exhibitions displaying the artwork of local, regional, national, and international artists from all disciplines of visual art, while the Community Gallery provides a venue for some of the best local, Upstate South Carolina artists. GCCA also hosts artists in its upstairs Loft Gallery as well as student and instructor work in the Carrie Burns Brown Art School Gallery.'
-      button_text: null
-      button_link: null
       open_in_new_tab: false
       content_width: '50'
       remove_top_margin: false
@@ -106,8 +103,33 @@ blocks:
             -
               type: text
               text: '. Follow us on social media for the latest exhibition announcements and event details.'
-      button_text: null
-      button_link: null
+        -
+          type: paragraph
+          content:
+            -
+              type: text
+              text: 'First Fridays 2025:'
+        -
+          type: paragraph
+          content:
+            -
+              type: text
+              text: 'September 5, 2025'
+            -
+              type: hardBreak
+            -
+              type: text
+              text: 'October 3, 2025'
+            -
+              type: hardBreak
+            -
+              type: text
+              text: 'November 14, 2025'
+            -
+              type: hardBreak
+            -
+              type: text
+              text: 'December 5, 2025'
       open_in_new_tab: false
       content_width: '50'
       remove_top_margin: false
@@ -179,7 +201,7 @@ blocks:
                     type: bold
                   -
                     type: italic
-                text: 'Every First Friday from 6–9 PM.'
+                text: 'Every First Friday from 5-8 PM.'
           -
             type: paragraph
             content:
@@ -380,8 +402,5 @@ blocks:
     type: faq_accordion
     enabled: true
     use_second_column: false
-    second_column:
-      second_column_content: null
-      second_column_width: null
 open_in_new_tab: false
 ---

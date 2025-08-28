@@ -4,7 +4,7 @@ blueprint: page
 title: 'Exhibition Proposals'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1751987449
+updated_at: 1755717340
 turn_off_hero: false
 inside_hero_content:
   -
@@ -68,7 +68,9 @@ blocks:
             -
               type: text
               text: 'This exhibition space is open to artists from across the continental United States, providing a remarkable opportunity to present your work in a professional setting.'
+      open_in_new_tab: false
       content_width: '50'
+      remove_top_margin: false
     image: gallery-img-2.jpg
     type: image_and_text
     enabled: true
@@ -248,8 +250,14 @@ blocks:
         id: m9hgupp9
         link_heading: 'Submit Your Main Gallery Proposal'
         type: new_link_panel
-        enabled: true
+        enabled: false
     type: sticky_links
+    enabled: true
+  -
+    id: mekcrlm3
+    text_alignment: left
+    title: 'Submit Your Main Gallery Proposal'
+    type: basic_title
     enabled: true
   -
     id: mabiddik
@@ -265,7 +273,7 @@ blocks:
     type: basic_centered_content
     enabled: true
     background_color: '#ffffff'
-    open_in_new_tab: false
+    open_in_new_tab: true
   -
     id: m9hiemqo
     images:
@@ -351,7 +359,9 @@ blocks:
             -
               type: text
               text: 'We present six exhibitions annually, each lasting approximately two months, ensuring ample opportunity for visibility and engagement. GCCA also includes support for installation, ensuring a seamless and professional experience for selected artists.'
+      open_in_new_tab: false
       content_width: '50'
+      remove_top_margin: false
     image: community-gallery-2.jpg
     type: image_and_text
     enabled: true
@@ -451,10 +461,15 @@ blocks:
         enabled: true
       -
         id: m9hhdtno
-        link_heading: 'Submit Your Community Gallery Proposal'
         type: new_link_panel
-        enabled: true
+        enabled: false
     type: sticky_links
+    enabled: true
+  -
+    id: mekcqgoh
+    text_alignment: center
+    title: 'Submit Your Community Gallery Proposal'
+    type: basic_title
     enabled: true
   -
     id: mabih5t3
@@ -621,5 +636,5 @@ blocks:
     grid_four_open_in_new_tab: false
 open_in_new_tab: true
 inside_hero_button_text: 'Exhibition Sponsorship'
-inside_hero_button_link: 'https://gccamedia.s3.amazonaws.com/exhibition-sponsordeck.pdf'
+inside_hero_button_link: 'https://gccamedia.s3.amazonaws.com/exhibition-sponsorship.pdf'
 ---

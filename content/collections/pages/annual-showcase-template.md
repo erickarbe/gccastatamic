@@ -1,13 +1,13 @@
 ---
-id: 847caee1-33a7-4316-aeda-a8bb963bdef9
+id: 7f18f75f-7fd2-446a-852c-7f0570aece59
 published: false
 blueprint: page
-title: 'Annual Showcase: GCCA Members Art Exhibition'
+title: 'Annual Showcase'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1754506406
+updated_at: 1754320223
 turn_off_hero: false
-eyebrow: 'GCCA Members Art Exhibition'
+eyebrow: 'GCCA Member Prize Art Exhibition'
 inside_hero_header: 'Annual Showcase'
 inside_hero_content:
   -
@@ -15,69 +15,7 @@ inside_hero_content:
     content:
       -
         type: text
-        text: 'The Greenville Center for Creative Arts member artists participated in the Annual Showcase: Member Art Exhibition. This year’s theme,'
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: ' "Perspective: Art From All Angles"'
-      -
-        type: text
-        text: ', encouraged artists to explore different viewpoints—both literal and metaphorical—through unique compositions, storytelling, or social perspectives. The exhibition highlights how individual identities contribute to and shape a larger communal narrative. Each piece serves as a personal story that, when combined with others, reflects the vast, interconnected fabric of our community.'
-  -
-    type: heading
-    attrs:
-      level: 2
-    content:
-      -
-        type: text
-        text: Awards
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'All exhibiting artists were eligible for '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'cash prizes and recognition awards'
-      -
-        type: text
-        text: ", including Best in Show, First Place, Second Place, Third Place, and People's Choice. The award winners are listed below: "
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Best in Show – Christine Swann'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'First Place – Danielle Fontaine'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Second Place – Pat Kilburg'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Third Place – Jose Perez'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Peoples Choice Award – will be announced at the end of the exhibition on social media. '
+        text: "The GCCA Annual Showcase: Member Art Exhibition showcases the exceptional talent and creative excellence of our members. All submitted artworks will be displayed in GCCA’s Main Gallery, providing artists with an equal opportunity to present their work to a broader audience. However, this year’s exhibition will feature prizes for Best in Show, First Place, Second Place, Third Place, and People's Choice."
 inside_hero_image: annual-showcase-hero.jpg
 blocks:
   -
@@ -85,12 +23,28 @@ blocks:
     image_left_or_right: left
     content_group:
       heading: '"Perspective: Art From All Angles"'
+      content:
+        -
+          type: paragraph
+          content:
+            -
+              type: text
+              text: 'The Greenville Center for Creative Arts (GCCA) invites member artists to participate in the Annual Showcase: Member Art Exhibition. This year’s theme,'
+            -
+              type: text
+              marks:
+                -
+                  type: bold
+              text: ' "Perspective: Art From All Angles"'
+            -
+              type: text
+              text: ', encourages artists to explore different viewpoints—both literal and metaphorical—through unique compositions, storytelling, or social perspectives. The exhibition seeks to highlight how individual identities contribute to and shape a larger communal narrative. Each piece serves as a personal story that, when combined with others, reflects the vast, interconnected fabric of our community.'
       open_in_new_tab: false
       content_width: '50'
       remove_top_margin: false
     image: gcca-showcase_0001.jpg
     type: image_and_text
-    enabled: false
+    enabled: true
     align_columns: center
     constrain_image: true
   -
@@ -159,7 +113,7 @@ blocks:
       remove_top_margin: false
     image: showcase-gallery-img.jpg
     type: image_and_text
-    enabled: false
+    enabled: true
     align_columns: center
     constrain_image: true
   -
@@ -579,7 +533,7 @@ blocks:
         type: new_link_panel
         enabled: true
     type: sticky_links
-    enabled: false
+    enabled: true
   -
     id: m9ht5juo
     images:
@@ -593,11 +547,132 @@ blocks:
     type: full_width_carousel
     enabled: true
   -
+    id: m9hs44n0
+    grid_one_content:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: Awards
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'All exhibiting artists will be eligible for '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'cash prizes and recognition awards'
+          -
+            type: text
+            text: ", including Best in Show, First Place, Second Place, Third Place, and People's Choice."
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Best in Show – $200\_"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'First Place – $125'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Second Place – $75'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Third Place – $50'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Peoples Choice Award – $50'
+    type: four_up_grid
+    enabled: true
+    constrain_image_1: true
+    constrain_image_2: true
+    constrain_image_3: true
+    constrain_image_4: true
+    grid_one_open_in_new_tab: false
+    grid_two_open_in_new_tab: false
+    grid_three_open_in_new_tab: false
+    grid_four_open_in_new_tab: false
+    grid_two_content:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'How to Submit'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Artists must submit their work through the designated online portal. No email or mail-in submissions will be accepted.'
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Enter your email and complete the artwork information form below. '
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'For more details, contact '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'mailto:ben@artcentergreenville.org'
+                          rel: null
+                          target: null
+                          title: null
+                    text: ben@artcentergreenville.org
+                  -
+                    type: text
+                    text: .
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'We look forward to celebrating the remarkable talent of our GCCA member artists!'
+  -
     id: ma5innx2
     width: contained
     iframe_embed: '<div style="width:100%;height:500px;" data-fillout-id="wPLgfBuntous" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div><script src="https://server.fillout.com/embed/v1/"></script>'
     type: iframe_container
-    enabled: false
+    enabled: true
 open_in_new_tab: false
-duplicated_from: 7f18f75f-7fd2-446a-852c-7f0570aece59
 ---

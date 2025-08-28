@@ -109,7 +109,7 @@ home_page_blocks:
                               title: null
                         text: 'Art School'
         panel_image:
-          - slide1.jpg
+          - artcamp-06.19.25-4.jpg
         type: panel_group
         enabled: true
         open_in_new_tab: false
@@ -122,16 +122,16 @@ home_page_blocks:
             content:
               -
                 type: text
-                text: "The current\_Community Gallery exhibition features the award-winning artwork from students across "
+                text: "The current\_Community Gallery exhibition features seventeen artists in \""
               -
                 type: text
                 marks:
                   -
                     type: bold
-                text: 'Greenville County Schools'
+                text: 'Daydreamers and Other Nightmares'
               -
                 type: text
-                text: ', encompassing elementary, middle, and high schools. Come and celebrate the award-winning work from talented young artists in Greenville!'
+                text: '", exploring how mythology and nostalgia can be used to explore identity, and imagine alternate futures.'
           -
             type: bulletList
             content:
@@ -147,13 +147,13 @@ home_page_blocks:
                           -
                             type: link
                             attrs:
-                              href: 'statamic://entry::f7848f53-9aa9-4833-8879-5b609ea4db90'
+                              href: 'https://artcentergreenville.org/events/daydreamersothernightmares'
                               rel: null
                               target: null
                               title: null
                         text: 'Explore the Gallery'
         panel_image:
-          - img_1910-large.jpeg
+          - brad-silk-narcissus-and-his-reflection_8.6.png
         type: panel_group
         enabled: true
         open_in_new_tab: false
@@ -239,7 +239,7 @@ home_page_blocks:
                 text: 'Discover a world of creativity at GCCA. Stroll through our dynamic Main Gallery and Community Gallery, where international, national, regional, and local artists share their stories. Whether you’re a first-time visitor or an art enthusiast, each visit promises new perspectives and inspiration.'
         type: new_link_panel
         enabled: true
-        link_url: '#'
+        link_url: 'https://artcentergreenville.org/visit/exhibitions'
       -
         id: m9e9klow
         link_eyebrow: 'Education / Art School'
@@ -255,6 +255,7 @@ home_page_blocks:
                 text: 'From beginners to experienced artists, our Art School offers classes and workshops that ignite curiosity and nurture talent. Explore multiple artistic mediums guided by passionate, knowledgeable artists dedicated to your growth.'
         type: new_link_panel
         enabled: true
+        link_url: 'https://artcentergreenville.org/education/art-school'
       -
         id: m9e9l4l6
         link_eyebrow: 'Events / Calendar'
@@ -388,11 +389,13 @@ home_page_blocks:
     constrain_image_1: true
     constrain_image_2: true
     constrain_image_3: true
-    constrain_image_4: true
+    constrain_image_4: false
     grid_one_open_in_new_tab: false
     grid_two_open_in_new_tab: false
-    grid_three_open_in_new_tab: false
-    grid_four_open_in_new_tab: false
-updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1748619671
+    grid_three_open_in_new_tab: true
+    grid_four_open_in_new_tab: true
+    grid_three_link_text: Give
+    grid_three_link_duplicate: 'https://artcentergreenville.org/support/donate'
+updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
+updated_at: 1755029379
 ---

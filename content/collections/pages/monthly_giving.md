@@ -3,8 +3,8 @@ id: f6d575f3-821f-491e-84f2-c76f83e73619
 blueprint: page
 title: 'Monthly Giving'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 7942bdeb-76dc-4ae2-a75e-7ceabc73ae23
-updated_at: 1744745231
+updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
+updated_at: 1756217309
 turn_off_hero: false
 inside_hero_content:
   -
@@ -29,6 +29,14 @@ inside_hero_button_link: 'https://gccamedia.s3.amazonaws.com/creative-collective
 inside_hero_image: monthly-giving.jpg
 blocks:
   -
+    id: mdn7697t
+    width: contained
+    iframe_embed: |-
+      <div class="qgiv-embed-container" data-qgiv-embed="true" data-embed-id="78405" data-embed="https://secure.qgiv.com/for/gcfcamg/embed/78405/" data-width="630"></div>
+      <script>(function(w, d, s, id){var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "https://secure.qgiv.com/resources/core/js/embed.js";fjs.parentNode.insertBefore(js, fjs);})(window, document, 'script', 'qgiv-embedjs');</script>
+    type: iframe_container
+    enabled: true
+  -
     id: m9iw976k
     content:
       -
@@ -44,4 +52,7 @@ blocks:
         type: paragraph
     type: basic_centered_content
     enabled: true
+    background_color: '#ffffff'
+    open_in_new_tab: false
+open_in_new_tab: false
 ---

@@ -7,7 +7,7 @@ location: 'Main Gallery'
 start_date_time: '2025-04-04 00:00'
 end_date_time: '2025-05-28 17:00'
 featured_image:
-  - slide2.jpg
+  - 20240802_gcca-showcase_0008.jpg
 date: '2025-04-13'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264

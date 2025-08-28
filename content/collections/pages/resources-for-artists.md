@@ -3,8 +3,8 @@ id: d1e5a760-453c-4f89-81d1-605f0d4a4ea7
 blueprint: page
 title: 'Resources for Artists'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1747849757
+updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
+updated_at: 1755717620
 turn_off_hero: false
 inside_hero_content:
   -
@@ -25,8 +25,6 @@ inside_hero_content:
       -
         type: text
         text: 'Private, locking studios, as well as open, university-style studios are available, and cost is based on square footage.'
-inside_hero_button_text: 'Studio Application'
-inside_hero_button_link: 'https://docs.google.com/forms/d/e/1FAIpQLSdv5fsc3bBbSRHC-v9KEWFBkBu5yQSqW8XQgjA8IEgm36iN7g/viewform'
 inside_hero_image: studio-space_6_21_.jpg
 blocks:
   -

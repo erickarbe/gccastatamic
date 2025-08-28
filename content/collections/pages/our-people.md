@@ -3,8 +3,8 @@ id: 4b49b7d2-0525-40ac-a674-162a852a74c8
 blueprint: page
 title: 'Our People'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1751920647
+updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
+updated_at: 1755892336
 turn_off_hero: true
 eyebrow: Team
 blocks:
@@ -60,12 +60,13 @@ blocks:
         block_link: 'entry::03459126-05f7-4e16-9f36-409b25fcdf01'
       -
         id: m9ijbbwv
-        name: 'Hailey Chapman, CTA'
-        title: 'Visitor Experience Manager'
-        headshot: hailey-chapman.jpg
+        name: 'Kara Tyndall'
+        title: 'Education & Operations Coordinator'
+        headshot: profile-icon.png
         type: new_person
         enabled: false
         block_link: 'entry::22cfbbbc-4ae9-4202-a2c8-03b79a898e62'
+        email: kara@artcentergreenville.org
     type: people_grid
     enabled: true
     number_of_columns: three
@@ -102,17 +103,9 @@ blocks:
       -
         id: mbs40fuw
         name: 'Carmen Bunche'
-        title: 'Administrative Intern'
+        title: 'Summer Administrative Intern'
         email: adminintern@artcentergreenville.org
         headshot: carmen-new.png
-        type: new_person
-        enabled: true
-      -
-        id: mbs468f9
-        name: 'Karis King'
-        title: 'Marketing and Events Intern'
-        email: devintern@artcentergreenville.org
-        headshot: karis-new.png
         type: new_person
         enabled: true
       -
@@ -121,6 +114,14 @@ blocks:
         title: 'Gallery Intern'
         email: galleryintern@artcentergreenville.org
         headshot: claire.png
+        type: new_person
+        enabled: true
+      -
+        id: men8paws
+        name: 'Julia Pressley'
+        title: 'Annual Administrative Intern'
+        email: adminintern@artcentergreenville.org
+        headshot: julia2-(1).jpg
         type: new_person
         enabled: true
     type: people_grid
@@ -345,6 +346,19 @@ blocks:
         enabled: true
     type: content_grid
     enabled: true
+  -
+    id: mekdqo0y
+    background_color: '#ffffff'
+    open_in_new_tab: false
+    type: basic_centered_content
+    enabled: true
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '*In Memoriam'
 template: default
 inside_hero_image: hero2.jpg
 open_in_new_tab: false

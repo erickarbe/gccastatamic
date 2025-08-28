@@ -1,7 +1,7 @@
 ---
 id: b0fa6ae2-9487-4f81-a4b0-186d9fb8ed32
 blueprint: page
-title: 'First Friday (Duplicated)'
+title: 'First Friday'
 turn_off_hero: false
 inside_hero_content:
   -
@@ -13,7 +13,7 @@ inside_hero_content:
 inside_hero_image: first-friday-hero.jpg
 author: 5f81e286-c3b1-4700-935f-b6b3f8b8baa2
 updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1752254839
+updated_at: 1755028243
 blocks:
   -
     id: m9hvb09p
