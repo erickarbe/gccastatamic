@@ -2,6 +2,8 @@
 id: 71219f1f-767d-4a88-b5ad-084c58d52322
 blueprint: page
 title: 'Board Portal'
+protect: password
+password: board2025
 turn_off_hero: false
 eyebrow: Protected
 inside_hero_header: 'Board Portal'
