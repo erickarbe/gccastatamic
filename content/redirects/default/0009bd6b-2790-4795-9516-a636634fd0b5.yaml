@@ -1,0 +1,8 @@
+id: 0009bd6b-2790-4795-9516-a636634fd0b5
+enabled: true
+source: /colorthenight
+source_md5: 01de83df82e87a28628097706d399f2c
+destination: 'https://secure.qgiv.com/event/colorthenight/'
+type: 301
+site: default
+match_type: exact

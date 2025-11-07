@@ -4,7 +4,7 @@ blueprint: page
 title: 'Host Your Event'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1747790601
+updated_at: 1761835587
 turn_off_hero: false
 eyebrow: 'Host Your Event'
 inside_hero_header: 'Venue Rentals'
@@ -115,6 +115,11 @@ blocks:
     type: sticky_panels
     enabled: true
   -
+    id: mfzw2mii
+    form_embed: '<div data-fillout-id="9DP2Dj2QWsus" data-fillout-embed-type="popup" data-fillout-button-text="Rental Inquiry Here!" data-fillout-dynamic-resize data-fillout-button-color="#FF172E" data-fillout-button-size="large" data-fillout-inherit-parameters data-fillout-popup-size="medium"></div><script src="https://server.fillout.com/embed/v1/"></script>'
+    type: form_and_text
+    enabled: true
+  -
     id: m9huz1ut
     panel_heading: 'Additional Info'
     panel_links:
@@ -188,19 +193,6 @@ blocks:
                       -
                         type: text
                         text: 'Additional rental services such as linens, chairs, tables and more (please inquire for more details with Operations Director)'
-        type: new_link_panel
-        enabled: true
-      -
-        id: m9huzfsa
-        link_heading: 'Contact Information'
-        link_content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Contact Alicia Mizuno, Operations Director, by phone at (864) 274-0353 or email at alicia@artcentergreenville.org for more information or to rent a space.'
-        link_url: 'mailto:alicia@artcentergreenville.org'
         type: new_link_panel
         enabled: true
     type: sticky_links

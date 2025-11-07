@@ -115,23 +115,14 @@ home_page_blocks:
         open_in_new_tab: false
       -
         id: m9d3lzv1
-        panel_title: 'On Display Now in the Community Gallery'
+        panel_title: 'On Display Now in the Main Gallery'
         panel_content:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: "The current\_Community Gallery exhibition features seventeen artists in \""
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Daydreamers and Other Nightmares'
-              -
-                type: text
-                text: '", exploring how mythology and nostalgia can be used to explore identity, and imagine alternate futures.'
+                text: "The current\_Main Gallery exhibition, \"The Flood\", features a solo exhibition from printmaking-based installation artist, Melissa Haviland."
           -
             type: bulletList
             content:
@@ -147,13 +138,13 @@ home_page_blocks:
                           -
                             type: link
                             attrs:
-                              href: 'https://artcentergreenville.org/events/daydreamersothernightmares'
+                              href: 'https://artcentergreenville.org/events/theflood'
                               rel: null
                               target: null
                               title: null
-                        text: 'Explore the Gallery'
+                        text: 'Learn More'
         panel_image:
-          - brad-silk-narcissus-and-his-reflection_8.6.png
+          - img_2994.jpeg
         type: panel_group
         enabled: true
         open_in_new_tab: false
@@ -188,7 +179,7 @@ home_page_blocks:
                               title: null
                         text: 'Explore Current & Upcoming Exhibitions'
         panel_image:
-          - slide3.jpg
+          - img_2972.jpeg
         type: panel_group
         enabled: true
         open_in_new_tab: false
@@ -397,6 +388,6 @@ home_page_blocks:
     grid_three_link_text: Give
     grid_three_link_duplicate: 'https://artcentergreenville.org/support/donate'
     grid_three_link: /support/donate
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1756418706
+updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
+updated_at: 1759429928
 ---

@@ -4,7 +4,7 @@ blueprint: page
 title: 'Ways to Give'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1750427769
+updated_at: 1760021517
 turn_off_hero: false
 blocks:
   -
@@ -38,7 +38,7 @@ blocks:
         enabled: true
       -
         id: m9ddfg4r
-        heading: 'Artist Member'
+        heading: Membership
         content:
           -
             type: paragraph
@@ -114,6 +114,26 @@ blocks:
                       target: null
                       title: null
                 text: 'Volunteer at our events and at the center'
+        type: new_item
+        enabled: true
+      -
+        id: mgjjbkek
+        heading: 'One Time Donation'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://artcentergreenville.org/support/donate'
+                      rel: null
+                      target: _blank
+                      title: null
+                text: 'Give to help support GCCA'
         type: new_item
         enabled: true
     type: content_grid

@@ -1,5 +1,6 @@
 ---
 id: c8d6e8f3-425f-4e62-85aa-6e2aa693aedd
+published: false
 blueprint: event
 title: 'Daydreamers & Other Nightmares'
 location: 'Community Gallery, First Floor'
@@ -10,7 +11,7 @@ featured_image:
 date: '2025-05-20'
 author: 4bbfb4a7-c929-44bc-9b6c-75777742f264
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1752862786
+updated_at: 1756837914
 event_category:
   - exhibitions
 all_day_event: true

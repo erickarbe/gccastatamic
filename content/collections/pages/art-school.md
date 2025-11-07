@@ -3,8 +3,8 @@ id: 6ebd5a1d-a0f6-4f23-af44-4efc690de590
 blueprint: page
 title: 'Art School'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1755026305
+updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
+updated_at: 1760285576
 turn_off_hero: false
 eyebrow: 'Art School'
 inside_hero_header: 'The <span>Carrie Burns Brown Art School</span> at GCCA'
@@ -49,7 +49,7 @@ blocks:
           content:
             -
               type: text
-              text: 'Email Education & Community Engagement Director, Javy Pagan, at '
+              text: 'Email '
             -
               type: text
               marks:
@@ -60,7 +60,7 @@ blocks:
                     rel: null
                     target: null
                     title: HERE
-              text: Javy@artcentergreenville.org
+              text: info@artcentergreenville.org
             -
               type: text
               text: ' to begin planning your Art by Appointment! '

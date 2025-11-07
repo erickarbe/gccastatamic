@@ -1,0 +1,8 @@
+id: dd40e36d-f320-44da-b3c9-0af7b137d5bd
+enabled: true
+source: /about/our-people/hailey-chapman-cta
+source_md5: f35cef8ac0506a58458f5f314a3cbfd2
+destination: /about/our-people/kara-tyndall
+type: 301
+site: default
+match_type: exact

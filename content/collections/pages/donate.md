@@ -49,8 +49,15 @@ blocks:
     enabled: true
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1747759050
+updated_at: 1760021601
 eyebrow: Give
 inside_hero_header: 'Donate Now'
 open_in_new_tab: false
+inside_hero_content:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Your support of GCCA is changing and saving lives through the arts!'
 ---

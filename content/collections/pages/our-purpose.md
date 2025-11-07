@@ -3,8 +3,8 @@ id: 6eeb74fe-ca71-420a-a624-ef405b90ecfe
 blueprint: page
 title: 'Our Purpose'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 0d544cd1-b384-48fd-90bd-c684c02fb335
-updated_at: 1755719004
+updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
+updated_at: 1760021973
 turn_off_hero: false
 inside_hero_header: 'Access Art from All Angles'
 eyebrow: 'Our Purpose'
@@ -18,7 +18,7 @@ inside_hero_content:
 blocks:
   -
     id: m9d788yz
-    image_left_or_right: left
+    image_left_or_right: right
     content_group:
       eyebrow: Vision
       heading: 'Creating a Vibrant Arts Future'
@@ -43,7 +43,7 @@ blocks:
               marks:
                 -
                   type: bold
-              text: 'accessible and sustainable visual arts'
+              text: 'accessible and sustainable arts'
             -
               type: text
               text: ', ensuring that artists at every stage have the resources, community, and opportunities to '
@@ -78,6 +78,102 @@ blocks:
       content_width: '50'
       remove_top_margin: false
     image: 20240802_gcca-showcase_0008.jpg
+    type: image_and_text
+    enabled: true
+    align_columns: center
+    constrain_image: true
+  -
+    id: mgjjhtar
+    image_left_or_right: left
+    content_group:
+      eyebrow: 'Our Programs'
+      heading: 'Impacting The Community'
+      content:
+        -
+          type: paragraph
+          content:
+            -
+              type: text
+              text: 'Through our numerous programs, we are able to engage the community inside and outside of our walls. Our programs include: '
+        -
+          type: bulletList
+          content:
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'The Brandon Fellowship'
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: '3 Free Galleries Open to the Public '
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'Art School accessible to all '
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'Correctional Facility Art Programs '
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'Aspiring Artists '
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'Art of Business Classes '
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'Summer Camps '
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'Professional Development with Greenville County School System Teachers '
+      open_in_new_tab: false
+      content_width: '50'
+      remove_top_margin: false
+    image: artcamp-06.19.25-6.jpg
     type: image_and_text
     enabled: true
     align_columns: center

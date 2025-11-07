@@ -1,0 +1,8 @@
+id: 54b4d714-5a8c-42f6-9925-6a99d6439458
+enabled: true
+source: /events/loft-gallery-1
+source_md5: 9340278c493a3ce97f1f2c883fb5cedc
+destination: /events/jlartreception
+type: 301
+site: default
+match_type: exact

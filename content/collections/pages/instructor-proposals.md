@@ -3,8 +3,8 @@ id: f59f3c92-b928-438e-bb7d-daeddad499a8
 blueprint: page
 title: 'Instructor Proposals'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 916c3785-d212-40bc-89ff-572097ac9582
-updated_at: 1747142814
+updated_by: ff1ac932-a49d-40b3-b6bc-41a64916139d
+updated_at: 1762203598
 turn_off_hero: false
 inside_hero_header: 'Instructor <span>Proposals</span>'
 inside_hero_content:
@@ -20,7 +20,6 @@ blocks:
     id: m9imnx9o
     image_left_or_right: left
     content_group:
-      eyebrow: null
       heading: 'Teach at GCCA'
       content:
         -
@@ -43,7 +42,7 @@ blocks:
               marks:
                 -
                   type: bold
-              text: 'single-day workshops'
+              text: 'single-day classes'
             -
               type: text
               text: ' to '
@@ -52,7 +51,7 @@ blocks:
               marks:
                 -
                   type: bold
-              text: 'five-week courses'
+              text: 'five-week classes'
             -
               type: text
               text: .
@@ -86,27 +85,8 @@ blocks:
                   content:
                     -
                       type: text
-                      text: 'Summer Session Proposal Deadline: April 21, 2025'
-            -
-              type: listItem
-              content:
-                -
-                  type: paragraph
-                  content:
-                    -
-                      type: text
-                      text: 'Fall Session Proposal Deadline: June 23, 2025'
-            -
-              type: listItem
-              content:
-                -
-                  type: paragraph
-                  content:
-                    -
-                      type: text
-                      text: 'Winter Session Proposal Deadline: November 14, 2025'
-      button_text: null
-      button_link: null
+                      text: 'Winter Session Proposal Deadline: December 1, 2025'
+      open_in_new_tab: false
       content_width: '50'
       remove_top_margin: false
     image: visitbrandon2.jpg
@@ -134,7 +114,7 @@ blocks:
                 type: hardBreak
               -
                 type: text
-                text: 'January 13 ­- March 15, 2025'
+                text: 'January 12 ­- March 13, 2026'
           -
             type: paragraph
             content:
@@ -151,7 +131,7 @@ blocks:
                 type: hardBreak
               -
                 type: text
-                text: 'March 24 – May 24, 2025'
+                text: 'March 23 – May 22, 2026'
           -
             type: paragraph
             content:
@@ -165,10 +145,7 @@ blocks:
                 type: hardBreak
               -
                 type: text
-                marks:
-                  -
-                    type: bold
-                text: 'June 2 – August 9, 2025'
+                text: 'June 1 - August 7, 2026'
           -
             type: paragraph
             content:
@@ -185,11 +162,12 @@ blocks:
                 type: hardBreak
               -
                 type: text
-                text: 'August 25 – December 19, 2025'
+                text: 'August 24 - December 18, 2026'
         panel_image:
           - visitclass.jpg
         type: panel_group
         enabled: true
+        open_in_new_tab: false
     type: sticky_panels
     enabled: true
   -
@@ -235,38 +213,29 @@ blocks:
             type: text
             text: 'Contact '
           -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Javy Pagan'
-          -
-            type: text
-            text: ', Education & Community Engagement Director'
-          -
             type: hardBreak
-          -
-            type: text
-            text: 📧
           -
             type: text
             marks:
               -
                 type: link
                 attrs:
-                  href: 'mailto:javy@artcentergreenville.org'
+                  href: 'mailto:info@artcentergreenville.org'
                   rel: null
                   target: null
                   title: null
-            text: ' javy@artcentergreenville.org'
+            text: kara@artcentergreenville.org
     type: basic_centered_content
     enabled: true
     eyebrow: 'submit an Art School proposal'
     heading: 'How to Apply'
+    background_color: '#ffffff'
+    open_in_new_tab: false
   -
     id: ma5pgqnp
     width: full_width
     iframe_embed: '<div style="width:100%;height:500px;" data-fillout-id="oLZnXcvWPWus" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div><script src="https://server.fillout.com/embed/v1/"></script>'
     type: iframe_container
     enabled: true
+open_in_new_tab: false
 ---

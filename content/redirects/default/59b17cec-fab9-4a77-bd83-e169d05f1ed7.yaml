@@ -1,0 +1,8 @@
+id: 59b17cec-fab9-4a77-bd83-e169d05f1ed7
+enabled: true
+source: /events/jlartreception
+source_md5: e5175cd16f046b9a8463c819f7768c1a
+destination: /events/jsartreception
+type: 301
+site: default
+match_type: exact

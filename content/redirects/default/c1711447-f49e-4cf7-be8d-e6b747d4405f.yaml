@@ -1,0 +1,8 @@
+id: c1711447-f49e-4cf7-be8d-e6b747d4405f
+enabled: true
+source: /events/jlfilmscreening
+source_md5: 9249079cd60268876703e5ae9a1a6fc9
+destination: /events/jsfilmscreening
+type: 301
+site: default
+match_type: exact

@@ -4,7 +4,7 @@ blueprint: page
 title: 'Exhibition Proposals'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1755717340
+updated_at: 1757947542
 turn_off_hero: false
 inside_hero_content:
   -
@@ -85,16 +85,7 @@ blocks:
         content:
           -
             type: text
-            text: 'The deadline to submit proposals for the 2027 calendar year is '
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'September 12, 2025'
-          -
-            type: text
-            text: '. You may submit your proposal at any time but please note that review will not occur until Fall 2025.'
+            text: 'The deadline to submit proposals for the 2027 calendar year has passed. You may submit your proposal at any time but please note that review will not occur until Fall 2026 for the 2028 Main Gallery exhibition calendar.'
     panel_links:
       -
         id: m9hg3wy7

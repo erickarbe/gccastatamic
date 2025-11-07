@@ -3,8 +3,8 @@ id: 4b49b7d2-0525-40ac-a674-162a852a74c8
 blueprint: page
 title: 'Our People'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1755892336
+updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
+updated_at: 1760283697
 turn_off_hero: true
 eyebrow: Team
 blocks:
@@ -32,7 +32,7 @@ blocks:
         title: 'Education and Community Engagement Director'
         headshot: javy_pagan.jpg
         type: new_person
-        enabled: true
+        enabled: false
         block_link: 'entry::305dd2d3-d17e-43b5-b4b7-6b7fce719749'
       -
         id: m9ij6mp7
@@ -62,7 +62,7 @@ blocks:
         id: m9ijbbwv
         name: 'Kara Tyndall'
         title: 'Education & Operations Coordinator'
-        headshot: profile-icon.png
+        headshot: kara2.png
         type: new_person
         enabled: false
         block_link: 'entry::22cfbbbc-4ae9-4202-a2c8-03b79a898e62'

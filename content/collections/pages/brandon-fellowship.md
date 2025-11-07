@@ -3,8 +3,8 @@ id: e69e9c4a-9ed2-484d-8b29-1fa12af2ba71
 blueprint: page
 title: 'Brandon Fellowship'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1756234811
+updated_by: 0d544cd1-b384-48fd-90bd-c684c02fb335
+updated_at: 1761148192
 turn_off_hero: false
 eyebrow: 'The Brandon Fellowship'
 inside_hero_header: 'Empowering the Next Generation of Artists'
@@ -445,17 +445,17 @@ blocks:
         id: m9hqjf9p
         name: 'Alexander Rouse'
         title: 'Class of 2025'
-        headshot: alexander-rouse.png
+        headshot: gcca-3.4.25-arp-08404.jpg
         type: new_person
         enabled: true
         website_link: 'https://alexanderrouse.com/'
-        instagram_link: 'https://www.instagram.com/xanderrrouse.jpg/?hl=en'
+        instagram_link: 'https://www.instagram.com/alexanderrrouse/'
         email: xanderrrouse@gmail.com
       -
         id: m9hqmu0k
         name: 'Bella Bishara'
         title: 'Class of 2025'
-        headshot: bella-bishara.png
+        headshot: bellacropped.jpg
         type: new_person
         enabled: true
         email: bellabishara@gmail.com
@@ -465,7 +465,7 @@ blocks:
         id: m9hqojqr
         name: 'Joel Houston'
         title: 'Class of 2025'
-        headshot: joel-houston.png
+        headshot: joelcropped.jpg
         type: new_person
         enabled: true
         email: joel.houston369@gmail.com

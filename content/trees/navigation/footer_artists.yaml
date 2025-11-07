@@ -1,8 +1,5 @@
 tree:
   -
-    id: 7bf95609-36fa-4607-984d-6340f5fc9c1d
-    entry: 529c8269-a7e2-4529-9cbf-606808cf87d5
-  -
     id: 1bb77520-a401-43fd-a159-e327c4501f00
     entry: e69e9c4a-9ed2-484d-8b29-1fa12af2ba71
   -
@@ -17,3 +14,7 @@ tree:
   -
     id: 42c913c8-e257-4b88-9204-36305ef10d89
     entry: d1e5a760-453c-4f89-81d1-605f0d4a4ea7
+  -
+    id: 40e515d0-9601-43b3-912c-0b6e785d4e93
+    title: Membership
+    url: 'https://artcentergreenville.org/artists/artist-membership'

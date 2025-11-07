@@ -1,7 +1,7 @@
 ---
 id: 296b20a6-d1a9-48e8-a35f-20007aff81b8
 blueprint: page
-title: 'Artist Membership'
+title: Membership
 turn_off_hero: false
 inside_hero_content:
   -
@@ -9,13 +9,13 @@ inside_hero_content:
     content:
       -
         type: text
-        text: 'Becoming an Artist Member is one of the best and easiest ways to support GCCA and comes with amazing benefits. '
+        text: 'Becoming an Artist Member or Member is one of the best and easiest ways to support GCCA and comes with amazing benefits. '
       -
         type: text
         marks:
           -
             type: bold
-        text: 'Every donor who gives a gift of $50 or more automatically becomes an Artist Member of GCCA'
+        text: 'Every donor who gives a gift of $50 or more automatically becomes a Member of GCCA'
       -
         type: text
         text: '—no separate membership fees! Higher membership levels offer additional recognition and benefits for philanthropic individuals. Funds raised through GCCA’s membership program support operations and all the things that make GCCA special, including exhibitions, programming, and outreach.'
@@ -234,8 +234,8 @@ blocks:
     enabled: true
     use_second_column: false
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1755717113
+updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
+updated_at: 1759935831
 inside_hero_image: gcca-showcase_0093.jpg
 open_in_new_tab: false
 ---

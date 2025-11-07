@@ -1,7 +1,7 @@
 id: 35ed4a55-d418-4f11-b8ab-0b46a1ab428e
 enabled: true
-source: 'https://artcentergreenville.org/colorthenight'
-source_md5: 9867df7d0b3d79778a2c4259f28e40f9
+source: 'https://artcentergreenville.org/events/colorthenight'
+source_md5: 28c834f9809f7dc70812c1448b3ef688
 destination: 'https://secure.qgiv.com/event/colorthenight'
 type: 301
 site: default

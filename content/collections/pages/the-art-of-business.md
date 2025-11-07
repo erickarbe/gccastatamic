@@ -3,8 +3,8 @@ id: f6218353-edc9-4563-9882-903e75a72c98
 blueprint: page
 title: 'The Art of Business'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: adf77df4-a236-4446-b367-16f732a5430d
-updated_at: 1755718223
+updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
+updated_at: 1760997104
 turn_off_hero: false
 eyebrow: 'The Art of Business: Workshop Series'
 inside_hero_header: 'Empowering Artists with Essential Business Skills'
@@ -54,7 +54,7 @@ blocks:
     content_grid_item:
       -
         id: m9hjwb8w
-        heading: 'Grant Writing for Artists Virtual Workshop'
+        heading: 'South Carolina Arts Commission Grants 101 for Artists'
         content:
           -
             type: paragraph
@@ -79,7 +79,7 @@ blocks:
             content:
               -
                 type: text
-                text: 'Presenter: Tanisha N. Brown, '
+                text: 'Presenters: Tanisha N. Brown and Amanda McSwine, '
               -
                 type: text
                 marks:
@@ -88,7 +88,7 @@ blocks:
                     attrs:
                       href: 'https://www.southcarolinaarts.com/direct-programs/artist-development/'
                       rel: null
-                      target: null
+                      target: _blank
                       title: 'South Carolina Arts Commission'
                 text: 'South Carolina Arts Commission '
         type: new_item
@@ -126,7 +126,7 @@ blocks:
                     attrs:
                       href: 'https://www.craigragsdale.com/'
                       rel: null
-                      target: null
+                      target: _blank
                       title: 'Craig Ragsdale Studio'
                 text: 'Craig Ragsdale Studio'
               -
@@ -194,7 +194,7 @@ blocks:
                     attrs:
                       href: 'https://www.littlevictoriesandco.com/'
                       rel: null
-                      target: null
+                      target: _blank
                       title: 'Little Victories Branding and Co'
                 text: 'Little Victories Branding and Co. '
         type: new_item
@@ -232,7 +232,7 @@ blocks:
                     attrs:
                       href: 'https://www.blankcanvasmuralco.com/'
                       rel: null
-                      target: null
+                      target: _blank
                       title: 'Blank Canvas Mural Company'
                 text: 'Blank Canvas Mural Company'
         type: new_item
@@ -258,7 +258,7 @@ blocks:
             content:
               -
                 type: text
-                text: 'Presenter: Kathryn Poole, Family '
+                text: 'Presenter: Kathryn Poole, '
               -
                 type: text
                 marks:
@@ -267,9 +267,9 @@ blocks:
                     attrs:
                       href: 'https://www.familytrust.org/'
                       rel: null
-                      target: null
-                      title: 'Family Trust Federal Credit Union'
-                text: 'Trust Federal Credit Union '
+                      target: _blank
+                      title: null
+                text: 'Family Trust Federal Credit Union '
         type: new_item
         enabled: true
       -
@@ -302,7 +302,7 @@ blocks:
                     attrs:
                       href: 'https://abacusplanninggroup.com/'
                       rel: null
-                      target: null
+                      target: _blank
                       title: 'Abacus Planning Group'
                 text: 'Abacus Planning Group '
         type: new_item

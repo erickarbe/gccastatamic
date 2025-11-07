@@ -1,0 +1,8 @@
+id: 1677777f-b8d4-400b-91b2-bbae277cd68b
+enabled: true
+source: /events/jlfilmscreening-1
+source_md5: f7610cf4f239d6a3e6dbb11bb496798b
+destination: /events/jsopenhouse
+type: 301
+site: default
+match_type: exact

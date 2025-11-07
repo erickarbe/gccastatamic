@@ -3,8 +3,8 @@ id: 9f443f80-8416-4458-9154-96da5afc5548
 blueprint: page
 title: Accessibility
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 0d544cd1-b384-48fd-90bd-c684c02fb335
-updated_at: 1755028043
+updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
+updated_at: 1760285504
 turn_off_hero: false
 inside_hero_content:
   -
@@ -12,7 +12,7 @@ inside_hero_content:
     content:
       -
         type: text
-        text: 'GCCA is committed to ensuring that art is accessible to everyone and strives to accommodate individual needs to make its facility and programming inclusive for the entire community. Below is a summary of the facility’s accessible features. If you have any questions or require specific accommodations, please contact our Education and Community Outreach Director, Javy Pagan at (864) 274-0352 or '
+        text: 'GCCA is committed to ensuring that art is accessible to everyone and strives to accommodate individual needs to make its facility and programming inclusive for the entire community. Below is a summary of the facility’s accessible features. If you have any questions or require specific accommodations, please contact our Operations Director, Alicia Mizuno at (864) 274-0353 or '
       -
         type: text
         marks:
@@ -23,7 +23,7 @@ inside_hero_content:
               rel: null
               target: null
               title: null
-        text: javy@artcentergreenville.org
+        text: alicia@artcentergreenville.org
       -
         type: text
         text: .

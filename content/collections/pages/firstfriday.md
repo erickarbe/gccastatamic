@@ -13,7 +13,7 @@ inside_hero_content:
 inside_hero_image: first-friday-hero.jpg
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1752254684
+updated_at: 1761660716
 blocks:
   -
     id: m9hvb09p
@@ -83,12 +83,6 @@ blocks:
               -
                 type: text
                 text: 'Opening: ArtFields Jr Traveling Exhibition'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Performances:'
         type: new_item
         enabled: true
       -
@@ -107,12 +101,6 @@ blocks:
               -
                 type: text
                 text: 'Opening: Flourish by Melissa Haviland'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Performances: Sarah Davis Solo Opera Performance'
         type: new_item
         enabled: true
       -
@@ -137,12 +125,6 @@ blocks:
               -
                 type: text
                 text: 'Open Studios preview night'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Performances: Sara Tolson-Singer'
         type: new_item
         enabled: true
       -
@@ -161,12 +143,6 @@ blocks:
               -
                 type: text
                 text: 'Opening: TSA GVL exhibition curated by Kevin Kao'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Performances: Celia Blitzer-Singer'
         type: new_item
         enabled: true
     type: content_grid

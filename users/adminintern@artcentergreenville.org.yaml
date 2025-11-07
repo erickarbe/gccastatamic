@@ -4,4 +4,8 @@ roles:
 groups:
   - interns
 id: db8343ae-1cfd-4a4a-810e-2417eae3fc2b
-password_hash: $2y$12$2fxXAm32fHOE2YhKF98NWu/xY/uKR3x2Ktbzw.Jazd07NDZz.eKj6
+password_hash: $2y$12$PSuCixRHiLKhYJTuEZVEkOFtUrWL.Ppk.DJ/vIEmIzSreLY2t.Cye
+preferences:
+  assets:
+    s3_assets:
+      mode: grid
