@@ -1,0 +1,34 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      - display: "Header Scripts"
+        instructions: "Scripts added here will be injected into the <head> section of your site. Perfect for Google Analytics, Google Tag Manager, or other tracking codes."
+        fields:
+          - handle: header_scripts
+            field:
+              type: textarea
+              display: "Header Scripts"
+              instructions: "Add your tracking codes, analytics scripts, or any other code that should appear in the <head> section. Include the full <script> tags."
+              placeholder: |
+                <!-- Google Analytics -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+                <script>
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'GA_MEASUREMENT_ID');
+                </script>
+              character_limit: 10000
+      - display: "Footer Scripts"
+        instructions: "Scripts added here will be injected before the closing </body> tag. Use this for scripts that should load after page content."
+        fields:
+          - handle: footer_scripts
+            field:
+              type: textarea
+              display: "Footer Scripts"
+              instructions: "Add any scripts that should load at the end of the page, before the closing </body> tag. Include the full <script> tags."
+              placeholder: |
+                <!-- Example: Third-party widget -->
+                <script src="https://example.com/widget.js"></script>
+              character_limit: 10000
