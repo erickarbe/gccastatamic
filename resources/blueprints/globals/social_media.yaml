@@ -1,0 +1,45 @@
+title: "Social Media"
+tabs:
+  main:
+    display: Main
+    sections:
+      - fields:
+          - handle: social_links
+            field:
+              type: replicator
+              display: "Social Media Links"
+              instructions: "Add and manage social media links that appear in the footer."
+              collapse: false
+              sets:
+                social_link:
+                  display: "Social Link"
+                  fields:
+                    - handle: platform
+                      field:
+                        type: select
+                        display: Platform
+                        instructions: "Select the social media platform"
+                        required: true
+                        options:
+                          facebook: Facebook
+                          instagram: Instagram
+                          linkedin: LinkedIn
+                          youtube: YouTube
+                          tiktok: TikTok
+                          twitter: "Twitter / X"
+                          pinterest: Pinterest
+                          snapchat: Snapchat
+                          threads: Threads
+                    - handle: url
+                      field:
+                        type: text
+                        display: URL
+                        instructions: "Enter the full URL to your social media profile"
+                        required: true
+                        input_type: url
+                    - handle: enabled
+                      field:
+                        type: toggle
+                        display: Enabled
+                        instructions: "Toggle to show/hide this social media link"
+                        default: true

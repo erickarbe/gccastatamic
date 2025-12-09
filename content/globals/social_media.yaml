@@ -1,0 +1,19 @@
+title: "Social Media"
+data:
+  social_links:
+    - type: social_link
+      platform: facebook
+      url: "https://www.facebook.com/artcentergvl"
+      enabled: true
+    - type: social_link
+      platform: instagram
+      url: "https://www.instagram.com/artcentergvl/"
+      enabled: true
+    - type: social_link
+      platform: linkedin
+      url: "https://www.linkedin.com/company/artcentergreenville/"
+      enabled: true
+    - type: social_link
+      platform: youtube
+      url: "https://www.youtube.com/channel/UCZTkmMhUE7Dce7TMnEhjzCQ"
+      enabled: true
