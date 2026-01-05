@@ -1,8 +1,8 @@
-id: a0637bbf-ac34-4441-ba47-e732ad14d8b3
+id: cf3e48d0-76ce-48bd-9817-1feb4a31e290
 enabled: true
 source: /events/daydreamersothernightmares-1
 source_md5: 15649c878fb6c41202a505a2db526012
-destination: /events/boundunbound
+destination: /events/partyline
 type: 301
 site: default
 match_type: exact

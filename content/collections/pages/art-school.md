@@ -3,8 +3,8 @@ id: 6ebd5a1d-a0f6-4f23-af44-4efc690de590
 blueprint: page
 title: 'Art School'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1760285576
+updated_by: ff1ac932-a49d-40b3-b6bc-41a64916139d
+updated_at: 1767288083
 turn_off_hero: false
 eyebrow: 'Art School'
 inside_hero_header: 'The <span>Carrie Burns Brown Art School</span> at GCCA'
@@ -26,8 +26,29 @@ inside_hero_content:
               target: _blank
               title: null
         text: 'registration policies here'
+      -
+        type: text
+        text: '. '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Winter Season classes are now open! '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Classes are filling quickly... register today!'
 inside_hero_button_text: 'Art School Course Catalogs and Registration'
-inside_hero_button_link: 'https://campscui.active.com/orgs/GreenvilleCenterforCreativeArts?orglink=camps-registration&e4q=c62733de-6279-401e-abb6-bb37d976ae68&e4p=91c9e4b9-9b96-432e-99de-5c98d795b0fb&e4ts=1744725302&e4c=active&e4e=snlvcmpscui00001load&e4rt=Safetynet&e4h=2806cbb3db5b15361e2dac0b7dc7ae1c'
+inside_hero_button_link: 'https://campscui.active.com/orgs/GreenvilleCenterforCreativeArts?orglink=camps-registration'
 inside_hero_image: woman-painting-portrait.jpg
 blocks:
   -
@@ -41,9 +62,16 @@ blocks:
           content:
             -
               type: text
-              text: 'Art by Appointment offers artists of all levels the opportunity for private, customized, art experiences for you and up to 15 friends and family. These experiences are perfect for birthday parties, corporate outings, team building activities and more!'
-        -
-          type: paragraph
+              text: 'With '
+            -
+              type: text
+              marks:
+                -
+                  type: bold
+              text: 'Art by Appointment'
+            -
+              type: text
+              text: ', you can enjoy art your way! Book a private session to explore art, learn at your own pace with individualized art lessons, or celebrate with friends or family during a private art party. These experiences are for any level and perfect for birthday parties, corporate outings, team building activities, school field trips, and more! Let us create a unique experience made just for you or your group!'
         -
           type: paragraph
           content:
@@ -60,7 +88,7 @@ blocks:
                     rel: null
                     target: null
                     title: HERE
-              text: info@artcentergreenville.org
+              text: kara@artcentergreenville.org
             -
               type: text
               text: ' to begin planning your Art by Appointment! '

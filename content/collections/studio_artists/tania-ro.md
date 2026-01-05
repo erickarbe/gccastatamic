@@ -15,8 +15,8 @@ biography:
         type: text
         text: 'Tania Ro, born in Mexico and raised between Mexico and the U.S., blends two rich cultures into her artistic vision. Though she initially pursued a career in manufacturing, after a decade, she followed her passion for art. Influenced by both American and European traditions, as well as the vibrant, expressive nature of Mexican art, her work reflects beauty, diversity, and human emotion. Using bold colors and a modern approach, she seeks to capture fleeting moments and make them timeless. Tania creates to share her perspective, emotions, and dreams—once believing art was not an option for her, she now paints the very dreams she once thought impossible.'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-featured_image: tania-ro-featured-image_2022.png
-headshot: tania-ro-headshot-website_v2_resized.png
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744638728
+featured_image: tania-ro-headshot-website_v2_resized.png
+headshot: tania-ro-featured-image_2022.png
+updated_by: db8343ae-1cfd-4a4a-810e-2417eae3fc2b
+updated_at: 1763052321
 ---

@@ -16,8 +16,8 @@ biography:
         type: text
         text: 'Savannah (Savvy) Ralph, a Greenville, SC native, is an expressive figurative artist working in acrylic, oil, ink, charcoal, watercolor, and digital media. Their illustrative style blends symbolism and surrealism to explore complex ideas, with a strong focus on representation and equity. Ralph is committed to portraying underrepresented groups in art and media while also addressing mental health stigma through personal narratives. A lifelong artist, they studied at the Fine Arts Center and Greenville Technical College. Beyond creating, Ralph shares their passion as an art instructor and freelance artist. For them, art is more than a profession—it is both a deeply personal and transformative process they intend to pursue for a lifetime.'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-featured_image: savannah-ralph-featured-image.png
-headshot: savannah-ralph-headshot-website-3.png
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744997951
+featured_image: savannah-ralph-headshot-website-3.png
+headshot: savannah-ralph-featured-image.png
+updated_by: db8343ae-1cfd-4a4a-810e-2417eae3fc2b
+updated_at: 1763052590
 ---

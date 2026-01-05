@@ -69,8 +69,8 @@ biography:
         type: text
         text: '. Known for his meticulous approach to lighting and cinematic portraiture, Will continues to explore the intersection of storytelling and style in his work.'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-featured_image: will-crooks-featured-image-1.png
-headshot: will-crooks-headshot-website_resized.png
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744561844
+featured_image: will-crooks-headshot-website_resized.png
+headshot: will-crooks-featured-image-1.png
+updated_by: db8343ae-1cfd-4a4a-810e-2417eae3fc2b
+updated_at: 1763052006
 ---

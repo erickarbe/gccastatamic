@@ -15,8 +15,8 @@ biography:
         type: text
         text: 'Eli Warren is a fine art photographer in Greenville, South Carolina. His work, created in both digital and analog formats, ranges from studio and environmental portraits to personal projects focusing on the internal struggle, often reflected in thoughtful and sometimes darker imagery. Commercial and editorial accolades include an American Advertising Federation award for the 15th anniversary cover of atHome Magazine, a purchase award by the Pick- ens County Museum and multiple juried shows including the SEC4P exhibition ‘The Intimate Portrait.’ This book was funded, in part, by an award grant from The Metropolitan Arts Council (MAC).'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744638256
-featured_image: eli-warren-featured-image.png
-headshot: eli-warren-headshot-website_resized.png
+updated_by: db8343ae-1cfd-4a4a-810e-2417eae3fc2b
+updated_at: 1763052214
+featured_image: eli-warren-headshot-website_resized.png
+headshot: eli-warren-featured-image.png
 ---

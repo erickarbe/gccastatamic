@@ -2,3 +2,5 @@ name: 'Jamieson Siburt'
 super: true
 id: 9692c24d-4d69-4be7-a897-ad4edab416de
 password_hash: $2y$12$deUJ49QnM9him0YuLv2BeuV2NzNf724qtvtDf5ZISthRv7.JX9Cfy
+preferences:
+  theme: dark

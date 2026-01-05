@@ -1,10 +1,11 @@
 ---
 id: f6218353-edc9-4563-9882-903e75a72c98
+published: false
 blueprint: page
 title: 'The Art of Business'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1760997104
+updated_at: 1765229509
 turn_off_hero: false
 eyebrow: 'The Art of Business: Workshop Series'
 inside_hero_header: 'Empowering Artists with Essential Business Skills'

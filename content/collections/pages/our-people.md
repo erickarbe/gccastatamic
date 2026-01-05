@@ -3,9 +3,9 @@ id: 4b49b7d2-0525-40ac-a674-162a852a74c8
 blueprint: page
 title: 'Our People'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1760283697
-turn_off_hero: true
+updated_by: 0d544cd1-b384-48fd-90bd-c684c02fb335
+updated_at: 1765825943
+turn_off_hero: false
 eyebrow: Team
 blocks:
   -
@@ -27,14 +27,6 @@ blocks:
         enabled: true
         block_link: 'entry::1317c49e-5dd6-4ff7-81c3-1ea591f3adf1'
       -
-        id: m9cy3tq2
-        name: 'Javy Pagan'
-        title: 'Education and Community Engagement Director'
-        headshot: javy_pagan.jpg
-        type: new_person
-        enabled: false
-        block_link: 'entry::305dd2d3-d17e-43b5-b4b7-6b7fce719749'
-      -
         id: m9ij6mp7
         name: 'Ben Tarcson'
         title: 'Gallery Director'
@@ -42,6 +34,14 @@ blocks:
         type: new_person
         enabled: true
         block_link: 'entry::8e607ad1-6899-4729-bb76-662291bae2b7'
+      -
+        id: m9ijd4bf
+        name: 'Alexis Krcelic'
+        title: 'Creative Program Director'
+        headshot: alexis-krcelic.jpg
+        type: new_person
+        enabled: true
+        block_link: 'entry::03459126-05f7-4e16-9f36-409b25fcdf01'
       -
         id: m9ij9cvi
         name: 'Alicia Mizuno, CTA'
@@ -51,22 +51,21 @@ blocks:
         enabled: true
         block_link: 'entry::562583b0-a0b1-4827-9bf0-40ce3c7e0e6c'
       -
-        id: m9ijd4bf
-        name: 'Alexis Krcelic'
-        title: 'Advancement and Event Director'
-        headshot: alexis-krcelic.jpg
+        id: mhwgqv89
+        name: 'Kara Tyndall'
+        title: 'Education Director'
+        headshot: arp02134-gcca-reto.jpg
         type: new_person
         enabled: true
-        block_link: 'entry::03459126-05f7-4e16-9f36-409b25fcdf01'
-      -
-        id: m9ijbbwv
-        name: 'Kara Tyndall'
-        title: 'Education & Operations Coordinator'
-        headshot: kara2.png
-        type: new_person
-        enabled: false
         block_link: 'entry::22cfbbbc-4ae9-4202-a2c8-03b79a898e62'
-        email: kara@artcentergreenville.org
+      -
+        id: m9cy3tq2
+        name: 'Jamieson Siburt'
+        title: 'Guest Experience & Program Coordinator'
+        headshot: ar200063-gcca-reto.jpg
+        type: new_person
+        enabled: true
+        block_link: 'entry::5d3d6ffd-5d76-4865-b084-b7b588bb8141'
     type: people_grid
     enabled: true
     number_of_columns: three
@@ -77,15 +76,15 @@ blocks:
     type: basic_title
     enabled: true
   -
-    id: mbpak5we
+    id: mim4iujr
     number_of_columns: three
     people:
       -
-        id: mbpak7ur
+        id: mim4ixig
         name: 'Alexander Rouse'
         title: 'Digital Media & Design Specialist'
         email: alexander@artcentergreenville.org
-        headshot: gcca-3.4.25-arp-08404.jpg
+        headshot: arp02092-gcca-reto.jpg
         type: new_person
         enabled: true
     type: people_grid
@@ -97,6 +96,11 @@ blocks:
     type: basic_title
     enabled: true
   -
+    id: mbpak5we
+    number_of_columns: three
+    type: people_grid
+    enabled: false
+  -
     id: mbs40d6t
     number_of_columns: three
     people:
@@ -107,7 +111,7 @@ blocks:
         email: adminintern@artcentergreenville.org
         headshot: carmen-new.png
         type: new_person
-        enabled: true
+        enabled: false
       -
         id: mbs49ikj
         name: 'Claire Delaney'
@@ -122,6 +126,14 @@ blocks:
         title: 'Annual Administrative Intern'
         email: adminintern@artcentergreenville.org
         headshot: julia2-(1).jpg
+        type: new_person
+        enabled: true
+      -
+        id: mj6lalg6
+        name: 'AC Yearick'
+        title: 'Development Intern'
+        email: devintern@artcentergreenville.org
+        headshot: ac.jpg
         type: new_person
         enabled: true
     type: people_grid
@@ -360,6 +372,6 @@ blocks:
             type: text
             text: '*In Memoriam'
 template: default
-inside_hero_image: hero2.jpg
+inside_hero_image: ar200041-gcca-reto.jpg
 open_in_new_tab: false
 ---

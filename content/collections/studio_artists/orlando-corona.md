@@ -15,8 +15,8 @@ biography:
         type: text
         text: 'Orlando Corona is a Greenville, SC-based artist specializing in painting and printmaking. Born in Guanajuato, Mexico, he moved to the U.S. at age 10, navigating a new world that later shaped his artistic voice. He discovered his passion for art in high school, where he found mentorship in printmaking, launching his journey as a professional artist. Drawing inspiration from his experience as a first-generation Mexican immigrant, Orlando’s work explores personal narratives while challenging cultural stereotypes. His art serves as a means of storytelling and empowerment, aiming to inspire others and contribute meaningfully to his community and beyond. Despite his relatively recent start, he has quickly established himself as a rising talent in the Upstate art scene.'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-featured_image: orlando-feature-photo.png
-headshot: orlando-headshot-website.png
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744563191
+featured_image: orlando-headshot-website.png
+headshot: orlando-feature-photo.png
+updated_by: db8343ae-1cfd-4a4a-810e-2417eae3fc2b
+updated_at: 1763052189
 ---

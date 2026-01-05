@@ -15,8 +15,8 @@ biography:
         type: text
         text: 'Dawn Hayden has always been drawn to creativity, from childhood doodling to a lifelong appreciation of beauty and color. Labeled a daydreamer in school, her artistic instincts never faded. As she built a home and family, she found joy in decorating, blending fine pieces with thrifted finds. Her admiration for art eventually led her to study at the Greenville Center for Creative Arts after her youngest child entered high school. Still a dreamer, she finds inspiration in the world around her, often getting lost in the beauty of a sunset. Through her art, Dawn hopes to share a sense of joy and bring a touch of happiness to others.'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-featured_image: dawn-hayden-featured-image.png
-headshot: dawn-hayden-headshot.png
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744563108
+featured_image: dawn-hayden-headshot.png
+headshot: dawn-hayden-featured-image.png
+updated_by: db8343ae-1cfd-4a4a-810e-2417eae3fc2b
+updated_at: 1763052055
 ---

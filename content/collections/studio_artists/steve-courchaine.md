@@ -14,8 +14,8 @@ biography:
         type: text
         text: "Steve has painted throughout his adult life, and began devoting full-time to his art in 1997. He is primarily self taught, and has studied with landscape artists Scott Christensen, and Jay Moore, and renowned figurative artist Morgan Weistling. \_ He has had paintings juried selected in the “arts for the parks“ National competition in Jackson, Wyoming.\_ He also was featured on the cover of the Georgia Pharmacy Journal."
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-featured_image: steve-courchaine-featured-image_new.png
-headshot: steve.png
-updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1748966956
+featured_image: steve.png
+headshot: steve-courchaine-featured-image_new.png
+updated_by: db8343ae-1cfd-4a4a-810e-2417eae3fc2b
+updated_at: 1763052457
 ---

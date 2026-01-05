@@ -5,7 +5,7 @@ title: Exhibitions
 turn_off_hero: true
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1761840338
+updated_at: 1764968736
 blocks:
   -
     id: m9hjvlwy
@@ -17,7 +17,7 @@ blocks:
   -
     id: m9hk792b
     events_list:
-      - dd671d12-7803-4b2d-8610-96ce97a969f4
+      - b200e155-ebf1-4cd6-b723-493b7534555c
       - 33479fbe-7a5b-42b9-9a87-7bd882e7c93b
       - 6151889e-8c70-4986-9598-779079b1ff4a
       - 40db0acb-f0f3-482d-bf5c-464de9415256
@@ -46,6 +46,23 @@ blocks:
               -
                 type: text
                 text: 'Group exhibition co-curated by TSA GVL (Greenville, SC) and ICOSA (Austin, TX)'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'For More Details: '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://artcentergreenville.org/events/partyline'
+                      rel: null
+                      target: _blank
+                      title: null
+                text: 'Click Here'
         type: new_item
         enabled: true
     type: content_grid

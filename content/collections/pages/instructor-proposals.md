@@ -4,7 +4,7 @@ blueprint: page
 title: 'Instructor Proposals'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: ff1ac932-a49d-40b3-b6bc-41a64916139d
-updated_at: 1762203598
+updated_at: 1765983961
 turn_off_hero: false
 inside_hero_header: 'Instructor <span>Proposals</span>'
 inside_hero_content:
@@ -85,7 +85,7 @@ blocks:
                   content:
                     -
                       type: text
-                      text: 'Winter Session Proposal Deadline: December 1, 2025'
+                      text: 'Spring Session Proposal Deadline: February 9, 2026'
       open_in_new_tab: false
       content_width: '50'
       remove_top_margin: false
@@ -132,6 +132,20 @@ blocks:
               -
                 type: text
                 text: 'March 23 – May 22, 2026'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Summer Art Camp:   '
+              -
+                type: hardBreak
+              -
+                type: text
+                text: 'June 1 - July 31, 2026'
           -
             type: paragraph
             content:

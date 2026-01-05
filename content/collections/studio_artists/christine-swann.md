@@ -61,8 +61,8 @@ biography:
         type: text
         text: ' Pastel 100 competition nine times. An Eminent Member of the IAPS Master Circle and a PSA Signature Member, Christine teaches "The Power of Pastel" workshops nationwide.'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-featured_image: christine-swann-featured-image.png
-headshot: christine-swann-headshot.png
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744638623
+featured_image: christine-swann-headshot.png
+headshot: christine-swann-featured-image.png
+updated_by: db8343ae-1cfd-4a4a-810e-2417eae3fc2b
+updated_at: 1763052299
 ---

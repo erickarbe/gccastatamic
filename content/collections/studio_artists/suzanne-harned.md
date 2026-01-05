@@ -32,8 +32,8 @@ biography:
         type: text
         text: ', the first U.S. business to offer floral preservation through pressing, framing, and freeze-drying. Over the years, she preserved thousands of floral designs, including for notable clients. After living in St. Simons Island, GA, and Amelia Island, FL, she now enjoys retirement in Greenville, SC. SuZanne continues to find joy in painting and drawing flowers and sunsets, along with creating select floral preservations for special occasions. Her work reflects a lifelong passion for capturing nature’s beauty in both art and preservation.'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-featured_image: suzanne-harned-featured-image.png
-headshot: suzanne-harned-headshot-website_gvv5.png
-updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1761075109
+featured_image: suzanne-harned-headshot-website_gvv5.png
+headshot: suzanne-harned-featured-image.png
+updated_by: db8343ae-1cfd-4a4a-810e-2417eae3fc2b
+updated_at: 1763052558
 ---

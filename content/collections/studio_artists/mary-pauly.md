@@ -41,8 +41,8 @@ biography:
         type: text
         text: ', published by the Metropolitan Arts Council in the 1990s.'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-headshot: mary-pauly.png
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1746110062
-featured_image: mary-pauly-featured-image.png
+headshot: mary-pauly-featured-image.png
+updated_by: db8343ae-1cfd-4a4a-810e-2417eae3fc2b
+updated_at: 1763051956
+featured_image: mary-pauly.png
 ---

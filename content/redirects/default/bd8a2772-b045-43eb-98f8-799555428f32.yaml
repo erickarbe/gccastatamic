@@ -1,8 +1,8 @@
-id: 403d35b8-ae5d-43d2-bc62-1641664f325b
+id: bd8a2772-b045-43eb-98f8-799555428f32
 enabled: true
 source: 'https://artcentergreenville.org/firstfriday'
 source_md5: 051c6772e238a2daf99770bdb2c52f95
-destination: 'https://artcentergreenville.org/events/firstfriday'
+destination: 'https://artcentergreenville.org/nightshifts'
 type: 301
 site: default
 match_type: exact

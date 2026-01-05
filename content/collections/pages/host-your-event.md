@@ -3,8 +3,8 @@ id: ec33ca3e-4bfd-4b06-aab3-3370bba1b9b3
 blueprint: page
 title: 'Host Your Event'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1761835587
+updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
+updated_at: 1763392564
 turn_off_hero: false
 eyebrow: 'Host Your Event'
 inside_hero_header: 'Venue Rentals'
@@ -34,13 +34,25 @@ blocks:
             content:
               -
                 type: text
-                text: 'Square Feet: 6,310 Approx.'
+                text: 'Approx. '
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: '6,310 Sq Ft'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Capacity: 200'
+                text: 'Max Capacity of '
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: '200'
           -
             type: paragraph
             content:
@@ -61,19 +73,40 @@ blocks:
             content:
               -
                 type: text
-                text: 'Square Feet: 1,142 Approx.'
+                text: 'Approx. '
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: '1,142 Sq Ft'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Capacity: 30 Max sitting at tables, 100 max standing'
+                text: 'Max Capacity of '
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: '30 sitting at tables '
+              -
+                type: text
+                text: or
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: ' 100 standing'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Our Conference Room is 1,142 sq ft of space ideal for, but not limited to, meetings and also allows for the use of audio-visual equipment at an additional cost. The room is equipped with moveable tables and chairs that can be easily configured to accommodate the needs of guests. Light food and beverage can be coordinated by an outside vendor but no onsite catering services are provided at this time. The walls of the Conference Room display historic pictures of the Brandon Mill and Village of West Greenville where GCCA is located. This space can be rented in conjunction with our Main Gallery space to provide more room for spreading out.'
+                text: 'Our Conference Room is a space ideal for, but not limited to, meetings and also allows for the use of audio-visual equipment at an additional cost. The room is equipped with moveable tables and chairs that can be easily configured to accommodate the needs of guests. Light food and beverage can be coordinated by an outside vendor but no onsite catering services are provided at this time. The walls of the Conference Room display historic pictures of the Brandon Mill and Village of West Greenville where GCCA is located. This space can be rented in conjunction with our Main Gallery space to provide more room for spreading out.'
           -
             type: paragraph
             content:
@@ -94,13 +127,25 @@ blocks:
             content:
               -
                 type: text
-                text: 'Square Feet: 5500 – 6000 Approx.'
+                text: 'Approx. '
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: '5500 – 6000 Sq Ft'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Capacity: 150'
+                text: 'Max Capacity of '
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: '150'
           -
             type: paragraph
             content:
@@ -183,7 +228,18 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'Any art workshops or classes must go through our Art School, please reach out to our Education and Community Outreach Director, Javy Pagan at javy@artcentergreenville.org'
+                        text: 'Any art workshops or classes must go through our Art School, please reach out to our Education Director, Kara Tyndall at '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: link
+                            attrs:
+                              href: 'mailto:kara@artcentergreenville.org'
+                              rel: null
+                              target: null
+                              title: null
+                        text: kara@artcentergreenville.org
               -
                 type: listItem
                 content:
@@ -192,7 +248,21 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'Additional rental services such as linens, chairs, tables and more (please inquire for more details with Operations Director)'
+                        text: 'Additional rental services such as linens, chairs, tables and more (please inquire for more details with Operations Director, Alicia Mizuno at '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: link
+                            attrs:
+                              href: 'mailto:alicia@artcentergreenville.org'
+                              rel: null
+                              target: null
+                              title: null
+                        text: alicia@artcentergreenville.org
+                      -
+                        type: text
+                        text: )
         type: new_link_panel
         enabled: true
     type: sticky_links

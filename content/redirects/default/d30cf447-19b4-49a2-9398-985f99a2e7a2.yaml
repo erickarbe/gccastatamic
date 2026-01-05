@@ -1,0 +1,8 @@
+id: d30cf447-19b4-49a2-9398-985f99a2e7a2
+enabled: true
+source: /education/community-engagement
+source_md5: 560482988ea510f3e6f8392a9170607e
+destination: /education/communityengagement
+type: 301
+site: default
+match_type: exact

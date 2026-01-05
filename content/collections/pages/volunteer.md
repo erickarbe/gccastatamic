@@ -3,8 +3,8 @@ id: dd280318-cba2-4fd3-97dd-07de56a5b843
 blueprint: page
 title: Volunteer
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1755718034
+updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
+updated_at: 1765249076
 turn_off_hero: false
 inside_hero_header: Volunteer
 inside_hero_content:
@@ -29,7 +29,7 @@ blocks:
               marks:
                 -
                   type: bold
-              text: 'Volunteers will also receive perks which currently include:'
+              text: 'Volunteers will also receive perks which currently include the choices of:'
         -
           type: bulletList
           content:
@@ -41,7 +41,7 @@ blocks:
                   content:
                     -
                       type: text
-                      text: '5% at the gift shop for every 20 hours worked(roughly 4 shifts) or'
+                      text: '5% at the gift shop'
             -
               type: listItem
               content:
@@ -50,7 +50,25 @@ blocks:
                   content:
                     -
                       type: text
-                      text: '$10 off a class of your choice for every 20 hours worked (roughly 4 shifts)'
+                      text: 'Up to $100 off a class of your choice '
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: '4 hours of Creative Access Time to GCCA Studio Spaces (Safety training required for Jewelry and Print Classrooms) '
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: '40% off Event Rental'
         -
           type: paragraph
           content:

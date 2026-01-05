@@ -17,7 +17,7 @@ blocks:
           content:
             -
               type: text
-              text: 'Advancement and Events Director'
+              text: 'Creative Program Director'
             -
               type: hardBreak
             -
@@ -43,6 +43,6 @@ blocks:
     enabled: true
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1760022029
+updated_at: 1763993497
 open_in_new_tab: false
 ---
