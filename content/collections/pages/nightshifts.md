@@ -13,7 +13,7 @@ inside_hero_content:
 inside_hero_image: first-friday-hero.jpg
 author: 5f81e286-c3b1-4700-935f-b6b3f8b8baa2
 updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1766088892
+updated_at: 1767718272
 blocks:
   -
     id: mjbsqje6
@@ -47,6 +47,12 @@ blocks:
               -
                 type: text
                 text: 'Art School Spotlight | Meet The Instructors'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Family Activity: 2026 Punch Cards'
         type: new_item
         enabled: true
     type: content_grid

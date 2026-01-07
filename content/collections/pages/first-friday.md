@@ -2,7 +2,7 @@
 id: fed253c7-fa9c-4450-bc27-6050b88ff4de
 published: false
 blueprint: page
-title: 'First Friday'
+title: NightShifts
 turn_off_hero: false
 inside_hero_content:
   -
@@ -14,7 +14,7 @@ inside_hero_content:
 inside_hero_image: first-friday-hero.jpg
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1765229250
+updated_at: 1767718234
 blocks:
   -
     id: m9hvb09p
