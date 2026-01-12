@@ -3,21 +3,15 @@ tree:
     id: 89f571af-1e5f-45ce-ac3c-f58c5c5b0306
     entry: b958b573-df8d-4deb-8724-b58b5f91347c
   -
-    id: 80ff5ce1-a67d-410f-bcd7-da2fa6521ca2
-    entry: f6d575f3-821f-491e-84f2-c76f83e73619
+    id: 5609ef03-5824-4c63-8ad3-b19725d521e2
+    title: Membership
+    url: 'https://artcentergreenville.org/artists/artist-membership'
   -
     id: 0df8db6a-2539-4fff-8956-3bb85eee4756
     entry: 785cdacf-aaab-4aa6-bf4a-c0486d6c1b18
   -
-    id: 5a584a04-8426-4bc4-b690-0c43e5145e73
-    entry: 64277344-bfc4-4a32-9a09-f06bfdb2b27a
+    id: 80ff5ce1-a67d-410f-bcd7-da2fa6521ca2
+    entry: f6d575f3-821f-491e-84f2-c76f83e73619
   -
     id: e179ffab-cfea-4e89-b0fa-ce5e5f988356
     entry: dd280318-cba2-4fd3-97dd-07de56a5b843
-  -
-    id: c06360a6-73c0-490d-878e-bfd14c05a93a
-    entry: 51ddd5d0-7ef9-4ed7-bad1-041b7567de7d
-  -
-    id: 5609ef03-5824-4c63-8ad3-b19725d521e2
-    title: Membership
-    url: 'https://artcentergreenville.org/artists/artist-membership'

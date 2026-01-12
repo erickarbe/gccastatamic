@@ -4,7 +4,7 @@ blueprint: page
 title: 'Planned Giving'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1755092348
+updated_at: 1767975024
 turn_off_hero: false
 inside_hero_header: 'Planned Giving'
 inside_hero_content:

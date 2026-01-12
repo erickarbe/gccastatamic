@@ -1,5 +1,6 @@
 ---
 id: 0e321df4-9e0c-46ab-a2f7-04b33fcc4325
+published: false
 blueprint: page
 title: ARTalk
 turn_off_hero: false
@@ -40,8 +41,8 @@ inside_hero_content:
         type: text
         text: ', whether they are local talents or creators from across the U.S.'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1761683932
+updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
+updated_at: 1767974417
 blocks:
   -
     id: m9hudp2a

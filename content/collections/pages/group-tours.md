@@ -1,10 +1,11 @@
 ---
 id: c4671ae2-763c-4dbc-aaf2-973fd4cfb18b
+published: false
 blueprint: page
 title: 'Group Tours'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1747783648
+updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
+updated_at: 1767974948
 turn_off_hero: false
 inside_hero_header: 'Group Tours'
 inside_hero_content:

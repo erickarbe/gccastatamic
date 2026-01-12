@@ -1,5 +1,9 @@
 tree:
   -
+    id: b84ba857-6974-4ca1-b193-aff7e00a050d
+    title: Calendar
+    url: 'https://artcentergreenville.org/events/'
+  -
     id: 68545a23-60c4-48bc-baab-d733b5525371
     entry: 7f18f75f-7fd2-446a-852c-7f0570aece59
   -
@@ -7,5 +11,5 @@ tree:
     entry: ec33ca3e-4bfd-4b06-aab3-3370bba1b9b3
   -
     id: 35d6b34e-12ab-49ad-a2aa-3d767c2513d7
-    title: 'First Friday'
-    url: 'https://artcentergreenville.org/events/firstfriday'
+    title: NightShifts
+    url: 'https://artcentergreenville.org/events/nightshifts'

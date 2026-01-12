@@ -1,0 +1,8 @@
+id: f32aa849-2b64-44b8-bbb0-4d0bbe07c1fc
+enabled: true
+source: /studio-artists/kathleen-digney
+source_md5: 30c0dd1591e54d0c35949132c25a60fa
+destination: /studio-artists/jazmin-terrell
+type: 301
+site: default
+match_type: exact

@@ -5,7 +5,7 @@ title: Exhibitions
 turn_off_hero: true
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 0d544cd1-b384-48fd-90bd-c684c02fb335
-updated_at: 1767731258
+updated_at: 1767818080
 blocks:
   -
     id: m9hjvlwy
@@ -21,6 +21,26 @@ blocks:
       - 6151889e-8c70-4986-9598-779079b1ff4a
       - 40db0acb-f0f3-482d-bf5c-464de9415256
     type: events_grid
+    enabled: true
+  -
+    id: mk4h66cm
+    panel_heading: 'Save the Schedule'
+    panel_content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Download and print the 2026 exhibition schedule. '
+    panel_links:
+      -
+        id: mk4h69oz
+        link_eyebrow: '2026 Exhibition Schedule'
+        link_heading: 'Download & Print'
+        link_url: 'https://gccamedia.s3.amazonaws.com/yag26_onepage.pdf'
+        type: new_link_panel
+        enabled: true
+    type: sticky_links
     enabled: true
   -
     id: m9hmlcfm

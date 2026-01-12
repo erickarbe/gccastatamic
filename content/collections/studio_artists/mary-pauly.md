@@ -1,10 +1,9 @@
 ---
-id: de8a4da8-b349-4342-97eb-48f6f4c7b81e
+id: 6b29be86-3088-472d-97fe-2d076d106981
 blueprint: studio_artist
 title: 'Mary Pauly'
-studio: 'Studio 1'
+studio: 'Studio B'
 artists_medium: Painter
-website: 'https://marypaulyart.com'
 email: mlimagine@gmail.com
 biography:
   -
@@ -41,8 +40,9 @@ biography:
         type: text
         text: ', published by the Metropolitan Arts Council in the 1990s.'
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
+featured_image: mary-pauly.png
 headshot: mary-pauly-featured-image.png
 updated_by: db8343ae-1cfd-4a4a-810e-2417eae3fc2b
-updated_at: 1763051956
-featured_image: mary-pauly.png
+updated_at: 1767900008
+website: 'https://marypaulyart.com'
 ---

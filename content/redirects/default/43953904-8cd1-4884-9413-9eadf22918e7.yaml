@@ -1,0 +1,8 @@
+id: 43953904-8cd1-4884-9413-9eadf22918e7
+enabled: true
+source: 'https://artcentergreenville.org/events/nightshifts'
+source_md5: e2b7e58e52b3ff8b0403df068e57edb1
+destination: 'https://artcentergreenville.org/nightshifts'
+type: 301
+site: default
+match_type: exact

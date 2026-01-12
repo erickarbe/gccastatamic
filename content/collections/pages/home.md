@@ -69,45 +69,48 @@ home_page_blocks:
                           -
                             type: link
                             attrs:
-                              href: 'statamic://entry::782bae0a-6ff7-4dd9-b003-a76732b8d3cd'
-                              rel: null
-                              target: null
-                              title: null
-                        text: 'Community Outreach'
-              -
-                type: listItem
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: link
-                            attrs:
-                              href: 'statamic://entry::18195f17-11aa-4661-aa8d-f6686155586d'
-                              rel: null
-                              target: null
-                              title: null
-                        text: 'Summer Art Camps'
-              -
-                type: listItem
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: link
-                            attrs:
                               href: 'statamic://entry::6ebd5a1d-a0f6-4f23-af44-4efc690de590'
                               rel: null
                               target: null
                               title: null
                         text: 'Art School'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: link
+                            attrs:
+                              href: 'https://artcentergreenville.org/events/'
+                              rel: null
+                              target: _blank
+                              title: null
+                        text: Events
+                      -
+                        type: text
+                        text: ' '
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: link
+                            attrs:
+                              href: 'https://artcentergreenville.org/visit/exhibitions'
+                              rel: null
+                              target: _blank
+                              title: null
+                        text: 'Gallery Exhibitions '
         panel_image:
           - artcamp-06.19.25-4.jpg
         type: panel_group
@@ -115,36 +118,33 @@ home_page_blocks:
         open_in_new_tab: false
       -
         id: m9d3lzv1
-        panel_title: 'On Display Now in the Main Gallery'
+        panel_title: 'January Event Happenings'
         panel_content:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: "The current\_Main Gallery exhibition, \"The Flood\", features a solo exhibition from printmaking-based installation artist, Melissa Haviland."
+                text: "Step in to an hour of healing cello music, engage with art at NightShifts, attend a storytelling and art making event with My Neighbor's Voice, or learn about all GCCA has to offer with our Open House this month. "
           -
-            type: bulletList
+            type: paragraph
             content:
               -
-                type: listItem
-                content:
+                type: text
+                marks:
                   -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: link
-                            attrs:
-                              href: 'https://artcentergreenville.org/events/theflood'
-                              rel: null
-                              target: null
-                              title: null
-                        text: 'Learn More'
+                    type: link
+                    attrs:
+                      href: 'https://artcentergreenville.org/events/'
+                      rel: null
+                      target: null
+                      title: null
+                text: 'Learn More About Events'
+              -
+                type: text
+                text: ' '
         panel_image:
-          - img_2994.jpeg
+          - celloasis-social.jpg
         type: panel_group
         enabled: true
         open_in_new_tab: false
@@ -179,7 +179,7 @@ home_page_blocks:
                               title: null
                         text: 'Explore Current & Upcoming Exhibitions'
         panel_image:
-          - img_2972.jpeg
+          - 'rabanal-&-relentless-ashley-rabanal-1.jpg'
         type: panel_group
         enabled: true
         open_in_new_tab: false
@@ -199,7 +199,7 @@ home_page_blocks:
         content:
           -
             type: text
-            text: 'As the Upstate’s only nonprofit community arts center, we are more than a space for artistic expression—we are a place where every artist, from beginners to masters, finds the support they need to grow. We invest in art—and artists—from every angle, nurturing talent and amplifying voices.'
+            text: 'As one of the Upstate’s nonprofit community arts centers, we are more than a space for artistic expression—we are a place where every artist, from beginners to masters, finds the support they need to grow. We invest in art—and artists—from every angle, nurturing talent and amplifying voices.'
       -
         type: paragraph
         content:
@@ -254,12 +254,10 @@ home_page_blocks:
         link_content:
           -
             type: paragraph
-            attrs:
-              textAlign: left
             content:
               -
                 type: text
-                text: 'Be part of the vibrant creative community at GCCA. Attend our events, exhibitions, and workshops, or join us for the First Friday gallery crawl. There’s always something inspiring happening here.'
+                text: 'Be part of the vibrant creative community at GCCA. Attend our events, exhibitions, and workshops, or join us for NightShifts. There’s always something inspiring happening here!'
         type: new_link_panel
         enabled: true
         link_url: /events/
@@ -388,6 +386,6 @@ home_page_blocks:
     grid_three_link_text: Give
     grid_three_link_duplicate: 'https://artcentergreenville.org/support/donate'
     grid_three_link: /support/donate
-updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1759429928
+updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
+updated_at: 1767978630
 ---

@@ -3,8 +3,8 @@ id: 206f55ef-b9f5-4c0c-806b-938d9328b135
 blueprint: page
 title: 'Need To Know'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1755027880
+updated_by: 0d544cd1-b384-48fd-90bd-c684c02fb335
+updated_at: 1767984341
 turn_off_hero: false
 inside_hero_content:
   -
@@ -72,7 +72,7 @@ blocks:
     image_left_or_right: right
     content_group:
       eyebrow: 'Make us your first stop'
-      heading: 'First Fridays'
+      heading: NightShifts
       content:
         -
           type: paragraph
@@ -84,7 +84,7 @@ blocks:
                   type: bold
                 -
                   type: italic
-              text: 'Every First Friday from 5–8 PM.'
+              text: 'The first Friday of the month  from 5–8 PM.'
         -
           type: paragraph
           content:
@@ -99,41 +99,124 @@ blocks:
               marks:
                 -
                   type: bold
-              text: 'Our First Friday events are free and open to the public'
+              text: 'Our NightShifts events are free and open to the public'
             -
               type: text
-              text: '. Follow us on social media for the latest exhibition announcements and event details.'
+              text: '. They are a time to engage with our studio artists, participate in family friendly activities, explore gallery openings, and more! Follow us on social media for the latest exhibition announcements and event details.'
+        -
+          type: paragraph
         -
           type: paragraph
           content:
             -
               type: text
-              text: 'First Fridays 2025:'
+              text: 'NightShifts in 2026:'
         -
-          type: paragraph
+          type: bulletList
           content:
             -
-              type: text
-              text: 'September 5, 2025'
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: "January 9, 2026\_"
             -
-              type: hardBreak
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'February 6, 2026'
             -
-              type: text
-              text: 'October 3, 2025'
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: "March 6, 2026\_"
             -
-              type: hardBreak
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'April 3, 2026'
             -
-              type: text
-              text: 'November 14, 2025'
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'May 1, 2026'
             -
-              type: hardBreak
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: "June 5, 2026\_"
             -
-              type: text
-              text: 'December 5, 2025'
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'July 10, 2026'
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'September 4, 2026'
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'October 2, 2026'
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'November 13, 2026'
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: "December 4, 2026\_"
       open_in_new_tab: false
       content_width: '50'
       remove_top_margin: false
-    image: first-friday-hero.jpg
+    image: banner1.jpg
     type: image_and_text
     enabled: true
     align_columns: center
@@ -189,7 +272,7 @@ blocks:
         enabled: true
       -
         id: m9ijwrtw
-        accordion_header: 'First Fridays'
+        accordion_header: NightShifts
         accordion_content:
           -
             type: paragraph
@@ -201,7 +284,7 @@ blocks:
                     type: bold
                   -
                     type: italic
-                text: 'Every First Friday from 5-8 PM.'
+                text: 'The first Fridays from 5-8 PM.'
           -
             type: paragraph
             content:
@@ -220,7 +303,7 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: 'Our First Friday events are free and open to the public'
+                text: 'Our NightShifts events are free and open to the public'
               -
                 type: text
                 text: '. Follow us on social media for the latest exhibition announcements and event details.'

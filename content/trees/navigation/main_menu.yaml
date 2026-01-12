@@ -1,68 +1,5 @@
 tree:
   -
-    id: 9a589641-85a7-4aa1-b9ec-29d1aec33c54
-    title: Visit
-    url: '#'
-    children:
-      -
-        id: 708aacee-0d1b-4709-8bb7-b18d082145d0
-        entry: b7e08d70-fe4a-4825-8774-46a1a95c0f7f
-      -
-        id: 7adc3986-f810-4a12-8c59-bd83107d28f2
-        title: Shop
-        url: 'https://shopgcca.square.site/'
-      -
-        id: c238f6e2-b80c-4b73-8f32-b4a75ccfd12d
-        entry: 206f55ef-b9f5-4c0c-806b-938d9328b135
-      -
-        id: 8bbf98e0-8cdb-4b37-9829-c0a109255a36
-        entry: 9f443f80-8416-4458-9154-96da5afc5548
-      -
-        id: da708783-fbc1-497d-ba28-259144a21441
-        entry: c4671ae2-763c-4dbc-aaf2-973fd4cfb18b
-  -
-    id: fe6bd8d4-1eb3-411f-a5c5-c528f9b70588
-    title: Education
-    url: '#'
-    children:
-      -
-        id: 13b3e884-ce2a-466a-84e7-ea7635f1fa5b
-        entry: 6ebd5a1d-a0f6-4f23-af44-4efc690de590
-      -
-        id: fec6a4c3-c2d7-49b3-a09a-0f1e0f924470
-        entry: 782bae0a-6ff7-4dd9-b003-a76732b8d3cd
-      -
-        id: 7267e8ed-e602-4971-a909-7205d2e13f56
-        entry: f59f3c92-b928-438e-bb7d-daeddad499a8
-      -
-        id: cd0edfc2-3a45-4908-b7e3-1d2b339603c2
-        entry: 1826a946-38b7-4740-afb8-7a574d2e1d53
-      -
-        id: b907ffba-7044-49e1-af20-31c35c36f461
-        entry: 18195f17-11aa-4661-aa8d-f6686155586d
-  -
-    id: 78831ed2-88a0-4837-801a-dc1fa33ea410
-    title: Events
-    url: '#'
-    children:
-      -
-        id: 7ac26813-d4bc-402f-b129-6af8ee5b18e7
-        title: Calendar
-        url: /events/
-      -
-        id: 50fc09cc-f87f-4c22-af41-bcc2a19f17ca
-        title: NightShifts
-        url: 'https://artcentergreenville.org/firstfriday'
-      -
-        id: ef700d07-8b1c-466f-a4a5-fc6fefdd8e26
-        entry: ec33ca3e-4bfd-4b06-aab3-3370bba1b9b3
-      -
-        id: 8b6410ab-0b60-429e-a61d-87e4ced4d070
-        entry: 0e321df4-9e0c-46ab-a2f7-04b33fcc4325
-      -
-        id: 76c0f8dc-3d1e-4da7-9eb0-09cf2e52ffad
-        entry: 7f18f75f-7fd2-446a-852c-7f0570aece59
-  -
     id: 149436e1-ac37-4207-83c8-f98189c7ea0a
     title: Artists
     url: '#'
@@ -89,6 +26,56 @@ tree:
         id: 28e30cf7-4a23-4d7b-94cf-a73008336481
         entry: d1e5a760-453c-4f89-81d1-605f0d4a4ea7
   -
+    id: fe6bd8d4-1eb3-411f-a5c5-c528f9b70588
+    title: Education
+    url: '#'
+    children:
+      -
+        id: 13b3e884-ce2a-466a-84e7-ea7635f1fa5b
+        entry: 6ebd5a1d-a0f6-4f23-af44-4efc690de590
+      -
+        id: fec6a4c3-c2d7-49b3-a09a-0f1e0f924470
+        entry: 782bae0a-6ff7-4dd9-b003-a76732b8d3cd
+      -
+        id: 7267e8ed-e602-4971-a909-7205d2e13f56
+        entry: f59f3c92-b928-438e-bb7d-daeddad499a8
+      -
+        id: b907ffba-7044-49e1-af20-31c35c36f461
+        entry: 18195f17-11aa-4661-aa8d-f6686155586d
+      -
+        id: cd0edfc2-3a45-4908-b7e3-1d2b339603c2
+        entry: 1826a946-38b7-4740-afb8-7a574d2e1d53
+  -
+    id: 78831ed2-88a0-4837-801a-dc1fa33ea410
+    title: Events
+    url: '#'
+    children:
+      -
+        id: 7ac26813-d4bc-402f-b129-6af8ee5b18e7
+        title: Calendar
+        url: /events/
+      -
+        id: 50fc09cc-f87f-4c22-af41-bcc2a19f17ca
+        title: NightShifts
+        url: 'https://artcentergreenville.org/events/nightshifts'
+      -
+        id: ef700d07-8b1c-466f-a4a5-fc6fefdd8e26
+        entry: ec33ca3e-4bfd-4b06-aab3-3370bba1b9b3
+      -
+        id: 8b6410ab-0b60-429e-a61d-87e4ced4d070
+        entry: 0e321df4-9e0c-46ab-a2f7-04b33fcc4325
+      -
+        id: 76c0f8dc-3d1e-4da7-9eb0-09cf2e52ffad
+        entry: 7f18f75f-7fd2-446a-852c-7f0570aece59
+  -
+    id: 213eff93-aae2-49be-b11b-ae991e3456a7
+    title: Programs
+    children:
+      -
+        id: f8c1ddbd-a103-415f-8b71-c75adfb9b9e9
+        title: 'Brandon Fellowship'
+        url: 'https://artcentergreenville.org/artists/brandon-fellowship'
+  -
     id: 8a134dd1-2aaa-48ed-9c8e-e2a45d446ab5
     title: Support
     url: '#'
@@ -97,24 +84,39 @@ tree:
         id: 761ba0d7-d989-4149-b309-9c98f08b2a98
         entry: b958b573-df8d-4deb-8724-b58b5f91347c
       -
+        id: a077e62d-bba5-46a8-9338-f67618542aba
+        title: Membership
+        url: 'https://artcentergreenville.org/artists/artist-membership'
+      -
         id: 7c897c68-8db2-4db3-b294-697f0271582f
         entry: f6d575f3-821f-491e-84f2-c76f83e73619
       -
         id: 8504b33e-4f7e-4ff4-b329-ddebe38a04fb
         entry: 785cdacf-aaab-4aa6-bf4a-c0486d6c1b18
       -
-        id: a077e62d-bba5-46a8-9338-f67618542aba
-        title: Membership
-        url: 'https://artcentergreenville.org/artists/artist-membership'
-      -
-        id: c862518f-a2a4-48a1-bdaf-9319bb779542
-        entry: 64277344-bfc4-4a32-9a09-f06bfdb2b27a
-      -
         id: 5bac74a7-f5cc-4ccf-9575-a681ef3898fd
         entry: dd280318-cba2-4fd3-97dd-07de56a5b843
+  -
+    id: 9a589641-85a7-4aa1-b9ec-29d1aec33c54
+    title: Visit
+    url: '#'
+    children:
       -
-        id: ce2e3b42-01df-4f98-bda6-1c75b896361c
-        entry: 51ddd5d0-7ef9-4ed7-bad1-041b7567de7d
+        id: 708aacee-0d1b-4709-8bb7-b18d082145d0
+        entry: b7e08d70-fe4a-4825-8774-46a1a95c0f7f
+      -
+        id: 7adc3986-f810-4a12-8c59-bd83107d28f2
+        title: Shop
+        url: 'https://shopgcca.square.site/'
+      -
+        id: c238f6e2-b80c-4b73-8f32-b4a75ccfd12d
+        entry: 206f55ef-b9f5-4c0c-806b-938d9328b135
+      -
+        id: 8bbf98e0-8cdb-4b37-9829-c0a109255a36
+        entry: 9f443f80-8416-4458-9154-96da5afc5548
+      -
+        id: da708783-fbc1-497d-ba28-259144a21441
+        entry: c4671ae2-763c-4dbc-aaf2-973fd4cfb18b
   -
     id: 649078a5-227d-47a4-9858-388b5073e759
     title: About
@@ -126,6 +128,10 @@ tree:
       -
         id: 247e4d5c-cdaf-4991-9595-6e8a5de15d86
         entry: 4b49b7d2-0525-40ac-a674-162a852a74c8
+      -
+        id: 9f7d0b03-3cb9-4e8f-8afd-ce8575e9919b
+        title: Careers
+        url: 'https://artcentergreenville.org/join-our-team/careers'
       -
         id: 2c5df49a-c948-4e9e-bbe4-c6a2de823200
         title: News

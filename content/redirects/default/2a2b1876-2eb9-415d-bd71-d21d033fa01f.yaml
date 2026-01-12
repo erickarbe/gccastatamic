@@ -1,0 +1,8 @@
+id: 2a2b1876-2eb9-415d-bd71-d21d033fa01f
+enabled: true
+source: /support/planned-giving
+source_md5: 17abaa910c62f19238c11f9f88163c9f
+destination: /planned-giving
+type: 301
+site: default
+match_type: exact
