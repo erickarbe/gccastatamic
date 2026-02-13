@@ -28,9 +28,9 @@ biography:
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 headshot: elena-artwork-1.png
 updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1767929008
+updated_at: 1768403050
 featured_image: img_9853.jpeg
-instagram_handle: ele_bell98
+instagram_handle: 'https://www.instagram.com/ele_bell98'
 artist_quote: |-
   My work explores the complexities of human existence, using art to examine emotion, identity, and connection. Primarily an oil painter, I also work in digital and film photography to capture multiple perspectives. Portraiture is central to my practice, allowing me to transform the mundane through rich color and emotional depth to reveal unspoken aspects of human life.
   Music, literature, history, and current events inform my creative process, influencing color, texture, and subject matter. Cultural symbolism shapes works such as football players, cowboys, and angels, which explore themes of strength, struggle, hope, and transcendence. At the core of my practice is a desire to understand and express shared emotional experiences. I aim to create work that invites reflection, connection, and new ways of seeing.

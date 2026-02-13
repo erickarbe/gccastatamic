@@ -4,9 +4,9 @@ blueprint: studio_artist
 title: 'Jazmin Terrell'
 studio: 'Studio 9'
 artists_medium: 'Print Making & Painting'
-website: www.nothingmattersink.com
+website: 'https://www.nothingmattersink.com'
 email: jazminterrelldesigns@gmail.com
-instagram_handle: Nothing.Matters.Ink
+instagram_handle: 'https://www.instagram.com/Nothing.Matters.Ink'
 biography:
   -
     type: paragraph
@@ -18,5 +18,5 @@ author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 featured_image: terrell-headshot-(1).jpg
 headshot: jazmin-artwork-1.png
 updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1767928806
+updated_at: 1768402955
 ---

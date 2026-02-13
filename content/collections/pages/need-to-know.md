@@ -3,8 +3,8 @@ id: 206f55ef-b9f5-4c0c-806b-938d9328b135
 blueprint: page
 title: 'Need To Know'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 0d544cd1-b384-48fd-90bd-c684c02fb335
-updated_at: 1767984341
+updated_by: 58864e68-f24e-4b70-a595-b3405bf26d2f
+updated_at: 1769032004
 turn_off_hero: false
 inside_hero_content:
   -
@@ -374,7 +374,7 @@ blocks:
                 text: 'Independence Day Weekend:'
               -
                 type: text
-                text: ' July 4-6'
+                text: ' July 3-5'
               -
                 type: hardBreak
               -
@@ -407,7 +407,7 @@ blocks:
                 text: 'Christmas & New Year’s:'
               -
                 type: text
-                text: ' December 22-January 6'
+                text: ' December 21-January 3'
         type: new_set
         enabled: true
       -

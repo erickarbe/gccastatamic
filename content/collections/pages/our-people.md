@@ -3,8 +3,8 @@ id: 4b49b7d2-0525-40ac-a674-162a852a74c8
 blueprint: page
 title: 'Our People'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 0d544cd1-b384-48fd-90bd-c684c02fb335
-updated_at: 1765825943
+updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
+updated_at: 1769804305
 turn_off_hero: false
 eyebrow: Team
 blocks:
@@ -141,7 +141,7 @@ blocks:
   -
     id: m9d3z0rx
     text_alignment: left
-    title: '2025 GCCA Board of Directors'
+    title: '2026 GCCA Board of Directors'
     type: basic_title
     enabled: true
   -
@@ -149,19 +149,16 @@ blocks:
     content_grid_item:
       -
         id: m9d2r0gp
-        heading: 'Bradley Wingate'
+        heading: 'Blair Knobel'
         content:
           -
             type: paragraph
-            attrs:
-              textAlign: left
             content:
               -
                 type: text
                 text: |-
                   Board Chair
-                  Director of Visual & Performing Arts,
-                  Greenville County Public Schools
+                  Founder & CEO, Knobel Media
         type: new_item
         enabled: true
       -
@@ -170,14 +167,16 @@ blocks:
         content:
           -
             type: paragraph
-            attrs:
-              textAlign: left
             content:
               -
                 type: text
-                text: |-
-                  Board Vice Chair
-                  Retired – Sr. Vice President in Commercial Real Estate Lending
+                text: 'Vice Chair '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Retired, Sr. Vice President in Commercial Real Estate Leader'
         type: new_item
         enabled: true
       -
@@ -186,40 +185,24 @@ blocks:
         content:
           -
             type: paragraph
-            attrs:
-              textAlign: left
             content:
               -
                 type: text
-                text: |-
-                  Board Treasurer
-                  Partner, Ernst & Young
+                text: Treasurer
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Partner, Ernst & Young, LLP'
         type: new_item
         enabled: true
       -
         id: m9d414x2
-        heading: 'Blair Knobel'
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: |-
-                  Board Secretary
-                  Founder & CEO, Knobel Media
-        type: new_item
-        enabled: true
-      -
-        id: m9d41g5c
         heading: 'Mary Church Cornette'
         content:
           -
             type: paragraph
-            attrs:
-              textAlign: left
             content:
               -
                 type: text
@@ -227,17 +210,27 @@ blocks:
         type: new_item
         enabled: true
       -
-        id: m9d41sdz
-        heading: 'Earle Furman (GCCA Founder)'
+        id: m9d41g5c
+        heading: 'Kacee Lominack'
         content:
           -
             type: paragraph
-            attrs:
-              textAlign: left
             content:
               -
                 type: text
-                text: 'Chair, NAI Earle Furman'
+                text: 'Peacock Marketing'
+        type: new_item
+        enabled: true
+      -
+        id: m9d41sdz
+        heading: 'Earle Furman'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'NAI Earle Furman, LLC'
         type: new_item
         enabled: true
       -
@@ -246,50 +239,18 @@ blocks:
         content:
           -
             type: paragraph
-            attrs:
-              textAlign: left
             content:
               -
                 type: text
-                text: 'Attorney, Littler Law'
+                text: 'Attorney, Littler Law Firm'
         type: new_item
         enabled: true
       -
         id: m9d42d3s
-        heading: 'Kacee Lominack'
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: 'Marketing Manager, Peacock Marketing'
-        type: new_item
-        enabled: true
-      -
-        id: m9d42sp0
-        heading: 'Vee Popat'
-        content:
-          -
-            type: paragraph
-            attrs:
-              textAlign: left
-            content:
-              -
-                type: text
-                text: 'Director, Fine Arts Center'
-        type: new_item
-        enabled: true
-      -
-        id: m9d439tk
         heading: 'Nathan Reynolds'
         content:
           -
             type: paragraph
-            attrs:
-              textAlign: left
             content:
               -
                 type: text
@@ -297,17 +258,27 @@ blocks:
         type: new_item
         enabled: true
       -
-        id: m9d43qa8
-        heading: 'Liz Rundorff-Smith'
+        id: m9d42sp0
+        heading: 'Craig Ragsdale'
         content:
           -
             type: paragraph
-            attrs:
-              textAlign: left
             content:
               -
                 type: text
-                text: 'Art & Light Gallery'
+                text: 'Studio Artist, Martin Printing'
+        type: new_item
+        enabled: true
+      -
+        id: m9d439tk
+        heading: 'Gene Kreclic'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'CEO, Premiere Arts Collective'
         type: new_item
         enabled: true
     type: content_grid
@@ -323,7 +294,7 @@ blocks:
     content_grid_item:
       -
         id: m9d45emz
-        heading: 'Randolph and Allen Armstrong'
+        heading: 'Randolph & Allen Armstrong'
         type: new_item
         enabled: true
       -
@@ -333,12 +304,12 @@ blocks:
         enabled: true
       -
         id: m9d45rob
-        heading: 'Carrie Burns Brown*'
+        heading: 'Carrie Burns Brown'
         type: new_item
         enabled: true
       -
         id: m9d45x1w
-        heading: 'Linda* and Earle Furman'
+        heading: 'Linda & Earle Furman'
         type: new_item
         enabled: true
       -
@@ -353,7 +324,7 @@ blocks:
         enabled: true
       -
         id: m9d46e01
-        heading: 'Patricia and Don Kilburg'
+        heading: 'Patricia & Don Kilburg'
         type: new_item
         enabled: true
     type: content_grid

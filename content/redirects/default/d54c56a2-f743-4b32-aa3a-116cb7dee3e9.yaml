@@ -1,0 +1,8 @@
+id: d54c56a2-f743-4b32-aa3a-116cb7dee3e9
+enabled: true
+source: /ways-to-give
+source_md5: ad143855d88c43f892c1eb6511f37622
+destination: support/giving
+type: 301
+site: default
+match_type: exact

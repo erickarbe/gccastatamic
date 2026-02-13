@@ -118,14 +118,14 @@ home_page_blocks:
         open_in_new_tab: false
       -
         id: m9d3lzv1
-        panel_title: 'January Event Happenings'
+        panel_title: 'February Event Happenings'
         panel_content:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: "Step in to an hour of healing cello music, engage with art at NightShifts, attend a storytelling and art making event with My Neighbor's Voice, or learn about all GCCA has to offer with our Open House this month. "
+                text: 'Explore upcoming exhibitions, engage with art at NightShifts or learn about all GCCA has to offer with our Open House this month. '
           -
             type: paragraph
             content:
@@ -144,7 +144,7 @@ home_page_blocks:
                 type: text
                 text: ' '
         panel_image:
-          - celloasis-social.jpg
+          - oh-social.jpg
         type: panel_group
         enabled: true
         open_in_new_tab: false
@@ -199,7 +199,7 @@ home_page_blocks:
         content:
           -
             type: text
-            text: 'As one of the Upstate’s nonprofit community arts centers, we are more than a space for artistic expression—we are a place where every artist, from beginners to masters, finds the support they need to grow. We invest in art—and artists—from every angle, nurturing talent and amplifying voices.'
+            text: 'As one of the Upstate’s nonprofit community arts centers, we are more than a space for artistic expression— we are a place where every artist, from beginners to masters, finds the support they need to grow. We invest in art—and artists—from every angle, nurturing talent and amplifying voices.'
       -
         type: paragraph
         content:
@@ -386,6 +386,6 @@ home_page_blocks:
     grid_three_link_text: Give
     grid_three_link_duplicate: 'https://artcentergreenville.org/support/donate'
     grid_three_link: /support/donate
-updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
-updated_at: 1767978630
+updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
+updated_at: 1770144944
 ---

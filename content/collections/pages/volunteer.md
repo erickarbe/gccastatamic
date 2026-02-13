@@ -4,7 +4,7 @@ blueprint: page
 title: Volunteer
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1765249076
+updated_at: 1768937136
 turn_off_hero: false
 inside_hero_header: Volunteer
 inside_hero_content:
@@ -76,7 +76,7 @@ blocks:
               type: text
               text: 'We also recommend you check with your place of work as some businesses will also have perks when you volunteer for nonprofits such as GCCA! We at GCCA appreciate any and all of the help our volunteers provide. As a thank you, we will be throwing a volunteer appreciation event once a year during April as well. If you are interested in signing up and checking out open positions please follow the link below!'
       button_text: 'Volunteer Sign Up'
-      button_link: 'https://volunteer.bloomerang.co/web-admin/app/#/join-party?k=4mw47jksfqt4y0'
+      button_link: 'https://gcca.ivolunteer.com/'
       open_in_new_tab: true
       content_width: '50'
       remove_top_margin: false
@@ -108,7 +108,7 @@ blocks:
             content:
               -
                 type: text
-                text: 'Once you make a profile via the link above, sign up to Opportunities (types of help needed) to see the shifts available.'
+                text: 'Visit the Volunteer Sign Up link where you will see a list of events that we need help with, click the one of interest and the choose a slot that fits for you!'
         type: new_set
         enabled: true
       -
@@ -120,7 +120,7 @@ blocks:
             content:
               -
                 type: text
-                text: 'GCCA needs all kinds of help which includes but is not limited to handyman work, administrative needs, mailing projects, First Fridays receptions, organization, deep cleaning, writing, and more.'
+                text: 'GCCA needs all kinds of help which includes but is not limited to handyman work, administrative needs, mailing projects, NightShifts receptions, organization, deep cleaning, writing, and more.'
         type: new_set
         enabled: true
       -

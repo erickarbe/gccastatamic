@@ -41,7 +41,7 @@ blocks:
             marks:
               -
                 type: italic
-            text: '"Several working studios including three young artists on fellowship. A variety of art classes. First Friday events are packed with visitors. Not far from the growing art community on nearby Pendleton Street. This is a good place to meet several local artists in one place."'
+            text: '"Several working studios including three young artists on fellowship. A variety of art classes. Theevents are packed with visitors. Not far from the growing art community on nearby Pendleton Street. This is a good place to meet several local artists in one place."'
     form_embed: |-
       <div class="qgiv-embed-container" data-qgiv-embed="true" data-embed-id="79364" data-embed="https://secure.qgiv.com/for/greenvillecenterforcreativearts/embed/79364/" data-width="630"></div>
       <script>(function(w, d, s, id){var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "https://secure.qgiv.com/resources/core/js/embed.js";fjs.parentNode.insertBefore(js, fjs);})(window, document, 'script', 'qgiv-embedjs');</script>
@@ -49,7 +49,7 @@ blocks:
     enabled: true
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1765900967
+updated_at: 1768946778
 eyebrow: Give
 inside_hero_header: 'Donate Now'
 open_in_new_tab: false

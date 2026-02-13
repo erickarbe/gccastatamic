@@ -1,0 +1,9 @@
+name: 'Abby Avant'
+roles:
+  - intern
+groups:
+  - interns
+id: 58864e68-f24e-4b70-a595-b3405bf26d2f
+password_hash: $2y$12$Ap/7TXbqF/Cz86WNCPydvuodWtK7W4hXIec5.z4jlnqF8J9XvLCqO
+preferences:
+  theme: light

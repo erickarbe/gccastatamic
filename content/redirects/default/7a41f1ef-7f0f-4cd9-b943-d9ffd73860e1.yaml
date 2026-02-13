@@ -1,0 +1,9 @@
+id: 7a41f1ef-7f0f-4cd9-b943-d9ffd73860e1
+enabled: true
+source: /nightshifts
+source_md5: 3f61aea3539f07fab96dff81f4d99d56
+destination: events/nightshifts
+type: 301
+site: default
+match_type: exact
+description: 'To fix google search link.'

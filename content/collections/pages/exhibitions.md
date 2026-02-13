@@ -4,8 +4,8 @@ blueprint: page
 title: Exhibitions
 turn_off_hero: true
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: 0d544cd1-b384-48fd-90bd-c684c02fb335
-updated_at: 1767818080
+updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
+updated_at: 1770845245
 blocks:
   -
     id: m9hjvlwy
@@ -17,115 +17,38 @@ blocks:
   -
     id: m9hk792b
     events_list:
-      - b200e155-ebf1-4cd6-b723-493b7534555c
+      - a03c5098-cf39-40f1-b735-893aa0c9ae16
+      - 96530294-dfb5-4f24-bafe-c836640f3091
       - 6151889e-8c70-4986-9598-779079b1ff4a
       - 40db0acb-f0f3-482d-bf5c-464de9415256
     type: events_grid
     enabled: true
   -
-    id: mk4h66cm
-    panel_heading: 'Save the Schedule'
-    panel_content:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Download and print the 2026 exhibition schedule. '
-    panel_links:
-      -
-        id: mk4h69oz
-        link_eyebrow: '2026 Exhibition Schedule'
-        link_heading: 'Download & Print'
-        link_url: 'https://gccamedia.s3.amazonaws.com/yag26_onepage.pdf'
-        type: new_link_panel
-        enabled: true
-    type: sticky_links
+    id: mlij36gl
+    image_left_or_right: left
+    align_columns: center
+    content_group:
+      heading: 'Save the Schedule'
+      content:
+        -
+          type: paragraph
+          content:
+            -
+              type: text
+              text: 'Download and print the 2026 exhibition schedule. '
+      button_text: 'Download & Print'
+      button_link: 'https://gccamedia.s3.amazonaws.com/yag26_onepage.pdf'
+      open_in_new_tab: false
+      content_width: '50'
+      remove_top_margin: false
+    image: yag26_onepage-(1).png
+    constrain_image: false
+    type: image_and_text
     enabled: true
   -
     id: m9hmlcfm
     number_of_columns: three
     content_grid_item:
-      -
-        id: mbtiz2wl
-        eyebrow: 'Main Gallery'
-        heading: 'Party Line'
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'On display through January 28, 2026 '
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'Group exhibition co-curated by TSA GVL (Greenville, SC) and ICOSA (Austin, TX)'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'For More Details: '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'https://artcentergreenville.org/events/partyline'
-                      rel: null
-                      target: _blank
-                      title: null
-                text: 'Click Here'
-        type: new_item
-        enabled: true
-      -
-        id: mk2ppm8i
-        eyebrow: 'Main Gallery'
-        heading: 'Lumen Matter'
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'February 6, 2026 - March 25, 2026'
-              -
-                type: hardBreak
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Opening Reception: February 6 | 5-8PM'
-              -
-                type: hardBreak
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'Solo exhibition by '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'https://www.mollykaderka.com/'
-                      rel: null
-                      target: null
-                      title: null
-                text: 'Molly Kaderka'
-        type: new_item
-        enabled: true
       -
         id: mk2pri3k
         eyebrow: 'Main Gallery'
@@ -323,37 +246,6 @@ blocks:
     id: mcc2acnq
     number_of_columns: three
     content_grid_item:
-      -
-        id: mbtjylrg
-        eyebrow: 'Community Gallery'
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'January 9, 2026 – February 25, 2026'
-              -
-                type: hardBreak
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Opening Reception: January 9 | 5-8PM'
-              -
-                type: hardBreak
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'GCCA Art School Winter Session instructors '
-        type: new_item
-        enabled: true
-        heading: 'Osmosis: Learning through Making'
       -
         id: mk2qnvxe
         eyebrow: 'Community Gallery'
@@ -601,11 +493,12 @@ blocks:
                 type: bold
             text: 'Interested in sponsoring one of our exhibitions? Click the link below to learn more!'
     button_text: 'Learn More'
-    button_link: 'https://gccamedia.s3.amazonaws.com/exhibition-sponsordeck.pdf'
+    button_link: 'https://gccamedia.s3.amazonaws.com/gcca-exhibitionsponsordeck-26.pdf'
     open_in_new_tab: true
     image_layout: background
     background_color: '#263340'
     type: cta_section
     enabled: true
+    image: exhibition-sponsordeck.jpg
 open_in_new_tab: false
 ---

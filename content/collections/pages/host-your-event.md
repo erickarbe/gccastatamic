@@ -4,7 +4,7 @@ blueprint: page
 title: 'Host Your Event'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
-updated_at: 1763392564
+updated_at: 1770761317
 turn_off_hero: false
 eyebrow: 'Host Your Event'
 inside_hero_header: 'Venue Rentals'
@@ -114,7 +114,7 @@ blocks:
                 type: text
                 text: 'Cocktail tables and linens are available to rent as well for an additional fee.'
         panel_image:
-          - conference-room-1.webp
+          - p1050272.jpg
         type: panel_group
         enabled: true
         open_in_new_tab: false

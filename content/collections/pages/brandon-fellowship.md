@@ -3,8 +3,8 @@ id: e69e9c4a-9ed2-484d-8b29-1fa12af2ba71
 blueprint: page
 title: 'Brandon Fellowship'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 0d544cd1-b384-48fd-90bd-c684c02fb335
-updated_at: 1761148192
+updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
+updated_at: 1770218903
 turn_off_hero: false
 eyebrow: 'The Brandon Fellowship'
 inside_hero_header: 'Empowering the Next Generation of Artists'
@@ -739,11 +739,12 @@ blocks:
                 type: bold
             text: 'Interested in supporting our Fellows? Click the link below to learn more!'
     button_text: 'Sponsor Packet'
-    button_link: 'https://gccamedia.s3.amazonaws.com/bf-sponsordeck.pdf'
+    button_link: 'https://gccamedia.s3.amazonaws.com/bf-sponsordeck-26.pdf'
     open_in_new_tab: true
     image_layout: background
     background_color: '#263340'
     type: cta_section
     enabled: true
+    image: bf-sponsordeck-cover.jpg
 open_in_new_tab: false
 ---

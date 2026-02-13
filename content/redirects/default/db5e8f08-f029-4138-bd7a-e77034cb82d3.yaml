@@ -1,0 +1,8 @@
+id: db5e8f08-f029-4138-bd7a-e77034cb82d3
+enabled: true
+source: /exhibitionproposal
+source_md5: 939bdd6a89e2436b98d08cf933f65a49
+destination: artists/exhibition-proposals
+type: 301
+site: default
+match_type: exact

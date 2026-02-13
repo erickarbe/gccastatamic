@@ -13,7 +13,7 @@ inside_hero_content:
 inside_hero_image: banner1.jpg
 author: 5f81e286-c3b1-4700-935f-b6b3f8b8baa2
 updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1767881596
+updated_at: 1770227157
 blocks:
   -
     id: mjbsqje6
@@ -34,6 +34,9 @@ blocks:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: bold
                 text: 'Opening: '
           -
             type: bulletList
@@ -52,25 +55,79 @@ blocks:
             content:
               -
                 type: text
-                text: 'Vendors: Canvas Coffee '
+                marks:
+                  -
+                    type: bold
+                text: 'Food & Beverage: '
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Canvas Coffee '
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Performances: Cellist by Sharon Gerber'
+                marks:
+                  -
+                    type: bold
+                text: 'Performances:'
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Cellist by Sharon Gerber'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Art School Spotlight | Meet The Instructors'
+                marks:
+                  -
+                    type: bold
+                text: 'Spotlight: '
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Family Friendly Activity: 2026 Punch Cards'
+                text: 'Art School | Meet The Instructors'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Family Friendly Activity:'
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: '2026 Punch Cards'
         type: new_item
         enabled: true
       -
@@ -88,6 +145,9 @@ blocks:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: bold
                 text: 'Opening: '
           -
             type: bulletList
@@ -115,9 +175,72 @@ blocks:
             content:
               -
                 type: text
-                text: 'Family Friendly Activity '
+                marks:
+                  -
+                    type: bold
+                text: 'Activity: '
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Junk Journaling for Adults & Kids with '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: link
+                            attrs:
+                              href: 'https://www.theselfcarewriter.com/'
+                              rel: null
+                              target: null
+                              title: null
+                        text: 'The Self Care Writer'
           -
             type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Food: '
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'FrescoLuna Taco Truck '
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: BobaYama
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Common Pops '
         type: new_item
         enabled: true
       -
@@ -135,6 +258,9 @@ blocks:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: bold
                 text: 'Opening: '
           -
             type: bulletList
@@ -162,19 +288,67 @@ blocks:
             content:
               -
                 type: text
-                text: 'Family Friendly Activity '
+                marks:
+                  -
+                    type: bold
+                text: 'Food & Beverage: '
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'The Big Green Truck '
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Still Life Activity '
+                marks:
+                  -
+                    type: bold
+                text: 'Family Friendly Activity'
+              -
+                type: text
+                text: ':'
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Still Life Activity'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Art School Spotlight | Spring Session'
+                marks:
+                  -
+                    type: bold
+                text: 'Spotlight:'
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Art School | Spring Session'
         type: new_item
         enabled: true
       -
@@ -192,6 +366,9 @@ blocks:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: bold
                 text: 'Opening: '
           -
             type: bulletList
@@ -219,7 +396,559 @@ blocks:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Food: '
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'We Got The Beets Food Truck'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'DonutNV of Greenville'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Family Friendly Activity:'
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Poets Live Event 6-9 pm'
+        type: new_item
+        enabled: true
+      -
+        id: ml89syya
+        heading: 'May 1'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '5-8 pm'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Opening: '
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'GCS Awards Show - Community Gallery'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Food & Beverage: '
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'DonutNV of Greenville'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
                 text: 'Family Friendly Activity '
+        type: new_item
+        enabled: true
+      -
+        id: ml89yrt8
+        heading: 'June 5'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '5-8 pm'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Opening: '
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Chimeras - Group Show curated by Alexander Rouse - Main Gallery'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Family Friendly Activity '
+        type: new_item
+        enabled: true
+      -
+        id: ml8a4cln
+        heading: 'July 10'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '5-8 pm '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Opening: '
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Adam DuShole - Solo Show - Community Gallery'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Spotlight:'
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Gift Shop Artists '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Food & Beverage: '
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'DonutNV of Greenville'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Family Friendly Activity'
+        type: new_item
+        enabled: true
+      -
+        id: ml8bftay
+        heading: 'August 1'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '12-6 pm'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Art Bash x Annual Showcase'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Opening: '
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Membership Show - Main Gallery'
+        type: new_item
+        enabled: true
+      -
+        id: ml8a6lj3
+        heading: 'September 4'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '5-8 pm '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Opening: '
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Barbara Stone Foundation Show - Main Gallery '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Family Friendly Activity '
+        type: new_item
+        enabled: true
+      -
+        id: ml8a7f4t
+        heading: 'October 2'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '5-8 pm '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Opening: '
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'SC Watermedia Society - 50th Anniversary Juried Exhibition - Main Gallery'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Family Friendly Activity '
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Watercolor Demo '
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Poets Live 6-9 pm '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Spotlight: '
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Art School | Instructors'
+        type: new_item
+        enabled: true
+      -
+        id: ml8a5dzy
+        heading: 'November 13'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '5-8 pm'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Opening: '
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Root & Canopy - Studio Artist Show - Community Gallery'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Family Friendly Activity '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Food & Beverage: '
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'DonutNV of Greenville'
+        type: new_item
+        enabled: true
+      -
+        id: ml8biawe
+        heading: 'December 4'
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: '5-8 pm'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Opening: '
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Ink Paper Rock - Kevin Pang Solo Show - Main Gallery'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: '9 Murals Exhibition - Community Gallery'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Family Friendly Activity '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Food & Beverage'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Spotlight: '
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: Programs
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Career Fair'
         type: new_item
         enabled: true
     type: content_grid

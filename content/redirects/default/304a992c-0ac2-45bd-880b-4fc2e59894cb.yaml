@@ -1,0 +1,8 @@
+id: 304a992c-0ac2-45bd-880b-4fc2e59894cb
+enabled: true
+source: /brandonfellowship
+source_md5: 1c83cbdcbcdfeebcc2f5f617328f2b15
+destination: /artists/brandon-fellowship
+type: 301
+site: default
+match_type: exact

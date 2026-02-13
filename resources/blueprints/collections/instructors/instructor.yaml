@@ -1,0 +1,95 @@
+title: Instructor
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: Medium
+            field:
+              type: text
+              validate:
+                - required
+              display: "Artist's Medium"
+          -
+            handle: website
+            field:
+              type: text
+              display: Website
+          -
+            handle: email
+            field:
+              type: text
+              display: Email
+          -
+            handle: instagram_handle
+            field:
+              type: text
+              display: 'Instagram Handle'
+          -
+            handle: facebook_handle
+            field:
+              type: text
+              display: 'Facebook Handle'
+          -
+            handle: artist_quote
+            field:
+              type: textarea
+              display: 'Artist Quote'
+          -
+            handle: biography
+            field:
+              remove_empty_nodes: false
+              type: bard
+              display: Biography
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: template_field
+            field:
+              type: template
+              display: Template
+          -
+            handle: author
+            field:
+              type: users
+              display: Author
+          -
+            handle: featured_art
+            field:
+              max_files: 1
+              container: s3_assets
+              type: assets
+              display: 'Featured Art'
+          -
+            handle: headshot
+            field:
+              max_files: 1
+              container: s3_assets
+              type: assets
+              display: Headshot
+          -
+            handle: parent
+            field:
+              max_items: 1
+              collections:
+                - instructors
+              type: entries
+              listable: false
