@@ -1,6 +1,6 @@
 <section class="sticky-links bg-white relative z-10 grid md:grid-cols-2 md:divide-x md:divide-gray-100 min-h-screen mb-20">
   <div class="md:sticky md:top-[20px] md:h-fit p-8 md:pl-[5vw] py-12 md:py-24 md:pr-16 space-y-8">
-      <h2 class="font-serif leading-[1.3] text-4xl md:text-5xl lg:text-6xl font-semibold mb-8 text-dark-blue">
+      <h2 class="font-serif leading-[1.3] text-4xl font-semibold mb-8 text-dark-blue {{ if panel_heading_size == 'medium' }}md:text-5xl lg:text-5xl{{ elseif panel_heading_size == 'small' }}md:text-4xl lg:text-4xl{{ elseif panel_heading_size == 'xs' }}md:text-3xl lg:text-3xl{{ else }}md:text-5xl lg:text-6xl{{ /if }}">
           {{ panel_heading }}
       </h2>
       <div class="text-lg/8 text-gray-blue font-light prose">

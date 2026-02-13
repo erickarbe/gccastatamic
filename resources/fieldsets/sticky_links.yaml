@@ -6,6 +6,18 @@ fields:
       type: text
       display: 'Panel Heading'
   -
+    handle: panel_heading_size
+    field:
+      type: select
+      display: 'Panel heading size (desktop)'
+      instructions: 'Affects desktop only. Mobile size stays the same.'
+      default: large
+      options:
+        large: 'Large (default)'
+        medium: 'Medium'
+        small: 'Small'
+        xs: 'XS'
+  -
     handle: panel_content
     field:
       buttons:

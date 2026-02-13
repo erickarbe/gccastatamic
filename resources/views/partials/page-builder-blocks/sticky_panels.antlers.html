@@ -12,7 +12,7 @@
                     <p class="mb-1 text-lg">{{ eyebrow }}</p>
                 {{ /if }}
                 
-                <h2 class="leading-[1.1] text-4xl md:text-5xl lg:text-6xl font-serif font-semibold">
+                <h2 class="leading-[1.1] text-4xl font-serif font-semibold {{ if panel_title_size == 'medium' }}md:text-5xl lg:text-5xl{{ elseif panel_title_size == 'small' }}md:text-4xl lg:text-4xl{{ elseif panel_title_size == 'xs' }}md:text-3xl lg:text-3xl{{ else }}md:text-5xl lg:text-6xl{{ /if }}">
                     {{ panel_title }}
                 </h2>
                 <div class=" text-content panel-content text-lg/8 font-light">
