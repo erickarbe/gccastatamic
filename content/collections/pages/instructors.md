@@ -6,6 +6,7 @@ turn_off_hero: false
 author: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
 updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
 updated_at: 1786026339
+template: instructors/index
 inside_hero_content:
   -
     type: paragraph
