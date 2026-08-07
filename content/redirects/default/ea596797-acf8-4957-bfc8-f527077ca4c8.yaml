@@ -1,0 +1,8 @@
+id: ea596797-acf8-4957-bfc8-f527077ca4c8
+enabled: true
+source: /events/color-the-night-26
+source_md5: 14e21b6a9a37e1131a31b4ae6e42692d
+destination: /events/color-the-night
+type: 301
+site: default
+match_type: exact

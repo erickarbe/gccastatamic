@@ -4,7 +4,7 @@ blueprint: page
 title: 'Instructor Proposals'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: ff1ac932-a49d-40b3-b6bc-41a64916139d
-updated_at: 1765983961
+updated_at: 1785701897
 turn_off_hero: false
 inside_hero_header: 'Instructor <span>Proposals</span>'
 inside_hero_content:
@@ -33,7 +33,7 @@ blocks:
               marks:
                 -
                   type: bold
-              text: 'four class sessions each year'
+              text: 'four class seasons each year'
             -
               type: text
               text: ', with a variety of formats—from '
@@ -54,26 +54,28 @@ blocks:
               text: 'five-week classes'
             -
               type: text
-              text: .
-        -
-          type: paragraph
+              text: ', in all forms of creative arts.'
         -
           type: paragraph
           content:
             -
               type: text
-              text: 'If you’re interested in teaching at GCCA, please review the upcoming '
+              text: 'If you’re interested in teaching at GCCA, please complete our '
             -
               type: text
               marks:
                 -
                   type: bold
-              text: 'teaching proposal deadlines'
+              text: 'Instructor Proposal Form. '
+        -
+          type: paragraph
+          content:
             -
               type: text
-              text: ':'
-            -
-              type: hardBreak
+              marks:
+                -
+                  type: bold
+              text: '2026 Season Dates and Deadlines:'
         -
           type: bulletList
           content:
@@ -85,7 +87,238 @@ blocks:
                   content:
                     -
                       type: text
-                      text: 'Spring Session Proposal Deadline: February 9, 2026'
+                      marks:
+                        -
+                          type: bold
+                      text: 'Fall Season Proposal Deadline:'
+                    -
+                      type: text
+                      text: ' July 13, 2026'
+                -
+                  type: bulletList
+                  content:
+                    -
+                      type: listItem
+                      content:
+                        -
+                          type: paragraph
+                          content:
+                            -
+                              type: text
+                              marks:
+                                -
+                                  type: bold
+                                -
+                                  type: italic
+                              text: 'Fall Season Classes:'
+                            -
+                              type: text
+                              marks:
+                                -
+                                  type: italic
+                              text: ' August 24 - December 18, 2026'
+        -
+          type: paragraph
+          content:
+            -
+              type: text
+              marks:
+                -
+                  type: bold
+              text: '2027 Season Dates and Deadlines:'
+        -
+          type: bulletList
+          content:
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      marks:
+                        -
+                          type: bold
+                      text: 'Winter Season Proposal Deadline:'
+                    -
+                      type: text
+                      text: ' November 30, 2026'
+                -
+                  type: bulletList
+                  content:
+                    -
+                      type: listItem
+                      content:
+                        -
+                          type: paragraph
+                          content:
+                            -
+                              type: text
+                              marks:
+                                -
+                                  type: bold
+                                -
+                                  type: italic
+                              text: 'Winter Season Classes:'
+                            -
+                              type: text
+                              marks:
+                                -
+                                  type: italic
+                              text: ' January 11 - March 12, 2027'
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      marks:
+                        -
+                          type: bold
+                      text: 'Spring Break Camps Proposal Deadline:'
+                    -
+                      type: text
+                      text: ' November 30, 2026'
+                -
+                  type: bulletList
+                  content:
+                    -
+                      type: listItem
+                      content:
+                        -
+                          type: paragraph
+                          content:
+                            -
+                              type: text
+                              marks:
+                                -
+                                  type: bold
+                                -
+                                  type: italic
+                              text: 'Spring Break Camps:'
+                            -
+                              type: text
+                              marks:
+                                -
+                                  type: italic
+                              text: ' March 22-26, 2027'
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      marks:
+                        -
+                          type: bold
+                      text: 'Spring Season Proposal Deadline:'
+                    -
+                      type: text
+                      text: ' February 8, 2027'
+                -
+                  type: bulletList
+                  content:
+                    -
+                      type: listItem
+                      content:
+                        -
+                          type: paragraph
+                          content:
+                            -
+                              type: text
+                              marks:
+                                -
+                                  type: bold
+                                -
+                                  type: italic
+                              text: 'Spring Season Classes:'
+                            -
+                              type: text
+                              marks:
+                                -
+                                  type: italic
+                              text: ' March 22 - May 21, 2027'
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      marks:
+                        -
+                          type: bold
+                      text: 'Summer Season Proposal Deadline:'
+                    -
+                      type: text
+                      text: ' April 26, 2027'
+                -
+                  type: bulletList
+                  content:
+                    -
+                      type: listItem
+                      content:
+                        -
+                          type: paragraph
+                          content:
+                            -
+                              type: text
+                              marks:
+                                -
+                                  type: bold
+                                -
+                                  type: italic
+                              text: 'Summer Season Classes:'
+                            -
+                              type: text
+                              marks:
+                                -
+                                  type: italic
+                              text: ' June 7 - August 13, 2027'
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      marks:
+                        -
+                          type: bold
+                      text: 'Fall Season Proposal Deadline:'
+                    -
+                      type: text
+                      text: ' July 12, 2027'
+                -
+                  type: bulletList
+                  content:
+                    -
+                      type: listItem
+                      content:
+                        -
+                          type: paragraph
+                          content:
+                            -
+                              type: text
+                              marks:
+                                -
+                                  type: bold
+                                -
+                                  type: italic
+                              text: 'Fall Season Classes:'
+                            -
+                              type: text
+                              marks:
+                                -
+                                  type: italic
+                              text: ' August 23 - December 17, 2027'
       open_in_new_tab: false
       content_width: '50'
       remove_top_margin: false
@@ -99,7 +332,7 @@ blocks:
     panels:
       -
         id: m9imgk1g
-        panel_title: '4 Yearly GCCA Sessions'
+        panel_title: '2026 GCCA Seasons'
         panel_content:
           -
             type: paragraph
@@ -109,66 +342,7 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: 'Winter Session: '
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'January 12 ­- March 13, 2026'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Spring Session:'
-              -
-                type: text
-                text: ' '
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'March 23 – May 22, 2026'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Summer Art Camp:   '
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'June 1 - July 31, 2026'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Summer Session:   '
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'June 1 - August 7, 2026'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Fall Session:'
+                text: 'Fall Season:'
               -
                 type: text
                 text: '  '
@@ -182,6 +356,7 @@ blocks:
         type: panel_group
         enabled: true
         open_in_new_tab: false
+        panel_title_size: large
     type: sticky_panels
     enabled: true
   -
@@ -234,14 +409,14 @@ blocks:
               -
                 type: link
                 attrs:
-                  href: 'mailto:info@artcentergreenville.org'
+                  href: 'mailto:kara@artcentergreenville.org'
                   rel: null
                   target: null
                   title: null
             text: kara@artcentergreenville.org
     type: basic_centered_content
     enabled: true
-    eyebrow: 'submit an Art School proposal'
+    eyebrow: 'Submit an Art School proposal'
     heading: 'How to Apply'
     background_color: '#ffffff'
     open_in_new_tab: false

@@ -1,0 +1,8 @@
+id: 57447325-3e7a-4f2c-8e15-3d2c5b118182
+enabled: true
+source: /events/paint-sip-matissesgoldfish-1
+source_md5: 6be26b6a4943fd522f62d4e8f887cb21
+destination: /events/paint-sip-yeschef
+type: 301
+site: default
+match_type: exact

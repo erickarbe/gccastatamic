@@ -1,0 +1,8 @@
+id: e3676121-41a4-4621-adeb-6c9ce7ef8050
+enabled: true
+source: /events/paint-sip-stilllife-1
+source_md5: 590189ce6cc2ca30b3ee1b13d86b1175
+destination: /events/paint-sip-pearlearrings
+type: 301
+site: default
+match_type: exact

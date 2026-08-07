@@ -1,0 +1,8 @@
+id: 7396956e-2670-4004-a22c-33a010746a72
+enabled: true
+source: /events/paint-sip-vangogh-1
+source_md5: 1bde8041e94604d37abd3a26967a8fba
+destination: /events/paint-sip-sillygeese
+type: 301
+site: default
+match_type: exact

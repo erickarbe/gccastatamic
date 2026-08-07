@@ -1,0 +1,8 @@
+id: 8839eb8c-b43d-4d3a-b76f-965651d2c95c
+enabled: true
+source: /events/nightshift-march
+source_md5: 67888b00016fc6afbfd896d6febc397d
+destination: /events/nightshift-april
+type: 301
+site: default
+match_type: exact

@@ -1,0 +1,8 @@
+id: 869e24f9-da8a-4874-aadf-df64e88cd1f0
+enabled: true
+source: 'https://artcentergreenville.org/support/giving'
+source_md5: b480ffcef1bec0e90159d5eaacdcc9a6
+destination: 'http://artcentergreenville.org/giving'
+type: 301
+site: default
+match_type: exact

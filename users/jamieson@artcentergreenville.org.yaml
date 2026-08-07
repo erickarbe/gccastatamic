@@ -13,3 +13,7 @@ preferences:
           filters:
             error_handled:
               status: 'false'
+  assets:
+    s3_assets:
+      per_page: 100
+      mode: grid

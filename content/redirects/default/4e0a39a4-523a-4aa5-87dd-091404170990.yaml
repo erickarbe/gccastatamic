@@ -1,8 +1,0 @@
-id: 4e0a39a4-523a-4aa5-87dd-091404170990
-enabled: true
-source: /events/artbash
-source_md5: 30dabf5a8b54d93226b8d99dff3d4632
-destination: 'https://secure.qgiv.com/event/artbash/'
-type: 301
-site: default
-match_type: exact

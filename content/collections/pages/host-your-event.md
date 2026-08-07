@@ -4,7 +4,7 @@ blueprint: page
 title: 'Host Your Event'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
-updated_at: 1770761317
+updated_at: 1786034102
 turn_off_hero: false
 eyebrow: 'Host Your Event'
 inside_hero_header: 'Venue Rentals'
@@ -60,13 +60,14 @@ blocks:
                 type: text
                 text: 'Our Gray Loft space is our most open concept of rental spaces. With ample natural light coming in through the roughly 9ft windows that line the walls. This space is perfect for any midsize event or photography needs. The space is located on the second floor of our building above our reception area and conference room. Mobile walls are available for use as well as cocktail tables and linens for an additional fee. Light food and beverage can be coordinated by an outside vendor but no onsite catering services are provided at this time and serving tables must be set up just outside of the Loft doors.'
         panel_image:
-          - gray-loft-2.jpg
+          - p1050761.jpg
         type: panel_group
         enabled: true
         open_in_new_tab: false
+        panel_title_size: large
       -
         id: m9hutzwt
-        panel_title: 'Conference Room'
+        panel_title: 'Indigo Room'
         panel_content:
           -
             type: paragraph
@@ -106,7 +107,7 @@ blocks:
             content:
               -
                 type: text
-                text: 'Our Conference Room is a space ideal for, but not limited to, meetings and also allows for the use of audio-visual equipment at an additional cost. The room is equipped with moveable tables and chairs that can be easily configured to accommodate the needs of guests. Light food and beverage can be coordinated by an outside vendor but no onsite catering services are provided at this time. The walls of the Conference Room display historic pictures of the Brandon Mill and Village of West Greenville where GCCA is located. This space can be rented in conjunction with our Main Gallery space to provide more room for spreading out.'
+                text: 'Our Indigo Room is a space ideal for, but not limited to, meetings and also allows for the use of audio-visual equipment at an additional cost. The room is equipped with moveable tables and chairs that can be easily configured to accommodate the needs of guests. Light food and beverage can be coordinated by an outside vendor but no onsite catering services are provided at this time. The walls of the Indigo Room display historic pictures of the Brandon Mill and Village of West Greenville where GCCA is located. This space can be rented in conjunction with our Main Gallery space to provide more room for spreading out.'
           -
             type: paragraph
             content:
@@ -118,6 +119,7 @@ blocks:
         type: panel_group
         enabled: true
         open_in_new_tab: false
+        panel_title_size: large
       -
         id: m9huqwkg
         panel_title: 'Main Gallery'
@@ -157,6 +159,7 @@ blocks:
         type: panel_group
         enabled: true
         open_in_new_tab: false
+        panel_title_size: large
     type: sticky_panels
     enabled: true
   -
@@ -267,6 +270,76 @@ blocks:
         enabled: true
     type: sticky_links
     enabled: true
+    panel_heading_size: large
+  -
+    id: mm2ercrt
+    background_color: '#ffffff'
+    heading: 'Art by Appointment'
+    content:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'If looking to book a private art workshop, lesson or critique, please reach out to our Education Director, Kara Tyndall at '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'mailto:kara@artcentergreenville.org'
+                  rel: null
+                  target: null
+                  title: null
+            text: kara@artcentergreenville.org
+          -
+            type: text
+            text: .
+      -
+        type: paragraph
+      -
+        type: paragraph
+        content:
+          -
+            type: image
+            attrs:
+              src: null
+              alt: null
+    open_in_new_tab: false
+    type: basic_centered_content
+    enabled: true
+  -
+    id: mm2eqgxo
+    images:
+      - cxfw1.jpg
+      - copy-of-p1040245.jpg
+      - cxfw4.jpg
+      - hm25-22.jpg
+      - img_3521-3.jpg
+      - js-masterclass7.jpg
+      - jse-09287.jpg
+      - jse-10016.jpg
+      - wedding-553.jpg
+      - wedding-684.jpg
+    type: full_width_carousel
+    enabled: true
+  -
+    id: mm2gp7r0
+    background_color: '#ffffff'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '*Wedding Venue photos credit to Mast Photography'
+    open_in_new_tab: false
+    type: basic_centered_content
+    enabled: true
 inside_hero_image: gcca-showcase_dance_0009.jpg
 open_in_new_tab: false
+number_of_columns: three
 ---

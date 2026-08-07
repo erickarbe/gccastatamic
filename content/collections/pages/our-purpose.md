@@ -3,8 +3,8 @@ id: 6eeb74fe-ca71-420a-a624-ef405b90ecfe
 blueprint: page
 title: 'Our Purpose'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1760021973
+updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
+updated_at: 1772556035
 turn_off_hero: false
 inside_hero_header: 'Access Art from All Angles'
 eyebrow: 'Our Purpose'
@@ -170,6 +170,24 @@ blocks:
                     -
                       type: text
                       text: 'Professional Development with Greenville County School System Teachers '
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'Emerging Artist Program'
+            -
+              type: listItem
+              content:
+                -
+                  type: paragraph
+                  content:
+                    -
+                      type: text
+                      text: 'Artist Professional and Mental Health Resources'
       open_in_new_tab: false
       content_width: '50'
       remove_top_margin: false

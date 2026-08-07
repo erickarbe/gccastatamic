@@ -1,0 +1,8 @@
+id: db8d8731-46d0-47dc-ac04-2e53c96e6556
+enabled: true
+source: /events/lumenmatter-1
+source_md5: 9e1f04c05a9c4ce4851dc34f32e47313
+destination: /events/withinher
+type: 301
+site: default
+match_type: exact

@@ -1,0 +1,8 @@
+id: ce243ad2-ffe7-4837-a954-71817081e75d
+enabled: true
+source: /events/nightshift-july
+source_md5: bf08bc8040e57dbeca564dfeef0fc541
+destination: /events/nightshift-september
+type: 301
+site: default
+match_type: exact

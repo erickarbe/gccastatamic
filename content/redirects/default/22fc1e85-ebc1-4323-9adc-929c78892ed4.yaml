@@ -1,0 +1,8 @@
+id: 22fc1e85-ebc1-4323-9adc-929c78892ed4
+enabled: true
+source: /events/the-quiet-horizon
+source_md5: 132b003af03cbe37fc504ad1c4b7a4cb
+destination: /events/fieldsoffeeling
+type: 301
+site: default
+match_type: exact

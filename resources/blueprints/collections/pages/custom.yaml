@@ -1,0 +1,5 @@
+title: Custom
+tabs:
+  main:
+    display: Main
+    fields: {  }

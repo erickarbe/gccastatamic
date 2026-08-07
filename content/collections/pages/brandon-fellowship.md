@@ -3,8 +3,8 @@ id: e69e9c4a-9ed2-484d-8b29-1fa12af2ba71
 blueprint: page
 title: 'Brandon Fellowship'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1770218903
+updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
+updated_at: 1786027567
 turn_off_hero: false
 eyebrow: 'The Brandon Fellowship'
 inside_hero_header: 'Empowering the Next Generation of Artists'
@@ -23,8 +23,8 @@ inside_hero_content:
         marks:
           -
             type: bold
-        text: 'Deadline to apply for the 2025-2026 Fellowship has closed. Applications for the 2026-2027 program year will open in May 2026. '
-inside_hero_image: brandon-fellowship-ceremony.jpg
+        text: 'Applications for the 2026-2027 program year are currently open. The deadline to submit your application is June 30th by 11:59pm. '
+inside_hero_image: copy-of-p1040303.jpg
 blocks:
   -
     id: m9g7t4ni
@@ -48,7 +48,7 @@ blocks:
           content:
             -
               type: text
-              text: 'Applications will open in May 2026, with the deadline for applications set at the beginning of July. A review and interview process will follow for the 2026–2027 program year candidates.'
+              text: 'Applications will open in May 2026, with the deadline for applications set at the end of June 2026. A review and interview process will follow for the 2026–2027 program year candidates.'
         -
           type: paragraph
           content:
@@ -305,7 +305,7 @@ blocks:
     number_of_columns: three
   -
     id: mabikjom
-    heading: '2025 Brandon Fellowship Selection Committee'
+    heading: '2026 Brandon Fellowship Selection Committee'
     content:
       -
         type: bulletList
@@ -336,15 +336,6 @@ blocks:
                 content:
                   -
                     type: text
-                    text: 'Pat Kilburg, GCCA Founder and artist'
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
                     text: 'RaAmen Stallings, Brandon Fellowship alumni & current mentor'
           -
             type: listItem
@@ -354,7 +345,7 @@ blocks:
                 content:
                   -
                     type: text
-                    text: 'Liz Rundorff Smith, GCCA Board Member & Assistant Gallery Director at Art & Light Gallery'
+                    text: 'Gene Krcelic, President of Premier Arts Collective'
           -
             type: listItem
             content:
@@ -363,9 +354,9 @@ blocks:
                 content:
                   -
                     type: text
-                    text: 'Gene Krcelic, President of Premier Arts Collective'
+                    text: 'James Engel, Retired / Arts Philanthropist'
     type: basic_centered_content
-    enabled: true
+    enabled: false
     background_color: '#ffffff'
     open_in_new_tab: false
   -
@@ -381,9 +372,9 @@ blocks:
             content:
               -
                 type: text
-                text: 'Applicants please have your references send their letters of recommendation to Ben Tarcson at ben@artcentergreenville.org or have them mail the letters to 101 Abney St.  Greenville, SC 29611. '
+                text: 'Applicants please have your references send their letters of recommendation to Gallery Director, Ben Tarcson at ben@artcentergreenville.org. '
     type: basic_centered_content
-    enabled: false
+    enabled: true
     background_color: '#ffffff'
     open_in_new_tab: false
   -
@@ -399,7 +390,13 @@ blocks:
     type: basic_title
     enabled: true
   -
-    id: mekb32tn
+    id: mekc2wt5
+    text_alignment: center
+    title: 'Brandon Fellowship Alumni'
+    type: basic_title
+    enabled: true
+  -
+    id: mshmbvrb
     number_of_columns: four
     people:
       -
@@ -409,6 +406,8 @@ blocks:
         headshot: bf202611.jpg
         type: new_person
         enabled: true
+        website_link: 'https://trippbrowndesign.com/about'
+        instagram_link: 'https://www.instagram.com/trippbrowndesign/'
       -
         id: mekbzhtq
         name: 'Jackson Herren'
@@ -416,6 +415,7 @@ blocks:
         headshot: bf20269.jpg
         type: new_person
         enabled: true
+        instagram_link: 'https://www.instagram.com/m.o.4.c/'
       -
         id: mekc0a4f
         name: 'Adelle Pruitt'
@@ -423,6 +423,8 @@ blocks:
         headshot: bf202612.jpg
         type: new_person
         enabled: true
+        website_link: 'https://adellepruittart.com/'
+        instagram_link: 'https://www.instagram.com/adellepruitt.art/'
       -
         id: mekc0qky
         name: 'Nic Salazar'
@@ -430,13 +432,8 @@ blocks:
         headshot: bf202617.jpg
         type: new_person
         enabled: true
+        instagram_link: 'https://www-fallback.instagram.com/voidzcasablanca/'
     type: people_grid
-    enabled: true
-  -
-    id: mekc2wt5
-    text_alignment: center
-    title: 'Brandon Fellowship Alumni'
-    type: basic_title
     enabled: true
   -
     id: m9hqh1gq
@@ -485,7 +482,6 @@ blocks:
         name: 'Christine Moore-Bonbright'
         title: 'Class of 2024'
         headshot: christine-moore-bonbright.png
-        website_link: 'https://www.christinembdesign.com/'
         instagram_link: 'https://www.instagram.com/christinemb.art/'
         type: new_person
         enabled: true
@@ -746,5 +742,19 @@ blocks:
     type: cta_section
     enabled: true
     image: bf-sponsordeck-cover.jpg
+  -
+    id: mrmdv6j4
+    image_left_or_right: right
+    align_columns: center
+    content_group:
+      heading: 'Thank you to our Brandon Fellowship Sponsors'
+      open_in_new_tab: false
+      content_width: '50'
+      remove_top_margin: false
+    image: giving-love-light_bella-and-james.png
+    constrain_image: false
+    type: image_and_text
+    enabled: true
 open_in_new_tab: false
+number_of_columns: three
 ---

@@ -4,7 +4,7 @@ blueprint: page
 title: Careers
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1755719229
+updated_at: 1772486795
 turn_off_hero: false
 eyebrow: 'Work with us'
 inside_hero_header: Careers
@@ -33,8 +33,30 @@ inside_hero_image: vol1.webp
 open_in_new_tab: false
 blocks:
   -
-    id: mcoxy4i3
+    id: mm9op2bj
     image_left_or_right: left
+    align_columns: center
+    content_group:
+      heading: Internships
+      content:
+        -
+          type: paragraph
+          content:
+            -
+              type: text
+              text: 'If you are interested in Interning with GCCA, please visit:'
+      button_text: Internships
+      button_link: 'entry::b2a70c9d-6153-470b-b053-38ba40fc22da'
+      open_in_new_tab: false
+      content_width: '50'
+      remove_top_margin: true
+    image: internship_3.jpg
+    constrain_image: true
+    type: image_and_text
+    enabled: true
+  -
+    id: mcoxy4i3
+    image_left_or_right: right
     align_columns: center
     content_group:
       heading: 'Open Positions'

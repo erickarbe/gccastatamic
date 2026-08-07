@@ -4,8 +4,8 @@ blueprint: page
 title: 'Studio Artists'
 turn_off_hero: false
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1755717098
+updated_by: 58864e68-f24e-4b70-a595-b3405bf26d2f
+updated_at: 1776963702
 template: studio_artists/index
 inside_hero_content:
   -
@@ -19,7 +19,7 @@ inside_hero_content:
     content:
       -
         type: text
-        text: 'You can visit the studios by making an appointment with the individual artists, or by attending the First Friday gallery crawl from 5 – 8 pm on the first Friday of most months.'
+        text: 'You can visit the studios by making an appointment with the individual artists, or by attending the Night Shift gallery crawl from 5 – 8 pm on the first Friday of most months.'
   -
     type: paragraph
     content:

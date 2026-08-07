@@ -5,7 +5,7 @@ title: Exhibitions
 turn_off_hero: true
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1770845245
+updated_at: 1785941697
 blocks:
   -
     id: m9hjvlwy
@@ -17,8 +17,7 @@ blocks:
   -
     id: m9hk792b
     events_list:
-      - a03c5098-cf39-40f1-b735-893aa0c9ae16
-      - 96530294-dfb5-4f24-bafe-c836640f3091
+      - ce37e72e-e3b2-434a-a0c7-08edd02ff280
       - 6151889e-8c70-4986-9598-779079b1ff4a
       - 40db0acb-f0f3-482d-bf5c-464de9415256
     type: events_grid
@@ -50,84 +49,9 @@ blocks:
     number_of_columns: three
     content_grid_item:
       -
-        id: mk2pri3k
-        eyebrow: 'Main Gallery'
-        heading: "New Magic in a Dusty World: Making Matt Baumgardner in 1980's New York"
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'April 3, 2026 - May 27, 2026'
-              -
-                type: hardBreak
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Opening Reception: April 3 | 5-8PM'
-              -
-                type: hardBreak
-              -
-                type: hardBreak
-              -
-                type: text
-                text: "Retrospective exhibition curated by Furman University's Stephen Mandravelis & B. Davis Fleming. "
-              -
-                type: hardBreak
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'https://www.baumgardnerart.com/'
-                      rel: null
-                      target: null
-                      title: null
-                text: "Matt Baumgardner's website"
-        type: new_item
-        enabled: true
-      -
-        id: mk2puc63
-        eyebrow: 'Main Gallery'
-        heading: Chimeras
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'June 5, 2026 - July 22, 2026'
-              -
-                type: hardBreak
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Opening Reception: June 5 | 5-8PM'
-              -
-                type: hardBreak
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'Group exhibition curated by Alexander Rouse'
-        type: new_item
-        enabled: true
-      -
         id: mk2pvn08
         eyebrow: 'Main Gallery'
-        heading: '2026 Annual Showcase: Members Show'
+        heading: '2026 Members Show'
         content:
           -
             type: paragraph
@@ -145,7 +69,7 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: 'Opening Reception: August 1 | 12PM - 8PM'
+                text: 'Opening Reception: August 1 | 12PM - 6PM'
               -
                 type: hardBreak
               -
@@ -153,6 +77,24 @@ blocks:
               -
                 type: text
                 text: 'GCCA member artists '
+              -
+                type: hardBreak
+              -
+                type: hardBreak
+              -
+                type: text
+                text: 'Apply to the show '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://artcentergreenville.org/events/membersshowsubmission'
+                      rel: null
+                      target: _blank
+                      title: null
+                text: HERE
         type: new_item
         enabled: true
       -
@@ -247,115 +189,9 @@ blocks:
     number_of_columns: three
     content_grid_item:
       -
-        id: mk2qnvxe
-        eyebrow: 'Community Gallery'
-        heading: 'Within Her: A Photographic Art History Journey of the Female Form in Sculpture'
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'March 6, 2026 - April 22, 2026 '
-              -
-                type: hardBreak
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Opening Reception: March 6 | 5-8PM'
-              -
-                type: hardBreak
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'Photographer Pete Schramm and sculptural displays by local artists. '
-        type: new_item
-        enabled: true
-      -
-        id: mk2qrvk8
-        eyebrow: 'Community Gallery'
-        heading: 'Greenville County Schools Award Winners Show'
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'May 1, 2026 - June 24, 2026 '
-              -
-                type: hardBreak
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Opening Reception: May 1 | 5-8PM'
-              -
-                type: hardBreak
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'Award winning student artists from Greenville County Schools '
-        type: new_item
-        enabled: true
-      -
-        id: mk2qtirq
-        eyebrow: 'Community Gallery'
-        heading: 'Works from Adam Du Shole'
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'July 3, 2026 - July 25, 2026'
-              -
-                type: hardBreak
-                marks:
-                  -
-                    type: bold
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Opening Reception: July 10, 2026 | 5-8PM'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Solo exhibition by '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'https://adamdushole.com/'
-                      rel: null
-                      target: null
-                      title: null
-                text: 'Adam Du Shole'
-        type: new_item
-        enabled: true
-      -
         id: mk2r1yc3
         eyebrow: 'Community Gallery'
-        heading: '2026 Brandon Fellowship Exhibition'
+        heading: 'Ways of Wanting: The 2026 Brandon Fellowship Exhibition'
         content:
           -
             type: paragraph
@@ -373,7 +209,7 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: 'Opening Reception: August 1 | 12PM - 8PM'
+                text: 'Opening Reception: August 1 | 12PM - 6PM'
           -
             type: paragraph
             content:
@@ -385,7 +221,7 @@ blocks:
       -
         id: mk2r3xgq
         eyebrow: 'Community Gallery'
-        heading: 'Community Voices'
+        heading: 'CommUNITY: A Canvas of Greenville Cultures'
         content:
           -
             type: paragraph
@@ -409,7 +245,18 @@ blocks:
             content:
               -
                 type: text
-                text: 'Works from Community artists'
+                text: 'Submit to the Show '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://gcca.fillout.com/t/kS1zJvUypjus'
+                      rel: null
+                      target: _blank
+                      title: null
+                text: HERE
         type: new_item
         enabled: true
       -

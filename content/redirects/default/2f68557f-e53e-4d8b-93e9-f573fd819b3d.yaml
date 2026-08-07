@@ -1,0 +1,8 @@
+id: 2f68557f-e53e-4d8b-93e9-f573fd819b3d
+enabled: true
+source: /events/paint-sip-pearlearrings-1
+source_md5: 1de98db05134944ca2b51763d008a2f9
+destination: /events/paint-sip-matissesgoldfish
+type: 301
+site: default
+match_type: exact

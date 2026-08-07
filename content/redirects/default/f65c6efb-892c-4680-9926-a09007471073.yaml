@@ -1,0 +1,8 @@
+id: f65c6efb-892c-4680-9926-a09007471073
+enabled: true
+source: /studio-artists/dawn-hayden
+source_md5: 28c65ed1f4a1221ee609f612d8387092
+destination: /studio-artists/rebekah-wells
+type: 301
+site: default
+match_type: exact

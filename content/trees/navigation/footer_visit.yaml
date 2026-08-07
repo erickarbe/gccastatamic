@@ -11,5 +11,9 @@ tree:
     entry: 9f443f80-8416-4458-9154-96da5afc5548
   -
     id: 7f80605e-4c0b-4ede-88bc-6d6002c48cbe
-    title: 'Gift Shop'
+    title: 'The Shop'
     url: 'https://shopgcca.square.site/'
+  -
+    id: 767fcdb8-aaaa-4c39-bf2d-50fb56877578
+    title: 'Canvas Coffee @ GCCA'
+    url: 'https://www.wearethecanvas.co/locations'

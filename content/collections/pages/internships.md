@@ -4,7 +4,7 @@ blueprint: page
 title: Internships
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1748965304
+updated_at: 1772487136
 turn_off_hero: false
 inside_hero_header: Internships
 inside_hero_content:
@@ -13,7 +13,7 @@ inside_hero_content:
     content:
       -
         type: text
-        text: 'Greenville Center for Creative Arts is looking for friendly and outgoing individuals who have the passion to work and learn in Greenville’s only community-focused visual arts center.'
+        text: 'Greenville Center for Creative Arts is looking for friendly and outgoing individuals who have the passion to work and learn in Greenville’s community-focused visual arts center.'
 open_in_new_tab: false
 inside_hero_image: internship_2.jpg
 blocks:
@@ -32,13 +32,58 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: 'OVERVIEW & PURPOSE'
+                text: ​Supervisor
+              -
+                type: text
+                text: ': Alexis Krcelic, Creative Programs Director'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'With direct oversight from the Development Team, the Marketing and Events Intern will be learning the day-to-day workings of a community arts non-profit during the summer months of the year. This is an opportunity to get insight and experience working on the creative and administrative sides of Development and Events. Delve deeper into how GCCA organizes, manages, and implements events, fundraising and community relationships. Interns are expected to work in cooperation with GCCA staff, donors, Founders, vendors and visitors . This is an unpaid internship with the potential to work hybrid.'
+                marks:
+                  -
+                    type: bold
+                text: 'Overview & Purpose'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'With direct oversight from the Development Team, the Development & Events Intern will be learning the day-to-day workings of a community arts non-profit during the months of September 2026 - April 2027. This is an opportunity to get insight and experience working on the creative and administrative sides of Development and Events. Delve deeper into how GCCA organizes, manages, and implements events, fundraising and community relationships. Interns are expected to work in cooperation with GCCA staff, donors, Founders, vendors and visitors . This is an unpaid internship with the potential to work hybrid.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: Schedule
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'September 2026 –  April 2027'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Federal Holidays Observed'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Monday – Friday Open Hours, Some Evening and Weekend Event Hours, Exact schedule to be decided based on Interns availability'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Up to 20 hrs per week'
           -
             type: paragraph
             content:
@@ -59,7 +104,7 @@ blocks:
                     content:
                       -
                         type: text
-                        text: "Work with Development Team on administrative needs\_"
+                        text: ' Work with Development Team on administrative needs'
               -
                 type: listItem
                 content:
@@ -77,7 +122,7 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'Work with Visitor Experience Manager on social media marketing needs'
+                        text: 'Work with Digital Media & Design Specialist on social media marketing needs'
               -
                 type: listItem
                 content:
@@ -275,47 +320,70 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: 'Application Deadline: April 25th, 2025'
+                text: 'Application Deadline: July 15th, 2026 at 11:59pm'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Summer Positions also Available!'
         type: new_set
-        enabled: false
+        enabled: true
       -
         id: mapjbdrt
         accordion_header: 'Summer Administrative Intern'
         accordion_content:
           -
-            type: heading
-            attrs:
-              level: 3
+            type: paragraph
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: bold
+                text: ​Supervisors
+              -
+                type: text
+                text: ': Alicia Mizuno, Operations Director & Kara Tyndall, Education Director'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
                 text: 'Overview & Purpose'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'With direct oversight from the Operations Director, the Summer Administrative Intern will be learning the day-to-day workings of a community arts non-profit during the summer months of the year. This is an opportunity to get insight and experience working on the administrative sides of Programs, Operations and The Shop at GCCA. Delve deeper into how GCCA organizes, manages, and implements events, classes and artist opportunities during one of the busiest times of the year. Summer Admin Interns are expected to work in cooperation with Summer Art Camp Instructors, Summer Art Camp Assistants, and GCCA staff. '
+                text: 'With direct oversight from the Operations Director, the Summer Administrative Intern will be learning the day-to-day workings of a community arts non-profit during the summer months of the year. This is an opportunity to get insight and experience working on the administrative sides of Programs, Operations and The Shop at GCCA. Delve deeper into how GCCA organizes, manages, and implements events, classes and artist opportunities during one of the busiest times of the year. '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Summer Admin Interns are expected to work in cooperation with Summer Art Camp Instructors, Summer Art Camp Assistants, and GCCA staff.This is an unpaid internship intended for a high school or college student.'
+          -
+            type: paragraph
+            content:
               -
                 type: text
                 marks:
                   -
                     type: bold
-                text: 'This is an unpaid internship.'
-          -
-            type: heading
-            attrs:
-              level: 3
-            content:
-              -
-                type: text
                 text: Schedule
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'June 1st– August 31st, 2025'
+                text: 'May 2026– August 2026'
           -
             type: paragraph
             content:
@@ -327,7 +395,7 @@ blocks:
             content:
               -
                 type: text
-                text: 'Monday – Friday Open Hours, Some Evening and Weekend Event Hours,Exact schedule to be decided based on Interns availability'
+                text: 'Monday – Friday Open Hours, Some Evening and Weekend Event Hours, Exact schedule to be decided based on Interns availability'
           -
             type: paragraph
             content:
@@ -335,12 +403,15 @@ blocks:
                 type: text
                 text: 'Up to 20 hrs per week'
           -
-            type: heading
-            attrs:
-              level: 3
+            type: paragraph
+          -
+            type: paragraph
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: bold
                 text: 'Primary Responsibilities'
           -
             type: bulletList
@@ -353,7 +424,7 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'Work with GCCA Education Director, VEM, and Summer Art Camp instructors for Summer Camp needs on the administrative side'
+                        text: 'Work with GCCA Education Director and Summer Art Camp instructors for Summer Camp needs on the administrative side'
               -
                 type: listItem
                 content:
@@ -362,7 +433,7 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'Work with GCCA Operations Director in scheduling volunteer shifts and opportunities'
+                        text: ' Work with GCCA Operations Director in scheduling volunteer shifts and opportunities'
               -
                 type: listItem
                 content:
@@ -371,7 +442,7 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'Work with GCCA Visitor Experience Manager in updating Gift Shop inventory as new round of artists begin consignment'
+                        text: 'Work with GCCA Education &amp; Operations Coordinator in updating Gift Shop inventory as new round of artists begin consignment'
               -
                 type: listItem
                 content:
@@ -435,13 +506,16 @@ blocks:
                       -
                         type: text
                         text: 'Learn contractual needs, vendor relations, and some accounting in a non-profit setting'
+                      -
+                        type: hardBreak
           -
-            type: heading
-            attrs:
-              level: 3
+            type: paragraph
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: bold
                 text: 'Professional Qualities'
           -
             type: bulletList
@@ -573,12 +647,13 @@ blocks:
                         type: text
                         text: 'A background check will be required before acceptance'
           -
-            type: heading
-            attrs:
-              level: 3
+            type: paragraph
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: bold
                 text: Perks
           -
             type: bulletList
@@ -620,12 +695,13 @@ blocks:
                         type: text
                         text: "Access to GCCA Events\_"
           -
-            type: heading
-            attrs:
-              level: 3
+            type: paragraph
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: bold
                 text: 'How to Apply'
           -
             type: paragraph
@@ -641,47 +717,67 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: 'Application Deadline: April 25th, 2025'
+                text: 'Application Deadline: April 25th, 2026'
         type: new_set
-        enabled: false
+        enabled: true
       -
         id: mapjiu0c
         accordion_header: 'Annual Administrative Intern'
         accordion_content:
           -
-            type: heading
-            attrs:
-              level: 2
+            type: paragraph
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: bold
+                text: ​Supervisor
+              -
+                type: text
+                text: ': Alicia Mizuno, Operations Director'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
                 text: 'Overview & Purpose'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'With direct oversight from the Operations Director, the Administrative Intern will be learning the day-to-day workings of a community arts non-profit during the months of September through May of a general school year schedule. This is an opportunity to get insight and experience working on the administrative sides of each area within GCCA. Delve deeper into how GCCA organizes, manages, and implements events, classes, fundraising and artist opportunities through the course of a year. Administrative Interns are expected to work in cooperation with GCCA staff, Board Members, Students, Instructors and Volunteers. '
+                text: 'With direct oversight from the Operations Director, the Administrative Intern will be learning the day-to-day workings of a community arts non-profit during the months of September through April of a general school year schedule. This is an opportunity to get insight and experience working on the administrative sides of each area within GCCA. Delve deeper into how GCCA organizes, manages, and implements events, classes, fundraising and artist opportunities through the course of a year.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Administrative Interns are expected to work in cooperation with GCCA staff, Board Members, Students, Instructors and Volunteers. '
               -
                 type: text
                 marks:
                   -
                     type: bold
-                text: 'This is an unpaid internship.'
+                text: 'This is an unpaid internship intended for a high school or college student.'
           -
-            type: heading
-            attrs:
-              level: 2
+            type: paragraph
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: bold
                 text: Schedule
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'September 2nd, 2025– May 31st, 2026'
+                text: 'September 2026– April 2027'
           -
             type: paragraph
             content:
@@ -693,7 +789,7 @@ blocks:
             content:
               -
                 type: text
-                text: 'Tuesday – Friday Open Hours, Some Evening and Weekend Event Hours, Exact schedule to be decided based on Interns availability'
+                text: 'Monday – Friday Open Hours, Some Evening and Weekend Event Hours, Exact schedule to be decided based on Interns availability'
           -
             type: paragraph
             content:
@@ -701,12 +797,13 @@ blocks:
                 type: text
                 text: 'Up to 20hrs per week'
           -
-            type: heading
-            attrs:
-              level: 2
+            type: paragraph
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: bold
                 text: 'Primary Responsibilities'
           -
             type: bulletList
@@ -728,7 +825,7 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'Work with GCCA Visitor Experience Manager in updating Gift Shop inventory as new round of artists begin consignment in November'
+                        text: 'Work with GCCA Education & Operations Coordinator in updating Gift Shop inventory as new round of artists begin consignment in November'
               -
                 type: listItem
                 content:
@@ -791,7 +888,7 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'Help with planning and set up of Art School Gallery'
+                        text: 'Help with planning and set up of Art School Pop up Exhibition'
               -
                 type: listItem
                 content:
@@ -811,12 +908,13 @@ blocks:
                         type: text
                         text: 'Learn contractual agreements, vendor relations and some accounting in a non-profit setting'
           -
-            type: heading
-            attrs:
-              level: 2
+            type: paragraph
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: bold
                 text: 'Professional Qualities'
           -
             type: bulletList
@@ -930,12 +1028,13 @@ blocks:
                         type: text
                         text: 'A background check will be required before acceptance'
           -
-            type: heading
-            attrs:
-              level: 2
+            type: paragraph
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: bold
                 text: Perks
           -
             type: bulletList
@@ -977,12 +1076,13 @@ blocks:
                         type: text
                         text: 'Access to GCCA Events'
           -
-            type: heading
-            attrs:
-              level: 2
+            type: paragraph
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: bold
                 text: 'How to Apply'
           -
             type: paragraph
@@ -998,7 +1098,16 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: 'Application Deadline: June 20th, 2025'
+                text: 'Application Deadline: July 15th, 2026 at 11:59pm'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Summer Positions also Available!'
         type: new_set
         enabled: true
     use_second_column: true
@@ -1017,7 +1126,7 @@ blocks:
           content:
             -
               type: text
-              text: 'Join our community arts non-profit as a Development and Events, Summer, or Annual Administrative Intern! Reporting to the Operations Director, you’ll collaborate with our Development, Education, and Visitor Experience teams to learn the ropes of running an arts organization. Summer roles run June–August; Annual roles span September–May. Apply now to launch your arts career!'
+              text: 'Join our community arts non-profit as a Development and Events, Summer, or Annual Administrative Intern! Reporting to the Operations Director, you’ll collaborate with our Development, Education, and Visitor Experience teams to learn the ropes of running an arts organization. Summer roles run May –August; Annual roles span September - April. One semester Internships are also available for annual positions. Apply now to launch your arts career!'
       second_column_width: '50'
     type: faq_accordion
     enabled: true

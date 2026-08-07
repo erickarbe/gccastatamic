@@ -3,8 +3,8 @@ id: 64277344-bfc4-4a32-9a09-f06bfdb2b27a
 blueprint: page
 title: 'Planned Giving'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1767975024
+updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
+updated_at: 1773252322
 turn_off_hero: false
 inside_hero_header: 'Planned Giving'
 inside_hero_content:
@@ -183,10 +183,10 @@ blocks:
                   -
                     type: link
                     attrs:
-                      href: 'https://gccamedia.s3.amazonaws.com/gcca-declaration-of-intent-form.pdf'
+                      href: 'https://gccamedia.s3.amazonaws.com/gcca-declaration-of-intent-form-(1).pdf'
                       rel: null
                       target: _blank
-                      title: null
+                      title: "GCCA's Declaration of Intent Form"
                 text: 'GCCA’s Declaration of Intent Form'
               -
                 type: text
@@ -248,5 +248,6 @@ blocks:
         enabled: true
     type: sticky_links
     enabled: true
+    panel_heading_size: large
 open_in_new_tab: false
 ---

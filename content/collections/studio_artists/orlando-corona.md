@@ -1,5 +1,6 @@
 ---
 id: e58059b7-f1a2-422e-a02c-97948f9c9705
+published: false
 blueprint: studio_artist
 title: 'Orlando Corona'
 studio: 'Studio 6'
@@ -17,6 +18,6 @@ biography:
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 featured_image: orlando-headshot-website.png
 headshot: orlando-feature-photo.png
-updated_by: db8343ae-1cfd-4a4a-810e-2417eae3fc2b
-updated_at: 1763052189
+updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
+updated_at: 1785529166
 ---

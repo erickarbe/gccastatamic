@@ -20,9 +20,6 @@ tree:
         id: 6d60748f-2a08-4f0d-af24-d119ce449f72
         entry: 26004a64-a94e-4832-9bf1-cd5f3991eebf
       -
-        id: 91f8c901-e081-407a-bc9b-9a58de3e1e13
-        entry: f6218353-edc9-4563-9882-903e75a72c98
-      -
         id: 28e30cf7-4a23-4d7b-94cf-a73008336481
         entry: d1e5a760-453c-4f89-81d1-605f0d4a4ea7
   -
@@ -33,9 +30,6 @@ tree:
       -
         id: 13b3e884-ce2a-466a-84e7-ea7635f1fa5b
         entry: 6ebd5a1d-a0f6-4f23-af44-4efc690de590
-      -
-        id: fec6a4c3-c2d7-49b3-a09a-0f1e0f924470
-        entry: 782bae0a-6ff7-4dd9-b003-a76732b8d3cd
       -
         id: d69962bd-fee1-496e-b3d1-f70f233d45d5
         entry: 74747749-6401-41f5-8ffa-6c7b0630bf1a
@@ -75,9 +69,22 @@ tree:
     title: Programs
     children:
       -
+        id: 91f8c901-e081-407a-bc9b-9a58de3e1e13
+        entry: f6218353-edc9-4563-9882-903e75a72c98
+      -
         id: f8c1ddbd-a103-415f-8b71-c75adfb9b9e9
         title: 'Brandon Fellowship'
         url: 'https://artcentergreenville.org/artists/brandon-fellowship'
+      -
+        id: fec6a4c3-c2d7-49b3-a09a-0f1e0f924470
+        entry: 782bae0a-6ff7-4dd9-b003-a76732b8d3cd
+      -
+        id: 22089002-2498-44bd-9dd6-35ed8939305e
+        entry: 8be7a410-2831-4a57-ba92-a1bca72b7fca
+      -
+        id: cbe0b5d7-607b-49c3-8a7a-c2c8146d2237
+        title: 'Artist Resource Library'
+        url: 'https://artcentergreenville.org/programs/artistresourcelibrary'
   -
     id: 8a134dd1-2aaa-48ed-9c8e-e2a45d446ab5
     title: Support
@@ -109,14 +116,19 @@ tree:
         entry: b7e08d70-fe4a-4825-8774-46a1a95c0f7f
       -
         id: 7adc3986-f810-4a12-8c59-bd83107d28f2
-        title: Shop
-        url: 'https://shopgcca.square.site/'
+        title: 'The Shop'
+        url: 'https://artcentergreenville.org/visit/shop'
       -
-        id: c238f6e2-b80c-4b73-8f32-b4a75ccfd12d
-        entry: 206f55ef-b9f5-4c0c-806b-938d9328b135
+        id: e70b54a9-398e-4302-96fe-011c238c8a35
+        title: 'Canvas Coffee @ GCCA'
+        url: 'https://www.wearethecanvas.co/locations'
       -
         id: 8bbf98e0-8cdb-4b37-9829-c0a109255a36
         entry: 9f443f80-8416-4458-9154-96da5afc5548
+      -
+        id: 822fd2ae-1db1-4790-9974-2585334da9ec
+        title: 'Virtual Tour of GCCA'
+        url: 'https://artcentergreenville.org/visit/virtual-tour-of-gcca'
       -
         id: da708783-fbc1-497d-ba28-259144a21441
         entry: c4671ae2-763c-4dbc-aaf2-973fd4cfb18b
@@ -135,6 +147,9 @@ tree:
         id: 9f7d0b03-3cb9-4e8f-8afd-ce8575e9919b
         title: Careers
         url: 'https://artcentergreenville.org/join-our-team/careers'
+      -
+        id: c238f6e2-b80c-4b73-8f32-b4a75ccfd12d
+        entry: 206f55ef-b9f5-4c0c-806b-938d9328b135
       -
         id: 2c5df49a-c948-4e9e-bbe4-c6a2de823200
         title: News

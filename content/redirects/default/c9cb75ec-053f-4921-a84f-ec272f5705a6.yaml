@@ -1,0 +1,8 @@
+id: c9cb75ec-053f-4921-a84f-ec272f5705a6
+enabled: true
+source: /aito
+source_md5: c9a090b7f10e12a162d6fb14a98cee4a
+destination: 'https://secure.qgiv.com/for/greenvillecenterforcreativearts/event/artintheopenworkshop/'
+type: 301
+site: default
+match_type: exact

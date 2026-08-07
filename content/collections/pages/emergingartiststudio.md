@@ -1,6 +1,5 @@
 ---
 id: 8be7a410-2831-4a57-ba92-a1bca72b7fca
-published: false
 blueprint: page
 title: 'Emerging Artist Studio'
 turn_off_hero: false
@@ -34,7 +33,7 @@ blocks:
       open_in_new_tab: false
       content_width: '50'
       remove_top_margin: false
-    image: orlando-corona-gcca-annual-report-photography-hi-res-16-willcrooks.jpg
+    image: ff-1205258.jpg
     constrain_image: true
     type: image_and_text
     enabled: true
@@ -110,7 +109,7 @@ blocks:
                   content:
                     -
                       type: text
-                      text: 'Cannot currently or previously a GCCA Studio Artist'
+                      text: 'Cannot currently or previously be a GCCA Studio Artist'
             -
               type: listItem
               content:
@@ -159,7 +158,7 @@ blocks:
       open_in_new_tab: false
       content_width: '50'
       remove_top_margin: false
-    image: 763cdc65-6e52-4f91-a9de-223f173353e7_1_201_a1.jpeg
+    image: crop-christine.jpeg
     constrain_image: true
     type: image_and_text
     enabled: true
@@ -175,7 +174,7 @@ blocks:
             content:
               -
                 type: text
-                text: 'Sponsor or Donor will underwrite a percentage of monthly studio rent. Emerging Artist tenant will be responsible for the remainder rent of $175 per month.'
+                text: 'A donor underwrites a percentage of monthly studio rent. Emerging Artist tenant will be responsible for the remainder rent of $175 per month.'
         type: new_item
         enabled: true
       -
@@ -268,26 +267,32 @@ blocks:
   -
     id: ml1c1cdk
     background_color: '#ffffff'
-    heading: Timeline
+    heading: '2027 Timeline'
     content:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Application process closes Friday March 13 at 11:59PM'
+            text: 'Application opens January 4th '
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Committee reviews applications week of March 16th'
+            text: 'Application process closes Friday March 12th at 11:59PM'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Interviews with Emerging Artist Studio Committee week of March 23rd'
+            text: 'Committee reviews applications week of March 15th'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Interviews with Emerging Artist Studio Committee week of March 22nd'
       -
         type: paragraph
         content:
@@ -299,7 +304,7 @@ blocks:
         content:
           -
             type: text
-            text: 'Emerging Artist studio start date Wed April 1st'
+            text: 'Emerging Artist studio start date Thursday April 1st'
     open_in_new_tab: false
     type: basic_centered_content
     enabled: true
@@ -313,25 +318,13 @@ blocks:
         content:
           -
             type: text
-            text: 'Alicia Mizuno, staff '
-          -
-            type: text
-            marks:
-              -
-                type: italic
-            text: '(review only, cannot attend interviews)'
+            text: 'Alicia Mizuno, GCCA Operations Director'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Ben Tarcson, staff '
-          -
-            type: text
-            marks:
-              -
-                type: italic
-            text: '(review only, cannot attend interviews)'
+            text: 'Ben Tarcson, GCCA Gallery Director'
       -
         type: paragraph
         content:
@@ -352,14 +345,31 @@ blocks:
             text: 'Michael Lechlitner, GCCA Studio Artist'
       -
         type: paragraph
-        content:
-          -
-            type: text
-            text: 'Bella Kafarela, Emerging Artist Studio Donor / GCCA Member'
     open_in_new_tab: false
     type: basic_centered_content
+    enabled: true
+  -
+    id: mlojx0bu
+    form_embed: '<div data-fillout-id="423a4WcmjQus" data-fillout-embed-type="popup" data-fillout-button-text="Application Form" data-fillout-dynamic-resize data-fillout-button-color="#FF172E" data-fillout-button-size="large" data-fillout-inherit-parameters data-fillout-popup-size="large"></div><script src="https://server.fillout.com/embed/v1/"></script>'
+    type: form_and_text
     enabled: false
+  -
+    id: movich9i
+    number_of_columns: three
+    people:
+      -
+        id: movicjcj
+        name: 'Meredith Birch'
+        title: 'Inaugural Emerging Artist 2026-2027'
+        email: meredith.birch@gmail.com
+        headshot: headshot.png
+        instagram_link: 'https://www.instagram.com/meredith.birch.art'
+        type: new_person
+        enabled: true
+    type: people_grid
+    enabled: true
 author: 58864e68-f24e-4b70-a595-b3405bf26d2f
-updated_by: 58864e68-f24e-4b70-a595-b3405bf26d2f
-updated_at: 1769805387
+updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
+updated_at: 1786113861
+number_of_columns: three
 ---

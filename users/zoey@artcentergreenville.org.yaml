@@ -1,0 +1,19 @@
+name: 'Zoey Smith'
+roles:
+  - intern
+groups:
+  - interns
+super: false
+id: 93a60c93-64e5-4812-adbd-6022dbd4c332
+password_hash: $2y$12$kUsCLoPgvk1rjq9NS3I6BeVKbxXKay5YcwwRBvjpoULtsInaoZsM2
+preferences:
+  collections:
+    instructors:
+      columns:
+        - title
+        - slug
+        - author
+        - status
+        - Medium
+        - headshot
+        - featured_art

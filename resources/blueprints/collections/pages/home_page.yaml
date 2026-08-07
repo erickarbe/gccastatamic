@@ -73,6 +73,12 @@ tabs:
                       fields:
                         -
                           import: four_up_grid
+                    sf_header:
+                      display: 'SF Header'
+                      fields:
+                        -
+                          handle: panels2
+                          field: sfsticky.panels2
   sidebar:
     display: Sidebar
     sections:

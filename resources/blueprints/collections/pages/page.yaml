@@ -72,6 +72,42 @@ tabs:
                 turn_off_hero: 'equals true'
               width: 50
           -
+            handle: inside_hero_button_text_2
+            field:
+              type: text
+              display: 'Inside Hero Button Text 2'
+              always_save: true
+              unless:
+                turn_off_hero: 'equals true'
+              width: 50
+          -
+            handle: inside_hero_button_link_2
+            field:
+              type: text
+              display: 'Inside Hero Button Link 2'
+              always_save: true
+              unless:
+                turn_off_hero: 'equals true'
+              width: 50
+          -
+            handle: inside_hero_button_text_3
+            field:
+              type: text
+              display: 'Inside Hero Button Text 3'
+              always_save: true
+              unless:
+                turn_off_hero: 'equals true'
+              width: 50
+          -
+            handle: inside_hero_button_link_3
+            field:
+              type: text
+              display: 'Inside Hero Button Link 3'
+              always_save: true
+              unless:
+                turn_off_hero: 'equals true'
+              width: 50
+          -
             handle: open_in_new_tab
             field:
               type: toggle
@@ -91,6 +127,8 @@ tabs:
         fields:
           -
             import: page_builder
+          -
+            import: people_grid
   sidebar:
     display: Sidebar
     sections:

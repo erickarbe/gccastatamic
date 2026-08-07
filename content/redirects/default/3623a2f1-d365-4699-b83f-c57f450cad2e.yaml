@@ -1,0 +1,8 @@
+id: 3623a2f1-d365-4699-b83f-c57f450cad2e
+enabled: true
+source: /events/annual-showcase-template
+source_md5: d186fc3781481e5541ed6f25203a500d
+destination: /events/membersshowsubmission
+type: 301
+site: default
+match_type: exact

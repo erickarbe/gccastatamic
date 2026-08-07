@@ -3,8 +3,8 @@ id: 4b49b7d2-0525-40ac-a674-162a852a74c8
 blueprint: page
 title: 'Our People'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
-updated_at: 1769804305
+updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
+updated_at: 1784582806
 turn_off_hero: false
 eyebrow: Team
 blocks:
@@ -106,18 +106,18 @@ blocks:
     people:
       -
         id: mbs40fuw
-        name: 'Carmen Bunche'
+        name: 'Zoey Smith'
         title: 'Summer Administrative Intern'
-        email: adminintern@artcentergreenville.org
-        headshot: carmen-new.png
+        email: zoey@artcentergreenville.org
+        headshot: exp-061126-8.jpg
         type: new_person
-        enabled: false
+        enabled: true
       -
         id: mbs49ikj
-        name: 'Claire Delaney'
-        title: 'Gallery Intern'
-        email: galleryintern@artcentergreenville.org
-        headshot: claire.png
+        name: 'Brittney McCarson'
+        title: 'Grants Intern'
+        email: brittney@artcentergreenville.org
+        headshot: art-center-images.jpg
         type: new_person
         enabled: true
       -
@@ -127,13 +127,21 @@ blocks:
         email: adminintern@artcentergreenville.org
         headshot: julia2-(1).jpg
         type: new_person
-        enabled: true
+        enabled: false
       -
         id: mj6lalg6
-        name: 'AC Yearick'
-        title: 'Development Intern'
-        email: devintern@artcentergreenville.org
-        headshot: ac.jpg
+        name: 'Abby Avant'
+        title: 'Administrative Intern'
+        email: abby@artcentergreenville.org
+        headshot: aap.jpg
+        type: new_person
+        enabled: false
+      -
+        id: mrtqci90
+        name: 'Jonathan Luines'
+        title: 'Development & Events Intern'
+        email: jonathan@artcentergreenville.org
+        headshot: jl-2.jpg
         type: new_person
         enabled: true
     type: people_grid
@@ -178,7 +186,7 @@ blocks:
                 type: text
                 text: 'Retired, Sr. Vice President in Commercial Real Estate Leader'
         type: new_item
-        enabled: true
+        enabled: false
       -
         id: m9d40tif
         heading: 'Dan Helwing'
@@ -271,14 +279,14 @@ blocks:
         enabled: true
       -
         id: m9d439tk
-        heading: 'Gene Kreclic'
+        heading: 'Gene Krcelic'
         content:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'CEO, Premiere Arts Collective'
+                text: 'CEO, Premier Arts Collective'
         type: new_item
         enabled: true
     type: content_grid
@@ -304,12 +312,12 @@ blocks:
         enabled: true
       -
         id: m9d45rob
-        heading: 'Carrie Burns Brown'
+        heading: 'Carrie Burns Brown*'
         type: new_item
         enabled: true
       -
         id: m9d45x1w
-        heading: 'Linda & Earle Furman'
+        heading: 'Linda* & Earle Furman'
         type: new_item
         enabled: true
       -

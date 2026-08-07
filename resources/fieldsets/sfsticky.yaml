@@ -1,0 +1,30 @@
+title: SFSticky
+fields:
+  -
+    handle: panels2
+    field: sticky_panels.panels
+    config:
+      display: Panels-2
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          instructions: null
+          icon: null
+          sets:
+            panel_group:
+              display: 'Panel Group'
+              instructions: null
+              icon: null
+              hide: null
+              fields:
+                -
+                  handle: panel_image
+                  field:
+                    container: s3_assets
+                    type: assets
+                    display: 'Panel Image'
+                -
+                  handle: code_field
+                  field:
+                    type: code
+                    display: 'Code Field'

@@ -2,7 +2,7 @@
 id: a5b1bc3e-617f-47c7-a1c4-b39df1c2b6ee
 blueprint: studio_artist
 title: 'Darius Ollison'
-studio: 'Studio C'
+studio: 'Affiliate Artist'
 artists_medium: Photographer
 website: 'https://dariusollisonphotography.com'
 email: Darius.Ollison.Photography@gmail.com
@@ -17,6 +17,6 @@ biography:
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 featured_image: darius-ollison-headshot-website_resized.png
 headshot: darius-ollison-featured-image.png
-updated_by: db8343ae-1cfd-4a4a-810e-2417eae3fc2b
-updated_at: 1763052545
+updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
+updated_at: 1785960922
 ---

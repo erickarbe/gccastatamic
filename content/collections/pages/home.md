@@ -116,16 +116,17 @@ home_page_blocks:
         type: panel_group
         enabled: true
         open_in_new_tab: false
+        panel_title_size: large
       -
         id: m9d3lzv1
-        panel_title: 'February Event Happenings'
+        panel_title: 'August Event Happenings'
         panel_content:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Explore upcoming exhibitions, engage with art at NightShifts or learn about all GCCA has to offer with our Open House this month. '
+                text: 'Join us for Art Bash, upcoming exhibitions, or visit studio artists! '
           -
             type: paragraph
             content:
@@ -143,11 +144,12 @@ home_page_blocks:
               -
                 type: text
                 text: ' '
-        panel_image:
-          - oh-social.jpg
         type: panel_group
         enabled: true
         open_in_new_tab: false
+        panel_title_size: large
+        panel_image:
+          - abweb26.jpg
       -
         id: m9e93oc8
         panel_title: 'Explore Art Exhibitions at GCCA'
@@ -179,10 +181,11 @@ home_page_blocks:
                               title: null
                         text: 'Explore Current & Upcoming Exhibitions'
         panel_image:
-          - 'rabanal-&-relentless-ashley-rabanal-1.jpg'
+          - mada1-(1).png
         type: panel_group
         enabled: true
         open_in_new_tab: false
+        panel_title_size: large
     type: homepage_sticky_panels
     enabled: true
   -
@@ -261,6 +264,7 @@ home_page_blocks:
         type: new_link_panel
         enabled: true
         link_url: /events/
+    panel_heading_size: large
   -
     id: m9h8i8ys
     width: full_width
@@ -386,6 +390,6 @@ home_page_blocks:
     grid_three_link_text: Give
     grid_three_link_duplicate: 'https://artcentergreenville.org/support/donate'
     grid_three_link: /support/donate
-updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1770144944
+updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
+updated_at: 1785955152
 ---

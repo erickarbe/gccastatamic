@@ -104,9 +104,9 @@ blocks:
       open_in_new_tab: false
       content_width: '50'
       remove_top_margin: false
-    image: man-painting.jpg
+    image: webhero.jpg
     type: image_and_text
-    enabled: true
+    enabled: false
     align_columns: center
     constrain_image: true
   -
@@ -234,8 +234,8 @@ blocks:
     enabled: true
     use_second_column: false
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1759935831
+updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
+updated_at: 1785769607
 inside_hero_image: gcca-showcase_0093.jpg
 open_in_new_tab: false
 ---
