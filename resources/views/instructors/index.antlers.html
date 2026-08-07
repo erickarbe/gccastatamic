@@ -7,9 +7,9 @@
     {{ collection:instructors }}
       <div class="card cursor-pointer border-b border-r border-gray-300 px-14 py-10 flex flex-col">
         
-        {{ if headshot }}
+        {{ if featured_art }}
         <div class="relative overflow-hidden group mb-4">
-          <img src="{{ headshot:url }}" alt="{{ headshot:alt }}" loading="lazy" decoding="async" class="w-full block  group-hover:scale-110 transition duration-500" />
+          <img src="{{ featured_art:url }}" alt="{{ featured_art:alt }}" loading="lazy" decoding="async" class="w-full aspect-square object-cover object-center block group-hover:scale-110 transition duration-500" />
         </div>
         {{ /if }}
         
@@ -50,8 +50,8 @@
         </div>
         
         <div class="biography-modal-content hidden">
-          {{ if featured_art }}
-            <img src="{{ featured_art:url }}" alt="{{ featured_art:alt }}" loading="lazy" class="block mb-4 h-[350px] object-contain object-center max-w-[400px] w-auto mx-auto justify-center" />
+          {{ if headshot }}
+            <img src="{{ headshot:url }}" alt="{{ headshot:alt }}" loading="lazy" class="block mb-4 h-[350px] w-[350px] object-cover object-center mx-auto" />
           {{ /if }}
           {{ biography }}
 
