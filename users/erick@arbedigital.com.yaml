@@ -7,6 +7,7 @@ preferences:
   collections:
     pages:
       after_save: continue_editing
+      view: tree
     articles:
       columns:
         - title
@@ -14,14 +15,20 @@ preferences:
         - date
         - article_date
       after_save: continue_editing
+      view: list
     events:
       columns:
         - title
         - event_category
         - status
       after_save: continue_editing
+      view: tree
     studio_artists:
       columns:
         - title
         - studio
         - artists_medium
+      view: tree
+    instructors:
+      view: tree
+  color_mode: light

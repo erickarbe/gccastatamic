@@ -85,11 +85,3 @@ tabs:
               container: s3_assets
               type: assets
               display: Headshot
-          -
-            handle: parent
-            field:
-              max_items: 1
-              collections:
-                - instructors
-              type: entries
-              listable: false

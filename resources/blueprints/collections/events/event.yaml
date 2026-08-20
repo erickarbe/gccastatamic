@@ -101,6 +101,7 @@ tabs:
             handle: date
             field:
               type: date
+              required: true
               default: now
               validate:
                 - required
@@ -113,15 +114,6 @@ tabs:
               default: current
               localizable: true
               max_items: 1
-          -
-            handle: parent
-            field:
-              type: entries
-              collections:
-                - events
-              max_items: 1
-              listable: false
-              localizable: true
           -
             handle: template
             field:

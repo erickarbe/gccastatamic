@@ -92,12 +92,3 @@ tabs:
               container: s3_assets
               type: assets
               display: Headshot
-          -
-            handle: parent
-            field:
-              type: entries
-              collections:
-                - studio_artists
-              max_items: 1
-              listable: false
-              localizable: true
