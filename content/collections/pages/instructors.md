@@ -4,8 +4,8 @@ blueprint: page
 title: Instructors
 turn_off_hero: false
 author: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1786026339
+updated_by: 93a60c93-64e5-4812-adbd-6022dbd4c332
+updated_at: 1786383817
 template: instructors/index
 inside_hero_content:
   -
@@ -48,7 +48,7 @@ inside_hero_content:
       -
         type: text
         text: 274-0352.
-inside_hero_image: faith-art.png
+inside_hero_image: js-masterclass22.jpg
 open_in_new_tab: false
 duplicated_from: 4204f1a0-69c6-4ff8-843c-c943f9c23069
 number_of_columns: three

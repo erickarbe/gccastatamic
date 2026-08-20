@@ -1,6 +1,5 @@
 ---
 id: 797c6c62-07b5-4799-a0ff-7287751c485c
-published: false
 blueprint: instructor
 title: 'Bill Barrick'
 Medium: 'Drawing & Watercolor'

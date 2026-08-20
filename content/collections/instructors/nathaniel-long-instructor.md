@@ -1,6 +1,5 @@
 ---
 id: 146f771c-0458-4c49-a693-2b4e0ed67ffb
-published: false
 blueprint: instructor
 title: 'Nathaniel Long'
 Medium: Illustration

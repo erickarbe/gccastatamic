@@ -1,6 +1,5 @@
 ---
 id: 30b00eb8-90f0-4693-aa0b-9404ee356174
-published: false
 blueprint: instructor
 title: 'Meredith Birch'
 Medium: 'Mixed Media'

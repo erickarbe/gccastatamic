@@ -1,6 +1,5 @@
 ---
 id: b1dbfce2-64da-46cb-833f-cf7523eb935e
-published: false
 blueprint: instructor
 title: 'Steven Chapp'
 Medium: Printmaking

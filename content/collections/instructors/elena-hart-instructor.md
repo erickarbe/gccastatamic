@@ -1,6 +1,5 @@
 ---
 id: 62fa2c7c-45b1-478c-a97c-7fbb8511e0c1
-published: false
 blueprint: instructor
 title: 'Elena Hart'
 Medium: 'Oil Painting'

@@ -1,6 +1,5 @@
 ---
 id: 31784bfe-07bd-493e-ae3b-9de15cfa59c2
-published: false
 blueprint: instructor
 title: 'Giacomo Muraglia'
 Medium: Sculpture

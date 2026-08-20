@@ -1,6 +1,5 @@
 ---
 id: 28884e40-5e84-4776-82c4-8d352bbb11a9
-published: false
 blueprint: instructor
 title: 'Mia Zoller'
 Medium: 'Oil Painting, Drawing, & Watercolor'

@@ -1,6 +1,5 @@
 ---
 id: ca90de8a-e04d-47fa-946d-b22026b00dd1
-published: false
 blueprint: instructor
 title: 'Jillian Barnett'
 Medium: 'Mixed Media'

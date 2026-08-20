@@ -1,6 +1,5 @@
 ---
 id: 144ef6d8-0f48-4f4d-8639-7be2258868fd
-published: false
 blueprint: page
 title: 'Junior Fellowship'
 turn_off_hero: false
@@ -258,12 +257,12 @@ blocks:
     enabled: true
   -
     id: ms7nu4qk
-    width: contained
-    iframe_embed_two: '<div style="position:fixed;top:0px;left:0px;right:0px;bottom:0px;"><div data-fillout-id="6jwLp2Wu2Pus" data-fillout-embed-type="fullscreen" style="width:100%;height:100%;" data-fillout-inherit-parameters ></div><script src="https://server.fillout.com/embed/v1/"></script></div>'
+    width: full_width
     type: iframe_container
     enabled: true
+    iframe_embed: '<div style="width:100%;height:500px;" data-fillout-id="6jwLp2Wu2Pus" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div><script src="https://server.fillout.com/embed/v1/"></script>'
 author: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
-updated_at: 1786113415
+updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
+updated_at: 1786544845
 number_of_columns: three
 ---

@@ -1,6 +1,5 @@
 ---
 id: 7f5cb38a-ce8d-40eb-b75e-62f67c6ad889
-published: false
 blueprint: instructor
 title: 'Lisa Pope'
 Medium: Painting

@@ -1,6 +1,5 @@
 ---
 id: 88cbdd7c-f62d-48f7-bca2-fc0bfc846c95
-published: false
 blueprint: instructor
 title: 'Kate Bryan'
 Medium: 'Watercolor, Colored Pencil, & Mixed Media'

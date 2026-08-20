@@ -1,6 +1,5 @@
 ---
 id: b4d0383a-f19c-4df5-9182-b728aa476394
-published: false
 blueprint: instructor
 title: 'Stacey Peters'
 Medium: Watercolor

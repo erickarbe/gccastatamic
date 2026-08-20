@@ -1,6 +1,5 @@
 ---
 id: 1940c197-99af-4a87-a233-68de06c36ad6
-published: false
 blueprint: instructor
 title: 'Kate Furman'
 Medium: 'Jewlery & Metals'

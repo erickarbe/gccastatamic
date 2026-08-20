@@ -1,6 +1,5 @@
 ---
 id: 698e249e-2d85-4db6-a5a5-7eeed9f2dd7e
-published: false
 blueprint: instructor
 title: 'Cecilia Ho'
 Medium: 'Needle Felting & Fiber Arts'

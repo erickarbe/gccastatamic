@@ -1,6 +1,5 @@
 ---
 id: a1416dd5-3c76-43e6-b748-7edfb1230ebc
-published: false
 blueprint: instructor
 title: 'Kat Martin'
 Medium: Papermaking

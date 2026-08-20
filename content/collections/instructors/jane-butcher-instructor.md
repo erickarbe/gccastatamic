@@ -1,6 +1,5 @@
 ---
 id: f7e7a045-54d1-4c83-b14d-d2c4e40b47d7
-published: false
 blueprint: instructor
 title: 'Jane Todd Butcher'
 Medium: 'Painting & Collage'

@@ -1,6 +1,5 @@
 ---
 id: c9a6cf11-68c3-4c76-8cbd-123dba5a8b41
-published: false
 blueprint: instructor
 title: 'Terry Trambauer Norris'
 Medium: 'Oil Paint'

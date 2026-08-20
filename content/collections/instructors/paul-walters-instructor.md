@@ -1,6 +1,5 @@
 ---
 id: 257d83e3-2f17-4ce7-af22-4eeb82b0f279
-published: false
 blueprint: instructor
 title: 'Paul Walters'
 Medium: 'Drawing & Painting'

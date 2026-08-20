@@ -1,6 +1,5 @@
 ---
 id: 5f6cf1a7-6b82-4481-9466-a669b22e7119
-published: false
 blueprint: instructor
 title: 'Diarmuid Kelly'
 Medium: 'Oil Painting'

@@ -1,6 +1,5 @@
 ---
 id: e9092498-9daf-4721-9e95-6d034c13ddb8
-published: false
 blueprint: instructor
 title: 'Nick Burns'
 Medium: 'Spray Painting & Murals'

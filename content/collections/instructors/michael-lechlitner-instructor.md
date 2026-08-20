@@ -1,6 +1,5 @@
 ---
 id: 091e46b4-7365-4e4c-ac62-0eb9cacbce7f
-published: false
 blueprint: instructor
 title: 'Michael Lechlitner'
 Medium: 'Ink & Watercolor'
@@ -20,10 +19,10 @@ biography:
       -
         type: text
         text: 'What began as a hobby, dabbling in ink and watercolor, quickly grew into a passion. As his ideas grew in complexity, so did the artistic mediums he pursued. Now, his work can be found utilizing ink and watercolors. By combining his passion for art, beauty, creativity, and the Eternal, Michael has become the artist he is today. Most of his pieces have a story to be told, which makes him a story teller who creates art.'
-featured_art: butterfly-flower.pdf
+featured_art: butterfly-flower2.jpg
 headshot: headshot-(1).jpg
 updated_by: 93a60c93-64e5-4812-adbd-6022dbd4c332
-updated_at: 1786027433
+updated_at: 1786381574
 duplicated_from: ab4fc602-8122-4cc9-b760-e5beeb14261d
 facebook_handle: 'https://www.facebook.com/LechlitnerArt/'
 author:

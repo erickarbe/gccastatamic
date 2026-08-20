@@ -4,7 +4,7 @@ blueprint: page
 title: 'Art School'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: ff1ac932-a49d-40b3-b6bc-41a64916139d
-updated_at: 1785875009
+updated_at: 1787147720
 turn_off_hero: false
 eyebrow: 'Art School'
 inside_hero_header: 'The <span>Carrie Burns Brown Art School</span> at GCCA'
@@ -39,7 +39,7 @@ inside_hero_content:
         marks:
           -
             type: bold
-        text: 'Fall Season coming soon!'
+        text: 'Early Fall classes are open! Register today!'
   -
     type: paragraph
     content:
@@ -48,7 +48,7 @@ inside_hero_content:
         marks:
           -
             type: bold
-        text: 'Early Fall classes: August 31 through September 30 • announced August 15!'
+        text: 'Early Fall classes: August 31 through September 30 '
   -
     type: paragraph
     content:
@@ -60,7 +60,7 @@ inside_hero_content:
         text: 'Late Fall classes: October 1 through December 18 • announced September 12!'
   -
     type: paragraph
-inside_hero_button_text: 'Register for the last of our Summer Classes!'
+inside_hero_button_text: 'Register for Early Fall classes today!'
 inside_hero_button_link: 'https://campscui.active.com/orgs/GreenvilleCenterforCreativeArts?orglink=camps-registration&newcui=true'
 inside_hero_image: woman-painting-portrait.jpg
 blocks:
@@ -755,4 +755,5 @@ blocks:
     background_color: '#25323e'
     open_in_new_tab: false
 open_in_new_tab: true
+number_of_columns: three
 ---

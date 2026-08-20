@@ -1,6 +1,5 @@
 ---
 id: a27abbde-be45-408d-903a-94df682a969e
-published: false
 blueprint: instructor
 title: 'Edwina Shannon'
 Medium: 'Lettering Artist, Calligrapher & Photographer'

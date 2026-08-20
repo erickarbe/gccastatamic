@@ -1,6 +1,5 @@
 ---
 id: 5406ca75-af7e-4593-8bba-87b10ff9c6b0
-published: false
 blueprint: instructor
 title: 'Nic Salazar'
 Medium: 'Drawing, Metalwork, Printmaking'

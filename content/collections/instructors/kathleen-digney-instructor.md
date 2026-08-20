@@ -1,6 +1,5 @@
 ---
 id: 912eeb56-8c0a-46ce-b44a-4c4733e419b1
-published: false
 blueprint: instructor
 title: 'Kathleen Digney'
 Medium: 'Oil Painting & Drawing'

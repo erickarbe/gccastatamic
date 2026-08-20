@@ -1,6 +1,5 @@
 ---
 id: c1a37dfb-b549-49fe-bafe-88c677341279
-published: false
 blueprint: instructor
 title: 'Rachel Strivelli'
 Medium: 'Creative Writing'

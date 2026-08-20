@@ -1,6 +1,5 @@
 ---
 id: 38e499e0-ce51-40ee-9592-108b63506c50
-published: false
 blueprint: instructor
 title: 'Mary Whyte'
 Medium: Watercolor

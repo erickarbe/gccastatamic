@@ -1,6 +1,5 @@
 ---
 id: 1779ec41-ff19-46b4-a855-6bb8448474d9
-published: false
 blueprint: instructor
 title: 'Orlando Corona'
 Medium: 'Painting & Printmaking'

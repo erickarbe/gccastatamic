@@ -29,8 +29,8 @@ inside_hero_content:
         text: 'Please email Creative Program Director, Alexis Krcelic, at alexis@artcentergreenville.org for more information. '
 inside_hero_image: banner1.jpg
 author: 5f81e286-c3b1-4700-935f-b6b3f8b8baa2
-updated_by: ff1ac932-a49d-40b3-b6bc-41a64916139d
-updated_at: 1785268974
+updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
+updated_at: 1786980129
 blocks:
   -
     id: mjbsqje6
@@ -768,7 +768,7 @@ blocks:
                         type: text
                         text: 'Membership Show - Main Gallery'
         type: new_item
-        enabled: true
+        enabled: false
       -
         id: ml8a6lj3
         heading: 'September 4'
@@ -799,7 +799,16 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'Barbara Stone Foundation Show - Main Gallery '
+                        text: 'commUNITY: A Canvas of Greenville Cultures'
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Art School Show '
           -
             type: paragraph
             content:
@@ -829,7 +838,40 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: 'Family Friendly Activity '
+                text: 'Performances: '
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Live Poetry Readings by Gloria Bayne & Others '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Family Friendly Activity: '
+          -
+            type: bulletList
+            content:
+              -
+                type: listItem
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Art Nook '
         type: new_item
         enabled: true
       -
@@ -1842,7 +1884,7 @@ blocks:
                         type: text
                         text: 'Membership Show - Main Gallery'
         type: new_item
-        enabled: false
+        enabled: true
       -
         id: ml8a6lj3
         heading: 'September 4'
@@ -2182,4 +2224,5 @@ blocks:
 eyebrow: 'Make GCCA Your First Stop'
 open_in_new_tab: false
 duplicated_from: fed253c7-fa9c-4450-bc27-6050b88ff4de
+number_of_columns: three
 ---

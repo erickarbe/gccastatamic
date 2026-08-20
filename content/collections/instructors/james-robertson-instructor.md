@@ -1,6 +1,5 @@
 ---
 id: 712f81bb-419b-40d9-a83d-e43a799352c0
-published: false
 blueprint: instructor
 title: 'James Robertson'
 Medium: Painting
