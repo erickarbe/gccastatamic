@@ -828,3 +828,207 @@ body {
         transform: scale(1);
     }
 }
+
+/* Site Popup */
+.site-popup {
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.site-popup.is-open {
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.site-popup-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(38, 51, 64, 0.72);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    opacity: 0;
+    transition: opacity 0.45s ease;
+}
+
+.site-popup.is-open .site-popup-overlay {
+    opacity: 1;
+}
+
+.site-popup-dialog {
+    position: relative;
+    z-index: 1;
+    width: min(920px, 100%);
+    max-height: min(88vh, 720px);
+    background: #fff;
+    box-shadow: 0 30px 80px rgba(38, 51, 64, 0.28);
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(24px) scale(0.985);
+    transition:
+        opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1),
+        transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.site-popup-dialog.is-text-only {
+    width: min(540px, 100%);
+}
+
+.site-popup-dialog.has-image {
+    display: grid;
+    grid-template-columns: 0.92fr 1.08fr;
+}
+
+.site-popup.is-open .site-popup-dialog {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+.site-popup-media {
+    position: relative;
+    min-height: 220px;
+    background: #263340;
+    overflow: hidden;
+}
+
+.site-popup-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.site-popup-content {
+    padding: 2.5rem 2.25rem 2.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+}
+
+.site-popup-headline {
+    font-family: ivypresto-display, serif;
+    font-weight: 600;
+    font-size: clamp(1.85rem, 3vw, 2.75rem);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: #263340;
+    margin: 0 0 0.85rem;
+}
+
+.site-popup-headline:after {
+    content: "";
+    display: block;
+    width: 3rem;
+    height: 2px;
+    margin-top: 1rem;
+    background: #ff172e;
+}
+
+.site-popup-copy {
+    color: #565d6f;
+    font-weight: 300;
+    font-size: 1.05rem;
+    line-height: 1.65;
+    margin-bottom: 1.75rem;
+}
+
+.site-popup-copy p + p {
+    margin-top: 0.85em;
+}
+
+.site-popup-copy a {
+    color: #263340;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.site-popup-cta {
+    align-self: flex-start;
+}
+
+.site-popup-close {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 0;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.92);
+    color: #263340;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(38, 51, 64, 0.12);
+    transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.site-popup-close svg {
+    width: 1.15rem;
+    height: 1.15rem;
+}
+
+.site-popup-close:hover,
+.site-popup-close:focus-visible {
+    background: #263340;
+    color: #fff;
+    transform: rotate(90deg);
+    outline: none;
+}
+
+body.popup-open {
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    .site-popup-dialog.has-image {
+        grid-template-columns: 1fr;
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+
+    .site-popup-media {
+        height: 220px;
+        min-height: 220px;
+    }
+
+    .site-popup-content {
+        padding: 1.75rem 1.5rem 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .site-popup-dialog.has-image .site-popup-media {
+        min-height: 100%;
+        height: auto;
+    }
+
+    .site-popup-dialog.has-image .site-popup-media img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .site-popup-overlay,
+    .site-popup-dialog,
+    .site-popup-close {
+        transition: none;
+    }
+
+    .site-popup-dialog {
+        transform: none;
+    }
+}

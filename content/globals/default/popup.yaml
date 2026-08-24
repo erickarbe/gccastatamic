@@ -1,0 +1,18 @@
+enabled: true
+headline: 'Celebrate a Season of Art'
+text:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Join us for upcoming exhibitions, classes, and community events at Greenville Center for Creative Arts.'
+image: popup-2.jpg
+button_text: 'See What’s On'
+button_link: /
+open_in_new_tab: false
+show_on: all
+trigger: delay
+delay_seconds: 3
+hide_on_mobile: false
+dismiss_duration: '7'

@@ -418,3 +418,202 @@ document.querySelectorAll(".card").forEach((card) => {
         }
     });
 });
+
+// Promotional popup
+document.addEventListener("DOMContentLoaded", () => {
+    const root = document.querySelector("[data-site-popup]");
+    if (!root) return;
+
+    const closeButton = root.querySelector(".site-popup-close");
+    const config = {
+        id: (root.dataset.popupId || "default").replace(/[^a-z0-9_-]/gi, "-"),
+        trigger: root.dataset.trigger || "delay",
+        delay: Number(root.dataset.delay || 3) * 1000,
+        scrollPercent: Number(root.dataset.scrollPercent || 25),
+        dismiss: root.dataset.dismiss || "7",
+        showOn: root.dataset.showOn || "all",
+        specificIds: (root.dataset.specificIds || "")
+            .split(",")
+            .map((id) => id.trim())
+            .filter(Boolean),
+        currentId: root.dataset.currentId || "",
+        isHomepage: root.dataset.isHomepage === "1",
+        hideOnMobile: root.dataset.hideOnMobile === "1",
+        startDate: root.dataset.startDate || "",
+        endDate: root.dataset.endDate || "",
+    };
+    const storageKey = `gcca-popup:${config.id}`;
+    let lastFocus = null;
+    let opened = false;
+
+    const parseDate = (value, endOfDay = false) => {
+        if (!value) return null;
+        const parts = value.split("-").map(Number);
+        if (parts.length >= 3 && parts.every((part) => !Number.isNaN(part))) {
+            const [year, month, day] = parts;
+            return endOfDay
+                ? new Date(year, month - 1, day, 23, 59, 59, 999)
+                : new Date(year, month - 1, day, 0, 0, 0, 0);
+        }
+        const date = new Date(value);
+        return Number.isNaN(date.getTime()) ? null : date;
+    };
+
+    const isWithinSchedule = () => {
+        const now = new Date();
+        const start = parseDate(config.startDate);
+        const end = parseDate(config.endDate, true);
+        if (start && now < start) return false;
+        if (end && now > end) return false;
+        return true;
+    };
+
+    const shouldShowOnThisPage = () => {
+        if (config.showOn === "homepage") return config.isHomepage;
+        if (config.showOn === "specific") {
+            return config.specificIds.includes(config.currentId);
+        }
+        return true;
+    };
+
+    const isDismissed = () => {
+        if (config.dismiss === "session") {
+            return sessionStorage.getItem(storageKey) === "1";
+        }
+
+        const stored = localStorage.getItem(storageKey);
+        if (!stored) return false;
+        if (config.dismiss === "forever") return true;
+
+        try {
+            const payload = JSON.parse(stored);
+            const days = Number(config.dismiss);
+            if (!days || !payload?.at) return true;
+            return Date.now() - Number(payload.at) < days * 86400000;
+        } catch {
+            return true;
+        }
+    };
+
+    const persistDismiss = () => {
+        if (config.dismiss === "session") {
+            sessionStorage.setItem(storageKey, "1");
+            return;
+        }
+        localStorage.setItem(storageKey, JSON.stringify({ at: Date.now() }));
+    };
+
+    const getFocusable = () =>
+        [...root.querySelectorAll('a[href], button:not([disabled])')].filter(
+            (el) => !el.hasAttribute("disabled")
+        );
+
+    const trapFocus = (event) => {
+        if (event.key !== "Tab" || !opened) return;
+        const focusable = getFocusable();
+        if (!focusable.length) return;
+
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+
+        if (event.shiftKey && document.activeElement === first) {
+            event.preventDefault();
+            last.focus();
+        } else if (!event.shiftKey && document.activeElement === last) {
+            event.preventDefault();
+            first.focus();
+        }
+    };
+
+    const openPopup = () => {
+        if (opened) return;
+        opened = true;
+        lastFocus = document.activeElement;
+        root.classList.add("is-open");
+        root.setAttribute("aria-hidden", "false");
+        root.removeAttribute("inert");
+        document.body.classList.add("popup-open");
+        if (typeof lenis?.stop === "function") lenis.stop();
+        window.setTimeout(() => closeButton?.focus(), 50);
+        document.addEventListener("keydown", onKeyDown);
+    };
+
+    const closePopup = () => {
+        if (!opened) return;
+        opened = false;
+        persistDismiss();
+        root.classList.remove("is-open");
+        root.setAttribute("aria-hidden", "true");
+        root.setAttribute("inert", "");
+        document.body.classList.remove("popup-open");
+        if (typeof lenis?.start === "function") lenis.start();
+        document.removeEventListener("keydown", onKeyDown);
+        if (lastFocus && typeof lastFocus.focus === "function") {
+            lastFocus.focus();
+        }
+    };
+
+    const onKeyDown = (event) => {
+        if (event.key === "Escape") {
+            closePopup();
+            return;
+        }
+        trapFocus(event);
+    };
+
+    const tryShow = () => {
+        if (document.body.classList.contains("offcanvas-open")) {
+            window.setTimeout(tryShow, 400);
+            return;
+        }
+        openPopup();
+    };
+
+    if (config.hideOnMobile && window.matchMedia("(max-width: 767px)").matches) {
+        root.remove();
+        return;
+    }
+
+    if (!isWithinSchedule() || !shouldShowOnThisPage() || isDismissed()) {
+        root.remove();
+        return;
+    }
+
+    root.querySelectorAll("[data-popup-dismiss]").forEach((el) => {
+        el.addEventListener("click", (event) => {
+            event.preventDefault();
+            closePopup();
+        });
+    });
+
+    root.querySelector("[data-popup-cta]")?.addEventListener("click", persistDismiss);
+
+    if (config.trigger === "immediately") {
+        window.setTimeout(tryShow, 400);
+        return;
+    }
+
+    if (config.trigger === "scroll") {
+        const onScroll = () => {
+            const scrollable =
+                document.documentElement.scrollHeight - window.innerHeight;
+            const percent =
+                scrollable <= 0
+                    ? 100
+                    : (window.scrollY / scrollable) * 100;
+            if (percent >= config.scrollPercent) {
+                window.removeEventListener("scroll", onScroll);
+                tryShow();
+            }
+        };
+
+        window.addEventListener("scroll", onScroll, { passive: true });
+        onScroll();
+        if (document.documentElement.scrollHeight <= window.innerHeight + 10) {
+            window.setTimeout(tryShow, 1000);
+        }
+        return;
+    }
+
+    window.setTimeout(tryShow, Number.isFinite(config.delay) ? config.delay : 3000);
+});

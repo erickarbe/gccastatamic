@@ -1,0 +1,91 @@
+{{ nocache }}
+{{ if popup:enabled }}
+<aside
+    id="site-popup"
+    class="site-popup"
+    role="dialog"
+    aria-modal="true"
+    {{ if popup:headline }}aria-labelledby="site-popup-title"{{ else }}aria-label="Announcement"{{ /if }}
+    {{ if popup:text }}aria-describedby="site-popup-desc"{{ /if }}
+    aria-hidden="true"
+    inert
+    data-site-popup
+    data-popup-id="{{ popup:campaign_id or 'default' }}"
+    data-trigger="{{ popup:trigger or 'delay' }}"
+    data-delay="{{ popup:delay_seconds or 3 }}"
+    data-scroll-percent="{{ popup:scroll_percent or 25 }}"
+    data-dismiss="{{ popup:dismiss_duration or '7' }}"
+    data-show-on="{{ popup:show_on or 'all' }}"
+    data-specific-ids="{{ popup:specific_pages | pluck('id') | join(',') }}"
+    data-current-id="{{ id }}"
+    data-is-homepage="{{ if url == '/' }}1{{ else }}0{{ /if }}"
+    data-hide-on-mobile="{{ if popup:hide_on_mobile }}1{{ else }}0{{ /if }}"
+    data-start-date="{{ popup:start_date format='Y-m-d' }}"
+    data-end-date="{{ popup:end_date format='Y-m-d' }}"
+>
+    <div class="site-popup-overlay" data-popup-dismiss></div>
+
+    <div class="site-popup-dialog{{ if popup:image }} has-image{{ else }} is-text-only{{ /if }}" role="document">
+        <button
+            type="button"
+            class="site-popup-close"
+            data-popup-dismiss
+            aria-label="Close popup"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+        </button>
+
+        {{ if popup:image }}
+            <div class="site-popup-media">
+                {{ popup:image }}
+                    <img src="{{ url }}" alt="{{ alt or {popup:headline} }}" />
+                {{ /popup:image }}
+            </div>
+        {{ /if }}
+
+        <div class="site-popup-content">
+            {{ if popup:headline }}
+                <h2 id="site-popup-title" class="site-popup-headline">{{ popup:headline }}</h2>
+            {{ /if }}
+
+            {{ if popup:text }}
+                <div id="site-popup-desc" class="site-popup-copy">
+                    {{ popup:text }}
+                </div>
+            {{ /if }}
+
+            {{ if popup:button_text and popup:button_link }}
+                <a
+                    href="{{ popup:button_link:url }}"
+                    class="fancy-button dark-blue relative inline-flex items-center justify-center site-popup-cta"
+                    {{ if popup:open_in_new_tab }}target="_blank" rel="noopener noreferrer"{{ /if }}
+                    data-popup-cta
+                >
+                    <div class="btn-icon-arrow h-[48px] w-[48px] flex items-center justify-center relative transition-all duration-200 ease-out">
+                        <span class="arrow-line w-[14px] h-[1px] rounded-[1px] bg-gcca-red"></span>
+                        <svg
+                            viewBox="0 0 7 12"
+                            fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="arrow-head h-[12px] absolute top-1/2 -translate-y-1/2 right-4 text-gcca-red"
+                            aria-hidden="true"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M3.95353 5.4346C4.40326 5.4346 4.62847 4.88717 4.30488 4.57484L0.447099 0.851283C0.243546 0.654813 0.243545 0.328692 0.447098 0.132221V0.132221C0.640709 -0.0546532 0.947532 -0.0546531 1.14114 0.132221L6.85231 5.64468V5.64468C7.0489 5.83444 7.0489 6.14941 6.85231 6.33916V6.33916L1.14114 11.8516C0.947531 12.0385 0.640709 12.0385 0.447098 11.8516V11.8516C0.243545 11.6552 0.243545 11.329 0.447098 11.1326L4.42366 7.29436C4.74725 6.98203 4.52615 6.4346 4.07642 6.4346H3.95187C3.67573 6.4346 3.45187 6.21074 3.45187 5.9346V5.9346C3.45187 5.65846 3.67739 5.4346 3.95353 5.4346V5.4346Z"
+                            />
+                        </svg>
+                    </div>
+                    <span class="text md:text-[22px] relative transition-all duration-200 ease-out z-1 px-4 text-dark-blue">
+                        {{ popup:button_text }}
+                    </span>
+                </a>
+            {{ /if }}
+        </div>
+    </div>
+</aside>
+{{ /if }}
+{{ /nocache }}

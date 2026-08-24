@@ -1,0 +1,175 @@
+title: Popup
+tabs:
+  content:
+    display: Content
+    sections:
+      -
+        display: Enable
+        instructions: 'Turn the popup on or off sitewide without deleting your copy.'
+        fields:
+          -
+            handle: enabled
+            field:
+              type: toggle
+              display: 'Enable Popup'
+              instructions: 'When off, the popup will not appear for anyone.'
+              default: false
+      -
+        display: 'Popup Content'
+        instructions: 'This is the message visitors will see. An image is optional — without one, the popup becomes a centered announcement.'
+        fields:
+          -
+            handle: headline
+            field:
+              type: text
+              display: Headline
+              instructions: 'The large serif title at the top of the popup.'
+          -
+            handle: text
+            field:
+              type: bard
+              display: Text
+              instructions: 'Supporting copy that appears under the headline.'
+              buttons:
+                - bold
+                - italic
+                - underline
+                - anchor
+                - removeformat
+              remove_empty_nodes: false
+              container: s3_assets
+          -
+            handle: image
+            field:
+              type: assets
+              display: Image
+              instructions: 'Optional. A portrait or square image works best beside the copy.'
+              container: s3_assets
+              max_files: 1
+          -
+            handle: button_text
+            field:
+              type: text
+              display: 'Button Text'
+              instructions: 'Leave blank to hide the button.'
+              width: 50
+          -
+            handle: button_link
+            field:
+              type: link
+              display: 'Button Link'
+              width: 50
+          -
+            handle: open_in_new_tab
+            field:
+              type: toggle
+              display: 'Open link in a new tab'
+              default: false
+  behavior:
+    display: Behavior
+    sections:
+      -
+        display: 'When to Show'
+        instructions: 'Control which pages the popup appears on, and what causes it to open.'
+        fields:
+          -
+            handle: show_on
+            field:
+              type: select
+              display: 'Show On'
+              instructions: 'Choose where the popup is allowed to appear.'
+              default: all
+              options:
+                all: 'Every page'
+                homepage: 'Homepage only'
+                specific: 'Specific pages'
+          -
+            handle: specific_pages
+            field:
+              type: entries
+              display: 'Specific Pages'
+              instructions: 'The popup will only appear on the pages you select here.'
+              collections:
+                - pages
+                - articles
+                - events
+              if:
+                show_on: 'equals specific'
+          -
+            handle: trigger
+            field:
+              type: select
+              display: 'When should it appear?'
+              default: delay
+              options:
+                immediately: 'As soon as the page loads'
+                delay: 'After a delay'
+                scroll: 'After the visitor scrolls'
+          -
+            handle: delay_seconds
+            field:
+              type: integer
+              display: 'Delay (seconds)'
+              instructions: 'How long to wait after the page loads before showing the popup.'
+              default: 3
+              if:
+                trigger: 'equals delay'
+          -
+            handle: scroll_percent
+            field:
+              type: integer
+              display: 'Scroll percentage'
+              instructions: 'Show the popup after the visitor has scrolled this percent of the page (for example, 25 = a quarter of the way down).'
+              default: 25
+              if:
+                trigger: 'equals scroll'
+          -
+            handle: start_date
+            field:
+              type: date
+              display: 'Start Date'
+              instructions: 'Optional. The popup will not appear before this date.'
+              time_enabled: false
+              width: 50
+          -
+            handle: end_date
+            field:
+              type: date
+              display: 'End Date'
+              instructions: 'Optional. The popup will not appear after this date.'
+              time_enabled: false
+              width: 50
+          -
+            handle: hide_on_mobile
+            field:
+              type: toggle
+              display: 'Hide on mobile'
+              instructions: 'Turn on if you only want the popup to appear on larger screens.'
+              default: false
+      -
+        display: Dismissal
+        instructions: 'When a visitor closes the popup, it stays hidden for the period you choose.'
+        fields:
+          -
+            handle: dismiss_duration
+            field:
+              type: select
+              display: 'How long should it stay away after being dismissed?'
+              instructions: 'After this period, the popup can appear again for that visitor.'
+              default: '7'
+              options:
+                session: 'Until they close their browser'
+                '1': '1 day'
+                '3': '3 days'
+                '7': '1 week'
+                '14': '2 weeks'
+                '30': '1 month'
+                '90': '3 months'
+                forever: "Don't show again"
+          -
+            handle: campaign_id
+            field:
+              type: text
+              display: 'Campaign ID'
+              instructions: 'Optional. Change this whenever you replace the popup content (for example, spring-gala-2026) so people who dismissed the previous popup will see the new one.'
+              placeholder: spring-gala-2026
