@@ -2,7 +2,9 @@ id: 063d759f-e872-44f4-89db-b72ccfe9867c
 enabled: true
 source: /contact
 source_md5: 90609cfd31a32bdbd3d81843c57d356b
+destination_type: url
 destination: /contact-us
 type: 301
 site: default
 match_type: exact
+lastUsedAt: 2026-08-23T19:33:46.280342+00:00

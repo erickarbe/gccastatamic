@@ -2,7 +2,9 @@ id: 6fd52d0b-447b-44ee-801f-86986ad34531
 enabled: true
 source: /events/annualshowcase
 source_md5: 29cd720b4f75de4b0182d21a5b3df948
+destination_type: url
 destination: /events/membershow
 type: 301
 site: default
 match_type: exact
+lastUsedAt: 2026-08-23T06:59:58.328437+00:00

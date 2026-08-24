@@ -2,7 +2,9 @@ id: 95e046dc-6044-48f8-bf87-defc4a5e8d5a
 enabled: true
 source: /venue-rentals
 source_md5: b0eae70c9d2aa7d840bdb2c20ad7147d
+destination_type: url
 destination: 'https://artcentergreenville.org/events/host-your-event'
 type: 301
 site: default
 match_type: exact
+lastUsedAt: 2026-08-22T17:20:19.191300+00:00

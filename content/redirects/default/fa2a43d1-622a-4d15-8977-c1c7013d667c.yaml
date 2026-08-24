@@ -2,7 +2,9 @@ id: fa2a43d1-622a-4d15-8977-c1c7013d667c
 enabled: true
 source: /studio-artists/kephira-davis
 source_md5: aebce4a6cb7d15dfddba0bc97f916285
+destination_type: url
 destination: /studio-artists/bella-bishara
 type: 301
 site: default
 match_type: exact
+lastUsedAt: 2026-08-23T19:21:41.417723+00:00

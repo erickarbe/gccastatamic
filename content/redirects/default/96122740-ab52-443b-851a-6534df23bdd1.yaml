@@ -2,7 +2,9 @@ id: 96122740-ab52-443b-851a-6534df23bdd1
 enabled: true
 source: /events/nightshift-april
 source_md5: ad9bd7fc6e0157ddaab6bcd439e8fb19
+destination_type: url
 destination: /events/nightshift-may
 type: 301
 site: default
 match_type: exact
+lastUsedAt: 2026-08-22T07:55:53.517077+00:00

@@ -1,5 +1,6 @@
 ---
 id: 562583b0-a0b1-4827-9bf0-40ce3c7e0e6c
+published: false
 blueprint: page
 title: 'Alicia Mizuno, CTA'
 turn_off_hero: true
@@ -54,13 +55,16 @@ blocks:
             -
               type: text
               text: 'Alicia enjoys life in South Carolina with her husband, son, and three cats. She is excited to explore new opportunities in the Greenville area and collaborate with the vibrant local arts community.'
-      button_text: null
-      button_link: null
+      open_in_new_tab: false
+      content_width: '50'
+      remove_top_margin: false
     image: alicia-mizuno.jpg
     constrain_image: false
     type: image_and_text
     enabled: true
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_at: 1744737985
+updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
+updated_at: 1787337518
+open_in_new_tab: false
+number_of_columns: three
 ---

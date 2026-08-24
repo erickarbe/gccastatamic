@@ -2,7 +2,9 @@ id: 9a5140f9-beb7-420d-95ed-ebdfacb04f2e
 enabled: true
 source: /firstfriday
 source_md5: 86ee616cf2e75154f02c8cf337ec117a
+destination_type: url
 destination: /nightshifts
 type: 301
 site: default
 match_type: exact
+lastUsedAt: 2026-08-22T03:05:06.082860+00:00

@@ -2,7 +2,9 @@ id: 09e0eb4c-664e-44dc-9523-5202051a6e1f
 enabled: true
 source: /classes
 source_md5: 7a8c467e0ba0893e8f4f0bc9a21037bb
+destination_type: url
 destination: 'https://artcentergreenville.org/education/art-school'
 type: 301
 site: default
 match_type: exact
+lastUsedAt: 2026-08-23T18:50:16.838757+00:00

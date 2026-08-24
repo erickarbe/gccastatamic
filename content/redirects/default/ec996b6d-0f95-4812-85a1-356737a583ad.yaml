@@ -2,7 +2,9 @@ id: ec996b6d-0f95-4812-85a1-356737a583ad
 enabled: true
 source: /employment
 source_md5: 05c9b1cbfc36b5e6b02063a5400f145f
+destination_type: url
 destination: /join-our-team/careers
 type: 301
 site: default
 match_type: exact
+lastUsedAt: 2026-08-23T13:29:14.155649+00:00

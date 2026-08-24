@@ -2,7 +2,9 @@ id: ce243ad2-ffe7-4837-a954-71817081e75d
 enabled: true
 source: /events/nightshift-july
 source_md5: bf08bc8040e57dbeca564dfeef0fc541
+destination_type: url
 destination: /events/nightshift-september
 type: 301
 site: default
 match_type: exact
+lastUsedAt: 2026-08-23T14:40:21.004656+00:00

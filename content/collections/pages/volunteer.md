@@ -3,8 +3,8 @@ id: dd280318-cba2-4fd3-97dd-07de56a5b843
 blueprint: page
 title: Volunteer
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1768937136
+updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
+updated_at: 1787337492
 turn_off_hero: false
 inside_hero_header: Volunteer
 inside_hero_content:
@@ -132,18 +132,18 @@ blocks:
             content:
               -
                 type: text
-                text: 'Please contact our Operations Director, Alicia Mizuno at '
+                text: 'Please contact our Guest Experience & Program Coordinator, Jamieson Siburt at '
               -
                 type: text
                 marks:
                   -
                     type: link
                     attrs:
-                      href: 'mailto:alicia@artcentergreenville.org'
+                      href: 'mailto:jamieson@artcentergreenville.org'
                       rel: null
                       target: null
                       title: null
-                text: alicia@artcentergreenville.org
+                text: jamieson@artcentergreenville.org
               -
                 type: text
                 text: .
@@ -170,18 +170,18 @@ blocks:
             content:
               -
                 type: text
-                text: 'Yes! Please contact our Operations Director, Alicia Mizuno at '
+                text: 'Yes! Please contact our Guest Experience & Program Coordinator, Jamieson Siburt at '
               -
                 type: text
                 marks:
                   -
                     type: link
                     attrs:
-                      href: 'mailto:alicia@artcentergreenville.org'
+                      href: 'mailto:jamieson@artcentergreenville.org'
                       rel: null
                       target: null
                       title: null
-                text: alicia@artcentergreenville.org
+                text: jamieson@artcentergreenville.org
               -
                 type: text
                 text: .
@@ -192,4 +192,5 @@ blocks:
     use_second_column: false
 inside_hero_image: gcca-arp-2357.jpg
 open_in_new_tab: false
+number_of_columns: three
 ---

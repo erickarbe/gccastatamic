@@ -2,7 +2,9 @@ id: a2eee8b7-4592-4b5d-a6e3-30a1be8f27e5
 enabled: true
 source: /studio-artists/meghan-verret
 source_md5: 9df5297e5c6969fada3f95f3ba14969c
+destination_type: url
 destination: /studio-artists/raamen-stallings
 type: 301
 site: default
 match_type: exact
+lastUsedAt: 2026-08-21T15:59:31.667257+00:00

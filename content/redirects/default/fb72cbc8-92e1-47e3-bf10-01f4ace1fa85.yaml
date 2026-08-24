@@ -2,7 +2,9 @@ id: fb72cbc8-92e1-47e3-bf10-01f4ace1fa85
 enabled: true
 source: /artists/resources-for-artists
 source_md5: 3d99d8a10a3425222daf0080d28d6f3e
+destination_type: url
 destination: /artists/artist-opportunities
 type: 301
 site: default
 match_type: exact
+lastUsedAt: 2026-08-22T13:09:49.331613+00:00

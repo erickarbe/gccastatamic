@@ -17,3 +17,7 @@ preferences:
     s3_assets:
       per_page: 100
       mode: grid
+  collections:
+    pages:
+      view: tree
+      after_save: listing

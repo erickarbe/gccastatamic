@@ -2,7 +2,9 @@ id: 7275d515-05e8-4a8d-97ce-67a1fe64e9e0
 enabled: true
 source: /studio-artists/mary-whiteman
 source_md5: ba78d702de46e1b54b26e8facf9b08c1
+destination_type: url
 destination: /studio-artists/rebecca-langlands
 type: 301
 site: default
 match_type: exact
+lastUsedAt: 2026-08-22T00:33:58.134701+00:00
