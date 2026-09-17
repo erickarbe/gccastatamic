@@ -7,6 +7,9 @@ fields:
         - '#263340'
         - '#ff172e'
         - '#f6f3f4'
+        - 565d6f
+        - fffff0
+        - d9dbdb
       default: '#ffffff'
       type: color
       display: 'Background Color'
@@ -27,6 +30,27 @@ fields:
       type: bard
       display: Content
       container: s3_assets
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - image
+        - table
+        - h4
+        - h5
+        - h6
+        - underline
+        - horizontalrule
+        - alignleft
+        - aligncenter
+        - alignright
+      smart_typography: true
   -
     handle: button_text
     field:

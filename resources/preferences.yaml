@@ -6,3 +6,5 @@ nav:
       action: '@modify'
       reorder:
         - 'content::assets::s3_assets'
+formatting_locale: en
+theme: null

@@ -129,7 +129,7 @@ blocks:
             content:
               -
                 type: text
-                text: 'Memberships are recurring on an annual basis from the day of joining.'
+                text: 'Memberships expire one year from the date of sign-up. If you choose a recurring membership, your membership will automatically renew annually on your original sign-up date.'
         type: new_set
         enabled: true
       -
@@ -148,11 +148,11 @@ blocks:
                   -
                     type: link
                     attrs:
-                      href: 'mailto:alexis@artcentergreenville.org'
+                      href: 'mailto:sara@artcentergreenville.org'
                       rel: null
                       target: null
                       title: null
-                text: alexis@artcentergreenville.org
+                text: sara@artcentergreenville.org
               -
                 type: text
                 text: .
@@ -174,11 +174,11 @@ blocks:
                   -
                     type: link
                     attrs:
-                      href: 'mailto:alexis@artcentergreenville.org'
+                      href: 'mailto:sara@artcenergreenville.org'
                       rel: null
                       target: null
                       title: null
-                text: alexis@artcentergreenville.org
+                text: sara@artcenergreenville.org
               -
                 type: text
                 text: ' if there are any issues.'
@@ -199,7 +199,21 @@ blocks:
             content:
               -
                 type: text
-                text: 'Please contact Ben Tarcson, Gallery Director, at ben@artcentergreenville.org for more information.'
+                text: 'Please contact Ben Tarcson, Gallery Director, at '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'mailto:ben@artcentergreenville.org'
+                      rel: null
+                      target: null
+                      title: null
+                text: ben@artcentergreenville.org
+              -
+                type: text
+                text: ' for more information.'
         type: new_set
         enabled: true
       -
@@ -235,7 +249,8 @@ blocks:
     use_second_column: false
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
-updated_at: 1785769607
+updated_at: 1787585357
 inside_hero_image: gcca-showcase_0093.jpg
 open_in_new_tab: false
+number_of_columns: three
 ---

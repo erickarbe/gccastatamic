@@ -4,7 +4,7 @@ blueprint: page
 title: 'Host Your Event'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
-updated_at: 1786034102
+updated_at: 1788183203
 turn_off_hero: false
 eyebrow: 'Host Your Event'
 inside_hero_header: 'Venue Rentals'
@@ -164,7 +164,7 @@ blocks:
     enabled: true
   -
     id: mfzw2mii
-    form_embed: '<div data-fillout-id="9DP2Dj2QWsus" data-fillout-embed-type="popup" data-fillout-button-text="Rental Inquiry Here!" data-fillout-dynamic-resize data-fillout-button-color="#FF172E" data-fillout-button-size="large" data-fillout-inherit-parameters data-fillout-popup-size="medium"></div><script src="https://server.fillout.com/embed/v1/"></script>'
+    form_embed: '<div data-fillout-id="3pJtWhxYQyus" data-fillout-embed-type="popup" data-fillout-button-text="Rental Inquiry Here!" data-fillout-dynamic-resize data-fillout-button-color="#FF172E" data-fillout-button-size="large" data-fillout-inherit-parameters data-fillout-popup-size="large"></div><script src="https://server.fillout.com/embed/v1/"></script>'
     type: form_and_text
     enabled: true
   -
@@ -186,7 +186,13 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'If an event has 50 or more attendees, including staff, a minimum 4-hour booking of security staff is required. Meetings and staff training rentals are flexible on rental hour minimum.'
+                        marks:
+                          -
+                            type: bold
+                        text: 'Security:'
+                      -
+                        type: text
+                        text: ' Events with 50 or more attendees, including staff, require a minimum 4-hour security staffing booking. Meetings and staff training rentals may be flexible on the 4-hour minimum.'
               -
                 type: listItem
                 content:
@@ -195,7 +201,13 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'If an Art By Appointment guided art activity with a GCCA instructor (supplies included) is added to your event, fees will vary depending on the activity selected.'
+                        marks:
+                          -
+                            type: bold
+                        text: 'Art By Appointment:'
+                      -
+                        type: text
+                        text: ' Add a guided art activity led by a GCCA instructor, with supplies included. Additional fees vary based on the activity selected.'
               -
                 type: listItem
                 content:
@@ -204,7 +216,13 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'If audio visual equipment is needed for your event additional fees will apply.'
+                        marks:
+                          -
+                            type: bold
+                        text: 'Audio/Visual Equipment:'
+                      -
+                        type: text
+                        text: ' Additional fees apply if audio/visual equipment is needed for your event.'
               -
                 type: listItem
                 content:
@@ -213,7 +231,13 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'Any of the spaces can be rented out for use of groups to gather to create artwork or photographers for photoshoots. Some limitations may apply. Separate pricing available, please inquire with the Operations Director.'
+                        marks:
+                          -
+                            type: bold
+                        text: 'Creative & Photoshoot Rentals:'
+                      -
+                        type: text
+                        text: ' Our spaces may be rented for groups gathering to create artwork or for photography and photoshoots. Some limitations may apply. Separate pricing is available; please inquire for details.'
               -
                 type: listItem
                 content:
@@ -222,7 +246,27 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'Non-profit pricing is available, please inquire with Operations Director'
+                        marks:
+                          -
+                            type: bold
+                        text: 'Nonprofit Pricing:'
+                      -
+                        type: text
+                        text: ' Special nonprofit rental pricing is available. Please inquire with Sara Grambach at '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: link
+                            attrs:
+                              href: 'mailto:sara@artcentergreenville.org'
+                              rel: null
+                              target: null
+                              title: null
+                        text: sara@artcentergreenville.org
+                      -
+                        type: text
+                        text: .
               -
                 type: listItem
                 content:
@@ -231,7 +275,13 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'Any art workshops or classes must go through our Art School, please reach out to our Education Director, Kara Tyndall at '
+                        marks:
+                          -
+                            type: bold
+                        text: 'Art Workshops & Classes:'
+                      -
+                        type: text
+                        text: ' All art workshops and classes must be coordinated through the GCCA Art School. Please contact our Education Director, Kara Tyndall, at '
                       -
                         type: text
                         marks:
@@ -243,6 +293,9 @@ blocks:
                               target: null
                               title: null
                         text: kara@artcentergreenville.org
+                      -
+                        type: text
+                        text: .
               -
                 type: listItem
                 content:
@@ -251,21 +304,27 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'Additional rental services such as linens, chairs, tables and more (please inquire for more details with Operations Director, Alicia Mizuno at '
+                        marks:
+                          -
+                            type: bold
+                        text: 'Additional Rental Services:'
+                      -
+                        type: text
+                        text: ' Linens, chairs, tables, and other rental services are available for an additional fee. Please contact Sara Grambach at '
                       -
                         type: text
                         marks:
                           -
                             type: link
                             attrs:
-                              href: 'mailto:alicia@artcentergreenville.org'
+                              href: 'mailto:sara@artcentergreenville.org'
                               rel: null
                               target: null
                               title: null
-                        text: alicia@artcentergreenville.org
+                        text: sara@artcentergreenville.org
                       -
                         type: text
-                        text: )
+                        text: ' for details.'
         type: new_link_panel
         enabled: true
     type: sticky_links

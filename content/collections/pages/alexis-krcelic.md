@@ -1,5 +1,6 @@
 ---
 id: 03459126-05f7-4e16-9f36-409b25fcdf01
+published: false
 blueprint: page
 title: 'Alexis Krcelic'
 turn_off_hero: true
@@ -42,7 +43,8 @@ blocks:
     type: image_and_text
     enabled: true
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
-updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1768946813
+updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
+updated_at: 1787585779
 open_in_new_tab: false
+number_of_columns: three
 ---

@@ -9,3 +9,5 @@ preferences:
       view: tree
     events:
       view: tree
+    articles:
+      view: list

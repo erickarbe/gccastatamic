@@ -26,11 +26,11 @@ inside_hero_content:
     content:
       -
         type: text
-        text: 'Please email Creative Program Director, Alexis Krcelic, at alexis@artcentergreenville.org for more information. '
+        text: 'Please email Guest Experience & Program Coordinator, Jamieson Siburt, at jamieson@artcentergreenville.org for more information. '
 inside_hero_image: banner1.jpg
 author: 5f81e286-c3b1-4700-935f-b6b3f8b8baa2
-updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1786980129
+updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
+updated_at: 1787585499
 blocks:
   -
     id: mjbsqje6

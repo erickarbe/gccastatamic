@@ -30,6 +30,7 @@ tabs:
               type: date
               display: 'Start Date & Time'
               width: 50
+              timezone: America/New_York
           -
             handle: end_date_time
             field:
@@ -37,6 +38,7 @@ tabs:
               type: date
               display: 'End Date & Time'
               width: 50
+              timezone: America/New_York
           -
             handle: all_day_event
             field:

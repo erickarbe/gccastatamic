@@ -5,7 +5,7 @@ title: Exhibitions
 turn_off_hero: true
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1785941697
+updated_at: 1789158841
 blocks:
   -
     id: m9hjvlwy
@@ -18,6 +18,7 @@ blocks:
     id: m9hk792b
     events_list:
       - ce37e72e-e3b2-434a-a0c7-08edd02ff280
+      - 5d99b488-38e4-4e95-bc7e-03e3e147345d
       - 6151889e-8c70-4986-9598-779079b1ff4a
       - 40db0acb-f0f3-482d-bf5c-464de9415256
     type: events_grid
@@ -48,55 +49,6 @@ blocks:
     id: m9hmlcfm
     number_of_columns: three
     content_grid_item:
-      -
-        id: mk2pvn08
-        eyebrow: 'Main Gallery'
-        heading: '2026 Members Show'
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'August 1, 2026 - September 23, 2026'
-              -
-                type: hardBreak
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Opening Reception: August 1 | 12PM - 6PM'
-              -
-                type: hardBreak
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'GCCA member artists '
-              -
-                type: hardBreak
-              -
-                type: hardBreak
-              -
-                type: text
-                text: 'Apply to the show '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'https://artcentergreenville.org/events/membersshowsubmission'
-                      rel: null
-                      target: _blank
-                      title: null
-                text: HERE
-        type: new_item
-        enabled: true
       -
         id: mk2q8twg
         eyebrow: 'Main Gallery'
@@ -129,7 +81,7 @@ blocks:
                   -
                     type: link
                     attrs:
-                      href: 'https://scwatermedia.com/about-us/'
+                      href: 'https://artcentergreenville.org/events/scwsnationalexhibition'
                       rel: null
                       target: null
                       title: null
@@ -188,77 +140,6 @@ blocks:
     id: mcc2acnq
     number_of_columns: three
     content_grid_item:
-      -
-        id: mk2r1yc3
-        eyebrow: 'Community Gallery'
-        heading: 'Ways of Wanting: The 2026 Brandon Fellowship Exhibition'
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'August 1, 2026 - August 26th, 2026 '
-              -
-                type: hardBreak
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Opening Reception: August 1 | 12PM - 6PM'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Tripp Brown, Jackson Herren, Adelle Pruitt, Nic Salazar'
-        type: new_item
-        enabled: true
-      -
-        id: mk2r3xgq
-        eyebrow: 'Community Gallery'
-        heading: 'CommUNITY: A Canvas of Greenville Cultures'
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'September 4, 2026 - October 28, 2026 '
-              -
-                type: hardBreak
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Opening Reception: September 4 | 5-8PM'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Submit to the Show '
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'https://gcca.fillout.com/t/kS1zJvUypjus'
-                      rel: null
-                      target: _blank
-                      title: null
-                text: HERE
-        type: new_item
-        enabled: true
       -
         id: mk2r5rs8
         eyebrow: 'Community Gallery'
@@ -348,4 +229,5 @@ blocks:
     enabled: true
     image: exhibition-sponsordeck.jpg
 open_in_new_tab: false
+number_of_columns: three
 ---

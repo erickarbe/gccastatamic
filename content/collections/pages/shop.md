@@ -6,7 +6,7 @@ turn_off_hero: false
 open_in_new_tab: true
 author: 9692c24d-4d69-4be7-a897-ad4edab416de
 updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
-updated_at: 1786034835
+updated_at: 1789404017
 eyebrow: 'Discover original artwork, handmade gifts, and unique creations from GCCA artists.'
 inside_hero_header: 'The Shop @ GCCA'
 inside_hero_content:
@@ -173,25 +173,31 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: 'No'
+                text: 'Yes! '
               -
                 type: text
-                text: '. Shop Gift Cards are valid only for merchandise purchased in The Shop.'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'If you would like '
+                text: 'While Shop '
               -
                 type: text
                 marks:
                   -
                     type: bold
-                text: 'to purchase an Art School Gift Certificate'
+                text: 'Gift Cards cannot be applied directly to Art School registration, '
               -
                 type: text
-                text: ', please contact '
+                text: 'they can be used to purchase an Art School Gift Certificate through The Shop. The certificate can then be applied toward an Art School class.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'To purchase an Art School Gift Certificate, visit The'
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: ' Shop @ GCCA, or please contact '
               -
                 type: text
                 marks:
@@ -201,11 +207,10 @@ blocks:
                       href: 'mailto:Kara@artcentergreenville.org'
                       rel: null
                       target: null
-                      title: Kara@artcentergreenville.org
+                      title: null
+                  -
+                    type: bold
                 text: Kara@artcentergreenville.org
-              -
-                type: text
-                text: .
       -
         id: mrxu5k51
         accordion_header: 'Who are the artists featured in The Shop?'

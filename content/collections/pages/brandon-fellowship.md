@@ -4,7 +4,7 @@ blueprint: page
 title: 'Brandon Fellowship'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1786027567
+updated_at: 1788446515
 turn_off_hero: false
 eyebrow: 'The Brandon Fellowship'
 inside_hero_header: 'Empowering the Next Generation of Artists'
@@ -23,7 +23,7 @@ inside_hero_content:
         marks:
           -
             type: bold
-        text: 'Applications for the 2026-2027 program year are currently open. The deadline to submit your application is June 30th by 11:59pm. '
+        text: 'Applications for the 2026-2027 program year are currently closed. '
 inside_hero_image: copy-of-p1040303.jpg
 blocks:
   -
@@ -390,17 +390,51 @@ blocks:
     type: basic_title
     enabled: true
   -
+    id: mshmbvrb
+    number_of_columns: four
+    people:
+      -
+        id: mekb34pa
+        name: 'Havva Dökmeci'
+        title: 'Class of 2027'
+        headshot: bf-2027-10.jpg
+        type: new_person
+        enabled: true
+      -
+        id: mekbzhtq
+        name: 'Hassan Abu-Judom'
+        title: 'Class of 2027'
+        headshot: bf-2027-16.jpg
+        type: new_person
+        enabled: true
+      -
+        id: mekc0a4f
+        name: 'Kat Martin'
+        title: 'Class of 2027'
+        headshot: bf-2027-13.jpg
+        type: new_person
+        enabled: true
+      -
+        id: mekc0qky
+        name: 'Shakira Olivera-Bautista'
+        title: 'Class of 2027'
+        headshot: bf-2027-22.jpg
+        type: new_person
+        enabled: true
+    type: people_grid
+    enabled: true
+  -
     id: mekc2wt5
     text_alignment: center
     title: 'Brandon Fellowship Alumni'
     type: basic_title
     enabled: true
   -
-    id: mshmbvrb
+    id: J5RL3uQFe0gM5Sfnti9SJ
     number_of_columns: four
     people:
       -
-        id: mekb34pa
+        id: HnU60-Jcu93yOZjmLbqsV
         name: 'Tripp Brown'
         title: 'Class of 2026'
         headshot: bf202611.jpg
@@ -409,7 +443,7 @@ blocks:
         website_link: 'https://trippbrowndesign.com/about'
         instagram_link: 'https://www.instagram.com/trippbrowndesign/'
       -
-        id: mekbzhtq
+        id: J68oS0dQcGz5j-rGVxvqk
         name: 'Jackson Herren'
         title: 'Class of 2026'
         headshot: bf20269.jpg
@@ -417,7 +451,7 @@ blocks:
         enabled: true
         instagram_link: 'https://www.instagram.com/m.o.4.c/'
       -
-        id: mekc0a4f
+        id: NcQdv-1zzPC9J1lodj4oj
         name: 'Adelle Pruitt'
         title: 'Class of 2026'
         headshot: bf202612.jpg
@@ -426,7 +460,7 @@ blocks:
         website_link: 'https://adellepruittart.com/'
         instagram_link: 'https://www.instagram.com/adellepruitt.art/'
       -
-        id: mekc0qky
+        id: o75H0c-MkXK8Fe9us8MDu
         name: 'Nic Salazar'
         title: 'Class of 2026'
         headshot: bf202617.jpg

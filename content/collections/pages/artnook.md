@@ -3,8 +3,8 @@ id: 2457fa49-30f2-4db3-a618-90e96569fe4d
 blueprint: page
 title: 'The Art Nook'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: ff1ac932-a49d-40b3-b6bc-41a64916139d
-updated_at: 1784574633
+updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
+updated_at: 1788377002
 turn_off_hero: false
 eyebrow: 'Creation and Play for All'
 inside_hero_header: 'The <span>Art Nook</span>'
@@ -48,7 +48,7 @@ inside_hero_content:
         marks:
           -
             type: bold
-        text: 'The Art Nook is open to the public from 10 am-4 pm Wednesdays-Fridays, and from 12-2 pm on Saturdays. '
+        text: 'The Art Nook is open to the public from 10 am-4 pm Mondays-Fridays, and from 12-2 pm on Saturdays. '
   -
     type: paragraph
     content:
@@ -579,4 +579,5 @@ open_in_new_tab: false
 inside_hero_button_text: 'Reserve Your Visit!'
 inside_hero_button_link: 'https://gcca.fillout.com/t/6Fd4upKWohus'
 duplicated_from: 18195f17-11aa-4661-aa8d-f6686155586d
+number_of_columns: three
 ---

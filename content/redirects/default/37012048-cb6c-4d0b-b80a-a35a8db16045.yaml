@@ -1,0 +1,9 @@
+id: 37012048-cb6c-4d0b-b80a-a35a8db16045
+enabled: true
+source: /visit/summer-art-camp-1
+source_md5: 3110ae765052d717f57ebf2183c1f11d
+destination_type: url
+destination: /visit/artnook
+type: 301
+site: default
+match_type: exact

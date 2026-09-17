@@ -1,18 +1,18 @@
 enabled: true
-headline: 'Celebrate a Season of Art'
+headline: 'Support GCCA'
 text:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Join us for upcoming exhibitions, classes, and community events at Greenville Center for Creative Arts.'
+        text: 'Help make arts access possible.'
 image: popup-2.jpg
-button_text: 'See What’s On'
-button_link: /
-open_in_new_tab: false
-show_on: all
-trigger: delay
-delay_seconds: 3
+button_text: 'Donate Now'
+button_link: 'https://artcentergreenville.org/support/donate'
+open_in_new_tab: true
+show_on: homepage
+trigger: immediately
 hide_on_mobile: false
 dismiss_duration: '7'
+campaign_id: august-donate

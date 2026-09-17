@@ -4,7 +4,7 @@ blueprint: page
 title: 'Artist Opportunities'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
-updated_at: 1776352063
+updated_at: 1787585419
 turn_off_hero: false
 inside_hero_content:
   -
@@ -60,18 +60,18 @@ blocks:
                 type: hardBreak
               -
                 type: text
-                text: 'Whether you’re polishing a new series, experimenting with materials, or just seeking a refuge from home distractions, we’re here to make space for your process. To reserve your spot or learn more, reach out to our Operations Director, Alicia Mizuno, at '
+                text: 'Whether you’re polishing a new series, experimenting with materials, or just seeking a refuge from home distractions, we’re here to make space for your process. To reserve your spot or learn more, reach out to our Cheif Executive Officer, Sara Grambach, '
               -
                 type: text
                 marks:
                   -
                     type: link
                     attrs:
-                      href: 'mailto:alicia@artcentergreenville.org'
+                      href: 'mailto:sara@artcentergreenville.org'
                       rel: null
                       target: null
                       title: null
-                text: alicia@artcentergreenville.org
+                text: sara@artcentergreenville.org
               -
                 type: text
                 text: .
@@ -184,4 +184,5 @@ blocks:
     type: form_and_text
     enabled: true
 open_in_new_tab: false
+number_of_columns: three
 ---

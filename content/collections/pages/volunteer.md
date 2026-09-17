@@ -4,16 +4,16 @@ blueprint: page
 title: Volunteer
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
-updated_at: 1787337492
+updated_at: 1789567433
 turn_off_hero: false
-inside_hero_header: Volunteer
+inside_hero_header: 'Make an Impact Through Art'
 inside_hero_content:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'GCCA is a non-profit community arts center that strives to support the arts community by making our center a hub for accessible visual arts education and experiences. Volunteers would be helping to support our 23 studio artists, 4 Brandon Fellows, staff and over a 1,000 students of all ages and backgrounds through the year.'
+        text: 'GCCA volunteers help make exhibitions, events, classes, and day-to-day operations possible. Whether you have an hour to give at an event or want to become a regular part of our community, there’s a place for you here.'
 blocks:
   -
     id: m9dgd7r7
@@ -75,8 +75,6 @@ blocks:
             -
               type: text
               text: 'We also recommend you check with your place of work as some businesses will also have perks when you volunteer for nonprofits such as GCCA! We at GCCA appreciate any and all of the help our volunteers provide. As a thank you, we will be throwing a volunteer appreciation event once a year during April as well. If you are interested in signing up and checking out open positions please follow the link below!'
-      button_text: 'Volunteer Sign Up'
-      button_link: 'https://gcca.ivolunteer.com/'
       open_in_new_tab: true
       content_width: '50'
       remove_top_margin: false
@@ -193,4 +191,7 @@ blocks:
 inside_hero_image: gcca-arp-2357.jpg
 open_in_new_tab: false
 number_of_columns: three
+eyebrow: 'Your time helps artists, students, and the Greenville community create, connect, and thrive.'
+inside_hero_button_text: 'View Volunteer Opportunities'
+inside_hero_button_link: 'https://gcca.ivolunteer.com/'
 ---

@@ -3,8 +3,8 @@ id: 785cdacf-aaab-4aa6-bf4a-c0486d6c1b18
 blueprint: page
 title: Sponsorship
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1770219205
+updated_by: 0d544cd1-b384-48fd-90bd-c684c02fb335
+updated_at: 1788894113
 turn_off_hero: false
 inside_hero_header: Sponsorship
 inside_hero_content:
@@ -27,7 +27,7 @@ blocks:
           content:
             -
               type: text
-              text: 'The information below outlines our various giving programs. Support like this is vital for GCCA to accomplish its mission. Let’s have a conversation about the right level of support! Please contact Alexis Krcelic, Creative Program Director, at '
+              text: 'The information below outlines our various giving programs. Support like this is vital for GCCA to accomplish its mission. Let’s have a conversation about the right level of support! Please contact Sara Grambach, Chief Executive Officer, at '
             -
               type: text
               marks:
@@ -38,12 +38,12 @@ blocks:
                     rel: null
                     target: null
                     title: null
-              text: alexis@artcentergreenville.org
+              text: sara@artcentergreenville.org
             -
               type: text
               text: .
       button_text: 'General Sponsorships'
-      button_link: 'https://gccamedia.s3.amazonaws.com/gcca-sponsordeck-26-(1).pdf'
+      button_link: 'https://gccamedia.s3.amazonaws.com/gcca-sponsordeck-26-sept.pdf'
       open_in_new_tab: true
       content_width: '50'
       remove_top_margin: false
@@ -65,11 +65,11 @@ blocks:
               type: text
               text: 'Established in 2015 alongside the grand opening of the Greenville Center for Creative Arts (GCCA), the Brandon Fellowship was created to provide transformative opportunities for young, emerging artists. Named after the historic Brandon Mill and its surrounding textile village—now home to GCCA—the fellowship reflects the center’s commitment to fostering artistic growth and professional development.'
       button_text: 'Brandon Fellow Sponsorship Packet'
-      button_link: 'https://gccamedia.s3.amazonaws.com/bf-sponsordeck-26.pdf'
+      button_link: 'https://gccamedia.s3.amazonaws.com/bf-sponsordeck-sept.pdf'
       open_in_new_tab: true
       content_width: '50'
       remove_top_margin: false
-    image: bf-sponsordeck-cover.jpg
+    image: bf-sponsordeck-sept.jpg
     constrain_image: false
     type: image_and_text
     enabled: true
@@ -87,7 +87,7 @@ blocks:
               type: text
               text: 'We strive to make art accessible to all through free galleries open year round as well as hyper local and nationwide artists featured in the various galleries.'
       button_text: 'Exhibition Sponsorship Packet'
-      button_link: 'https://gccamedia.s3.amazonaws.com/gcca-exhibitionsponsordeck-26.pdf'
+      button_link: 'https://gccamedia.s3.amazonaws.com/exhibition-sponsordeck-sept.pdf'
       open_in_new_tab: true
       content_width: '50'
       remove_top_margin: false
@@ -120,4 +120,5 @@ blocks:
 inside_hero_image: gallery_wide_shot.jpg
 eyebrow: Support
 open_in_new_tab: false
+number_of_columns: three
 ---

@@ -2,3 +2,11 @@ name: 'Benjamin Tarcson'
 super: true
 id: 4bbfb4a7-c929-44bc-9b6c-75777742f264
 password_hash: $2y$12$43Qbq.CV7Wun9HCXWBwzwOXPkLl3fl31tVIZgkWX1i6JlwCRAzujG
+preferences:
+  collections:
+    pages:
+      view: tree
+    events:
+      view: tree
+    articles:
+      view: list

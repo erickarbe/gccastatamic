@@ -3,8 +3,8 @@ id: 18195f17-11aa-4661-aa8d-f6686155586d
 blueprint: page
 title: 'Summer Art Camp'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: ff1ac932-a49d-40b3-b6bc-41a64916139d
-updated_at: 1772594607
+updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
+updated_at: 1789159851
 turn_off_hero: false
 eyebrow: 'Inspiring Young Artists'
 inside_hero_header: 'Summer <span>Art Camp</span>'
@@ -76,19 +76,8 @@ inside_hero_content:
             type: bold
           -
             type: italic
-        text: 'Registration is now open! Sign up fast before camps sell out! '
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: italic
-        text: "Don't forget to add a GCCA Summer Art Camp t-shirt to your order while supplies last! Shirts will be available on the first day of your registered camp."
-inside_hero_image: summerartcamp2.jpg
+        text: 'Registration is now closed! Stay tuned for Summer 2027!'
+inside_hero_image: summer-camp-2026.jpg
 blocks:
   -
     id: m9il8o9l
@@ -99,7 +88,7 @@ blocks:
         link_heading: 'Register for Classes'
         link_url: 'https://campscui.active.com/orgs/GreenvilleCenterforCreativeArts?orglink=camps-registration'
         type: new_link_panel
-        enabled: true
+        enabled: false
         link_content:
           -
             type: paragraph
@@ -131,7 +120,7 @@ blocks:
           -
             type: paragraph
         type: new_link_panel
-        enabled: true
+        enabled: false
         link_eyebrow: 'MONDAY - FRIDAY'
       -
         id: m9il9zp3
@@ -151,7 +140,7 @@ blocks:
           -
             type: paragraph
         type: new_link_panel
-        enabled: true
+        enabled: false
         link_eyebrow: 'WEDNESDAY - FRIDAY'
       -
         id: m9ilachp
@@ -171,7 +160,7 @@ blocks:
           -
             type: paragraph
         type: new_link_panel
-        enabled: true
+        enabled: false
         link_eyebrow: 'MONDAY - FRIDAY'
       -
         id: m9ilaoc1
@@ -191,7 +180,7 @@ blocks:
           -
             type: paragraph
         type: new_link_panel
-        enabled: true
+        enabled: false
         link_eyebrow: 'FLEXIBLE DAY CAMP'
       -
         id: m9ilb54o
@@ -211,7 +200,7 @@ blocks:
           -
             type: paragraph
         type: new_link_panel
-        enabled: true
+        enabled: false
         link_eyebrow: 'TUESDAY - THURSDAY'
       -
         id: mm48jqov
@@ -227,7 +216,7 @@ blocks:
                 type: text
                 text: 'June 22-June 26'
         type: new_link_panel
-        enabled: true
+        enabled: false
       -
         id: m9ilbdpj
         link_heading: 'Dino Paint & Sip (Juice Box Edition!)'
@@ -246,7 +235,7 @@ blocks:
           -
             type: paragraph
         type: new_link_panel
-        enabled: true
+        enabled: false
         link_eyebrow: 'FLEXIBLE DAY CAMP'
       -
         id: m9ilbpkc
@@ -263,7 +252,7 @@ blocks:
           -
             type: paragraph
         type: new_link_panel
-        enabled: true
+        enabled: false
         link_eyebrow: 'FLEXIBLE DAY CAMP'
       -
         id: mm49au1a
@@ -279,7 +268,7 @@ blocks:
                 type: text
                 text: 'Wednesday, July 1'
         type: new_link_panel
-        enabled: true
+        enabled: false
       -
         id: mm49bcyr
         link_eyebrow: 'FLEXIBLE DAY CAMP'
@@ -294,7 +283,7 @@ blocks:
                 type: text
                 text: 'Thursday, July 2'
         type: new_link_panel
-        enabled: true
+        enabled: false
       -
         id: mm4a0q5p
         link_eyebrow: 'MONDAY - FRIDAY'
@@ -309,7 +298,7 @@ blocks:
                 type: text
                 text: 'July 6 - July 10'
         type: new_link_panel
-        enabled: true
+        enabled: false
       -
         id: mm4ac6ui
         link_eyebrow: 'MONDAY - FRIDAY'
@@ -324,7 +313,7 @@ blocks:
                 type: text
                 text: 'July 13 - July 17'
         type: new_link_panel
-        enabled: true
+        enabled: false
       -
         id: mm4ad2y2
         link_eyebrow: 'MONDAY - FRIDAY'
@@ -339,7 +328,7 @@ blocks:
                 type: text
                 text: 'July 20 - July 24'
         type: new_link_panel
-        enabled: true
+        enabled: false
       -
         id: mm49bcsa
         link_eyebrow: 'FLEXIBLE DAY CAMP'
@@ -354,7 +343,7 @@ blocks:
                 type: text
                 text: 'Monday, July 27'
         type: new_link_panel
-        enabled: true
+        enabled: false
       -
         id: mm49bcmq
         link_eyebrow: 'FLEXIBLE DAY CAMP'
@@ -369,7 +358,7 @@ blocks:
                 type: text
                 text: 'Tuesday, July 28'
         type: new_link_panel
-        enabled: true
+        enabled: false
       -
         id: mm49bcc4
         link_eyebrow: 'FLEXIBLE DAY CAMP'
@@ -384,7 +373,7 @@ blocks:
                 type: text
                 text: 'Wednesday, July 29'
         type: new_link_panel
-        enabled: true
+        enabled: false
       -
         id: mm49bbuy
         link_eyebrow: 'FLEXIBLE DAY CAMP'
@@ -399,7 +388,7 @@ blocks:
                 type: text
                 text: 'Thursday, July 30'
         type: new_link_panel
-        enabled: true
+        enabled: false
       -
         id: mm4atfzv
         link_eyebrow: 'FLEXIBLE DAY CAMP'
@@ -414,9 +403,9 @@ blocks:
                 type: text
                 text: 'Friday, July 31'
         type: new_link_panel
-        enabled: true
+        enabled: false
     type: sticky_links
-    enabled: true
+    enabled: false
     panel_heading_size: large
   -
     id: mapq1bkw
@@ -438,6 +427,5 @@ blocks:
     number_of_columns: three
     heading: 'Thank You To Our Art Camp Sponsors'
 open_in_new_tab: false
-inside_hero_button_text: 'Register for Summer Art Camp!'
-inside_hero_button_link: 'https://campscui.active.com/orgs/GreenvilleCenterforCreativeArts#/selectSessions/3789741'
+number_of_columns: three
 ---

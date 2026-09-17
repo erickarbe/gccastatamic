@@ -14,7 +14,9 @@ home_page_blocks:
     headline: |-
       Access Art from
       <span>All Angles</span>
-    opener_content: 'At Greenville Center for Creative Arts, creativity isn’t confined to canvas or clay. It lives in the stories we share, the connections we build, and the communities we inspire.'
+    opener_content: |-
+      At Greenville Center for Creative Arts, creativity isn’t confined to canvas or clay. It lives in the stories we share, the connections we build, and the communities we inspire.
+      - [Register for Fall classes at GCCA here!](https://artcentergreenville.org/education/art-school)
   -
     id: m9cy58xs
     assets_field: gcca-hero-video.mp4
@@ -119,14 +121,14 @@ home_page_blocks:
         panel_title_size: large
       -
         id: m9d3lzv1
-        panel_title: 'August Event Happenings'
+        panel_title: 'September Event Happenings'
         panel_content:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Join us for Art Bash, upcoming exhibitions, or visit studio artists! '
+                text: 'Join us for Nightshifts, an Art Supply Flea market, upcoming exhibitions, or visit studio artists! '
           -
             type: paragraph
             content:
@@ -149,7 +151,7 @@ home_page_blocks:
         open_in_new_tab: false
         panel_title_size: large
         panel_image:
-          - abweb26.jpg
+          - finalpost.jpg
       -
         id: m9e93oc8
         panel_title: 'Explore Art Exhibitions at GCCA'
@@ -391,5 +393,5 @@ home_page_blocks:
     grid_three_link_duplicate: 'https://artcentergreenville.org/support/donate'
     grid_three_link: /support/donate
 updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
-updated_at: 1785955152
+updated_at: 1789413193
 ---

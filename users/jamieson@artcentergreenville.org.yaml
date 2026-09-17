@@ -15,9 +15,17 @@ preferences:
               status: 'false'
   assets:
     s3_assets:
-      per_page: 100
+      per_page: 500
       mode: grid
   collections:
     pages:
       view: tree
       after_save: listing
+    instructors:
+      view: tree
+    studio_artists:
+      view: tree
+    events:
+      view: tree
+    articles:
+      view: list

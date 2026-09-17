@@ -3,8 +3,8 @@ id: c921a778-2a2b-4f92-a1c3-fa7939b81fa4
 blueprint: page
 title: Policies
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: adf77df4-a236-4446-b367-16f732a5430d
-updated_at: 1755278759
+updated_by: ff1ac932-a49d-40b3-b6bc-41a64916139d
+updated_at: 1789162839
 turn_off_hero: true
 eyebrow: 'Art School'
 inside_hero_header: Policies
@@ -22,7 +22,7 @@ blocks:
             content:
               -
                 type: text
-                text: "A partial refund or credit is given to students who cancel 10 days or more prior to the class start date.\_ A cancellation fee of $30 will be applied to cancellations. If a student cancels enrollment within 10 days of the first class no refund or credit will be given. If a class is cancelled due to insufficient enrollment, registrants will be notified by email or phone within 24 – 48 hours of the first class. By giving your phone number when signing up for classes you are consenting to recieve SMS messages in which data rates may apply. You are able to opt out at anytime. Frequency of messages varies based on the needs of GCCA to communicate to registrants. Registrants will be given the opportunity to transfer to another class or issued a refund. Refunds will include the total cost of the course fee, including materials and studio fees (if applicable)."
+                text: "Students receive a partial refund or credit if they cancel 10 days or more before the class start date.\_ A $30 cancellation fee will be applied to cancellations. If a student cancels enrollment within 10 days of the first class, no refund or credit will be given. The registration fee is non-refundable. If a class is cancelled due to insufficient enrollment, registrants will be notified by email or phone within 24 – 48 hours of the first class. By providing your phone number when signing up for classes, you consent to receive SMS messages, and data rates may apply. You are able to opt out at any time. Message frequency varies based on GCCA's need to communicate with registrants. "
         type: new_set
         enabled: true
       -
@@ -36,7 +36,7 @@ blocks:
                 type: text
                 text: "A $20 fee will be applied to all registrations occurring after the posted registration closing date.\_ All late registrations will have to be processed by GCCA Art School Administration and are accommodated at the sole discretion at GCCA Art School Administration."
         type: new_set
-        enabled: true
+        enabled: false
       -
         id: m9k5nzd9
         accordion_header: Membership
@@ -178,4 +178,5 @@ blocks:
               text: 'Please review the following policies to ensure a safe, respectful, and enjoyable experience for all who participate in GCCA programs and events.'
       second_column_width: 33
 open_in_new_tab: false
+number_of_columns: three
 ---

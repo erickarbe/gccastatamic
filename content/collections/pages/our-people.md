@@ -3,14 +3,62 @@ id: 4b49b7d2-0525-40ac-a674-162a852a74c8
 blueprint: page
 title: 'Our People'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1784582806
-turn_off_hero: false
+updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
+updated_at: 1787586429
+turn_off_hero: true
 eyebrow: Team
 blocks:
   -
+    id: eWRpF1lwol1ySseKgWi7P
+    background_color: '#f6f3f4'
+    eyebrow: Team
+    heading: 'Our People'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'GCCA is shaped by the people who make this place what it is. Our community extends far beyond our staff to include our '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'studio artists, instructors, interns, volunteers, board members, students, supporters, '
+          -
+            type: text
+            text: 'and the many people who walk through our doors each day.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Together, these individuals bring creativity, knowledge, energy, and connection to GCCA- helping us foster a welcoming space where artists and our broader community can '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'learn, create, and grow'
+          -
+            type: text
+            text: '. Our people are at the heart of who we are and what makes GCCA a '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'vibrant part of Greenville’s creative community'
+          -
+            type: text
+            text: .
+    open_in_new_tab: false
+    type: basic_centered_content
+    enabled: true
+  -
     id: m9cyftmi
-    text_alignment: left
+    text_alignment: center
     title: Leadership
     type: basic_title
     enabled: true
@@ -40,7 +88,7 @@ blocks:
         title: 'Creative Program Director'
         headshot: alexis-krcelic.jpg
         type: new_person
-        enabled: true
+        enabled: false
         block_link: 'entry::03459126-05f7-4e16-9f36-409b25fcdf01'
       -
         id: m9ij9cvi
@@ -48,7 +96,7 @@ blocks:
         title: 'Operations Director, Jewelry Studio Manager'
         headshot: alicia-mizuno.jpg
         type: new_person
-        enabled: true
+        enabled: false
         block_link: 'entry::562583b0-a0b1-4827-9bf0-40ce3c7e0e6c'
       -
         id: mhwgqv89
@@ -143,7 +191,7 @@ blocks:
         email: jonathan@artcentergreenville.org
         headshot: jl-2.jpg
         type: new_person
-        enabled: true
+        enabled: false
     type: people_grid
     enabled: true
   -
@@ -351,6 +399,54 @@ blocks:
             type: text
             text: '*In Memoriam'
 template: default
-inside_hero_image: ar200041-gcca-reto.jpg
 open_in_new_tab: false
+inside_hero_content:
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: 'Our People'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'GCCA is shaped by the people who make this place what it is. Our community extends far beyond our staff to include our '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'studio artists, instructors, interns, volunteers, board members, students, supporters, '
+      -
+        type: text
+        text: 'and the many people who walk through our doors each day.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Together, these individuals bring creativity, knowledge, energy, and connection to GCCA- helping us foster a welcoming space where artists and our broader community can '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'learn, create, and grow'
+      -
+        type: text
+        text: '. Our people are at the heart of who we are and what makes GCCA a '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'vibrant part of Greenville’s creative community'
+      -
+        type: text
+        text: .
+number_of_columns: three
 ---
