@@ -87,7 +87,9 @@ return [
     |
     */
 
-    'display_timezone' => null,
+    // 'display_timezone' => null,
+    'display_timezone' => 'America/New_York',
+    'localize_dates_in_modifiers' => true,
 
     /*
     |--------------------------------------------------------------------------
