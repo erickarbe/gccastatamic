@@ -38,7 +38,7 @@ inside_hero_content:
 open_in_new_tab: false
 author: 9692c24d-4d69-4be7-a897-ad4edab416de
 updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
-updated_at: 1780496466
+updated_at: 1790276855
 inside_hero_image: divider.png
 blocks:
   -
@@ -465,11 +465,11 @@ blocks:
                   -
                     type: link
                     attrs:
-                      href: 'https://gccamedia.s3.amazonaws.com/events2026.pdf'
+                      href: 'https://gccamedia.s3.amazonaws.com/calendar2026.pdf'
                       rel: null
                       target: _blank
-                      title: '2026 Calendar of Events'
-                text: '2026 Calendar of Events'
+                      title: null
+                text: '2026 Calendar of Events '
           -
             type: paragraph
             content:
@@ -770,7 +770,7 @@ blocks:
                 -
                   type: link
                   attrs:
-                    href: 'https://gccamedia.s3.amazonaws.com/org-chart-2026.pdf'
+                    href: 'https://gccamedia.s3.amazonaws.com/updated-organizational-chart.pdf'
                     rel: null
                     target: _blank
                     title: '2026 Organizational Chart'
@@ -826,4 +826,5 @@ blocks:
     type: basic_centered_content
     enabled: true
 template: default
+number_of_columns: three
 ---

@@ -5,7 +5,7 @@ title: Exhibitions
 turn_off_hero: true
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1789158841
+updated_at: 1790274906
 blocks:
   -
     id: m9hjvlwy
@@ -17,7 +17,7 @@ blocks:
   -
     id: m9hk792b
     events_list:
-      - ce37e72e-e3b2-434a-a0c7-08edd02ff280
+      - 903f1410-4959-4f51-bad1-2462392cd261
       - 5d99b488-38e4-4e95-bc7e-03e3e147345d
       - 6151889e-8c70-4986-9598-779079b1ff4a
       - 40db0acb-f0f3-482d-bf5c-464de9415256
@@ -153,7 +153,7 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: 'November 5, 2026 - November 21, 2026 '
+                text: 'November 6, 2026 - November 21, 2026 '
               -
                 type: hardBreak
               -
@@ -161,7 +161,7 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: 'Meet & Greet: November 12 | 5-8PM'
+                text: 'Opening: November 6 | 5-8PM'
           -
             type: paragraph
             content:

@@ -47,13 +47,8 @@ blocks:
           type: paragraph
           content:
             -
-              type: hardBreak
-        -
-          type: paragraph
-          content:
-            -
               type: text
-              text: 'At GCCA, Jamieson oversees the Guest Services area and Gift Shop, ensuring visitors, artists, and students feel welcomed and inspired from the moment they arrive. She also supports the development of programs and special initiatives that help advance GCCA’s mission to make the visual arts accessible to all. Passionate about storytelling, design, and community building, Jamieson thrives where creativity and connection intersect—both inside and outside of work.'
+              text: 'At GCCA, Jamieson oversees the Guest Experience and Gift Shop, ensuring visitors, artists, and students feel welcomed and inspired from the moment they arrive. She also supports the development of programs and special initiatives that help advance GCCA’s mission to make the visual arts accessible to all. Passionate about storytelling, design, and community building, Jamieson thrives where creativity and connection intersect—both inside and outside of work.'
       open_in_new_tab: false
       content_width: '50'
       remove_top_margin: false
@@ -62,6 +57,7 @@ blocks:
     type: image_and_text
     enabled: true
 author: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1762980537
+updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
+updated_at: 1790087568
+number_of_columns: three
 ---

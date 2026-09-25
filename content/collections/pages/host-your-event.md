@@ -4,7 +4,7 @@ blueprint: page
 title: 'Host Your Event'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
-updated_at: 1788183203
+updated_at: 1790088732
 turn_off_hero: false
 eyebrow: 'Host Your Event'
 inside_hero_header: 'Venue Rentals'
@@ -259,11 +259,11 @@ blocks:
                           -
                             type: link
                             attrs:
-                              href: 'mailto:sara@artcentergreenville.org'
+                              href: 'mailto:jamieson@artcentergreenville.org'
                               rel: null
                               target: null
                               title: null
-                        text: sara@artcentergreenville.org
+                        text: jamieson@artcentergreenville.org
                       -
                         type: text
                         text: .
@@ -317,11 +317,11 @@ blocks:
                           -
                             type: link
                             attrs:
-                              href: 'mailto:sara@artcentergreenville.org'
+                              href: 'mailto:jamieson@artcentergreenville.org'
                               rel: null
                               target: null
                               title: null
-                        text: sara@artcentergreenville.org
+                        text: jamieson@artcentergreenville.org
                       -
                         type: text
                         text: ' for details.'
