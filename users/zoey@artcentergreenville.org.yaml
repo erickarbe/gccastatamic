@@ -17,4 +17,4 @@ preferences:
         - Medium
         - headshot
         - featured_art
-      view: tree
+      view: list
