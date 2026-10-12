@@ -11,5 +11,12 @@ author:
 featured_art: img_0413.jpg
 headshot: corey-portrait.jpg
 updated_by: 93a60c93-64e5-4812-adbd-6022dbd4c332
-updated_at: 1786384208
+updated_at: 1791821012
+biography:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Constantly inspired, detail oriented, and passionate about engaging in design / development while gaining valuable transferable skills.'
 ---

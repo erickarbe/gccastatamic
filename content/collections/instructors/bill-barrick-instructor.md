@@ -7,9 +7,16 @@ email: bbarrick@comcast.net
 featured_art: myrtle-beach.jpg
 headshot: img_20260410_225127.jpg
 updated_by: 93a60c93-64e5-4812-adbd-6022dbd4c332
-updated_at: 1786027967
+updated_at: 1791821312
 duplicated_from: ab1b4368-5d51-45c3-b220-9e0b4c371cfc
 template_field: studio_artists/index
 author:
   - 93a60c93-64e5-4812-adbd-6022dbd4c332
+biography:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "Bill is an Adjunct Professor in the Interior Design Dept. at Converse University in Spartanburg. He has worked as an Architectural Illustrator, Art Teacher and business owner of a Graphic Design company. Has taken numerous trips to Italy sketching and taking classes. Bill is semi retired and holds a Master's Degree in Education."
 ---

@@ -20,8 +20,9 @@ biography:
         text: "Terry’s artwork has been shown in festivals, galleries, and national juried exhibitions, including The Oil Painters of America, Salon International, and The Catherine Lorillard Wolfe Art Club, and has earned numerous awards. She has taught high school and college level art classes and conducted painting workshops and demonstrations. From 2001 to 2010, she taught at Crealdé School of Art in Winter Park, Florida, where she served as Director of Painting and Drawing from 2001 to 2004. Terry received a professional development grant from United Arts of Central Florida in 2004, and in 2006 was awarded an Artist Enhancement Grant from the State of Florida. Terry’s paintings have been selected for an Award of Excellence three years in a row in The Annual Eastern Regional Exhibition of The Oil Painters of America,\_ and she was awarded Signature Membership status in that organization in 2009. After leaving Crealde in 2010, Terry taught briefly at local Art Associations before she and her husband, Arthur, made a long desired move to the upstate area of South Carolina. She will continue to teach workshops in still life painting and color basics."
 featured_art: silverwithorangeandonions2.jpg
 updated_by: 93a60c93-64e5-4812-adbd-6022dbd4c332
-updated_at: 1786027057
+updated_at: 1791820080
 duplicated_from: 55e070b2-c901-487d-80c8-68b40185c7fa
 author:
   - 93a60c93-64e5-4812-adbd-6022dbd4c332
+headshot: terry-norris.jpeg
 ---
