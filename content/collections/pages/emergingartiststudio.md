@@ -315,36 +315,40 @@ blocks:
     content:
       -
         type: paragraph
-        content:
-          -
-            type: text
-            text: 'Alicia Mizuno, GCCA Operations Director'
-      -
-        type: paragraph
+        attrs:
+          textAlign: null
         content:
           -
             type: text
             text: 'Ben Tarcson, GCCA Gallery Director'
       -
         type: paragraph
+        attrs:
+          textAlign: null
         content:
           -
             type: text
             text: 'Craig Ragsdale, GCCA Studio Artist & Board Member'
       -
         type: paragraph
+        attrs:
+          textAlign: null
         content:
           -
             type: text
             text: 'Tania Ro, GCCA Studio Artist'
       -
         type: paragraph
+        attrs:
+          textAlign: null
         content:
           -
             type: text
             text: 'Michael Lechlitner, GCCA Studio Artist'
       -
         type: paragraph
+        attrs:
+          textAlign: null
     open_in_new_tab: false
     type: basic_centered_content
     enabled: true
@@ -369,7 +373,7 @@ blocks:
     type: people_grid
     enabled: true
 author: 58864e68-f24e-4b70-a595-b3405bf26d2f
-updated_by: af34862d-025c-48c9-ad41-5b60c3f113c3
-updated_at: 1786113861
+updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
+updated_at: 1791221601
 number_of_columns: three
 ---

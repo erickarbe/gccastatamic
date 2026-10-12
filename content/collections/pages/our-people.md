@@ -3,8 +3,8 @@ id: 4b49b7d2-0525-40ac-a674-162a852a74c8
 blueprint: page
 title: 'Our People'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
-updated_at: 1787586429
+updated_by: 0d544cd1-b384-48fd-90bd-c684c02fb335
+updated_at: 1791399709
 turn_off_hero: true
 eyebrow: Team
 blocks:
@@ -59,7 +59,7 @@ blocks:
   -
     id: m9cyftmi
     text_alignment: center
-    title: Leadership
+    title: Staff
     type: basic_title
     enabled: true
     eyebrow: 'Our People'
@@ -114,6 +114,13 @@ blocks:
         type: new_person
         enabled: true
         block_link: 'entry::5d3d6ffd-5d76-4865-b084-b7b588bb8141'
+      -
+        id: UoTrh0aRYNOQzOG6bxoML
+        name: 'Alexander Rouse'
+        title: 'Digital Media & Design Specialist'
+        headshot: arp02092-gcca-reto.jpg
+        type: new_person
+        enabled: true
     type: people_grid
     enabled: true
     number_of_columns: three
@@ -122,7 +129,7 @@ blocks:
     text_alignment: left
     title: 'Digital Media Team'
     type: basic_title
-    enabled: true
+    enabled: false
   -
     id: mim4iujr
     number_of_columns: three
@@ -134,9 +141,9 @@ blocks:
         email: alexander@artcentergreenville.org
         headshot: arp02092-gcca-reto.jpg
         type: new_person
-        enabled: true
+        enabled: false
     type: people_grid
-    enabled: true
+    enabled: false
   -
     id: m9d2pum9
     text_alignment: left

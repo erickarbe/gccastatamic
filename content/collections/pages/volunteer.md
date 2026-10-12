@@ -4,7 +4,7 @@ blueprint: page
 title: Volunteer
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
-updated_at: 1790283417
+updated_at: 1790801078
 turn_off_hero: false
 inside_hero_header: 'Make an Impact Through Art'
 inside_hero_content:
@@ -16,43 +16,43 @@ inside_hero_content:
         text: 'GCCA volunteers help make exhibitions, events, classes, and day-to-day operations possible. Whether you have an hour to give at an event or want to become a regular part of our community, there’s a place for you here.'
 blocks:
   -
-    id: 1aG5bQ6Z4r_QuFxWIBo4o
-    panels:
+    id: tA-IqdyBi6muIFaT2PNLS
+    background_color: '#ff172e'
+    heading: 'Volunteer on Your Terms'
+    open_in_new_tab: false
+    type: basic_centered_content
+    enabled: true
+    eyebrow: 'One event. Once a month. Every week. Whenever you have time.'
+    content:
       -
-        id: xDyGjrFeTdTh-2oI1ZzYV
-        eyebrow: 'One event. Once a month. Every week. Whenever you have time.'
-        panel_title: 'Volunteer on Your Terms'
-        panel_title_size: large
-        panel_content:
+        type: paragraph
+        attrs:
+          textAlign: null
+        content:
           -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'GCCA welcomes volunteers with different schedules and interests. Browse available opportunities and choose the shifts that works best for you.'
-        open_in_new_tab: false
-        panel_image:
-          - ways-to-help.jpg
-        type: panel_group
-        enabled: true
-    type: sticky_panels
+            type: image
+            attrs:
+              src: 'asset::s3_assets::volunteer-opps.png'
+              alt: null
+  -
+    id: m9dgn30o
+    images:
+      - gcca-showcase_0058.jpg
+      - gcca-arp-2357.jpg
+      - gcca-arp.jpg
+      - dsc07915.jpg
+      - dsc07996.jpg
+      - donna-reiss-gcca-annual-report.jpg
+    type: full_width_carousel
     enabled: true
   -
     id: ZOnjPobBsdLMCko0-S785
     panels:
       -
         id: YXC8VWeDeTJAQF8Sz0En0
-        panel_title: 'Your Time Makes GCCA Possible'
+        panel_title: 'How Volunteering at GCCA Works'
         panel_title_size: large
         panel_content:
-          -
-            type: heading
-            attrs:
-              level: 2
-            content:
-              -
-                type: text
-                text: '23'
           -
             type: heading
             attrs:
@@ -60,14 +60,174 @@ blocks:
             content:
               -
                 type: text
-                text: 'Studio Artists'
+                marks:
+                  -
+                    type: bold
+                text: '01 – BROWSE'
           -
             type: heading
             attrs:
-              level: 2
+              level: 3
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Explore current volunteer opportunities and upcoming events.'
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: '|'
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: '02 – CHOOSE'
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Select a shift that fits your schedule.'
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: '|'
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: '03 – SHOW UP'
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'We’ll provide information you need to get started.'
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: '|'
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: '04 – MAKE AN IMPACT'
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Help GCCA create meaningful experiences for artists, students, and our community.'
+        open_in_new_tab: true
+        type: panel_group
+        enabled: true
+        panel_image:
+          - sticky-panel-1.png
+      -
+        id: tFJMSYmcmE2fHAIxevBbf
+        eyebrow: 'Every Hour Contributes to All the Access'
+        panel_title: 'Your Time Makes GCCA Possible'
+        panel_title_size: large
+        panel_content:
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: '21'
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Studio Artists Supported'
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: –
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
                 text: '4'
           -
             type: heading
@@ -76,15 +236,10 @@ blocks:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: bold
                 text: 'Brandon Fellows'
-          -
-            type: heading
-            attrs:
-              level: 2
-            content:
-              -
-                type: text
-                text: 1000+
           -
             type: heading
             attrs:
@@ -92,39 +247,72 @@ blocks:
             content:
               -
                 type: text
-                text: 'Students Served Each Year'
+                marks:
+                  -
+                    type: bold
+                text: –
           -
-            type: paragraph
+            type: heading
+            attrs:
+              level: 3
             content:
               -
                 type: text
-                text: 'Every volunteer hour helps GCCA provide accessible arts education, support working artists, and create meaningful experiences for our community. '
+                marks:
+                  -
+                    type: bold
+                text: '1,000+'
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Students Served Every Year'
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: –
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 12+
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'PUBLIC EXHIBITIONS PRESENTED EACH YEAR'
         open_in_new_tab: false
-        panel_image:
-          - volunteer-process.jpg
         type: panel_group
         enabled: true
+        panel_image:
+          - sticky-panel-2.png
     type: sticky_panels
     enabled: true
-  -
-    id: GX5TQhaX6sSClC49Hpr4D
-    background_color: '#ff172e'
-    eyebrow: 'Your Time Comes with Perks'
-    heading: 'Volunteer Benefits'
-    content:
-      -
-        type: paragraph
-        attrs:
-          textAlign: center
-        content:
-          -
-            type: image
-            attrs:
-              src: null
-              alt: null
-    open_in_new_tab: false
-    type: basic_centered_content
-    enabled: false
   -
     id: m9dgd7r7
     image_left_or_right: left
@@ -210,48 +398,49 @@ blocks:
     align_columns: center
     constrain_image: true
   -
-    id: m9dgn30o
-    images:
-      - gcca-showcase_0058.jpg
-      - gcca-arp-2357.jpg
-      - gcca-arp.jpg
-      - dsc07915.jpg
-      - dsc07996.jpg
-      - donna-reiss-gcca-annual-report.jpg
-    type: full_width_carousel
+    id: 7wPzsEaN85cRmZVFy1uga
+    width: full_width
+    heading: 'Ready to Get Involved?'
+    content:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Every volunteer hour helps GCCA provide accessible arts education, support working artists, and create meaningful experiences for our community. '
+    button_text: 'JOIN TODAY'
+    button_link: 'https://gcca.ivolunteer.com/'
+    open_in_new_tab: true
+    type: cta_section
     enabled: true
-  -
-    id: tA-IqdyBi6muIFaT2PNLS
-    background_color: '#ffffff'
-    heading: 'Volunteer on Your Terms'
-    open_in_new_tab: false
-    type: basic_centered_content
-    enabled: false
+    background_color: '#263340'
   -
     id: m9dgfn97
     accordion_item:
       -
         id: m9dgftlx
-        accordion_header: 'How do I sign up for shifts on the volunteer app?'
+        accordion_header: 'Do I need previous experience?'
         accordion_content:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Visit the Volunteer Sign Up link where you will see a list of events that we need help with, click the one of interest and the choose a slot that fits for you!'
+                text: "No! Many volunteer opportunities don't require previous experience. Each opportunity will include any specific skills or requirements."
         type: new_set
         enabled: true
       -
         id: m9dgg5n9
-        accordion_header: 'What type of help does GCCA need?'
+        accordion_header: 'How much time do I need to commit?'
         accordion_content:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'GCCA needs all kinds of help which includes but is not limited to handyman work, administrative needs, mailing projects, NightShifts receptions, organization, deep cleaning, writing, and more.'
+                text: 'Volunteer as your schedule allows. Opportunities range from individual event shifts to ongoing projects.'
         type: new_set
         enabled: true
       -
@@ -290,6 +479,18 @@ blocks:
               -
                 type: text
                 text: 'Unfortunately, at this time no as our programs do not allow for this.'
+        type: new_set
+        enabled: true
+      -
+        id: K80gw6AiC7sca27FiarA7
+        accordion_header: 'Do I need to be a GCCA member?'
+        accordion_content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: No!
         type: new_set
         enabled: true
       -

@@ -29,8 +29,8 @@ inside_hero_content:
         text: 'Please email Guest Experience & Program Coordinator, Jamieson Siburt, at jamieson@artcentergreenville.org for more information. '
 inside_hero_image: banner1.jpg
 author: 5f81e286-c3b1-4700-935f-b6b3f8b8baa2
-updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
-updated_at: 1787585499
+updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
+updated_at: 1791399231
 blocks:
   -
     id: mjbsqje6
@@ -925,16 +925,7 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'Watercolor Demo '
-              -
-                type: listItem
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Poets Live 6-9 pm '
+                        text: 'Sound Bath 7-8'
           -
             type: paragraph
             content:
@@ -976,7 +967,7 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'Art School | Instructors'
+                        text: '6:30 Juried Exhibition Winner Announcements'
         type: new_item
         enabled: true
       -
@@ -1133,15 +1124,6 @@ blocks:
                       -
                         type: text
                         text: Programs
-              -
-                type: listItem
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Career Fair'
         type: new_item
         enabled: true
     type: content_grid

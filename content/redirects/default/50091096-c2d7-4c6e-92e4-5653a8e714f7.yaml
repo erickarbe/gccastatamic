@@ -2,7 +2,9 @@ id: 50091096-c2d7-4c6e-92e4-5653a8e714f7
 enabled: true
 source: /events/artbash
 source_md5: 30dabf5a8b54d93226b8d99dff3d4632
+destination_type: url
 destination: 'https://secure.qgiv.com/for/greenvillecenterforcreativearts/event/artbash/'
 type: 301
 site: default
 match_type: exact
+lastUsedAt: 2026-09-29T02:29:50.418146+00:00

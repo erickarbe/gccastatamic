@@ -3,8 +3,8 @@ id: 6ebd5a1d-a0f6-4f23-af44-4efc690de590
 blueprint: page
 title: 'Art School'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 0d544cd1-b384-48fd-90bd-c684c02fb335
-updated_at: 1789233185
+updated_by: ff1ac932-a49d-40b3-b6bc-41a64916139d
+updated_at: 1790536445
 turn_off_hero: false
 eyebrow: 'Art School'
 inside_hero_header: 'The <span>Carrie Burns Brown Art School</span> at GCCA'
@@ -38,60 +38,15 @@ inside_hero_content:
         type: text
         marks:
           -
-            type: bold
-        text: 'ALL Fall classes are now open! '
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Early Fall classes are still available through our Active registration platform and run through September 30.'
-  -
-    type: heading
-    attrs:
-      level: 3
-    content:
-      -
-        type: text
-        marks:
-          -
             type: link
             attrs:
-              href: 'https://artcentergreenville.coursestorm.com'
+              href: 'https://artcentergreenville.coursestorm.com/'
               rel: null
               target: null
               title: null
           -
             type: bold
-        text: 'Enjoy a '
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'https://artcentergreenville.coursestorm.com'
-              rel: null
-              target: null
-              title: null
-          -
-            type: bold
-          -
-            type: italic
-        text: 'New Registration Experience '
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'https://artcentergreenville.coursestorm.com'
-              rel: null
-              target: null
-              title: null
-          -
-            type: bold
-        text: 'for Late Fall!'
+        text: 'Enjoy a new registration experience!'
   -
     type: paragraph
     content:
@@ -102,24 +57,10 @@ inside_hero_content:
     type: heading
     attrs:
       level: 3
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'https://artcentergreenville.coursestorm.com'
-              rel: null
-              target: null
-              title: null
-          -
-            type: bold
-        text: 'Register for Late Fall classes here!'
   -
     type: paragraph
-inside_hero_button_text: 'Register for Early Fall classes here!'
-inside_hero_button_link: 'https://campscui.active.com/orgs/GreenvilleCenterforCreativeArts?orglink=camps-registration&newcui=true'
+inside_hero_button_text: 'Register for Fall classes here!'
+inside_hero_button_link: 'https://artcentergreenville.coursestorm.com/'
 inside_hero_image: woman-painting-portrait.jpg
 blocks:
   -
@@ -814,6 +755,4 @@ blocks:
     open_in_new_tab: false
 open_in_new_tab: true
 number_of_columns: three
-inside_hero_button_text_2: 'Register for Late Fall classes here!'
-inside_hero_button_link_2: 'https://artcentergreenville.coursestorm.com'
 ---

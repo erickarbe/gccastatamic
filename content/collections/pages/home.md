@@ -16,7 +16,7 @@ home_page_blocks:
       <span>All Angles</span>
     opener_content: |-
       At Greenville Center for Creative Arts, creativity isn’t confined to canvas or clay. It lives in the stories we share, the connections we build, and the communities we inspire.
-      - [Register for Fall classes at GCCA here!](https://artcentergreenville.org/education/art-school)
+      - [Register for Fall classes at GCCA here!](https://artcentergreenville.coursestorm.com/)
   -
     id: m9cy58xs
     assets_field: gcca-hero-video.mp4
@@ -392,6 +392,6 @@ home_page_blocks:
     grid_three_link_text: Give
     grid_three_link_duplicate: 'https://artcentergreenville.org/support/donate'
     grid_three_link: /support/donate
-updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
-updated_at: 1789413193
+updated_by: ff1ac932-a49d-40b3-b6bc-41a64916139d
+updated_at: 1790535871
 ---

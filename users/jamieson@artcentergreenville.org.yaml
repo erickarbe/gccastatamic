@@ -17,11 +17,20 @@ preferences:
     s3_assets:
       per_page: 500
       mode: grid
-    browser_thumbnail_size: 210
+    browser_thumbnail_size: 135
+    assets:
+      columns:
+        - basename
+        - size
+        - last_modified
+        - width
+        - height
+        - duration
+      mode: grid
   collections:
     pages:
       view: tree
-      after_save: listing
+      after_save: continue_editing
     instructors:
       view: tree
     studio_artists:
@@ -30,3 +39,4 @@ preferences:
       view: tree
     articles:
       view: list
+  color_mode: dark

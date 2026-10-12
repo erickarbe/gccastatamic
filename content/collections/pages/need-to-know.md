@@ -3,8 +3,8 @@ id: 206f55ef-b9f5-4c0c-806b-938d9328b135
 blueprint: page
 title: 'Need To Know'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1771945301
+updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
+updated_at: 1791819173
 turn_off_hero: false
 inside_hero_content:
   -
@@ -203,7 +203,7 @@ blocks:
                   content:
                     -
                       type: text
-                      text: 'November 13, 2026'
+                      text: 'November 6, 2026'
             -
               type: listItem
               content:
@@ -486,4 +486,5 @@ blocks:
     enabled: true
     use_second_column: false
 open_in_new_tab: false
+number_of_columns: three
 ---

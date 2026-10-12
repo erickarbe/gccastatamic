@@ -5,7 +5,7 @@ title: Exhibitions
 turn_off_hero: true
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1790274906
+updated_at: 1791399061
 blocks:
   -
     id: m9hjvlwy
@@ -63,14 +63,6 @@ blocks:
                   -
                     type: bold
                 text: 'October 2, 2026 - November 21, 2026'
-              -
-                type: hardBreak
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Opening Reception: October 2 | 5-8PM'
               -
                 type: hardBreak
               -

@@ -4,7 +4,7 @@ blueprint: page
 title: 'Host Your Event'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
-updated_at: 1790088732
+updated_at: 1791486501
 turn_off_hero: false
 eyebrow: 'Host Your Event'
 inside_hero_header: 'Venue Rentals'
@@ -60,7 +60,7 @@ blocks:
                 type: text
                 text: 'Our Gray Loft space is our most open concept of rental spaces. With ample natural light coming in through the roughly 9ft windows that line the walls. This space is perfect for any midsize event or photography needs. The space is located on the second floor of our building above our reception area and conference room. Mobile walls are available for use as well as cocktail tables and linens for an additional fee. Light food and beverage can be coordinated by an outside vendor but no onsite catering services are provided at this time and serving tables must be set up just outside of the Loft doors.'
         panel_image:
-          - p1050761.jpg
+          - p1050761.jpeg
         type: panel_group
         enabled: true
         open_in_new_tab: false

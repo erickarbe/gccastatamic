@@ -7,8 +7,6 @@ location: 'Community Gallery, First Floor'
 start_date_time: '2025-05-02 00:00'
 end_date_time: '2025-06-25 00:00'
 all_day_event: true
-featured_image:
-  - feat-community-gallery.jpg
 event_category:
   - exhibitions
 exhibition_artists: 'Greenville County Schools Award Winners from K-12'
