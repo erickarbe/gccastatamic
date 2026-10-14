@@ -18,3 +18,5 @@ preferences:
         - headshot
         - featured_art
       view: list
+    events:
+      view: tree

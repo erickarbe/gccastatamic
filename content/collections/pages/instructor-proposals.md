@@ -4,7 +4,7 @@ blueprint: page
 title: 'Instructor Proposals'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: ff1ac932-a49d-40b3-b6bc-41a64916139d
-updated_at: 1785701897
+updated_at: 1791999625
 turn_off_hero: false
 inside_hero_header: 'Instructor <span>Proposals</span>'
 inside_hero_content:
@@ -67,56 +67,6 @@ blocks:
                 -
                   type: bold
               text: 'Instructor Proposal Form. '
-        -
-          type: paragraph
-          content:
-            -
-              type: text
-              marks:
-                -
-                  type: bold
-              text: '2026 Season Dates and Deadlines:'
-        -
-          type: bulletList
-          content:
-            -
-              type: listItem
-              content:
-                -
-                  type: paragraph
-                  content:
-                    -
-                      type: text
-                      marks:
-                        -
-                          type: bold
-                      text: 'Fall Season Proposal Deadline:'
-                    -
-                      type: text
-                      text: ' July 13, 2026'
-                -
-                  type: bulletList
-                  content:
-                    -
-                      type: listItem
-                      content:
-                        -
-                          type: paragraph
-                          content:
-                            -
-                              type: text
-                              marks:
-                                -
-                                  type: bold
-                                -
-                                  type: italic
-                              text: 'Fall Season Classes:'
-                            -
-                              type: text
-                              marks:
-                                -
-                                  type: italic
-                              text: ' August 24 - December 18, 2026'
         -
           type: paragraph
           content:
@@ -332,7 +282,7 @@ blocks:
     panels:
       -
         id: m9imgk1g
-        panel_title: '2026 GCCA Seasons'
+        panel_title: '2026 & 2027 GCCA Seasons'
         panel_content:
           -
             type: paragraph
@@ -342,15 +292,115 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: 'Fall Season:'
+                  -
+                    type: italic
+                text: '2026 Seasons'
+          -
+            type: paragraph
+            content:
               -
                 type: text
-                text: '  '
-              -
-                type: hardBreak
+                marks:
+                  -
+                    type: bold
+                text: 'Fall:'
               -
                 type: text
-                text: 'August 24 - December 18, 2026'
+                text: ' August 24 - December 18, 2026'
+          -
+            type: paragraph
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                  -
+                    type: italic
+                text: '2027 Seasons'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Winter: '
+              -
+                type: text
+                text: 'January 11 - March 12, 2027'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Spring Break Mini Camps: '
+              -
+                type: text
+                text: 'March 22-26, 2027'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Spring: '
+              -
+                type: text
+                text: 'March 22 - May 21, 2027'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Summer Art Camps: '
+              -
+                type: text
+                text: 'June 1 - July 28, 2027'
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: ' '
+              -
+                type: text
+                text: '(NEW THIS YEAR: Morning & Afternoon Sessions!)'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Summer: '
+              -
+                type: text
+                text: ' June 7 - August 13, 2027'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Fall: '
+              -
+                type: text
+                text: ' August 23 - December 17, 2027'
         panel_image:
           - visitclass.jpg
         type: panel_group
@@ -427,4 +477,5 @@ blocks:
     type: iframe_container
     enabled: true
 open_in_new_tab: false
+number_of_columns: three
 ---

@@ -1,6 +1,5 @@
 ---
 id: fced90a2-f9a6-44b2-9a69-7a2b04e452ed
-published: false
 blueprint: instructor
 title: 'Caroline Campion'
 Medium: 'Sculpture & Installation Art'
