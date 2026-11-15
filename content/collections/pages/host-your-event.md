@@ -4,7 +4,7 @@ blueprint: page
 title: 'Host Your Event'
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
-updated_at: 1791486501
+updated_at: 1793044771
 turn_off_hero: false
 eyebrow: 'Host Your Event'
 inside_hero_header: 'Venue Rentals'
@@ -252,7 +252,7 @@ blocks:
                         text: 'Nonprofit Pricing:'
                       -
                         type: text
-                        text: ' Special nonprofit rental pricing is available. Please inquire with Sara Grambach at '
+                        text: ' Special nonprofit rental pricing is available. Please inquire with Jamieson Siburt at '
                       -
                         type: text
                         marks:
@@ -310,7 +310,7 @@ blocks:
                         text: 'Additional Rental Services:'
                       -
                         type: text
-                        text: ' Linens, chairs, tables, and other rental services are available for an additional fee. Please contact Sara Grambach at '
+                        text: ' Linens, chairs, tables, and other rental services are available for an additional fee. Please contact Jamieson Siburt at '
                       -
                         type: text
                         marks:

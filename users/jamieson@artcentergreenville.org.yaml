@@ -16,7 +16,6 @@ preferences:
   assets:
     s3_assets:
       per_page: 500
-      mode: grid
     browser_thumbnail_size: 135
     assets:
       columns:
@@ -36,7 +35,7 @@ preferences:
     studio_artists:
       view: tree
     events:
-      view: tree
+      view: list
     articles:
       view: list
   color_mode: dark

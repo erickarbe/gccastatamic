@@ -1,10 +1,11 @@
 ---
 id: b2a70c9d-6153-470b-b053-38ba40fc22da
+published: false
 blueprint: page
 title: Internships
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1772487136
+updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
+updated_at: 1794505662
 turn_off_hero: false
 inside_hero_header: Internships
 inside_hero_content:
@@ -22,20 +23,8 @@ blocks:
     accordion_item:
       -
         id: mapj83g2
-        accordion_header: 'Development and Events Intern'
+        accordion_header: 'Development & Events Intern'
         accordion_content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: ​Supervisor
-              -
-                type: text
-                text: ': Alexis Krcelic, Creative Programs Director'
           -
             type: paragraph
             content:
@@ -50,7 +39,7 @@ blocks:
             content:
               -
                 type: text
-                text: 'With direct oversight from the Development Team, the Development & Events Intern will be learning the day-to-day workings of a community arts non-profit during the months of September 2026 - April 2027. This is an opportunity to get insight and experience working on the creative and administrative sides of Development and Events. Delve deeper into how GCCA organizes, manages, and implements events, fundraising and community relationships. Interns are expected to work in cooperation with GCCA staff, donors, Founders, vendors and visitors . This is an unpaid internship with the potential to work hybrid.'
+                text: 'With direct oversight from the Development Team, the Development & Events Intern will be learning the day-to-day workings of a community arts non-profit during the months of September - April. This is an opportunity to get insight and experience working on the creative and administrative sides of Development and Events. Delve deeper into how GCCA organizes, manages, and implements events, fundraising and community relationships. Interns are expected to work in cooperation with GCCA staff, donors, founders, vendors and visitors . This is an unpaid internship with the potential to work hybrid.'
           -
             type: paragraph
             content:
@@ -65,7 +54,7 @@ blocks:
             content:
               -
                 type: text
-                text: 'September 2026 –  April 2027'
+                text: 'Annually from September through April.'
           -
             type: paragraph
             content:
@@ -83,7 +72,7 @@ blocks:
             content:
               -
                 type: text
-                text: 'Up to 20 hrs per week'
+                text: 'Up to 20 hrs per week.'
           -
             type: paragraph
             content:
@@ -104,7 +93,7 @@ blocks:
                     content:
                       -
                         type: text
-                        text: ' Work with Development Team on administrative needs'
+                        text: 'Work with Development Team on administrative needs'
               -
                 type: listItem
                 content:
@@ -114,24 +103,6 @@ blocks:
                       -
                         type: text
                         text: 'Work with Development Team in set up, coordination and management of GCCA run events'
-              -
-                type: listItem
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Work with Digital Media & Design Specialist on social media marketing needs'
-              -
-                type: listItem
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Work with Development Team on graphic design needs following brand guidelines'
               -
                 type: listItem
                 content:
@@ -292,7 +263,7 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'Scholarship Art School Opportunities'
+                        text: 'Access to Art School for Free'
                   -
                     type: paragraph
           -
@@ -309,18 +280,23 @@ blocks:
             content:
               -
                 type: text
-                text: 'Please send a cover letter, graphic design portfolio link or website, and resume to Alicia Mizuno, Operations Director, at alicia@artcentergreenville.org. Please include the name of position and name of applicant in the subject line of your email.'
-          -
-            type: paragraph
-          -
-            type: paragraph
-            content:
+                text: 'Please send a cover letter, graphic design portfolio link or website, and resume to Sara Grambach, CEO, at '
               -
                 type: text
                 marks:
                   -
-                    type: bold
-                text: 'Application Deadline: July 15th, 2026 at 11:59pm'
+                    type: link
+                    attrs:
+                      href: 'mailto:sara@artcentergreenville.org'
+                      rel: null
+                      target: null
+                      title: null
+                text: sara@artcentergreenville.org
+              -
+                type: text
+                text: '. Please include the name of position and name of applicant in the subject line of your email.'
+          -
+            type: paragraph
           -
             type: paragraph
             content:
@@ -344,25 +320,13 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: ​Supervisors
-              -
-                type: text
-                text: ': Alicia Mizuno, Operations Director & Kara Tyndall, Education Director'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
                 text: 'Overview & Purpose'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'With direct oversight from the Operations Director, the Summer Administrative Intern will be learning the day-to-day workings of a community arts non-profit during the summer months of the year. This is an opportunity to get insight and experience working on the administrative sides of Programs, Operations and The Shop at GCCA. Delve deeper into how GCCA organizes, manages, and implements events, classes and artist opportunities during one of the busiest times of the year. '
+                text: 'The Summer Administrative Intern will be learning the day-to-day workings of a community arts non-profit during the summer months of the year. This is an opportunity to get insight and experience working on the administrative sides of programs and operations at GCCA. Delve deeper into how GCCA organizes, manages, and implements events, classes/camps and artist opportunities during one of the busiest times of the year. '
           -
             type: paragraph
             content:
@@ -383,7 +347,7 @@ blocks:
             content:
               -
                 type: text
-                text: 'May 2026– August 2026'
+                text: 'May – August '
           -
             type: paragraph
             content:
@@ -442,7 +406,7 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'Work with GCCA Education &amp; Operations Coordinator in updating Gift Shop inventory as new round of artists begin consignment'
+                        text: 'Work with GCCA Education & Camp; Operations Coordinator in updating Gift Shop inventory as new round of artists begin consignment'
               -
                 type: listItem
                 content:
@@ -708,7 +672,21 @@ blocks:
             content:
               -
                 type: text
-                text: "Please send a cover letter and resume to Alicia Mizuno, Operations Director, at alicia@artcentergreenville.org. Please include the name of position and name of applicant in the subject line of your email.\_"
+                text: 'Please send a cover letter and resume to Sara Grambach, CEO, at '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'mailto:sara@artcentergreenville.org'
+                      rel: null
+                      target: null
+                      title: null
+                text: sara@artcentergreenville.org
+              -
+                type: text
+                text: ". Please include the name of position and name of applicant in the subject line of your email.\_"
           -
             type: paragraph
             content:
@@ -717,7 +695,7 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: 'Application Deadline: April 25th, 2026'
+                text: 'Application Deadline: April 25th'
         type: new_set
         enabled: true
       -
@@ -732,37 +710,19 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: ​Supervisor
-              -
-                type: text
-                text: ': Alicia Mizuno, Operations Director'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
                 text: 'Overview & Purpose'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'With direct oversight from the Operations Director, the Administrative Intern will be learning the day-to-day workings of a community arts non-profit during the months of September through April of a general school year schedule. This is an opportunity to get insight and experience working on the administrative sides of each area within GCCA. Delve deeper into how GCCA organizes, manages, and implements events, classes, fundraising and artist opportunities through the course of a year.'
+                text: 'The Administrative Intern will be learning the day-to-day workings of a community arts non-profit during the months of September through April of a general school year schedule. This is an opportunity to get insight and experience working on the administrative sides of each area within GCCA. Delve deeper into how GCCA organizes, manages, and implements events, classes, fundraising and artist opportunities through the course of a year.'
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Administrative Interns are expected to work in cooperation with GCCA staff, Board Members, Students, Instructors and Volunteers. '
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'This is an unpaid internship intended for a high school or college student.'
+                text: 'Administrative Interns are expected to work in cooperation with GCCA staff, Board Members, Students, Instructors and Volunteers. This is an unpaid internship intended for a high school or college student.'
           -
             type: paragraph
             content:
@@ -777,7 +737,7 @@ blocks:
             content:
               -
                 type: text
-                text: 'September 2026– April 2027'
+                text: 'September – April '
           -
             type: paragraph
             content:
@@ -816,24 +776,6 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'Work with GCCA Operations Director in scheduling volunteer shifts and opportunities throughout the internship'
-              -
-                type: listItem
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Work with GCCA Education & Operations Coordinator in updating Gift Shop inventory as new round of artists begin consignment in November'
-              -
-                type: listItem
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
                         text: 'Model positive behavior and open communication with GCCA Staff, Volunteers, Studio Artists, Instructors, and Visitors'
               -
                 type: listItem
@@ -843,25 +785,7 @@ blocks:
                     content:
                       -
                         type: text
-                        text: 'Work with GCCA Staff in the planning, organizing, set up and implementation of various events and fundraisers throughout the year'
-              -
-                type: listItem
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Work with Operations Director on various building needs and issues throughout internship'
-              -
-                type: listItem
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Contribute to and maintain GCCA’s blog'
+                        text: 'Work with GCCA Staff in the planning, organizing, set up and implementation of various events and fundraisers.'
               -
                 type: listItem
                 content:
@@ -955,15 +879,6 @@ blocks:
                       -
                         type: text
                         text: "Minimum of Junior in high school\_"
-              -
-                type: listItem
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'CPR and First Aid Certification a plus but not required'
               -
                 type: listItem
                 content:
@@ -1089,25 +1004,21 @@ blocks:
             content:
               -
                 type: text
-                text: "Please send a cover letter and resume to Alicia Mizuno, Operations Director, at alicia@artcentergreenville.org. Please include the name of position and name of applicant in the subject line of your email.\_\_"
-          -
-            type: paragraph
-            content:
+                text: 'Please include the name of position and name of applicant in the subject line of your email to Sara Grambach, CEO, at '
               -
                 type: text
                 marks:
                   -
-                    type: bold
-                text: 'Application Deadline: July 15th, 2026 at 11:59pm'
-          -
-            type: paragraph
-            content:
+                    type: link
+                    attrs:
+                      href: 'mailto:sara@artcentergreenville.org'
+                      rel: null
+                      target: null
+                      title: null
+                text: sara@artcentergreenville.org
               -
                 type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Summer Positions also Available!'
+                text: .
         type: new_set
         enabled: true
     use_second_column: true
@@ -1120,14 +1031,15 @@ blocks:
           content:
             -
               type: text
-              text: 'Available Positions'
+              text: 'Annual Positions'
         -
           type: paragraph
           content:
             -
               type: text
-              text: 'Join our community arts non-profit as a Development and Events, Summer, or Annual Administrative Intern! Reporting to the Operations Director, you’ll collaborate with our Development, Education, and Visitor Experience teams to learn the ropes of running an arts organization. Summer roles run May –August; Annual roles span September - April. One semester Internships are also available for annual positions. Apply now to launch your arts career!'
+              text: 'Join our community arts non-profit as a Development and Events, Summer, or Annual Administrative Intern! You’ll collaborate with our Development, Education, and Visitor Experience teams to learn the ropes of running an arts organization. Summer roles run May–August; Annual roles span September-April. One semester Internships are also available for annual positions. Apply now to launch your arts career!'
       second_column_width: '50'
     type: faq_accordion
     enabled: true
+number_of_columns: three
 ---

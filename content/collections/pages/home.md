@@ -121,14 +121,14 @@ home_page_blocks:
         panel_title_size: large
       -
         id: m9d3lzv1
-        panel_title: 'September Event Happenings'
+        panel_title: 'November Event Happenings'
         panel_content:
           -
             type: paragraph
             content:
               -
                 type: text
-                text: 'Join us for Nightshifts, an Art Supply Flea market, upcoming exhibitions, or visit studio artists! '
+                text: 'Join us for Nightshifts, upcoming exhibitions, or visit studio artists! '
           -
             type: paragraph
             content:
@@ -151,7 +151,7 @@ home_page_blocks:
         open_in_new_tab: false
         panel_title_size: large
         panel_image:
-          - finalpost.jpg
+          - nightshifts.jpg
       -
         id: m9e93oc8
         panel_title: 'Explore Art Exhibitions at GCCA'
@@ -183,7 +183,7 @@ home_page_blocks:
                               title: null
                         text: 'Explore Current & Upcoming Exhibitions'
         panel_image:
-          - mada1-(1).png
+          - p1060523.jpg
         type: panel_group
         enabled: true
         open_in_new_tab: false
@@ -392,6 +392,6 @@ home_page_blocks:
     grid_three_link_text: Give
     grid_three_link_duplicate: 'https://artcentergreenville.org/support/donate'
     grid_three_link: /support/donate
-updated_by: ff1ac932-a49d-40b3-b6bc-41a64916139d
-updated_at: 1790535871
+updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
+updated_at: 1794416225
 ---

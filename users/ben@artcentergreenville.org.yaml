@@ -7,6 +7,10 @@ preferences:
     pages:
       view: tree
     events:
-      view: tree
+      view: list
     articles:
       view: list
+    studio_artists:
+      view: tree
+    instructors:
+      view: tree

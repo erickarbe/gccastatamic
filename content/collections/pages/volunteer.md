@@ -4,7 +4,7 @@ blueprint: page
 title: Volunteer
 author: 916c3785-d212-40bc-89ff-572097ac9582
 updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
-updated_at: 1790801078
+updated_at: 1793301429
 turn_off_hero: false
 inside_hero_header: 'Make an Impact Through Art'
 inside_hero_content:
@@ -15,6 +15,12 @@ inside_hero_content:
         type: text
         text: 'GCCA volunteers help make exhibitions, events, classes, and day-to-day operations possible. Whether you have an hour to give at an event or want to become a regular part of our community, there’s a place for you here.'
 blocks:
+  -
+    id: qNnI5zsNbQUGiKy141LHq
+    width: full_width
+    iframe_embed: '<iframe width="100%" height="550" id="point_iframe" src="https://pointapp.org/embed/78300abb-d3fc-4c61-9edd-41a1bd9f76ce?size=3&hide_filter=true&viewOptions=grid&widgetId=1926" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" style="display: flex" allowFullScreen></iframe><script src="https://pointapp.org/embed/assets/js/iframe-scripts.js" data-frame-id="1926"></script>'
+    type: iframe_container
+    enabled: true
   -
     id: tA-IqdyBi6muIFaT2PNLS
     background_color: '#ff172e'
@@ -411,7 +417,7 @@ blocks:
             type: text
             text: 'Every volunteer hour helps GCCA provide accessible arts education, support working artists, and create meaningful experiences for our community. '
     button_text: 'JOIN TODAY'
-    button_link: 'https://gcca.ivolunteer.com/'
+    button_link: 'https://pointapp.org/orgs/11816'
     open_in_new_tab: true
     type: cta_section
     enabled: true
@@ -538,5 +544,5 @@ open_in_new_tab: true
 number_of_columns: three
 eyebrow: 'Your time helps artists, students, and the Greenville community create, connect, and thrive.'
 inside_hero_button_text: 'View Volunteer Opportunities'
-inside_hero_button_link: 'https://gcca.ivolunteer.com/'
+inside_hero_button_link: 'https://pointapp.org/orgs/11816'
 ---

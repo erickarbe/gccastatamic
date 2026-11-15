@@ -29,9 +29,23 @@ inside_hero_content:
         text: 'Please email Guest Experience & Program Coordinator, Jamieson Siburt, at jamieson@artcentergreenville.org for more information. '
 inside_hero_image: banner1.jpg
 author: 5f81e286-c3b1-4700-935f-b6b3f8b8baa2
-updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1791399231
+updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
+updated_at: 1793047551
 blocks:
+  -
+    id: mmrcYuRMRq8RjfWVeSMl9
+    images:
+      - ns-0426-4.jpg
+      - ns-0426-7.jpg
+      - ns-0426-17.jpg
+      - ns-0426-18.jpg
+      - ns-0426-20.jpg
+      - ns-0426-24.jpg
+      - exp070226-10.jpg
+      - ns0926-11.jpg
+      - ns0926-13.jpg
+    type: full_width_carousel
+    enabled: true
   -
     id: mjbsqje6
     number_of_columns: four
@@ -873,7 +887,7 @@ blocks:
                         type: text
                         text: 'Art Nook '
         type: new_item
-        enabled: true
+        enabled: false
       -
         id: ml8a7f4t
         heading: 'October 2'
@@ -969,7 +983,7 @@ blocks:
                         type: text
                         text: '6:30 Juried Exhibition Winner Announcements'
         type: new_item
-        enabled: true
+        enabled: false
       -
         id: ml8a5dzy
         heading: 'November 13'
@@ -1032,7 +1046,7 @@ blocks:
                         type: text
                         text: 'Canvas Coffee'
         type: new_item
-        enabled: true
+        enabled: false
       -
         id: ml8biawe
         heading: 'December 4'
@@ -1125,9 +1139,9 @@ blocks:
                         type: text
                         text: Programs
         type: new_item
-        enabled: true
+        enabled: false
     type: content_grid
-    enabled: true
+    enabled: false
     content_grid_title: 'Upcoming 2026 GCCA NightShifts Schedule'
   -
     id: mm9f7zd6
@@ -1243,7 +1257,7 @@ blocks:
                         type: text
                         text: '2026 Punch Cards'
         type: new_item
-        enabled: true
+        enabled: false
       -
         id: mk4a7dl2
         heading: 'February 6'
@@ -1356,7 +1370,7 @@ blocks:
                         type: text
                         text: 'Common Pops '
         type: new_item
-        enabled: true
+        enabled: false
       -
         id: mk4a9n63
         heading: 'March 6'
@@ -1491,7 +1505,7 @@ blocks:
                         type: text
                         text: 'Art School | Spring Session'
         type: new_item
-        enabled: true
+        enabled: false
       -
         id: mk4ab0z4
         heading: 'April 3'
@@ -1593,7 +1607,7 @@ blocks:
                         type: text
                         text: 'Poets Live Event 6-9 pm'
         type: new_item
-        enabled: true
+        enabled: false
       -
         id: ml89syya
         heading: 'May 1'
@@ -1668,7 +1682,7 @@ blocks:
                         type: text
                         text: 'Art Nook'
         type: new_item
-        enabled: true
+        enabled: false
       -
         id: ml89yrt8
         heading: 'June 5'
@@ -1743,7 +1757,7 @@ blocks:
                         type: text
                         text: 'Art Nook '
         type: new_item
-        enabled: true
+        enabled: false
       -
         id: ml8a4cln
         heading: 'July 10'
@@ -1827,7 +1841,7 @@ blocks:
                         type: text
                         text: 'Sound Bath by London '
         type: new_item
-        enabled: true
+        enabled: false
       -
         id: ml8bftay
         heading: 'August 1'
@@ -1866,7 +1880,7 @@ blocks:
                         type: text
                         text: 'Membership Show - Main Gallery'
         type: new_item
-        enabled: true
+        enabled: false
       -
         id: ml8a6lj3
         heading: 'September 4'
@@ -2074,7 +2088,13 @@ blocks:
                 marks:
                   -
                     type: bold
-                text: 'Family Friendly Activity '
+                text: 'Family Friendly Activity'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Art Nook '
           -
             type: paragraph
             content:
@@ -2201,10 +2221,12 @@ blocks:
         type: new_item
         enabled: false
     type: content_grid
-    enabled: true
+    enabled: false
     content_grid_title: 'Past 2026 GCCA NightShifts Schedule'
 eyebrow: 'Make GCCA Your First Stop'
 open_in_new_tab: false
 duplicated_from: fed253c7-fa9c-4450-bc27-6050b88ff4de
 number_of_columns: three
+inside_hero_button_text: 'View the Next Event'
+inside_hero_button_link: 'https://artcentergreenville.org/events/nightshift-november'
 ---

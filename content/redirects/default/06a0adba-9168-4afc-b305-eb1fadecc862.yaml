@@ -1,0 +1,10 @@
+id: 06a0adba-9168-4afc-b305-eb1fadecc862
+enabled: true
+source: /studio-artists/raamen-stallings
+source_md5: 62b14f50bd9424fedab86eb0779363f2
+destination_type: url
+destination: /studio-artists/alexander-rouse
+type: 301
+site: default
+match_type: exact
+lastUsedAt: 2026-10-19T21:24:39.125745+00:00

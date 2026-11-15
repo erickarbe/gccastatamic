@@ -108,6 +108,31 @@ blocks:
     type: basic_centered_content
     enabled: true
   -
+    id: rqZj7Fy7Rqpctb6ChRpYe
+    width: contained
+    iframe_embed: |-
+      <div style="padding: 30px; text-align: center; border-radius: 8px;">
+
+        <p style="margin-bottom: 24px;">
+          Hear real stories about GCCA's past, present, and future.
+        </p>
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/8uemmW5S4L0?si=aRUX53_rPEarGvVN"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+          style="display: block; margin: 0 auto; max-width: 100%; border: none;">
+        </iframe>
+
+      </div>
+    type: iframe_container
+    enabled: true
+  -
     id: mngho0ee
     panels:
       -
@@ -229,8 +254,9 @@ blocks:
     enabled: true
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 0d544cd1-b384-48fd-90bd-c684c02fb335
-updated_at: 1784142038
+updated_at: 1794531529
 inside_hero_image: gcca-showcase_0093.jpg
 open_in_new_tab: false
 duplicated_from: 296b20a6-d1a9-48e8-a35f-20007aff81b8
+number_of_columns: three
 ---

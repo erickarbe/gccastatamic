@@ -1,5 +1,6 @@
 ---
 id: a5b1bc3e-617f-47c7-a1c4-b39df1c2b6ee
+published: false
 blueprint: studio_artist
 title: 'Darius Ollison'
 studio: 'Affiliate Artist'
@@ -17,6 +18,6 @@ biography:
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 featured_image: darius-ollison-headshot-website_resized.png
 headshot: darius-ollison-featured-image.png
-updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1785960922
+updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
+updated_at: 1792437882
 ---

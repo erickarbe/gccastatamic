@@ -10,3 +10,5 @@ preferences:
       view: list
     events:
       view: tree
+    instructors:
+      view: tree

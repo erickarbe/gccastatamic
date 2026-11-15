@@ -3,8 +3,8 @@ id: 6eeb74fe-ca71-420a-a624-ef405b90ecfe
 blueprint: page
 title: 'Our Purpose'
 author: 916c3785-d212-40bc-89ff-572097ac9582
-updated_by: 966b3ff0-c761-4bc9-b3b7-18127a0058bb
-updated_at: 1772556035
+updated_by: 0d544cd1-b384-48fd-90bd-c684c02fb335
+updated_at: 1794533234
 turn_off_hero: false
 inside_hero_header: 'Access Art from All Angles'
 eyebrow: 'Our Purpose'
@@ -290,6 +290,27 @@ blocks:
     enabled: true
     align_columns: center
     constrain_image: true
+  -
+    id: 8Uul5p1Sg2SZ1DlS8An5i
+    image_left_or_right: left
+    align_columns: center
+    content_group:
+      heading: "Learn About GCCA's History"
+      content:
+        -
+          type: paragraph
+          content:
+            -
+              type: text
+              text: 'Find out all about the past, present, and future of GCCA. '
+      open_in_new_tab: false
+      content_width: '50'
+      remove_top_margin: false
+    image: historybrochure.pdf
+    constrain_image: true
+    type: image_and_text
+    enabled: true
 inside_hero_image: gallery-hero-img.jpg
 open_in_new_tab: false
+number_of_columns: three
 ---

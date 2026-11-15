@@ -6,7 +6,7 @@ turn_off_hero: false
 open_in_new_tab: true
 author: 9692c24d-4d69-4be7-a897-ad4edab416de
 updated_by: 9692c24d-4d69-4be7-a897-ad4edab416de
-updated_at: 1789404017
+updated_at: 1792079805
 eyebrow: 'Discover original artwork, handmade gifts, and unique creations from GCCA artists.'
 inside_hero_header: 'The Shop @ GCCA'
 inside_hero_content:
@@ -176,16 +176,25 @@ blocks:
                 text: 'Yes! '
               -
                 type: text
-                text: 'While Shop '
+                text: 'While Shop Gift Cards cannot be applied directly to Art School registration'
               -
                 type: text
                 marks:
                   -
                     type: bold
-                text: 'Gift Cards cannot be applied directly to Art School registration, '
+                text: ', '
               -
                 type: text
-                text: 'they can be used to purchase an Art School Gift Certificate through The Shop. The certificate can then be applied toward an Art School class.'
+                text: 'they can be used to purchase an '
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Art School Gift Certificate through The Shop'
+              -
+                type: text
+                text: ". The certificate amount will be added as credit to the recipient's CourseStorm account and automatically applied toward an eligible Art School class registration."
           -
             type: paragraph
             content:
@@ -196,21 +205,24 @@ blocks:
                 type: text
                 marks:
                   -
-                    type: bold
-                text: ' Shop @ GCCA, or please contact '
-              -
-                type: text
-                marks:
-                  -
                     type: link
                     attrs:
-                      href: 'mailto:Kara@artcentergreenville.org'
+                      href: 'https://shopgcca.square.site/product/art-school-gift-certificate/BQCY42WRVZMTLJCDI7JJO62J?cp=true&sa=false&sbp=false&q=false&category_id=WTQKVXS3FDUNCCK7CJFTNID6'
                       rel: null
                       target: null
                       title: null
                   -
                     type: bold
-                text: Kara@artcentergreenville.org
+                text: ' Shop @ GCCA'
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: '. '
+              -
+                type: text
+                text: "During checkout, be sure to provide your information or the recipient's full name and email address in the “Note for the Seller” section so we can correctly apply the credit."
       -
         id: mrxu5k51
         accordion_header: 'Who are the artists featured in The Shop?'

@@ -5,7 +5,7 @@ title: Exhibitions
 turn_off_hero: true
 author: 05d798de-8a18-4794-a3f7-7c07f56a8da9
 updated_by: 4bbfb4a7-c929-44bc-9b6c-75777742f264
-updated_at: 1791399061
+updated_at: 1794593602
 blocks:
   -
     id: m9hjvlwy
@@ -18,7 +18,7 @@ blocks:
     id: m9hk792b
     events_list:
       - 903f1410-4959-4f51-bad1-2462392cd261
-      - 5d99b488-38e4-4e95-bc7e-03e3e147345d
+      - 33479fbe-7a5b-42b9-9a87-7bd882e7c93b
       - 6151889e-8c70-4986-9598-779079b1ff4a
       - 40db0acb-f0f3-482d-bf5c-464de9415256
     type: events_grid
@@ -44,45 +44,11 @@ blocks:
     image: yag26_onepage-(1).png
     constrain_image: false
     type: image_and_text
-    enabled: true
+    enabled: false
   -
     id: m9hmlcfm
     number_of_columns: three
     content_grid_item:
-      -
-        id: mk2q8twg
-        eyebrow: 'Main Gallery'
-        heading: 'South Carolina Watermedia Society - 49th Annual Juried Exhibition'
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'October 2, 2026 - November 21, 2026'
-              -
-                type: hardBreak
-              -
-                type: hardBreak
-              -
-                type: text
-                marks:
-                  -
-                    type: link
-                    attrs:
-                      href: 'https://artcentergreenville.org/events/scwsnationalexhibition'
-                      rel: null
-                      target: null
-                      title: null
-                text: 'National juried watermedia exhibition'
-              -
-                type: text
-                text: ', juried by David Stickel. '
-        type: new_item
-        enabled: true
       -
         id: mk2qbg89
         eyebrow: 'Main Gallery'
@@ -123,6 +89,23 @@ blocks:
                       target: null
                       title: null
                 text: 'Kevin Pang'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Webpage: '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://artcentergreenville.org/events/inkpaperrock'
+                      rel: null
+                      target: null
+                      title: null
+                text: 'CLICK HERE'
         type: new_item
         enabled: true
     type: content_grid
@@ -133,39 +116,8 @@ blocks:
     number_of_columns: three
     content_grid_item:
       -
-        id: mk2r5rs8
-        eyebrow: 'Community Gallery'
-        heading: 'Root & Canopy'
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'November 6, 2026 - November 21, 2026 '
-              -
-                type: hardBreak
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Opening: November 6 | 5-8PM'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'GCCA Studio Artists '
-        type: new_item
-        enabled: true
-      -
         id: mk2r7llp
         eyebrow: 'Community Gallery'
-        heading: 'Against the Wall: 9 Mural Projects'
         content:
           -
             type: paragraph
@@ -176,23 +128,6 @@ blocks:
                   -
                     type: bold
                 text: 'December 4, 2026 - December 18, 2026'
-              -
-                type: hardBreak
-                marks:
-                  -
-                    type: bold
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: 'Live Painting & Opening Reception: 9AM - 8PM'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: '9 Community Muralists '
         type: new_item
         enabled: true
     type: content_grid
