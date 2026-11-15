@@ -1,13 +1,22 @@
 {
+  "node_modules/pdf-lib/es/index.js": {
+    "file": "assets/index-ybYO28pK.js",
+    "name": "index",
+    "src": "node_modules/pdf-lib/es/index.js",
+    "isDynamicEntry": true
+  },
   "resources/css/cp.css": {
-    "file": "assets/cp-DsV10bHE.css",
+    "file": "assets/cp-CqLfdw1q.css",
     "src": "resources/css/cp.css",
     "isEntry": true
   },
   "resources/js/cp.js": {
-    "file": "assets/cp-jn42BFUN.js",
+    "file": "assets/cp-BO7cq8_Z.js",
     "name": "cp",
     "src": "resources/js/cp.js",
-    "isEntry": true
+    "isEntry": true,
+    "dynamicImports": [
+      "node_modules/pdf-lib/es/index.js"
+    ]
   }
 }
